@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://stayindanang.com/sitemap.xml
