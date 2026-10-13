@@ -1,19 +1,33 @@
-# Stay in Da Nang – Static Affiliate Site
+# Stay in Da Nang – Premium GitHub Pages Website
 
-Responsive static website for hotels, flights, tours, deals, destinations and blog.
+## Live URL
+https://stayinvietnamtravel.github.io/stayindanang/
 
-## GitHub Pages setup
-1. Create a **public** GitHub repository named `YOURUSERNAME.github.io` (or any repository for a project site).
-2. Upload **the contents of this folder** to the repository root.
-3. Go to **Settings → Pages → Build and deployment → Deploy from a branch → main / (root)**.
-4. Visit `https://YOURUSERNAME.github.io/` after publishing. For project repositories, the site runs under a subpath and the current root-relative URLs need adapting; a username.github.io repository is recommended.
-5. For custom domain: add `CNAME` containing `stayindanang.com`, configure DNS per GitHub Pages docs, and update the Pages custom domain setting. Do not set a CNAME until you own and configure the domain.
+## Upload
+1. Extract this ZIP locally.
+2. Open https://github.com/stayinvietnamtravel/stayindanang
+3. Upload **all files and folders inside** this package into the repository root (not the ZIP itself).
+4. Commit changes to `main`.
+5. Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+6. Wait a few minutes, then open the live URL.
 
-## Before going live
-- Check GitHub Pages Terms and usage limits for commercial/affiliate sites. Consider Cloudflare Pages if the commercial-use restrictions are unsuitable.
-- Replace demo imagery if rights or availability are uncertain; the homepage image uses a third-party Unsplash URL.
-- Verify the Trip.com affiliate link and commission attribution in your partner dashboard.
-- Set up your GA4/GTM ID and consent banner where legally required. No tracking ID is configured by default. `affiliate_click` events are pushed to dataLayer only.
-- Complete legal notices, contact details and substantive original travel content.
-- Update canonical URLs and sitemap if using a github.io address rather than stayindanang.com.
-- Deal listings are editorial examples, not verified live promotions or prices.
+## Features
+- Responsive English travel website: homepage, Hotels, Flights, Tours, Deals, Destinations, Blog, About, Privacy.
+- SEO titles, descriptions, canonical URLs, sitemap and robots.txt.
+- Trip.com affiliate links with `rel="sponsored"`.
+- `affiliate_click` events pushed to `dataLayer`; GA4 is NOT connected until you add a tracking ID.
+- Mobile navigation, category tabs, and a travel search-style interface.
+
+**Important:** The search UI opens the generic Trip.com affiliate link; it does not transfer dates, guest counts, or destination. No real-time deals or prices are shown.
+
+## Images
+The original design-reference screenshot is in `assets/images/design-reference.png` (for visual reference only). Destination photographs load from Unsplash image URLs; replace them with licensed, verified destination-specific photographs before a commercial launch.
+
+## GitHub Pages usage
+GitHub Pages has restrictions on sites primarily intended for commercial transactions. Review the GitHub Pages Terms; consider Cloudflare Pages for affiliate-focused production hosting.
+
+## Custom domain
+Before switching to stayindanang.com, update the `base` path in all HTML, stylesheet/script references, canonical URLs, sitemap and robots.txt. Current version targets the GitHub project URL exactly.
+
+## Affiliate URL
+https://www.trip.com/t/Ygo40EEhzV2

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stayinvietnamtravel.github.io/stayindanang/sitemap.xml
