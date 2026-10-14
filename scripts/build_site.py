@@ -4,13 +4,15 @@ from pathlib import Path
 from html import escape
 import json
 import os
+import re
 import xml.etree.ElementTree as ET
-from content import CONTENT, LANGUAGES, SLUGS, SOURCES, SEARCH_COPY
+from content import CONTENT, LANGUAGES, SLUGS, SOURCES, SEARCH_COPY, ARTICLE_DETAILS
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
 BANNERS = [('S14984461', 'hotel', 900, 200), ('SB20219796', 'web_tripbanner', 300, 250), ('DB13678212', 'web_danang', 250, 250)]
 E = escape
+CATEGORY_LABELS = {'tips': 2, 'hotels': 3, 'tours': 4, 'destinations': 5}
 
 
 def home(lang):
@@ -81,7 +83,8 @@ def cards(lang, current):
     u = CONTENT[lang]['ui']
     result = []
     for i, (title, intro, _) in enumerate(CONTENT[lang]['articles']):
-        result.append(f'<a class="blog-card" href="{relative(current, article(lang, i))}"><span class="pill">{E(u[i+2])}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></a>')
+        category = u[CATEGORY_LABELS[SLUGS[i][0]]]
+        result.append(f'<a class="blog-card" href="{relative(current, article(lang, i))}"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></a>')
     return '<div class="blog-grid">' + ''.join(result) + '</div>'
 
 
@@ -112,15 +115,27 @@ def build():
         write(path, document(lang,path,u[1],u[18],body,counterparts,{'@context':'https://schema.org','@type':'Blog','name':u[1],'url':url(path),'inLanguage':lang}))
         for i, (title, intro, sections) in enumerate(CONTENT[lang]['articles']):
             path = article(lang,i)
+            category = u[CATEGORY_LABELS[SLUGS[i][0]]]
+            details = ARTICLE_DETAILS.get(SLUGS[i][1], {})
+            booking = details.get('booking', 'https://www.trip.com/t/Ygo40EEhzV2')
             counterparts = {code: article(code,i) for code in LANGUAGES}
             all_pages.append((path,counterparts))
-            body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(u[i+2])}</nav><span class="pill">{E(u[i+2])}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p>'
+            body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(category)}</nav><span class="pill">{E(category)}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p>'
+            if 'source_notes' in details:
+                body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
             body += f'<aside class="editorial-note">{E(u[13])}</aside><h2>{E(u[12])}</h2><ul class="source-list">'
             body += ''.join(f'<li><a href="{E(source)}" target="_blank" rel="noopener noreferrer">{E(label)}</a></li>' for label,source in SOURCES[i])
-            body += f'</ul><p><a class="btn" href="https://www.trip.com/t/Ygo40EEhzV2" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="blog-{SLUGS[i][0]}">{E(u[8])}</a></p><p><a href="{relative(path, blog(lang))}">{E(u[14])} →</a></p></article></div>' + ads(lang,['SB20219796','DB13678212'])
+            body += f'</ul><p><a class="btn" href="{E(booking)}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="blog-{SLUGS[i][0]}">{E(u[8])}</a></p><p><a href="{relative(path, blog(lang))}">{E(u[14])} →</a></p></article></div>' + ads(lang,['SB20219796','DB13678212'])
             structured = {'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[source for _,source in SOURCES[i]]}
             write(path,document(lang,path,title,intro,body,counterparts,structured))
+    # Keep the hand-maintained English landing page's blog cards in sync.
+    english = ROOT / 'index.html'
+    section = '<section class="section" id="blog"><div class="container"><div class="eyebrow">Practical travel guides</div><h2>Vietnam Travel Blog</h2><p class="lead main-blog-heading">Real places, hotel areas and flexible itineraries with official sources for further reading.</p>' + cards('en', 'index.html') + '</div></section>'
+    updated, matches = re.subn(r'<section class="section" id="blog">.*?</section>', lambda _: section, english.read_text(encoding='utf-8'), flags=re.S)
+    if matches != 1:
+        raise ValueError('Expected exactly one English homepage blog section')
+    english.write_text(updated, encoding='utf-8')
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     ET.register_namespace('xhtml','http://www.w3.org/1999/xhtml')
     sitemap = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')

@@ -27,13 +27,17 @@ blog/
     hotels/where-to-stay-in-da-nang/index.html
     tours/da-nang-hoi-an-hue/index.html
     destinations/vietnam-heritage-guide/index.html
+    tips/da-nang-hotels-tours-flights-2026/index.html
 scripts/
   content.py                    Translations and official reference links
+  x_post.py                     Expanded guide based on the owner-supplied X post
   build_site.py                 Static page and sitemap generator
   check_site.py                 Dependency-free structural checks
 ```
 
 The blog covers real places and practical planning, with links to Vietnam Tourism, Vietnam Immigration and UNESCO. It does not claim first-hand visits, hotel ratings, live prices or guaranteed tour schedules. Generic landing-page photos remain illustrative. The article text and official reference links should be rechecked when entry rules or destination operations change.
+
+The Da Nang 2026 hotel/tour/flight guide is based on the text of [this @stayindanang X post](https://x.com/stayindanang/status/2089517209634869439) supplied by the owner. The original post could not be fetched in the cloud environment. Its Trip.com link (`https://www.trip.com/t/ntD1RotVvV2`) is used for this guide's booking button, and the original post is cited on all seven translations. Promotional claims about ratings, cheap flights and exclusive prices are not treated as verified facts. No publication date is inferred from the X status ID.
 
 ## Local development
 
@@ -45,7 +49,7 @@ python3 scripts/check_site.py
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit `scripts/content.py` and run the generator to update localized pages, blog pages and `sitemap.xml`. The original English landing page and `assets/` are maintained directly. The generator does not change them.
+No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit `scripts/content.py` or the sourced guide in `scripts/x_post.py` and run the generator to update localized pages, blog pages and `sitemap.xml`. The English landing page is maintained directly except for its blog-card section, which the generator refreshes. Shared files in `assets/` are maintained directly.
 
 ## Trip.com banners
 

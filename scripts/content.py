@@ -170,3 +170,16 @@ CONTENT = {
   ]
  },
 }
+
+# This source was provided by the owner in chat; X access is unavailable here.
+from x_post import ARTICLES as X_ARTICLES, SLUG as X_SLUG, SOURCE as X_SOURCE, BOOKING as X_BOOKING, NOTES as X_NOTES
+
+SLUGS.append(X_SLUG)
+SOURCES.append([
+    ('@stayindanang — Stay in Da Nang: Best Hotels - Tours - Flights 2026 (X)', X_SOURCE),
+    ('Vietnam Tourism — Da Nang', 'https://vietnam.travel/places-to-go/central-vietnam/da-nang'),
+    ('UNESCO — Hoi An Ancient Town', 'https://whc.unesco.org/en/list/948/'),
+])
+ARTICLE_DETAILS = {X_SLUG[1]: {'booking': X_BOOKING, 'source_notes': X_NOTES}}
+for code in LANGUAGES:
+    CONTENT[code]['articles'].append(X_ARTICLES[code])

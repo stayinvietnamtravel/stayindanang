@@ -7,7 +7,7 @@ from urllib.parse import urlsplit, parse_qs, unquote
 import json
 import xml.etree.ElementTree as ET
 from build_site import BASE, BANNERS, home, blog, article, url
-from content import LANGUAGES
+from content import LANGUAGES, SLUGS, ARTICLE_DETAILS
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -94,7 +94,19 @@ def check():
             assert frame['width'] == str(width) and frame['height'] == str(height)
             assert frame.get('title')
             assert frame.get('loading') == ('eager' if ident == 'S14984461' else 'lazy')
-    assert len(paths) == 42, len(paths)
+    expected_paths = {target for lang in LANGUAGES for target in [home(lang), blog(lang), *(article(lang, i) for i in range(len(SLUGS)))]}
+    assert set(paths) == expected_paths, 'Unexpected or missing generated pages'
+    for i, (_, slug) in enumerate(SLUGS):
+        if slug not in ARTICLE_DETAILS:
+            continue
+        for lang in LANGUAGES:
+            path = article(lang, i)
+            page = pages[path]
+            details = ARTICLE_DETAILS[slug]
+            assert any(link == details['booking'] for _, link in page.links), (path, 'source booking link')
+            text = (ROOT/path).read_text(encoding='utf-8')
+            assert 'source-note' in text and '2089517209634869439' in text, (path, 'X attribution')
+            assert any('2089517209634869439' in citation for schema in page.schemas for citation in schema.get('citation', [])), (path, 'source citation')
     for path, page in pages.items():
         for lang in LANGUAGES:
             target = page.alternates[lang].removeprefix(BASE)+'index.html'
