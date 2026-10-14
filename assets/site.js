@@ -1,0 +1,33 @@
+(function () {
+  'use strict';
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('#mainnav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      toggle.setAttribute('aria-expanded', String(nav.classList.toggle('open')));
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
+  }
+  document.querySelectorAll('a[data-affiliate]').forEach(link => {
+    link.addEventListener('click', () => {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'affiliate_click', partner: 'trip_com', category: link.dataset.affiliate, page: location.pathname });
+    });
+  });
+  document.querySelectorAll('.ad-frame').forEach(frame => {
+    const iframe = frame.querySelector('iframe');
+    const resize = () => {
+      const scale = Math.min(1, frame.clientWidth / Number(frame.dataset.adWidth));
+      iframe.style.transformOrigin = 'top left';
+      iframe.style.transform = `scale(${scale})`;
+      frame.style.height = `${Number(frame.dataset.adHeight) * scale}px`;
+      frame.style.overflow = 'hidden';
+    };
+    resize();
+    if ('ResizeObserver' in window) new ResizeObserver(resize).observe(frame);
+    else window.addEventListener('resize', resize);
+  });
+}());

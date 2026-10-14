@@ -9,7 +9,47 @@ Website: https://stayinvietnamtravel.github.io/stayindanang/
 4. Commit to `main`; enable Settings > Pages > Deploy from branch `main` / (root).
 5. Hard refresh with Ctrl+Shift+R.
 
-**No external CSS or JS files:** all styling and behavior is inside `index.html`, so the missing-CSS problem will not recur due to path errors.
+The website uses shared CSS and JavaScript under `assets/`. Upload the complete repository, including all language and blog directories, rather than only `index.html`. Links use relative paths and work with the GitHub Pages `/stayindanang/` base path.
+
+## Languages and blog
+
+English remains at the root. Localized landing pages and blog articles are available in Vietnamese (`vi`), simplified Chinese (`zh`), Russian (`ru`), Korean (`ko`), Japanese (`ja`) and Hindi (`hi`). Hindi is one language used in India, not a translation into every Indian language. Language links on a blog article open the equivalent article in the selected language. Translations are editorial drafts and may benefit from native-speaker review.
+
+```text
+assets/                         Shared styles and browser behavior
+index.html                      English landing page
+vi/ zh/ ru/ ko/ ja/ hi/         Localized landing pages
+blog/
+  index.html                    English blog index
+  vi/ zh/ ru/ ko/ ja/ hi/       Localized blog indexes
+  <en|vi|zh|ru|ko|ja|hi>/
+    tips/vietnam-travel-planning/index.html
+    hotels/where-to-stay-in-da-nang/index.html
+    tours/da-nang-hoi-an-hue/index.html
+    destinations/vietnam-heritage-guide/index.html
+scripts/
+  content.py                    Translations and official reference links
+  build_site.py                 Static page and sitemap generator
+  check_site.py                 Dependency-free structural checks
+```
+
+The blog covers real places and practical planning, with links to Vietnam Tourism, Vietnam Immigration and UNESCO. It does not claim first-hand visits, hotel ratings, live prices or guaranteed tour schedules. Generic landing-page photos remain illustrative. The article text and official reference links should be rechecked when entry rules or destination operations change.
+
+## Local development
+
+From the repository root, with Python 3 installed:
+
+```sh
+python3 scripts/build_site.py
+python3 scripts/check_site.py
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit `scripts/content.py` and run the generator to update localized pages, blog pages and `sitemap.xml`. The original English landing page and `assets/` are maintained directly. The generator does not change them.
+
+## Trip.com banners
+
+Three affiliate banner IDs are included: `S14984461` (900×200), `SB20219796` (300×250), and `DB13678212` (250×250). The supplied Allianceid, SID and trip_sub1 values are preserved. Banner frames scale to fit small screens, have accessible titles and an affiliate disclosure, and include a direct link if the external banner does not load. Their content and language are controlled by Trip.com, not by the site's language selector. Do not apply a restrictive iframe sandbox without checking Trip.com's requirements, as it may break their ads.
 
 All booking CTAs open the general Trip.com affiliate URL. Specific hotel/tour deep links are not configured. Photos load remotely from Unsplash, so internet access is required for them; use appropriately licensed, verified location images before commercial publication.
 
