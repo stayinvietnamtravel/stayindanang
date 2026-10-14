@@ -6,6 +6,7 @@ import json,csv,zipfile,struct
 from hotel_editorial import editorial
 
 ROOT=Path(__file__).resolve().parents[1]
+EXPORT_ROOT=ROOT.parent/'stayindanang-admin-exports'
 DATA=json.loads((ROOT/'data/bookdeal.json').read_text(encoding='utf-8'))
 HOTELS=[r for r in DATA['rows'] if r['included']]
 SOURCE_NAME=DATA['source']
@@ -124,7 +125,7 @@ def render_artwork():
         for h in HOTELS:
             hot=h['group']=='Hot Sellers';accent='#ffd291' if hot else '#92f3de'
             fontsize=66 if len(h['display_name'])>55 else 80 if len(h['display_name'])>35 else 96
-            html=f'''<!doctype html><html lang="vi"><meta charset="utf-8"><style>*{{box-sizing:border-box}}body{{margin:0;width:1600px;height:900px;font-family:"Noto Sans",Arial,sans-serif;background:#082f49;color:white;overflow:hidden}}.card{{position:relative;width:100%;height:100%;padding:62px 80px;background:radial-gradient(ellipse at 100% 0,#166e86,transparent 58%),linear-gradient(120deg,#082f49,#094965)}}.brand{{font-size:29px;letter-spacing:3px;font-weight:700}}.badge{{display:inline-block;margin-top:60px;padding:15px 26px;border-radius:40px;background:{accent};color:#123b50;font-size:28px;font-weight:850;letter-spacing:2px}}h1{{position:relative;max-width:1260px;font-size:{fontsize}px;line-height:1.16;letter-spacing:-1px;margin:34px 0 25px;overflow-wrap:anywhere}}.sub{{font-size:32px;color:#d4eff3;margin:0;max-width:1220px}}.footer{{position:absolute;bottom:56px;left:80px;right:80px;border-top:1px solid #6593a2;padding-top:22px}}.link{{font-size:30px;font-weight:700;color:{accent};margin-bottom:12px}}.note{{font-size:24px;color:#cce4eb}}.decor{{position:absolute;right:-35px;bottom:235px;width:200px;height:300px;border:2px solid #8bd5da;border-radius:12px;opacity:.15}}.decor:before{{content:'';position:absolute;inset:30px;background:repeating-linear-gradient(90deg,transparent 0 25px,#8bd5da 25px 38px,transparent 38px 60px)}}.dot{{position:absolute;right:110px;top:65px;border:25px solid {accent};width:140px;height:140px;border-radius:100%;opacity:.14}}</style><div class="card"><div class="dot"></div><div class="decor"></div><div class="brand">STAY IN DA NANG · HOTEL PICKS</div><div class="badge">{h['group'].upper()} · ĐÀ NẴNG</div><h1>{E(h['display_name'])}</h1><p class="sub">{E(h['angle'][0])}</p><div class="footer"><div class="link">{E(h['url'].replace('https://www.',''))}</div><div class="note">Phân loại theo Bookdeal.xlsx · Kiểm tra giá theo ngày lưu trú</div></div></div></html>'''
+            html=f'''<!doctype html><html lang="vi"><meta charset="utf-8"><style>*{{box-sizing:border-box}}body{{margin:0;width:1600px;height:900px;font-family:"Noto Sans",Arial,sans-serif;background:#082f49;color:white;overflow:hidden}}.card{{position:relative;width:100%;height:100%;padding:62px 80px;background:radial-gradient(ellipse at 100% 0,#166e86,transparent 58%),linear-gradient(120deg,#082f49,#094965)}}.brand{{font-size:29px;letter-spacing:3px;font-weight:700}}.badge{{display:inline-block;margin-top:60px;padding:15px 26px;border-radius:40px;background:{accent};color:#123b50;font-size:28px;font-weight:850;letter-spacing:2px}}h1{{position:relative;max-width:1260px;font-size:{fontsize}px;line-height:1.16;letter-spacing:-1px;margin:34px 0 25px;overflow-wrap:anywhere}}.sub{{font-size:32px;color:#d4eff3;margin:0;max-width:1220px}}.footer{{position:absolute;bottom:56px;left:80px;right:80px;border-top:1px solid #6593a2;padding-top:22px}}.link{{font-size:30px;font-weight:700;color:{accent};margin-bottom:12px}}.note{{font-size:24px;color:#cce4eb}}.decor{{position:absolute;right:-35px;bottom:235px;width:200px;height:300px;border:2px solid #8bd5da;border-radius:12px;opacity:.15}}.decor:before{{content:'';position:absolute;inset:30px;background:repeating-linear-gradient(90deg,transparent 0 25px,#8bd5da 25px 38px,transparent 38px 60px)}}.dot{{position:absolute;right:110px;top:65px;border:25px solid {accent};width:140px;height:140px;border-radius:100%;opacity:.14}}</style><div class="card"><div class="dot"></div><div class="decor"></div><div class="brand">STAY IN DA NANG · HOTEL PICKS</div><div class="badge">{h['group'].upper()} · ĐÀ NẴNG</div><h1>{E(h['display_name'])}</h1><p class="sub">{E(h['angle'][0])}</p><div class="footer"><div class="link">{E(h['url'].replace('https://www.',''))}</div><div class="note">Kiểm tra giá theo ngày lưu trú · Link tiếp thị liên kết</div></div></div></html>'''
             page.set_content(html,wait_until='load')
             page.evaluate('document.fonts.ready')
             assert page.locator('h1').bounding_box()['y']+page.locator('h1').bounding_box()['height']<690,h['name']
@@ -134,7 +135,7 @@ def render_artwork():
     print('Rendered 42 original typographic PNG cards at 1600 x 900.')
 
 def exports():
-    directory=ROOT/'downloads/bookdeal-posts';directory.mkdir(parents=True,exist_ok=True)
+    directory=EXPORT_ROOT/'bookdeal-posts';directory.mkdir(parents=True,exist_ok=True)
     for h in HOTELS:
         (directory/f'{h["slug"]}.md').write_text(social_post(h),encoding='utf-8')
         (directory/f'{h["slug"]}.en.md').write_text(h['social_post_en']+'\n',encoding='utf-8')
@@ -143,7 +144,7 @@ def exports():
         writer=csv.writer(f,lineterminator='\n');writer.writerow(['hotel','group','trip_affiliate_link','post_vi','short_post_vi','post_en','seo_title_en','blog_content_en','booking_cta_en','seo_keywords','hashtags','hd_image','hotel_image_url','image_status'])
         for h in HOTELS:writer.writerow([h['name'],h['group'],h['url'],social_post(h),short_post(h),h['social_post_en'],h['seo_title_en'],h['blog_content_en'],h['booking_cta_en'],h['seo_keywords'],h['hashtags'],image_path(h),h['hotel_image_url'],h['image_status']])
     (directory/'README.txt').write_text(f'42 Vietnamese hotel posts + 42 English source social posts + 42 English source blog drafts + 42 original HD text cards (1600x900). Current content source: {SOURCE_NAME}. Original artwork/name-link source: Bookdeal.xlsx. Top Deals / Hot Sellers are source categories, not live verified rankings or discounts. Prices and dates were not supplied. Seven Hoi An / An Bang entries were excluded. Each post preserves its individual supplied Trip.com URL. No social posts have been sent. Images are text designs, not property photographs. The current workbook has no verified image URLs.\n',encoding='utf-8')
-    archive=ROOT/'downloads/bookdeal-posts-hd.zip'
+    archive=EXPORT_ROOT/'bookdeal-posts-hd.zip'
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
         def add(file,name):
             info=zipfile.ZipInfo(name,date_time=(1980,1,1,0,0,0))
@@ -155,21 +156,21 @@ def exports():
 def build_pages(document,relative,url,languages):
     for lang in languages:
         c=COPY[lang];current=index_path(lang)
-        body=f'<section class="section soft"><div class="container"><h1>{E(c[0])}</h1><p class="lead">{E(c[1])}</p><aside class="editorial-note">{E(c[2])}</aside><p><a class="btn" href="{relative(current,"downloads/bookdeal-posts-hd.zip")}">{E(c[9])}</a></p><div class="blog-browser"><div class="blog-filters" role="group" aria-label="{E(c[0])}"><button type="button" data-blog-filter="all" aria-pressed="true">Top Deals + Hot Sellers</button><button type="button" data-blog-filter="top-deals" aria-pressed="false">Top Deals (23)</button><button type="button" data-blog-filter="hot-sellers" aria-pressed="false">Hot Sellers (19)</button></div><div class="blog-grid">'
+        body=f'<section class="section soft"><div class="container"><h1>{E(c[0])}</h1><p class="lead">{E(c[7])}</p><div class="blog-browser"><div class="blog-filters" role="group" aria-label="{E(c[0])}"><button type="button" data-blog-filter="all" aria-pressed="true">Top Deals + Hot Sellers</button><button type="button" data-blog-filter="top-deals" aria-pressed="false">Top Deals (23)</button><button type="button" data-blog-filter="hot-sellers" aria-pressed="false">Hot Sellers (19)</button></div><div class="blog-grid">'
         for h in HOTELS:
-            body+=f'<a class="blog-card" data-blog-category="{h["group"].lower().replace(" ","-")}" href="{relative(current,post_path(lang,h))}"><img class="blog-cover" src="{relative(current,image_path(h))}" width="1600" height="900" alt="{E(h["display_name"])} — {h["group"]}" loading="lazy"><div class="blog-card-body"><span class="pill">{h["group"]}</span><h3>{E(h["display_name"])}</h3><p>{E(c[1])}</p></div></a>'
+            body+=f'<a class="blog-card" data-blog-category="{h["group"].lower().replace(" ","-")}" href="{relative(current,post_path(lang,h))}"><img class="blog-cover" src="{relative(current,image_path(h))}" width="1600" height="900" alt="{E(h["display_name"])} — {h["group"]}" loading="lazy"><div class="blog-card-body"><span class="pill">{h["group"]}</span><h3>{E(h["display_name"])}</h3><p>{E(c[7])}</p></div></a>'
         body+='</div></div></div></section>'
         targets={code:index_path(code) for code in languages}
-        write(current,document(lang,current,c[0],c[1],body,targets))
+        write(current,document(lang,current,c[0],c[7],body,targets))
         for h in HOTELS:
             path=post_path(lang,h)
             title,intro,sections=editorial(h,lang)
-            body=f'<div class="container"><article class="article"><nav class="breadcrumbs"><a href="{relative(path,index_path(lang))}">{E(c[0])}</a></nav><span class="pill">{h["group"]}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p><figure class="featured-image"><img src="{relative(path,image_path(h))}" width="1600" height="900" alt="{E(title)}" fetchpriority="high"><figcaption>{E(c[8])} · {h["group"]}</figcaption></figure><p>{E(c[2])}</p>'
+            body=f'<div class="container"><article class="article"><nav class="breadcrumbs"><a href="{relative(path,index_path(lang))}">{E(c[0])}</a></nav><span class="pill">{h["group"]}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p><figure class="featured-image"><img src="{relative(path,image_path(h))}" width="1600" height="900" alt="{E(title)}" fetchpriority="high"><figcaption>{E(h["display_name"])}</figcaption></figure>'
             if h['location_note']:body+=f'<p class="editorial-note">{E(c[10])}</p>'
             body+=''.join(f'<section class="hotel-editorial"><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
             body+=f'<section><h2>{E(c[4])}</h2><ul>'+''.join(f'<li>{E(check)}</li>' for check in c[5:8])+'</ul></section>'
-            body+=f'<p><a class="btn" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{h["slug"]}">{E(c[3])}</a></p><p>{E(c[8])} · {h["group"]}</p><p><a href="{relative(path,"downloads/bookdeal-posts/"+h["slug"]+".md")}">{E(c[9])}</a></p></article></div>'
-            schema={'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'image':url(image_path(h)),'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':SOURCE_NAME,'keywords':h.get('seo_keywords','')}
+            body+=f'<p><a class="btn" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{h["slug"]}">{E(c[3])}</a></p></article></div>'
+            schema={'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'image':url(image_path(h)),'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'keywords':h.get('seo_keywords','')}
             write(path,document(lang,path,title,intro,body,{code:post_path(code,h) for code in languages},schema))
     return page_pairs(languages)
 

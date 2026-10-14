@@ -8,7 +8,7 @@ import json
 import xml.etree.ElementTree as ET
 from build_site import BASE, home, blog, article, url
 from content import LANGUAGES, SLUGS, ARTICLE_DETAILS
-from deal_posts import HOTELS, DATA, page_pairs, post_path, image_path, social_post, short_post
+from deal_posts import HOTELS, DATA, EXPORT_ROOT, page_pairs, post_path, image_path, social_post, short_post
 from hotel_editorial import editorial
 from travel_portal import page_pairs as travel_page_pairs, SOURCES as TRAVEL_SOURCES, safe_articles
 import struct
@@ -95,10 +95,11 @@ def check():
                 dest = Page()
                 dest.feed(target.read_text(encoding='utf-8'))
                 assert unquote(parts.fragment) in dest.ids, (path, 'missing anchor', link)
+        assert 'Bookdeal' not in (ROOT/path).read_text(encoding='utf-8') and 'docs.google.com/spreadsheets' not in (ROOT/path).read_text(encoding='utf-8'), (path,'spreadsheet details must remain hidden')
         assert not page.frames, (path, "Trip.com banners must remain removed")
         assert "www.trip.com/partners/ad/" not in (ROOT/path).read_text(encoding="utf-8"), path
         if path==home(page.lang):
-            assert 'weather' in page.ids and 'trip-ideas' in page.ids, (path,'homepage tools')
+            assert 'weather' in page.ids and 'trip-ideas' in page.ids and 'weather-city' in page.ids, (path,'homepage tools')
     expected_paths = {target for lang in LANGUAGES for target in [home(lang), blog(lang), *(article(lang, i) for i in range(len(SLUGS)))]}
     expected_paths.update(path for path, _ in page_pairs(LANGUAGES))
     expected_paths.update(path for path, _ in travel_page_pairs(LANGUAGES))
@@ -117,7 +118,7 @@ def check():
         assert raw[:8] == b'\x89PNG\r\n\x1a\n'
         assert struct.unpack('>II', raw[16:24]) == (1600,900), hotel['name']
         assert hotel['url'] in social_post(hotel) and len(short_post(hotel)) <= 280
-        export_dir = ROOT/'downloads/bookdeal-posts'
+        export_dir = EXPORT_ROOT/'bookdeal-posts'
         assert (export_dir/(hotel['slug']+'.en.md')).read_text(encoding='utf-8') == hotel['social_post_en']+'\n'
         assert hotel['blog_content_en'] in (export_dir/(hotel['slug']+'.blog.en.md')).read_text(encoding='utf-8')
         for lang in LANGUAGES:
@@ -127,17 +128,18 @@ def check():
             assert booking_links == [hotel['url']], (path, 'individual affiliate link')
             title,intro,sections=editorial(hotel,lang)
             schema=next(schema for schema in page.schemas if schema.get('@type')=='BlogPosting')
-            assert schema['headline']==title and schema['description']==intro and schema['citation']==DATA['source'], (path,'source content metadata')
+            assert schema['headline']==title and schema['description']==intro and 'citation' not in schema, (path,'source content metadata')
             if lang=='en':
                 assert schema['headline']==hotel['seo_title_en'], (path,'source SEO title')
             text=(ROOT/path).read_text(encoding='utf-8')
+            assert 'Bookdeal' not in text and 'docs.google.com/spreadsheets' not in text and 'downloads/' not in text, (path,'hidden spreadsheet details')
             assert escape(intro) in text and all(escape(paragraph) in text for _,paragraph in sections), (path,'editorial body')
-    with (ROOT/'downloads/bookdeal-posts/posts.csv').open(encoding='utf-8-sig',newline='') as file:
+    with (EXPORT_ROOT/'bookdeal-posts/posts.csv').open(encoding='utf-8-sig',newline='') as file:
         exported=list(csv.DictReader(file))
     assert len(exported)==len(HOTELS)
     for row,hotel in zip(exported,HOTELS):
         assert row['trip_affiliate_link']==hotel['url'] and row['post_en']==hotel['social_post_en'] and row['blog_content_en']==hotel['blog_content_en'], hotel['name']
-    with zipfile.ZipFile(ROOT/'downloads/bookdeal-posts-hd.zip') as archive:
+    with zipfile.ZipFile(EXPORT_ROOT/'bookdeal-posts-hd.zip') as archive:
         assert len([p for p in archive.namelist() if p.endswith('.png')]) == 42
         assert len([p for p in archive.namelist() if p.endswith('.md')]) == 126
         assert archive.testzip() is None

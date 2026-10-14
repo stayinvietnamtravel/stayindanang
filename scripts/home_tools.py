@@ -3,6 +3,8 @@ from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from html import escape as E
 import json
+from urllib.parse import quote
+from destinations import CITIES, DESTINATIONS
 from travel_portal import display_time
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -73,17 +75,25 @@ def condition(code,lang):
 
 
 def weather(lang,now=None):
-    u=COPY[lang];data=json.loads((ROOT/'data/weather.json').read_text());points=forecast_points(data,now or datetime.now(timezone.utc))
-    result=f'<section class="home-weather" id="weather" aria-labelledby="weather-title"><div class="container"><div class="weather-panel"><h2 id="weather-title">{E(u[0])}</h2><p>{E(u[1])}</p>'
-    if points:
-        result+='<div class="weather-grid">'
-        for point in points:
-            icon,label=condition(point['symbol_code'],lang)
-            rain='—' if point['precipitation_mm'] is None else f'{point["precipitation_mm"]:g} mm / {point["precipitation_hours"]} h'
-            result+=f'<article class="weather-card"><time datetime="{E(point["time"])}">{display_time(point["time"])}</time><span class="weather-icon" aria-hidden="true">{icon}</span><strong class="weather-temperature">{point["temperature_c"]:.0f} °C</strong><p>{E(label)}</p><small>{E(u[4])}: {rain}<br>{E(u[5])}: {point["wind_mps"]:g} m/s</small></article>'
-        result+=f'</div><p class="weather-updated">{E(u[3])}: <time datetime="{E(data["source_updated_at"])}">{display_time(data["source_updated_at"])}</time></p>'
-    else:result+=f'<p class="weather-unavailable">{E(u[2])}</p>'
-    result+='<p class="notice"><a href="https://www.met.no/en" target="_blank" rel="noopener noreferrer">MET Norway</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · <a href="https://www.yr.no/en/search?q=Da%20Nang" target="_blank" rel="noopener noreferrer">Yr ↗</a></p></div></div></section>'
+    u=COPY[lang];heading,select_label,missing,names,suggestions=DESTINATIONS[lang]
+    cache=json.loads((ROOT/'data/weather.json').read_text());cities=cache.get('cities',{'da-nang':cache})
+    result=f'<section class="home-weather" id="weather" aria-labelledby="weather-title"><div class="container"><div class="weather-panel"><h2 id="weather-title">{E(heading)}</h2><p>{E(u[1])}</p><label class="destination-label" for="weather-city">{E(select_label)}</label><select id="weather-city" class="destination-select">'
+    for index,key in enumerate(CITIES):result+=f'<option value="{key}">{E(names[index])}</option>'
+    result+='</select><div class="destination-results" aria-live="polite">'
+    for index,(key,(city,_,_)) in enumerate(CITIES.items()):
+        data=cities.get(key,{});points=forecast_points(data,now or datetime.now(timezone.utc))
+        hidden=' hidden' if index else ''
+        result+=f'<div data-weather-city="{key}"{hidden}><h3>{E(names[index])}</h3>'
+        if points:
+            result+='<div class="weather-grid">'
+            for point in points:
+                icon,label=condition(point['symbol_code'],lang)
+                rain='—' if point['precipitation_mm'] is None else f'{point["precipitation_mm"]:g} mm / {point["precipitation_hours"]} h'
+                result+=f'<article class="weather-card"><time datetime="{E(point["time"])}">{display_time(point["time"])}</time><span class="weather-icon" aria-hidden="true">{icon}</span><strong class="weather-temperature">{point["temperature_c"]:.0f} °C</strong><p>{E(label)}</p><small>{E(u[4])}: {rain}<br>{E(u[5])}: {point["wind_mps"]:g} m/s</small></article>'
+            result+=f'</div><p class="weather-updated">{E(u[3])}: <time datetime="{E(data["source_updated_at"])}">{display_time(data["source_updated_at"])}</time></p>'
+        else:result+=f'<p class="weather-unavailable">{E(missing)}</p>'
+        result+=f'<aside class="destination-inspiration"><h4>{E(u[6])} · {E(names[index])}</h4><p>{E(suggestions[index])}</p></aside><p class="notice"><a href="https://www.yr.no/en/search?q={quote(city)}" target="_blank" rel="noopener noreferrer">Yr · {E(names[index])} ↗</a></p></div>'
+    result+='</div><p class="notice"><a href="https://www.met.no/en" target="_blank" rel="noopener noreferrer">MET Norway</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a></p></div></div></section>'
     return result
 
 

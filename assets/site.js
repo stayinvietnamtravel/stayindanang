@@ -40,6 +40,20 @@
       browser.querySelector('.news-empty-filter').hidden = visible > 0;
     });
   });
+  document.querySelectorAll('.home-weather').forEach(weather => {
+    const select = weather.querySelector('.destination-select');
+    const panels = Array.from(weather.querySelectorAll('[data-weather-city]'));
+    const update = () => {
+      panels.forEach(panel => { panel.hidden = panel.dataset.weatherCity !== select.value; });
+      try { localStorage.setItem('stayindanang-destination:v1', select.value); } catch (_) {}
+    };
+    try {
+      const saved = localStorage.getItem('stayindanang-destination:v1');
+      if (panels.some(panel => panel.dataset.weatherCity === saved)) select.value = saved;
+    } catch (_) {}
+    select.addEventListener('change', update);
+    update();
+  });
   document.querySelectorAll('.trip-planner').forEach(planner => {
     const buttons = planner.querySelectorAll('[data-plan-duration]');
     buttons.forEach(button => button.addEventListener('click', () => {
