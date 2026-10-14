@@ -57,6 +57,11 @@ def parse_forecast(payload,now):
 def refresh():
     target=ROOT/'data/weather.json';previous=json.loads(target.read_text())
     now=datetime.now(timezone.utc)
+    def unavailable(reason):
+        retained={**previous,'last_attempt_at':now.isoformat(),'fetch_status':'unavailable','failure_reason':reason}
+        target.write_text(json.dumps(retained,ensure_ascii=False,indent=2)+'\n')
+        print(f'Weather unavailable ({reason}); existing forecast retained.',file=sys.stderr)
+        return 1
     headers={'User-Agent':'StayInDaNangWeather/1.0 (+https://github.com/stayinvietnamtravel/stayindanang)','Accept':'application/json'}
     if previous.get('etag') and previous.get('source_updated_at') and date(previous['source_updated_at'])>=now-timedelta(hours=24):
         headers['If-None-Match']=previous['etag']
@@ -71,9 +76,10 @@ def refresh():
         if error.code==304 and previous.get('points') and date(previous['source_updated_at'])>=now-timedelta(hours=48):
             result={**previous,'fetched_at':now.isoformat()}
         else:
-            print(f'Weather request failed ({error.code}); existing forecast retained.',file=sys.stderr);return 1
+            return unavailable(f'HTTP {error.code}')
     except Exception as error:
-        print(f'Weather unavailable ({type(error).__name__}); existing forecast retained.',file=sys.stderr);return 1
+        return unavailable(f'{type(error).__name__}: {error}')
+    result.update(last_attempt_at=now.isoformat(),fetch_status='ok',failure_reason=None)
     target.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print(f'Cached {len(result["points"])} forecast points for Da Nang from MET Norway.')
     return 0
