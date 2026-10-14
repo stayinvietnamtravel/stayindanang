@@ -152,6 +152,8 @@ def build():
     alternates = ''.join(f'<link rel="alternate" hreflang="{code}" href="{url(home(code))}">\n' for code in LANGUAGES)
     alternates += f'<link rel="alternate" hreflang="x-default" href="{url(home("en"))}">\n'
     updated = updated.replace('<meta property="og:type"', alternates+'<meta property="og:type"', 1)
+    updated = updated.replace('<a href="news/en/index.html">News</a><a href="resources/en/index.html">Resources</a>', '')
+    updated = updated.replace('<a href="blog/index.html">Blog</a></nav>', '<a href="blog/index.html">Blog</a><a href="news/en/index.html">News</a><a href="resources/en/index.html">Resources</a></nav>', 1)
     english.write_text(updated, encoding='utf-8')
     export_deal_posts()
     all_pages.extend(build_deal_pages(document, relative, url, LANGUAGES))
