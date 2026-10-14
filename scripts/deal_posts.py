@@ -3,10 +3,12 @@ from pathlib import Path
 from html import escape as E
 from urllib.parse import urlsplit
 import json,csv,zipfile,struct
+from hotel_editorial import editorial
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'data/bookdeal.json').read_text(encoding='utf-8'))
 HOTELS=[r for r in DATA['rows'] if r['included']]
+SOURCE_NAME=DATA['source']
 
 # heading, lead, source qualification, booking CTA, checklist heading,
 # three checks, source label, download label, coastal-corridor note.
@@ -70,6 +72,10 @@ ANGLES=[
 ('Một lựa chọn để nghiên cứu trước chuyến đi','Đọc thông tin phòng và điều kiện đặt trên cùng một nền tảng để dễ đối chiếu.'),
 ('Đến nơi thuận tiện, về đúng giờ','Hãy tính phương án di chuyển và thời gian dự phòng trước chuyến bay trở về.'),
 ]
+for copy in COPY.values():
+    for index,value in enumerate(copy):
+        copy[index]=value.replace('Bookdeal.xlsx',SOURCE_NAME)
+
 assert len(ANGLES)==len(HOTELS)==42
 for hotel,angle in zip(HOTELS,ANGLES):hotel['angle']=angle
 
@@ -90,20 +96,22 @@ def social_post(h):
 
 {hook}. {advice}
 
-Khách sạn có trong nhóm “{h['group']}” của Bookdeal.xlsx. Đây là gợi ý để đưa vào danh sách so sánh cho chuyến đi Đà Nẵng, không phải xác nhận mức giảm giá hay thứ hạng bán chạy hiện tại.{region}
+Khách sạn có trong nhóm “{h['group']}” của {SOURCE_NAME}. Đây là gợi ý để đưa vào danh sách so sánh cho chuyến đi Đà Nẵng, không phải xác nhận mức giảm giá hay thứ hạng bán chạy hiện tại.{region}
+
+Đối chiếu vị trí với lịch trình, xem đánh giá gần đây, ảnh phòng, lựa chọn bữa sáng và kết nối giao thông. Dành thời gian cho ẩm thực địa phương, Mỹ Khê, sông Hàn hoặc một chuyến riêng đến Hội An nếu phù hợp; các gợi ý này không khẳng định khách sạn nằm ngay cạnh những điểm đó.
 
 Trước khi đặt: kiểm tra địa chỉ, hạng phòng, số khách, bữa ăn, tổng giá sau thuế và điều kiện hủy theo ngày bạn đi.
 
 Xem phòng và giá: {h['url']}
 
-Nguồn: Bookdeal.xlsx; file không có giá hay ngày áp dụng.
+Nguồn: {SOURCE_NAME}; file không có giá hay ngày áp dụng.
 Link tiếp thị liên kết: chúng tôi có thể nhận hoa hồng từ đơn đặt hợp lệ, không thu thêm phí từ bạn.
 
-#DaNangHotels #VietnamTravel #{h['group'].replace(' ','')}
+{h.get('hashtags') or '#DaNangHotels #VietnamTravel'} #{h['group'].replace(' ','')}
 '''
 
 def short_post(h):
-    text=f"{h['display_name']} | {h['group']} (Bookdeal.xlsx)\nKiểm tra giá và phòng theo ngày đi: {h['url']}\nLink tiếp thị liên kết.\n#DaNangHotels"
+    text=f"{h['display_name']} | {h['group']} (bảng Bookdeal)\nKiểm tra giá và phòng theo ngày đi: {h['url']}\nLink tiếp thị liên kết.\n#DaNangHotels"
     assert len(text)<=280,(h['name'],len(text))
     return text
 
@@ -129,10 +137,12 @@ def exports():
     directory=ROOT/'downloads/bookdeal-posts';directory.mkdir(parents=True,exist_ok=True)
     for h in HOTELS:
         (directory/f'{h["slug"]}.md').write_text(social_post(h),encoding='utf-8')
+        (directory/f'{h["slug"]}.en.md').write_text(h['social_post_en']+'\n',encoding='utf-8')
+        (directory/f'{h["slug"]}.blog.en.md').write_text('# '+h['seo_title_en']+'\n\n'+h['blog_content_en']+'\n',encoding='utf-8')
     with (directory/'posts.csv').open('w',encoding='utf-8-sig',newline='') as f:
-        writer=csv.writer(f);writer.writerow(['hotel','group','trip_affiliate_link','post_vi','short_post_vi','hd_image'])
-        for h in HOTELS:writer.writerow([h['name'],h['group'],h['url'],social_post(h),short_post(h),image_path(h)])
-    (directory/'README.txt').write_text('42 hotel posts + 42 original HD text cards (1600x900). Source: Bookdeal.xlsx. Top Deals / Hot Sellers are source categories, not live verified rankings or discounts. Prices and dates were not supplied. Seven Hoi An / An Bang entries were excluded. Each post preserves its individual supplied Trip.com URL. No social posts have been sent. Images are text designs, not property photographs.\n',encoding='utf-8')
+        writer=csv.writer(f,lineterminator='\n');writer.writerow(['hotel','group','trip_affiliate_link','post_vi','short_post_vi','post_en','seo_title_en','blog_content_en','booking_cta_en','seo_keywords','hashtags','hd_image','hotel_image_url','image_status'])
+        for h in HOTELS:writer.writerow([h['name'],h['group'],h['url'],social_post(h),short_post(h),h['social_post_en'],h['seo_title_en'],h['blog_content_en'],h['booking_cta_en'],h['seo_keywords'],h['hashtags'],image_path(h),h['hotel_image_url'],h['image_status']])
+    (directory/'README.txt').write_text(f'42 Vietnamese hotel posts + 42 English source social posts + 42 English source blog drafts + 42 original HD text cards (1600x900). Current content source: {SOURCE_NAME}. Original artwork/name-link source: Bookdeal.xlsx. Top Deals / Hot Sellers are source categories, not live verified rankings or discounts. Prices and dates were not supplied. Seven Hoi An / An Bang entries were excluded. Each post preserves its individual supplied Trip.com URL. No social posts have been sent. Images are text designs, not property photographs. The current workbook has no verified image URLs.\n',encoding='utf-8')
     archive=ROOT/'downloads/bookdeal-posts-hd.zip'
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
         def add(file,name):
@@ -140,7 +150,7 @@ def exports():
             z.writestr(info,file.read_bytes(),compress_type=zipfile.ZIP_DEFLATED)
         for file in sorted(directory.iterdir()):add(file,'posts/'+file.name)
         for h in HOTELS:add(ROOT/image_path(h),'images/'+h['slug']+'.png')
-    print('Exported 42 Vietnamese posts, 42 short posts, CSV and ZIP bundle.')
+    print('Exported 42 Vietnamese posts, 42 short posts, 42 English social posts, 42 English blog drafts, CSV and ZIP bundle.')
 
 def build_pages(document,relative,url,languages):
     for lang in languages:
@@ -152,13 +162,14 @@ def build_pages(document,relative,url,languages):
         targets={code:index_path(code) for code in languages}
         write(current,document(lang,current,c[0],c[1],body,targets))
         for h in HOTELS:
-            path=post_path(lang,h);title=f'{h["display_name"]} · {h["group"]}'
-            intro=h['angle'][0]+'. '+h['angle'][1] if lang=='vi' else c[1]
+            path=post_path(lang,h)
+            title,intro,sections=editorial(h,lang)
             body=f'<div class="container"><article class="article"><nav class="breadcrumbs"><a href="{relative(path,index_path(lang))}">{E(c[0])}</a></nav><span class="pill">{h["group"]}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p><figure class="featured-image"><img src="{relative(path,image_path(h))}" width="1600" height="900" alt="{E(title)}" fetchpriority="high"><figcaption>{E(c[8])} · {h["group"]}</figcaption></figure><p>{E(c[2])}</p>'
             if h['location_note']:body+=f'<p class="editorial-note">{E(c[10])}</p>'
+            body+=''.join(f'<section class="hotel-editorial"><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
             body+=f'<section><h2>{E(c[4])}</h2><ul>'+''.join(f'<li>{E(check)}</li>' for check in c[5:8])+'</ul></section>'
             body+=f'<p><a class="btn" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{h["slug"]}">{E(c[3])}</a></p><p>{E(c[8])} · {h["group"]}</p><p><a href="{relative(path,"downloads/bookdeal-posts/"+h["slug"]+".md")}">{E(c[9])}</a></p></article></div>'
-            schema={'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'image':url(image_path(h)),'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':'Bookdeal.xlsx'}
+            schema={'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'image':url(image_path(h)),'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':SOURCE_NAME,'keywords':h.get('seo_keywords','')}
             write(path,document(lang,path,title,intro,body,{code:post_path(code,h) for code in languages},schema))
     return page_pairs(languages)
 

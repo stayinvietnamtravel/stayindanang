@@ -47,6 +47,8 @@ scripts/
   extra_topics.py               Food, coastal experiences and city walks
   feature_images.py             Original SVG artwork generator
   deal_posts.py                 Bookdeal posts, hotel pages, exports and HD cards
+  hotel_editorial.py            Translations of the workbook's blog themes
+  import_bookdeal.py            Validated name/link/content spreadsheet importer
   build_site.py                 Static page and sitemap generator
   check_site.py                 Dependency-free structural checks
 ```
@@ -59,13 +61,17 @@ Every article and blog card has a locally stored featured illustration. Each top
 
 ## Bookdeal hotel posts
 
-`data/bookdeal.json` records all 49 name/link pairs extracted from the owner's `Bookdeal.xlsx`, including source worksheet, row, and workbook SHA-256. The original workbook is not published. Forty-two entries are included: 23 Top Deals and 19 Hot Sellers. Seven explicitly Hoi An/An Bang entries are retained as excluded metadata. Shilla Monogram Danang is marked as being on the coastal Da Nang–Hoi An corridor so visitors can verify its exact location.
+`data/bookdeal.json` records all 49 entries from the owner's latest `Bookdeal_Image_Automation_Ready (1).xlsx`, including source worksheet, row, workbook SHA-256, English SEO title, blog body, social post, CTA, keywords, hashtags and image metadata. The initial name/link source was `Bookdeal.xlsx`; the 49 names and booking URLs match between the two uploads. The original workbooks are not published. Forty-two entries are included: 23 Top Deals and 19 Hot Sellers. Seven explicitly Hoi An/An Bang entries are retained as excluded metadata. Shilla Monogram Danang is marked as being on the coastal Da Nang–Hoi An corridor so visitors can verify its exact location.
 
-The workbook has no prices, discount percentages, ratings, sales counts, hotel photos or validity dates. Worksheet names are preserved as source categories, not confirmed live offers or popularity rankings. Each hotel page has exactly one Trip.com booking link, preserved byte-for-byte from the spreadsheet. Descriptive promotional suffixes in source names are not treated as verified amenities.
+The latest workbook supplies English editorial and social content but no prices, discount percentages, ratings, sales counts, hotel photos or validity dates. All verified-image URL, photo source and photo attribution fields are empty; all image statuses are `Needs verified official image URL`. Creative briefs are stored as data and do not trigger image fetching or generation. Worksheet names are preserved as source categories, not confirmed live offers or popularity rankings. Each hotel page has exactly one Trip.com booking link, preserved byte-for-byte from the spreadsheet. Descriptive promotional suffixes in source names are not treated as verified amenities.
 
-The downloadable ZIP contains 42 Vietnamese social posts, a UTF-8 CSV with 42 short posts (at most 280 characters each), and 42 original text-card PNGs at 1600 × 900. These are typographic designs, not property photographs. No social posts are automatically sent to X or other platforms. The 13 website editions share the Vietnamese artwork, with localized page text and alternative descriptions.
+The English hotel edition uses the supplied SEO headline, introduction and comparison/travel-inspiration paragraphs, with the original URL rendered once as a booking button. The other 12 editions translate those themes: location, guest reviews, room photos, cancellation, breakfast, transport and time for My Khe, the Han River and Hoi An. The original English draft remains available in the downloadable bundle. Updates preserve existing hotel slugs, affiliate links and HD artwork.
+
+The downloadable ZIP contains 42 updated Vietnamese social posts, 42 original English social posts, 42 English source blog drafts, a UTF-8 CSV with the original content fields and 42 short posts (at most 280 characters each), plus 42 original text-card PNGs at 1600 × 900. These are typographic designs, not property photographs. No social posts are automatically sent to X or other platforms. The 13 website editions share the Vietnamese artwork, with localized page text and alternative descriptions.
 
 `python3 scripts/build_site.py` rebuilds the hotel pages and deterministic downloadable bundle from the JSON and committed artwork using the standard library. To recreate the artwork itself, run `python3 scripts/deal_posts.py --render-images`; this optional command requires Playwright and Chromium at `/usr/bin/chromium`. The extractor used OpenPyXL only when reading the uploaded workbook; normal site builds do not need it.
+
+To import another workbook using the same column headings, run `python3 scripts/import_bookdeal.py /path/to/file.xlsx` (requires OpenPyXL), then rebuild and check the site. The importer reads cached values without executing Excel formulas, validates each blog/social/CTA URL against the hotel's booking link, keeps existing slugs and exclusions, and rejects conflicting hyperlinks, duplicate identities or missing existing hotels. Input is validated before the JSON is replaced. Image URL presence alone is not proof of licensing or verification.
 
 ## Local development
 
