@@ -1,15 +1,6 @@
 """Editorial translations used to generate the static site (no runtime dependencies)."""
 
 LANGUAGES = {'en': 'English', 'vi': 'Tiếng Việt', 'zh': '中文', 'ru': 'Русский', 'ko': '한국어', 'ja': '日本語', 'hi': 'हिन्दी'}
-SEARCH_COPY = {
-    'en': ['Find a hotel on Trip.com', 'The content and controls in this frame are provided by Trip.com.', 'On a small screen, scroll the frame sideways to see the full widget.'],
-    'vi': ['Tìm khách sạn trên Trip.com', 'Nội dung và các thao tác trong khung do Trip.com cung cấp.', 'Trên màn hình nhỏ, trượt ngang trong khung để xem đầy đủ công cụ.'],
-    'zh': ['在 Trip.com 上查找酒店', '此框架内的内容和操作由 Trip.com 提供。', '在小屏幕上，请横向滚动框架查看完整工具。'],
-    'ru': ['Найти отель на Trip.com', 'Содержимое и элементы управления в этом блоке предоставляет Trip.com.', 'На небольшом экране прокрутите блок по горизонтали, чтобы увидеть его целиком.'],
-    'ko': ['Trip.com에서 호텔 찾기', '프레임 안의 콘텐츠와 기능은 Trip.com에서 제공합니다.', '작은 화면에서는 프레임을 가로로 스크롤해 전체 도구를 확인하세요.'],
-    'ja': ['Trip.comでホテルを探す', 'このフレーム内のコンテンツと操作機能はTrip.comが提供します。', '小さい画面ではフレームを横にスクロールして全体をご覧ください。'],
-    'hi': ['Trip.com पर होटल खोजें', 'इस फ्रेम की सामग्री और नियंत्रण Trip.com प्रदान करता है।', 'छोटी स्क्रीन पर पूरा उपकरण देखने के लिए फ्रेम को दाएँ-बाएँ स्क्रॉल करें।'],
-}
 SLUGS = [('tips', 'vietnam-travel-planning'), ('hotels', 'where-to-stay-in-da-nang'), ('tours', 'da-nang-hoi-an-hue'), ('destinations', 'vietnam-heritage-guide')]
 SOURCES = [
     [('Vietnam Tourism — Travel tips', 'https://vietnam.travel/plan-your-trip'), ('Vietnam Immigration — E-visa', 'https://evisa.gov.vn/')],
@@ -190,7 +181,6 @@ from extra_topics import SLUGS as EXTRA_SLUGS, SOURCES as EXTRA_SOURCES, ARTICLE
 LANGUAGES.update(EXTRA_LANGUAGES)
 for code, data in EXTRA_CONTENT.items():
     CONTENT[code] = {'ui': data['ui'], 'articles': data['articles']}
-    SEARCH_COPY[code] = data['search']
     ARTICLE_DETAILS[X_SLUG[1]]['source_notes'][code] = data['note']
 SLUGS.extend(EXTRA_SLUGS)
 SOURCES.extend(EXTRA_SOURCES)

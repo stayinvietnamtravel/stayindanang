@@ -16,7 +16,7 @@ permissions:
   pages: write
 
 concurrency:
-  group: travel-news-refresh
+  group: stayindanang-content-refresh
   cancel-in-progress: false
 
 jobs:

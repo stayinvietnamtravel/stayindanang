@@ -1,0 +1,12 @@
+{
+  "provider": "MET Norway",
+  "source_url": "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=16.0544&lon=108.2022",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "city": "Da Nang",
+  "latitude": 16.0544,
+  "longitude": 108.2022,
+  "source_updated_at": null,
+  "fetched_at": null,
+  "etag": null,
+  "points": []
+}

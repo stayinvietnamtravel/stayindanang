@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.parse import urlsplit, parse_qs, unquote
 import json
 import xml.etree.ElementTree as ET
-from build_site import BASE, BANNERS, home, blog, article, url
+from build_site import BASE, home, blog, article, url
 from content import LANGUAGES, SLUGS, ARTICLE_DETAILS
 from deal_posts import HOTELS, DATA, page_pairs, post_path, image_path, social_post, short_post
 from hotel_editorial import editorial
@@ -95,20 +95,10 @@ def check():
                 dest = Page()
                 dest.feed(target.read_text(encoding='utf-8'))
                 assert unquote(parts.fragment) in dest.ids, (path, 'missing anchor', link)
-        expected_ids = {b[0] for b in BANNERS}
-        actual_ids = {f['id'] for f in page.frames}
-        assert actual_ids <= expected_ids and len(page.frames) == len(actual_ids), (path, 'banners')
-        if path == home(page.lang) or path == blog(page.lang):
-            assert actual_ids == expected_ids, (path, 'all three banners required')
-        for frame in page.frames:
-            ident, sub, width, height = next(b for b in BANNERS if b[0] == frame['id'])
-            src = urlsplit(frame['src'])
-            assert src.scheme == 'https' and src.netloc == 'www.trip.com'
-            assert src.path == '/partners/ad/'+ident
-            assert parse_qs(src.query) == {'Allianceid':['7874910'],'SID':['295648032'],'trip_sub1':[sub]}
-            assert frame['width'] == str(width) and frame['height'] == str(height)
-            assert frame.get('title')
-            assert frame.get('loading') == ('eager' if ident == 'S14984461' else 'lazy')
+        assert not page.frames, (path, "Trip.com banners must remain removed")
+        assert "www.trip.com/partners/ad/" not in (ROOT/path).read_text(encoding="utf-8"), path
+        if path==home(page.lang):
+            assert 'weather' in page.ids and 'trip-ideas' in page.ids, (path,'homepage tools')
     expected_paths = {target for lang in LANGUAGES for target in [home(lang), blog(lang), *(article(lang, i) for i in range(len(SLUGS)))]}
     expected_paths.update(path for path, _ in page_pairs(LANGUAGES))
     expected_paths.update(path for path, _ in travel_page_pairs(LANGUAGES))
@@ -170,7 +160,7 @@ def check():
     sitemap = ET.parse(ROOT/'sitemap.xml')
     locations = [e.text for e in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
     assert Counter(locations) == Counter(url(path) for path in paths), 'sitemap mismatch'
-    print(f'PASS: {len(paths)} HTML pages, featured images, local links and anchors, {len(LANGUAGES)}-language navigation, reciprocal hreflang, banner parameters, structured data and sitemap.')
+    print(f'PASS: {len(paths)} HTML pages, featured images, local links and anchors, {len(LANGUAGES)}-language navigation, reciprocal hreflang, no advertising iframes, structured data and sitemap.')
 
 
 if __name__ == '__main__':

@@ -40,20 +40,37 @@
       browser.querySelector('.news-empty-filter').hidden = visible > 0;
     });
   });
-  document.querySelectorAll('.ad-frame').forEach(frame => {
-    // Preserve the partner widget's readable controls; contain horizontal
-    // scrolling within the frame instead of shrinking the search interface.
-    if (frame.dataset.adMode === 'scroll') return;
-    const iframe = frame.querySelector('iframe');
-    const resize = () => {
-      const scale = Math.min(1, frame.clientWidth / Number(frame.dataset.adWidth));
-      iframe.style.transformOrigin = 'top left';
-      iframe.style.transform = `scale(${scale})`;
-      frame.style.height = `${Number(frame.dataset.adHeight) * scale}px`;
-      frame.style.overflow = 'hidden';
+  document.querySelectorAll('.trip-planner').forEach(planner => {
+    const buttons = planner.querySelectorAll('[data-plan-duration]');
+    buttons.forEach(button => button.addEventListener('click', () => {
+      buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      planner.querySelectorAll('[data-plan-panel]').forEach(panel => {
+        panel.hidden = panel.dataset.planPanel !== button.dataset.planDuration;
+      });
+    }));
+    const rainToggle = planner.querySelector('.rainy-day-toggle');
+    rainToggle.addEventListener('change', () => {
+      planner.querySelector('.rainy-day-plan').hidden = !rainToggle.checked;
+    });
+  });
+  document.querySelectorAll('.trip-checklist').forEach(checklist => {
+    const key = 'stayindanang-trip-checklist:v1';
+    const checks = Array.from(checklist.querySelectorAll('[data-trip-check]'));
+    try {
+      const saved = JSON.parse(localStorage.getItem(key) || '{}');
+      checks.forEach(check => { check.checked = saved?.[check.dataset.tripCheck] === true; });
+    } catch (_) { /* The checklist still works if storage is unavailable. */ }
+    const update = () => {
+      checklist.querySelector('.checklist-progress').value = `${checks.filter(check => check.checked).length} / ${checks.length}`;
+      try {
+        localStorage.setItem(key, JSON.stringify(Object.fromEntries(checks.map(check => [check.dataset.tripCheck, check.checked]))));
+      } catch (_) { /* Do not block trip planning in private/restricted modes. */ }
     };
-    resize();
-    if ('ResizeObserver' in window) new ResizeObserver(resize).observe(frame);
-    else window.addEventListener('resize', resize);
+    checks.forEach(check => check.addEventListener('change', update));
+    checklist.querySelector('.checklist-reset').addEventListener('click', () => {
+      checks.forEach(check => { check.checked = false; });
+      update();
+    });
+    update();
   });
 }());

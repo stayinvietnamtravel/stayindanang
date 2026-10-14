@@ -41,6 +41,7 @@ news/<language>/               Attributed international travel headlines
 data/bookdeal.json             Extracted hotel names, links and source provenance
 data/travel_sources.json       Tourism references, publications and RSS configuration
 data/travel_news.json          Fetched headlines, source status and actual timestamps
+data/weather.json              Attributed MET Norway forecast points for Da Nang
 downloads/
   bookdeal-posts/               42 Vietnamese social posts and CSV with short posts
   bookdeal-posts-hd.zip         Social texts + 42 HD cards
@@ -55,8 +56,11 @@ scripts/
   import_bookdeal.py            Validated name/link/content spreadsheet importer
   travel_portal.py              International resources and news page generator
   refresh_travel_news.py        Safe RSS/Atom headline cache updater
+  refresh_weather.py            Validated weather data cache updater
+  home_tools.py                 Weather, trip ideas and checklist in 13 languages
 .github/workflows/
   travel-news.yml               Scheduled headline refresh and Pages build request
+  weather.yml                   Weather refresh every three hours
   build_site.py                 Static page and sitemap generator
   check_site.py                 Dependency-free structural checks
 ```
@@ -103,13 +107,21 @@ python3 scripts/check_site.py
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit the appropriate content module in `scripts/` and run the generator to update localized pages, blog pages, cover illustrations and `sitemap.xml`. The English landing page is maintained directly except for blog cards, language navigation and alternate-language metadata, which the generator refreshes. Shared CSS and JavaScript in `assets/` are maintained directly.
+No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit the appropriate content module in `scripts/` and run the generator to update localized pages, blog pages, cover illustrations and `sitemap.xml`. The English landing page is maintained directly except for blog cards, language navigation, alternate-language metadata and the marked `HOME TOOLS` section, which the generator refreshes. Shared CSS and JavaScript in `assets/` are maintained directly.
 
-## Trip.com banners
+## Homepage weather and new trip ideas
 
-Three affiliate banner IDs are included: `S14984461` (900×200), `SB20219796` (300×250), and `DB13678212` (250×250). The supplied Allianceid, SID and trip_sub1 values are preserved. `S14984461` appears once as the prominent hotel-search partner frame on each landing page and blog index. Its actual content and search capabilities are supplied by Trip.com; the site does not implement or promise a separate native search engine. On small screens, this 900-pixel frame scrolls horizontally inside its container to preserve readable controls. The two smaller banners scale to fit. Frames have accessible titles and an affiliate disclosure, and include a direct link if the external content does not load. Their content and language are controlled by Trip.com, not by the site's language selector. Do not apply a restrictive iframe sandbox without checking Trip.com's requirements, as it may break their ads.
+All 13 homepages now include a Da Nang forecast panel, interactive 1/3/5-day trip ideas, rainy-day options and a three-item pre-travel checklist. The checklist stores only checkbox states in the visitor's browser and is shared between language editions on the same site; it works without persistence when browser storage is unavailable. The duration controls link to existing food, itinerary and heritage guides. They are planning suggestions, not guaranteed tours.
 
-All booking CTAs open the general Trip.com affiliate URL. Specific hotel/tour deep links are not configured. Photos load remotely from Unsplash, so internet access is required for them; use appropriately licensed, verified location images before commercial publication.
+Forecast data comes from MET Norway's Locationforecast API for central Da Nang (16.0544, 108.2022), with attribution and a CC BY 4.0 link. The panel displays five forecast points around the next 24 hours with Celsius temperature, wind in m/s and rainfall in mm with its actual forecast interval. These are model forecasts, not measured observations or rain probabilities. Dates are shown at +07:00. No visitor location, API key or browser-to-provider request is needed. Missing or stale model data shows a truthful unavailable state and a link to Yr.
+
+Run `python3 scripts/refresh_weather.py` to fetch the forecast, then build and check the site. The updater identifies itself with the site's repository URL, preserves TLS checks, validates units and timestamps, rejects nonfinite or implausible measurements, and retains the previous cache on failure. The GitHub `Refresh Da Nang weather` workflow fetches every three hours, builds/checks, commits and requests the Pages branch build. Both content-update workflows share a concurrency group to avoid racing each other's commits. The initial cloud fetch was blocked by network policy; forecasts are only shown after a real successful fetch.
+
+## Trip.com booking links
+
+The three advertising iframes, including the hotel-search banner, have been removed from all pages and from the generator. The automated checks reject any reintroduced iframe or Trip.com ad URL. Booking buttons now point to the hotel's own supplied affiliate URL or to the original general booking link, depending on the page; the hotel links remain intact. There is no embedded booking engine.
+
+The original English homepage photos load remotely from Unsplash; blog covers and HD text artwork are local files. Photos remain illustrative, and verified licensed property photographs still require source URLs and attribution.
 
 The website does not offer live pricing, booking forms or direct transactions.
 Review GitHub Pages' limitations for primarily commercial sites; Cloudflare Pages is a potential alternative.

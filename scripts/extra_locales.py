@@ -3,7 +3,6 @@ LANGUAGES = {'fr':'Français','de':'Deutsch','es':'Español','th':'ไทย','i
 CONTENT = {
 'fr': {
  'ui': ['Accueil','Blog voyage','Conseils','Hôtels','Itinéraires','Destinations','Préparez votre découverte du Vietnam','Des lieux réels, des itinéraires pratiques et des conseils pour choisir votre quartier à Da Nang.','Explorer sur Trip.com ↗','Publicité · partenaire affilié Trip.com','Bannière indisponible ? Ouvrir Trip.com','Liens affiliés : nous pouvons recevoir une commission pour certaines réservations Trip.com, sans supplément facturé par notre site. Trip.com gère les réservations, paiements et assistance.','Sources officielles et lectures','Ce guide propose des conseils généraux, sans prétendre à une expérience personnelle ni à des tarifs en temps réel. Vérifiez les formalités, la météo, les horaires, les disponibilités et les prix auprès des sources officielles ou du prestataire.','Retour au blog','Lire le guide →','Préparer un voyage au Vietnam','Langue','Guides pratiques du Vietnam : hébergement, itinéraires, cuisine et découvertes.','Navigation principale','Accueil Stay in Da Nang','Guide indépendant du Vietnam.'],
- 'search':['Trouver un hôtel sur Trip.com','Le contenu et les commandes de ce cadre sont fournis par Trip.com.','Sur petit écran, faites défiler le cadre horizontalement.'],
  'note':'Article développé à partir du message X de @stayindanang « Stay in Da Nang: Best Hotels - Tours - Flights 2026 ». Les conseils ajoutent un contexte éditorial ; les prix, notes et disponibilités restent à vérifier.',
  'articles': [
  ['Préparer un voyage au Vietnam : transports et réservations','Choisissez une région et gardez une marge pour les déplacements.',[
@@ -29,7 +28,6 @@ CONTENT = {
  ]},
 'de': {
  'ui':['Startseite','Reiseblog','Reisetipps','Hotels','Routen','Reiseziele','Vietnam mit einem guten Plan entdecken','Echte Orte, praktische Routen und Tipps zur Wahl des passenden Viertels in Da Nang.','Auf Trip.com ansehen ↗','Werbung · Trip.com-Affiliate-Partner','Banner nicht verfügbar? Trip.com öffnen','Affiliate-Hinweis: Für geeignete Trip.com-Buchungen können wir eine Provision erhalten, ohne zusätzliche Gebühr durch uns. Buchung, Zahlung und Kundenservice übernimmt Trip.com.','Offizielle Quellen und weitere Informationen','Dieser Ratgeber enthält allgemeine Planungstipps, keine persönlichen Erfahrungsberichte oder Live-Angebote. Einreisebestimmungen, Wetter, Öffnungszeiten, Verfügbarkeit und Preise vor der Reise offiziell prüfen.','Zurück zum Blog','Ratgeber lesen →','Vietnamreise planen','Sprache','Vietnam-Reiseführer: Unterkünfte, Routen, Essen und Erlebnisse.','Hauptnavigation','Stay in Da Nang Startseite','Unabhängiger Vietnam-Reiseführer.'],
- 'search':['Hotel auf Trip.com finden','Inhalte und Bedienelemente in diesem Rahmen werden von Trip.com bereitgestellt.','Auf kleinen Bildschirmen den Rahmen horizontal scrollen.'],
  'note':'Dieser Artikel erweitert den X-Beitrag von @stayindanang „Stay in Da Nang: Best Hotels - Tours - Flights 2026“ um Planungshinweise. Preise, Bewertungen und Paketverfügbarkeit müssen beim Anbieter geprüft werden.',
  'articles':[
  ['Vietnamreise planen: Verkehr, Wetter und Buchungen','Eine Region auswählen und genügend Zeit für Wege lassen.',[
@@ -55,7 +53,6 @@ CONTENT = {
  ]},
 'es': {
  'ui':['Inicio','Blog de viajes','Consejos','Hoteles','Rutas','Destinos','Descubre Vietnam con un buen plan','Lugares reales, rutas prácticas y consejos para elegir dónde alojarte en Da Nang.','Explorar en Trip.com ↗','Publicidad · socio afiliado de Trip.com','¿No carga el banner? Abrir Trip.com','Enlaces afiliados: podemos recibir una comisión por reservas válidas en Trip.com sin cobrarte un suplemento. Trip.com gestiona reservas, pagos y atención al cliente.','Fuentes oficiales y más información','Esta guía ofrece consejos generales, no reseñas de experiencias personales ni ofertas en tiempo real. Confirma requisitos de entrada, clima, horarios, disponibilidad y precios con fuentes oficiales o proveedores.','Volver al blog','Leer guía →','Planifica tu viaje a Vietnam','Idioma','Guías de Vietnam: alojamiento, rutas, gastronomía y experiencias.','Navegación principal','Inicio de Stay in Da Nang','Guía independiente de Vietnam.'],
- 'search':['Buscar hotel en Trip.com','Trip.com proporciona el contenido y los controles de este marco.','En pantallas pequeñas, desplaza el marco horizontalmente.'],
  'note':'Artículo ampliado a partir de la publicación de @stayindanang en X «Stay in Da Nang: Best Hotels - Tours - Flights 2026». Los consejos añaden contexto; precios, valoraciones y paquetes deben verificarse con el proveedor.',
  'articles':[
  ['Planificar Vietnam: transporte, clima y reservas','Elige una región y deja tiempo para los desplazamientos.',[
@@ -81,7 +78,6 @@ CONTENT = {
  ]},
 'th': {
  'ui':['หน้าแรก','บล็อกท่องเที่ยว','เคล็ดลับ','โรงแรม','เส้นทางเที่ยว','จุดหมาย','วางแผนเที่ยวเวียดนามอย่างลงตัว','สถานที่จริง เส้นทางที่ใช้วางแผนได้ และคำแนะนำเลือกย่านที่พักในดานัง','ดูบน Trip.com ↗','โฆษณา · พันธมิตร Trip.com','แบนเนอร์ไม่โหลด? เปิด Trip.com','ข้อมูลลิงก์พันธมิตร: เราอาจได้รับค่าคอมมิชชันจากการจองที่เข้าเงื่อนไข โดยไม่เก็บค่าใช้จ่ายเพิ่มจากคุณ Trip.com ดูแลการจอง การชำระเงิน และบริการลูกค้า','แหล่งข้อมูลทางการและอ่านเพิ่มเติม','คู่มือนี้ให้คำแนะนำทั่วไป ไม่ใช่รีวิวจากประสบการณ์ตรงหรือข้อเสนอแบบเรียลไทม์ ตรวจสอบกฎเข้าประเทศ อากาศ เวลาเปิด จำนวนที่ว่าง และราคากับแหล่งทางการหรือผู้ให้บริการก่อนเดินทาง','กลับไปที่บล็อก','อ่านคู่มือ →','วางแผนเที่ยวเวียดนาม','ภาษา','คู่มือเวียดนาม: ที่พัก เส้นทาง อาหาร และประสบการณ์ท่องเที่ยว','เมนูหลัก','หน้าแรก Stay in Da Nang','คู่มือท่องเที่ยวเวียดนามอิสระ'],
- 'search':['ค้นหาโรงแรมบน Trip.com','เนื้อหาและปุ่มภายในกรอบให้บริการโดย Trip.com','หน้าจอเล็กสามารถเลื่อนกรอบในแนวนอนเพื่อดูทั้งหมด'],
  'note':'บทความนี้ขยายจากโพสต์ X ของ @stayindanang “Stay in Da Nang: Best Hotels - Tours - Flights 2026” พร้อมคำแนะนำวางแผน ต้องตรวจสอบราคา คะแนน และแพ็กเกจกับผู้ให้บริการ',
  'articles':[
  ['วางแผนเที่ยวเวียดนาม: การเดินทาง อากาศ และการจอง','เลือกหนึ่งภูมิภาคและเผื่อเวลาเดินทาง',[
@@ -107,7 +103,6 @@ CONTENT = {
  ]},
 'id': {
  'ui':['Beranda','Blog perjalanan','Tips','Hotel','Rute','Destinasi','Jelajahi Vietnam dengan rencana yang matang','Tempat nyata, rute praktis dan panduan memilih kawasan menginap di Da Nang.','Lihat di Trip.com ↗','Iklan · mitra afiliasi Trip.com','Banner tidak muncul? Buka Trip.com','Informasi afiliasi: kami dapat menerima komisi dari pemesanan Trip.com yang memenuhi syarat tanpa biaya tambahan dari kami. Pemesanan, pembayaran dan bantuan pelanggan ditangani Trip.com.','Sumber resmi dan bacaan lanjut','Panduan ini berisi saran umum, bukan ulasan pengalaman langsung atau penawaran waktu nyata. Periksa aturan masuk, cuaca, jam buka, ketersediaan dan harga melalui sumber resmi atau penyedia sebelum berangkat.','Kembali ke blog','Baca panduan →','Rencanakan perjalanan ke Vietnam','Bahasa','Panduan Vietnam: penginapan, rute, kuliner dan pengalaman.','Navigasi utama','Beranda Stay in Da Nang','Panduan independen Vietnam.'],
- 'search':['Cari hotel di Trip.com','Isi dan kontrol dalam bingkai disediakan oleh Trip.com.','Pada layar kecil, geser bingkai secara horizontal.'],
  'note':'Artikel ini dikembangkan dari unggahan X @stayindanang “Stay in Da Nang: Best Hotels - Tours - Flights 2026” dengan saran perencanaan tambahan. Harga, penilaian dan paket harus diperiksa kepada penyedia.',
  'articles':[
  ['Merencanakan Vietnam: transportasi, cuaca dan pemesanan','Pilih satu kawasan dan sisakan waktu untuk perjalanan.',[
@@ -133,7 +128,6 @@ CONTENT = {
  ]},
 'zh-Hant': {
  'ui':['首頁','旅遊部落格','旅遊提示','飯店','行程','目的地','用心規劃，探索越南','真實景點、實用路線，以及峴港住宿區域選擇建議。','在 Trip.com 上探索 ↗','廣告 · Trip.com 聯盟合作夥伴','橫幅無法載入？開啟 Trip.com','聯盟揭露：符合條件的 Trip.com 訂單可能帶來佣金，我們不向您收取額外費用。預訂、付款和客戶服務由 Trip.com 處理。','官方資料與延伸閱讀','本指南提供一般規劃建議，並非親身體驗評測或即時優惠。出發前請向官方來源或服務商確認入境規則、天氣、營業時間、空位和價格。','返回部落格','閱讀指南 →','規劃越南之旅','語言','越南指南：住宿、路線、美食與旅遊體驗。','主要導覽','Stay in Da Nang 首頁','獨立越南旅遊指南。'],
- 'search':['在 Trip.com 上尋找飯店','框架內的內容與操作由 Trip.com 提供。','小螢幕可橫向捲動框架以查看完整工具。'],
  'note':'本文根據 @stayindanang 的 X 貼文「Stay in Da Nang: Best Hotels - Tours - Flights 2026」擴寫並補充規劃建議。價格、評分和套裝供應情況須向服務商確認。',
  'articles':[
  ['規劃越南旅行：交通、天氣與預訂','選擇一個區域，為移動預留時間。',[

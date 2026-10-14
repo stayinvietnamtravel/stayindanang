@@ -1,0 +1,51 @@
+name: Refresh Da Nang weather
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 */3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/weather.yml'
+      - 'scripts/refresh_weather.py'
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: stayindanang-content-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+      - name: Fetch attributed weather data
+        run: python3 scripts/refresh_weather.py
+      - name: Build and validate
+        run: |
+          python3 scripts/build_site.py
+          python3 scripts/check_site.py
+      - name: Commit weather update
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/weather.json index.html de es fr hi id ja ko ru th vi zh zh-Hant news resources blog deals sitemap.xml downloads assets/blog
+          git commit -m 'Refresh Da Nang weather forecast'
+          git push origin HEAD:main
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+      - name: Request the Pages branch build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" > /dev/null
