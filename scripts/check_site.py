@@ -19,6 +19,7 @@ class Page(HTMLParser):
         self.links = []
         self.alternates = {}
         self.frames = []
+        self.images = []
         self.lang = None
         self.canonical = None
         self.script = None
@@ -42,6 +43,8 @@ class Page(HTMLParser):
                 self.links.append((tag, target))
         if tag == 'iframe':
             self.frames.append(a)
+        if tag == 'img':
+            self.images.append(a)
         if tag == 'script' and a.get('type') == 'application/ld+json':
             self.script = ''
 
@@ -66,7 +69,12 @@ def check():
         assert page.canonical == url(path), (path, 'canonical')
         assert len(page.ids) == len(set(page.ids)), (path, 'duplicate id')
         assert set(page.alternates) == set(LANGUAGES) | {'x-default'}, (path, 'alternates')
-        assert sum(kind == 'language' for kind, _ in page.links) == 7, (path, 'language selector')
+        assert sum(kind == 'language' for kind, _ in page.links) == len(LANGUAGES), (path, 'language selector')
+        if any(schema.get('@type') == 'BlogPosting' for schema in page.schemas):
+            assert len(page.images) == 1, (path, 'featured image')
+            image = page.images[0]
+            assert image.get('alt') and image.get('width') and image.get('height'), (path, 'image accessibility')
+            assert image['src'].endswith('.svg') and not urlsplit(image['src']).scheme, (path, 'local image')
         for kind, link in page.links:
             parts = urlsplit(link)
             if parts.scheme or parts.netloc:
@@ -115,7 +123,7 @@ def check():
     sitemap = ET.parse(ROOT/'sitemap.xml')
     locations = [e.text for e in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
     assert Counter(locations) == Counter(url(path) for path in paths), 'sitemap mismatch'
-    print(f'PASS: {len(paths)} HTML pages, local links and anchors, 7-language navigation, reciprocal hreflang, banner parameters, structured data and sitemap.')
+    print(f'PASS: {len(paths)} HTML pages, featured images, local links and anchors, {len(LANGUAGES)}-language navigation, reciprocal hreflang, banner parameters, structured data and sitemap.')
 
 
 if __name__ == '__main__':

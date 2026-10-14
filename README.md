@@ -1,11 +1,11 @@
-# Stay in Da Nang — One-page Landing Website
+# Stay in Da Nang — Multilingual Vietnam Travel Website
 
 Website: https://stayinvietnamtravel.github.io/stayindanang/
 
 ## Install
 1. Extract ZIP.
 2. Open https://github.com/stayinvietnamtravel/stayindanang
-3. Upload `index.html`, `.nojekyll`, `robots.txt`, `sitemap.xml` into the **root** of the repository.
+3. Upload the complete site, including `assets/`, language and `blog/` directories, `.nojekyll`, `robots.txt` and `sitemap.xml` into the **root** of the repository.
 4. Commit to `main`; enable Settings > Pages > Deploy from branch `main` / (root).
 5. Hard refresh with Ctrl+Shift+R.
 
@@ -13,31 +13,42 @@ The website uses shared CSS and JavaScript under `assets/`. Upload the complete 
 
 ## Languages and blog
 
-English remains at the root. Localized landing pages and blog articles are available in Vietnamese (`vi`), simplified Chinese (`zh`), Russian (`ru`), Korean (`ko`), Japanese (`ja`) and Hindi (`hi`). Hindi is one language used in India, not a translation into every Indian language. Language links on a blog article open the equivalent article in the selected language. Translations are editorial drafts and may benefit from native-speaker review.
+English remains at the root. The site supports 13 language editions: English, Vietnamese (`vi`), simplified Chinese (`zh`), traditional Chinese (`zh-Hant`), Russian (`ru`), Korean (`ko`), Japanese (`ja`), Hindi (`hi`), French (`fr`), German (`de`), Spanish (`es`), Thai (`th`) and Indonesian (`id`). Hindi is one language used in India, not a translation into every Indian language. A compact language picker opens the equivalent article in the selected language. Translations are editorial drafts and may benefit from native-speaker review.
+
+There are eight editorial topics in every language: planning, hotel areas, a Central Vietnam itinerary, heritage destinations, the source-based Da Nang 2026 guide, regional food, coastal experiences and city walks. This produces 104 article pages and 130 HTML pages in total. The category buttons filter blog cards by tips, hotels, routes, destinations, food or experiences; all cards remain available without JavaScript.
 
 ```text
 assets/                         Shared styles and browser behavior
+  blog/                         Eight original local SVG cover illustrations
 index.html                      English landing page
-vi/ zh/ ru/ ko/ ja/ hi/         Localized landing pages
+<language>/                    Localized landing pages (12 editions)
 blog/
   index.html                    English blog index
-  vi/ zh/ ru/ ko/ ja/ hi/       Localized blog indexes
-  <en|vi|zh|ru|ko|ja|hi>/
+  <language>/                  Localized blog indexes
+  <en|vi|zh|zh-Hant|ru|ko|ja|hi|fr|de|es|th|id>/
     tips/vietnam-travel-planning/index.html
     hotels/where-to-stay-in-da-nang/index.html
     tours/da-nang-hoi-an-hue/index.html
     destinations/vietnam-heritage-guide/index.html
     tips/da-nang-hotels-tours-flights-2026/index.html
+    food/vietnam-food-guide/index.html
+    experiences/coastal-vietnam-experiences/index.html
+    destinations/hanoi-ho-chi-minh-city-walks/index.html
 scripts/
   content.py                    Translations and official reference links
   x_post.py                     Expanded guide based on the owner-supplied X post
+  extra_locales.py              Six additional translated editions
+  extra_topics.py               Food, coastal experiences and city walks
+  feature_images.py             Original SVG artwork generator
   build_site.py                 Static page and sitemap generator
   check_site.py                 Dependency-free structural checks
 ```
 
 The blog covers real places and practical planning, with links to Vietnam Tourism, Vietnam Immigration and UNESCO. It does not claim first-hand visits, hotel ratings, live prices or guaranteed tour schedules. Generic landing-page photos remain illustrative. The article text and official reference links should be rechecked when entry rules or destination operations change.
 
-The Da Nang 2026 hotel/tour/flight guide is based on the text of [this @stayindanang X post](https://x.com/stayindanang/status/2089517209634869439) supplied by the owner. The original post could not be fetched in the cloud environment. Its Trip.com link (`https://www.trip.com/t/ntD1RotVvV2`) is used for this guide's booking button, and the original post is cited on all seven translations. Promotional claims about ratings, cheap flights and exclusive prices are not treated as verified facts. No publication date is inferred from the X status ID.
+The Da Nang 2026 hotel/tour/flight guide is based on the text of [this @stayindanang X post](https://x.com/stayindanang/status/2089517209634869439) supplied by the owner. The original post could not be fetched in the cloud environment. Its Trip.com link (`https://www.trip.com/t/ntD1RotVvV2`) is used for this guide's booking button, and the original post is cited on all 13 language editions. Promotional claims about ratings, cheap flights and exclusive prices are not treated as verified facts. No publication date is inferred from the X status ID.
+
+Every article and blog card has a locally stored featured illustration. Each topic has its own original SVG cover, shared across translations with localized alternative text and an article caption identifying it as an illustration rather than a destination photograph. The artwork does not require external image services and is regenerated by the site build. The original landing page still uses illustrative remote photos.
 
 ## Local development
 
@@ -49,7 +60,7 @@ python3 scripts/check_site.py
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit `scripts/content.py` or the sourced guide in `scripts/x_post.py` and run the generator to update localized pages, blog pages and `sitemap.xml`. The English landing page is maintained directly except for its blog-card section, which the generator refreshes. Shared files in `assets/` are maintained directly.
+No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit the appropriate content module in `scripts/` and run the generator to update localized pages, blog pages, cover illustrations and `sitemap.xml`. The English landing page is maintained directly except for blog cards, language navigation and alternate-language metadata, which the generator refreshes. Shared CSS and JavaScript in `assets/` are maintained directly.
 
 ## Trip.com banners
 

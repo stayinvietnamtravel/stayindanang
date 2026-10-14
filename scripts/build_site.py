@@ -6,13 +6,14 @@ import json
 import os
 import re
 import xml.etree.ElementTree as ET
-from content import CONTENT, LANGUAGES, SLUGS, SOURCES, SEARCH_COPY, ARTICLE_DETAILS
+from content import CONTENT, LANGUAGES, SLUGS, SOURCES, SEARCH_COPY, ARTICLE_DETAILS, FEATURE_CAPTIONS
+from feature_images import build_images
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
 BANNERS = [('S14984461', 'hotel', 900, 200), ('SB20219796', 'web_tripbanner', 300, 250), ('DB13678212', 'web_danang', 250, 250)]
 E = escape
-CATEGORY_LABELS = {'tips': 2, 'hotels': 3, 'tours': 4, 'destinations': 5}
+CATEGORY_LABELS = {'tips': 2, 'hotels': 3, 'tours': 4, 'destinations': 5, 'food':22, 'experiences':23}
 
 
 def home(lang):
@@ -41,7 +42,8 @@ def language_links(lang, current, counterparts):
     for code, label in LANGUAGES.items():
         active = ' aria-current="page"' if code == lang else ''
         links.append(f'<a href="{relative(current, counterparts[code])}" lang="{code}" hreflang="{code}"{active}>{label}</a>')
-    return f'<nav class="language-bar" aria-label="{E(CONTENT[lang]["ui"][17])}">' + ''.join(links) + '</nav>'
+    label = E(CONTENT[lang]['ui'][17])
+    return f'<details class="language-picker"><summary>{label} · {E(LANGUAGES[lang])}</summary><nav class="language-bar" aria-label="{label}">' + ''.join(links) + '</nav></details>'
 
 
 def ads(lang, ids=None):
@@ -84,8 +86,11 @@ def cards(lang, current):
     result = []
     for i, (title, intro, _) in enumerate(CONTENT[lang]['articles']):
         category = u[CATEGORY_LABELS[SLUGS[i][0]]]
-        result.append(f'<a class="blog-card" href="{relative(current, article(lang, i))}"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></a>')
-    return '<div class="blog-grid">' + ''.join(result) + '</div>'
+        image = f'assets/blog/{SLUGS[i][1]}.svg'
+        result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}"><img class="blog-cover" src="{relative(current,image)}" width="1020" height="540" alt="{E(title)}" loading="lazy"><div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
+    filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
+    filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
+    return '<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>'
 
 
 def write(path, html):
@@ -95,6 +100,7 @@ def write(path, html):
 
 
 def build():
+    build_images(ROOT)
     all_pages = []
     for lang in LANGUAGES:
         u = CONTENT[lang]['ui']
@@ -121,13 +127,15 @@ def build():
             counterparts = {code: article(code,i) for code in LANGUAGES}
             all_pages.append((path,counterparts))
             body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(category)}</nav><span class="pill">{E(category)}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p>'
+            image = f'assets/blog/{SLUGS[i][1]}.svg'
+            body += f'<figure class="featured-image"><img src="{relative(path,image)}" width="1020" height="540" alt="{E(title)}" fetchpriority="high"><figcaption>{E(FEATURE_CAPTIONS[lang])}</figcaption></figure>'
             if 'source_notes' in details:
                 body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
             body += f'<aside class="editorial-note">{E(u[13])}</aside><h2>{E(u[12])}</h2><ul class="source-list">'
             body += ''.join(f'<li><a href="{E(source)}" target="_blank" rel="noopener noreferrer">{E(label)}</a></li>' for label,source in SOURCES[i])
             body += f'</ul><p><a class="btn" href="{E(booking)}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="blog-{SLUGS[i][0]}">{E(u[8])}</a></p><p><a href="{relative(path, blog(lang))}">{E(u[14])} →</a></p></article></div>' + ads(lang,['SB20219796','DB13678212'])
-            structured = {'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[source for _,source in SOURCES[i]]}
+            structured = {'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'image':BASE+image,'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[source for _,source in SOURCES[i]]}
             write(path,document(lang,path,title,intro,body,counterparts,structured))
     # Keep the hand-maintained English landing page's blog cards in sync.
     english = ROOT / 'index.html'
@@ -135,6 +143,11 @@ def build():
     updated, matches = re.subn(r'<section class="section" id="blog">.*?</section>', lambda _: section, english.read_text(encoding='utf-8'), flags=re.S)
     if matches != 1:
         raise ValueError('Expected exactly one English homepage blog section')
+    updated = re.sub(r'<details class="language-picker">.*?</details>|<nav class="language-bar".*?</nav>', lambda _: language_links('en', 'index.html', {code:home(code) for code in LANGUAGES}), updated, flags=re.S)
+    updated = re.sub(r'<link rel="alternate"[^>]*>\s*', '', updated)
+    alternates = ''.join(f'<link rel="alternate" hreflang="{code}" href="{url(home(code))}">\n' for code in LANGUAGES)
+    alternates += f'<link rel="alternate" hreflang="x-default" href="{url(home("en"))}">\n'
+    updated = updated.replace('<meta property="og:type"', alternates+'<meta property="og:type"', 1)
     english.write_text(updated, encoding='utf-8')
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     ET.register_namespace('xhtml','http://www.w3.org/1999/xhtml')

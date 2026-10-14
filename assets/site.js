@@ -17,6 +17,17 @@
       window.dataLayer.push({ event: 'affiliate_click', partner: 'trip_com', category: link.dataset.affiliate, page: location.pathname });
     });
   });
+  document.querySelectorAll('.blog-browser').forEach(browser => {
+    const buttons = browser.querySelectorAll('[data-blog-filter]');
+    const cards = browser.querySelectorAll('[data-blog-category]');
+    buttons.forEach(button => button.addEventListener('click', () => {
+      const category = button.dataset.blogFilter;
+      buttons.forEach(item => item.setAttribute('aria-pressed', String(item === button)));
+      cards.forEach(card => {
+        card.hidden = category !== 'all' && card.dataset.blogCategory !== category;
+      });
+    }));
+  });
   document.querySelectorAll('.ad-frame').forEach(frame => {
     // Preserve the partner widget's readable controls; contain horizontal
     // scrolling within the frame instead of shrinking the search interface.

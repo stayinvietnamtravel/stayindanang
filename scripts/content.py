@@ -183,3 +183,20 @@ SOURCES.append([
 ARTICLE_DETAILS = {X_SLUG[1]: {'booking': X_BOOKING, 'source_notes': X_NOTES}}
 for code in LANGUAGES:
     CONTENT[code]['articles'].append(X_ARTICLES[code])
+
+from extra_locales import LANGUAGES as EXTRA_LANGUAGES, CONTENT as EXTRA_CONTENT
+from extra_topics import SLUGS as EXTRA_SLUGS, SOURCES as EXTRA_SOURCES, ARTICLES as EXTRA_ARTICLES, LABELS as EXTRA_LABELS
+
+LANGUAGES.update(EXTRA_LANGUAGES)
+for code, data in EXTRA_CONTENT.items():
+    CONTENT[code] = {'ui': data['ui'], 'articles': data['articles']}
+    SEARCH_COPY[code] = data['search']
+    ARTICLE_DETAILS[X_SLUG[1]]['source_notes'][code] = data['note']
+SLUGS.extend(EXTRA_SLUGS)
+SOURCES.extend(EXTRA_SOURCES)
+ALL_LABELS = {'en':'All topics','vi':'Tất cả chủ đề','zh':'全部主题','zh-Hant':'全部主題','ru':'Все темы','ko':'모든 주제','ja':'すべてのテーマ','hi':'सभी विषय','fr':'Tous les thèmes','de':'Alle Themen','es':'Todos los temas','th':'ทุกหัวข้อ','id':'Semua topik'}
+FEATURE_CAPTIONS = {}
+for code in LANGUAGES:
+    CONTENT[code]['ui'].extend(EXTRA_LABELS[code][:2] + [ALL_LABELS[code]])
+    CONTENT[code]['articles'].extend(EXTRA_ARTICLES[code])
+    FEATURE_CAPTIONS[code] = EXTRA_LABELS[code][2]
