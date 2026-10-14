@@ -1,6 +1,56 @@
 {
-  "last_updated": "2026-10-14T09:01:03.919720+00:00",
+  "last_updated": "2026-10-14T18:18:23.380340+00:00",
   "articles": [
+    {
+      "title": "World Aviation Festival 2026 opened in Lisbon with focus on AI and operations",
+      "url": "https://www.traveldailynews.com/meetings-events/world-aviation-festival-2026-ai-airline-innovation/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T12:40:51+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "IATA and WSHA partner on sustainable hotel procurement",
+      "url": "https://www.traveldailynews.com/special-interest-travel/sustainable-tourism/iata-wsha-sustainable-hotel-procurement/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T12:15:21+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Ethiopia explores tourism Cooperation with ECTAA",
+      "url": "https://www.traveldailynews.com/destinations/ethiopia-tourism-cooperation-ectaa-europe/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T10:15:53+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "oneworld relaunches Meetings & Events product for international gatherings",
+      "url": "https://www.traveldailynews.com/mice-industry/oneworld-meetings-events-relaunch-global-gatherings-trends/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T10:05:05+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "FACILITATE Community launches at TIS 2026 to support tourism data transition",
+      "url": "https://www.traveldailynews.com/meetings-events/facilitate-community-launch-tis-2026-tourism-data/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T09:11:25+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "Europe maintains long-haul travel share as Autumn bookings hold steady",
       "url": "https://www.traveldailynews.com/statistics-trends/long-haul-travel-europe-autumn-2026-bookings/",
@@ -79,56 +129,6 @@
       "published_at": "2026-10-14T07:12:02+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Jeddah hotels record September growth during Gulf Cup",
-      "url": "https://www.traveldailynews.com/statistics-trends/jeddah-hotel-performance-september-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T07:10:41+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "DesignBlok 2026 returned to Prague with “Light” as its central theme",
-      "url": "https://www.traveldailynews.com/meetings-events/designblok-2026-returned-to-prague-with-light-as-its-central-theme/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T07:03:17+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "HAMA releases Fall 2026 Hospitality Industry Outlook Survey",
-      "url": "https://www.traveldailynews.com/statistics-trends/hama-fall-2026-hospitality-industry-outlook-survey/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T06:18:19+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "What Results Can You Expect From Teeth Whitening",
-      "url": "https://www.traveldailynews.com/column/featured-articles/what-results-can-you-expect-from-teeth-whitening/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:59:18+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Makeready promotes Sam Tucker to Regional Sales and Marketing Director",
-      "url": "https://www.traveldailynews.com/people/new-appointments/makeready-promotes-sam-tucker-regional-director/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:54:41+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-14T09:01:03.919720+00:00",
-      "last_success_at": "2026-10-14T09:01:03.919720+00:00",
+      "last_attempt_at": "2026-10-14T18:18:23.380340+00:00",
+      "last_success_at": "2026-10-14T18:18:23.380340+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-14T09:01:03.919720+00:00",
-      "last_success_at": "2026-10-14T09:01:03.919720+00:00",
+      "last_attempt_at": "2026-10-14T18:18:23.380340+00:00",
+      "last_success_at": "2026-10-14T18:18:23.380340+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-14T09:01:03.919720+00:00",
-      "last_success_at": "2026-10-14T09:01:03.919720+00:00",
+      "last_attempt_at": "2026-10-14T18:18:23.380340+00:00",
+      "last_success_at": "2026-10-14T18:18:23.380340+00:00",
       "status": "ok",
       "count": 10
     }
