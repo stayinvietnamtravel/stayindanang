@@ -1,0 +1,498 @@
+{
+  "source": "Bookdeal.xlsx",
+  "source_date": null,
+  "contains_prices": false,
+  "rows": [
+    {
+      "name": "Menora Grand Da Nang",
+      "display_name": "Menora Grand Da Nang",
+      "url": "https://www.trip.com/w/WHqgSgn8kW2",
+      "group": "Top Deals",
+      "sheet_row": 8,
+      "slug": "menora-grand-da-nang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Ocean Garden Boutique Da Nang a Salve by Haviland",
+      "display_name": "Ocean Garden Boutique Da Nang a Salve by Haviland",
+      "url": "https://www.trip.com/w/wDIK0xo8kW2",
+      "group": "Top Deals",
+      "sheet_row": 9,
+      "slug": "ocean-garden-boutique-da-nang-a-salve-by-haviland",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Lavender Riverside Hotel",
+      "display_name": "Lavender Riverside Hotel",
+      "url": "https://www.trip.com/w/CWz5e1s8kW2",
+      "group": "Top Deals",
+      "sheet_row": 10,
+      "slug": "lavender-riverside-hotel",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Royal Charm Hotel Danang",
+      "display_name": "Royal Charm Hotel Danang",
+      "url": "https://www.trip.com/w/qLJZIts8kW2",
+      "group": "Top Deals",
+      "sheet_row": 11,
+      "slug": "royal-charm-hotel-danang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "First Studio Hotel Da Nang",
+      "display_name": "First Studio Hotel Da Nang",
+      "url": "https://www.trip.com/w/mJfaOZt8kW2",
+      "group": "Top Deals",
+      "sheet_row": 12,
+      "slug": "first-studio-hotel-da-nang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "TUI BLUE Han River",
+      "display_name": "TUI BLUE Han River",
+      "url": "https://www.trip.com/w/mfl3SFu8kW2",
+      "group": "Top Deals",
+      "sheet_row": 13,
+      "slug": "tui-blue-han-river",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Golden Light Hotel",
+      "display_name": "Golden Light Hotel",
+      "url": "https://www.trip.com/w/1T1UQ4v8kW2",
+      "group": "Top Deals",
+      "sheet_row": 14,
+      "slug": "golden-light-hotel",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Phương Đông - Orient Hotel Da Nang",
+      "display_name": "Phương Đông",
+      "url": "https://www.trip.com/w/tnYUSiv8kW2",
+      "group": "Top Deals",
+      "sheet_row": 15,
+      "slug": "phuong-ong-orient-hotel-da-nang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "SEA QUEEN HOTEL",
+      "display_name": "SEA QUEEN HOTEL",
+      "url": "https://www.trip.com/w/c0Fz9Pw8kW2",
+      "group": "Top Deals",
+      "sheet_row": 16,
+      "slug": "sea-queen-hotel",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Avatar Danang Hotel",
+      "display_name": "Avatar Danang Hotel",
+      "url": "https://www.trip.com/w/yLaJacx8kW2",
+      "group": "Top Deals",
+      "sheet_row": 17,
+      "slug": "avatar-danang-hotel",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Elite Riverlight Boutique Hotel by Elite24",
+      "display_name": "Elite Riverlight Boutique Hotel by Elite24",
+      "url": "https://www.trip.com/w/cr1lNCy8kW2",
+      "group": "Top Deals",
+      "sheet_row": 18,
+      "slug": "elite-riverlight-boutique-hotel-by-elite24",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "ANFADA Hotel Danang",
+      "display_name": "ANFADA Hotel Danang",
+      "url": "https://www.trip.com/w/MS2GUuy8kW2",
+      "group": "Top Deals",
+      "sheet_row": 19,
+      "slug": "anfada-hotel-danang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "La Palma Boutique Hotel Da Nang",
+      "display_name": "La Palma Boutique Hotel Da Nang",
+      "url": "https://www.trip.com/w/IijpH009kW2",
+      "group": "Top Deals",
+      "sheet_row": 20,
+      "slug": "la-palma-boutique-hotel-da-nang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "My Khe Diamond Beach Hotel",
+      "display_name": "My Khe Diamond Beach Hotel",
+      "url": "https://www.trip.com/w/2Xkadf09kW2",
+      "group": "Top Deals",
+      "sheet_row": 21,
+      "slug": "my-khe-diamond-beach-hotel",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Seahorse Natalie Da Nang Hotel By Sujet of Haviland",
+      "display_name": "Seahorse Natalie Da Nang Hotel By Sujet of Haviland",
+      "url": "https://www.trip.com/w/W37qBL19kW2",
+      "group": "Top Deals",
+      "sheet_row": 22,
+      "slug": "seahorse-natalie-da-nang-hotel-by-sujet-of-haviland",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Hôtel de Soie",
+      "display_name": "Hôtel de Soie",
+      "url": "https://www.trip.com/w/T0jMBw19kW2",
+      "group": "Top Deals",
+      "sheet_row": 23,
+      "slug": "hotel-de-soie",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Olwen Boutique Hotel",
+      "display_name": "Olwen Boutique Hotel",
+      "url": "https://www.trip.com/w/Q3B4BY29kW2",
+      "group": "Top Deals",
+      "sheet_row": 24,
+      "slug": "olwen-boutique-hotel",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Taian Hotel & Apartment",
+      "display_name": "Taian Hotel & Apartment",
+      "url": "https://www.trip.com/w/3wo42M39kW2",
+      "group": "Top Deals",
+      "sheet_row": 25,
+      "slug": "taian-hotel-apartment",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Golden Lotus Grand Da Nang - Panoramic Rooftop Bar & Daily Afternoon Tea",
+      "display_name": "Golden Lotus Grand Da Nang",
+      "url": "https://www.trip.com/w/HBeQK149kW2",
+      "group": "Top Deals",
+      "sheet_row": 26,
+      "slug": "golden-lotus-grand-da-nang-panoramic-rooftop-bar-daily-afternoon-tea",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "DOMA by HSuites Hotel & Apartment",
+      "display_name": "DOMA by HSuites Hotel & Apartment",
+      "url": "https://www.trip.com/w/JJXSMt49kW2",
+      "group": "Top Deals",
+      "sheet_row": 27,
+      "slug": "doma-by-hsuites-hotel-apartment",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "The View Boutique Hoi An",
+      "display_name": "The View Boutique Hoi An",
+      "url": "https://www.trip.com/w/Jq2AmD59kW2",
+      "group": "Top Deals",
+      "sheet_row": 28,
+      "slug": "the-view-boutique-hoi-an",
+      "included": false,
+      "location_note": null
+    },
+    {
+      "name": "Cozy Savvy Hoi An - The Quintessence of Exquisite Retreat",
+      "display_name": "Cozy Savvy Hoi An",
+      "url": "https://www.trip.com/w/AAGW1c69kW2",
+      "group": "Top Deals",
+      "sheet_row": 29,
+      "slug": "cozy-savvy-hoi-an-the-quintessence-of-exquisite-retreat",
+      "included": false,
+      "location_note": null
+    },
+    {
+      "name": "Four Points by Sheraton Danang",
+      "display_name": "Four Points by Sheraton Danang",
+      "url": "https://www.trip.com/w/mZ3nBO79kW2",
+      "group": "Top Deals",
+      "sheet_row": 30,
+      "slug": "four-points-by-sheraton-danang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Smeraldo Hotel & Apartment",
+      "display_name": "Smeraldo Hotel & Apartment",
+      "url": "https://www.trip.com/w/hxKWhy79kW2",
+      "group": "Top Deals",
+      "sheet_row": 31,
+      "slug": "smeraldo-hotel-apartment",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Hoi An Rosemary Boutique Hotel & Spa - A Peaceful Retreat",
+      "display_name": "Hoi An Rosemary Boutique Hotel & Spa",
+      "url": "https://www.trip.com/w/P0qOOd89kW2",
+      "group": "Top Deals",
+      "sheet_row": 32,
+      "slug": "hoi-an-rosemary-boutique-hotel-spa-a-peaceful-retreat",
+      "included": false,
+      "location_note": null
+    },
+    {
+      "name": "SEAESTA An Bang",
+      "display_name": "SEAESTA An Bang",
+      "url": "https://www.trip.com/w/IxO80G99kW2",
+      "group": "Top Deals",
+      "sheet_row": 33,
+      "slug": "seaesta-an-bang",
+      "included": false,
+      "location_note": null
+    },
+    {
+      "name": "ENSO Retreat Hoi An - Rediscovery & Serenity",
+      "display_name": "ENSO Retreat Hoi An",
+      "url": "https://www.trip.com/w/g6Jk6x99kW2",
+      "group": "Top Deals",
+      "sheet_row": 34,
+      "slug": "enso-retreat-hoi-an-rediscovery-serenity",
+      "included": false,
+      "location_note": null
+    },
+    {
+      "name": "EMM Hotel Hoi An",
+      "display_name": "EMM Hotel Hoi An",
+      "url": "https://www.trip.com/w/m3k5VXA9kW2",
+      "group": "Top Deals",
+      "sheet_row": 35,
+      "slug": "emm-hotel-hoi-an",
+      "included": false,
+      "location_note": null
+    },
+    {
+      "name": "Mercury Beach DaNang",
+      "display_name": "Mercury Beach DaNang",
+      "url": "https://www.trip.com/w/F7xI6CB9kW2",
+      "group": "Top Deals",
+      "sheet_row": 36,
+      "slug": "mercury-beach-danang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "HAIAN Beach Hotel & Spa",
+      "display_name": "HAIAN Beach Hotel & Spa",
+      "url": "https://www.trip.com/w/536RUCD9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 7,
+      "slug": "haian-beach-hotel-spa",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Mercure Danang French Village Bana Hills",
+      "display_name": "Mercure Danang French Village Bana Hills",
+      "url": "https://www.trip.com/w/ZV7VGKE9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 8,
+      "slug": "mercure-danang-french-village-bana-hills",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Sala Danang Beach Hotel",
+      "display_name": "Sala Danang Beach Hotel",
+      "url": "https://www.trip.com/w/MVE7xPF9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 9,
+      "slug": "sala-danang-beach-hotel",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Hilton Da Nang",
+      "display_name": "Hilton Da Nang",
+      "url": "https://www.trip.com/w/IuIYzGG9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 10,
+      "slug": "hilton-da-nang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Da Nang - Mikazuki Japanese Resorts & Spa",
+      "display_name": "Da Nang",
+      "url": "https://www.trip.com/w/yUDgVqG9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 11,
+      "slug": "da-nang-mikazuki-japanese-resorts-spa",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Wyndham Soleil Danang - Free Schedule Airport Shuttle",
+      "display_name": "Wyndham Soleil Danang",
+      "url": "https://www.trip.com/w/91vEsMH9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 12,
+      "slug": "wyndham-soleil-danang-free-schedule-airport-shuttle",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Furama Resort Danang",
+      "display_name": "Furama Resort Danang",
+      "url": "https://www.trip.com/w/Wdrmg1I9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 13,
+      "slug": "furama-resort-danang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Peninsula Hotel Danang",
+      "display_name": "Peninsula Hotel Danang",
+      "url": "https://www.trip.com/w/hoViaZI9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 14,
+      "slug": "peninsula-hotel-danang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Novotel Danang Premier HAN River",
+      "display_name": "Novotel Danang Premier HAN River",
+      "url": "https://www.trip.com/w/hyKiK7J9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 15,
+      "slug": "novotel-danang-premier-han-river",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Muong Thanh Luxury Da Nang Hotel",
+      "display_name": "Muong Thanh Luxury Da Nang Hotel",
+      "url": "https://www.trip.com/w/2hT0RgJ9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 16,
+      "slug": "muong-thanh-luxury-da-nang-hotel",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "M Hotel Danang",
+      "display_name": "M Hotel Danang",
+      "url": "https://www.trip.com/w/tq1TLCK9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 17,
+      "slug": "m-hotel-danang",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "TMS Hotel Da Nang Beach",
+      "display_name": "TMS Hotel Da Nang Beach",
+      "url": "https://www.trip.com/w/kUfl6fK9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 18,
+      "slug": "tms-hotel-da-nang-beach",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Shilla Monogram Danang",
+      "display_name": "Shilla Monogram Danang",
+      "url": "https://www.trip.com/w/04nrOFL9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 19,
+      "slug": "shilla-monogram-danang",
+      "included": true,
+      "location_note": "coastal-corridor"
+    },
+    {
+      "name": "voco Ma Belle Danang by IHG",
+      "display_name": "voco Ma Belle Danang by IHG",
+      "url": "https://www.trip.com/w/2iHHjkL9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 20,
+      "slug": "voco-ma-belle-danang-by-ihg",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Wyndham Danang Golden Bay - Free Shuttle Bus to Beach",
+      "display_name": "Wyndham Danang Golden Bay",
+      "url": "https://www.trip.com/w/5333fVM9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 21,
+      "slug": "wyndham-danang-golden-bay-free-shuttle-bus-to-beach",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Hyatt Regency Danang Resort and Spa",
+      "display_name": "Hyatt Regency Danang Resort and Spa",
+      "url": "https://www.trip.com/w/NlcUQyM9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 22,
+      "slug": "hyatt-regency-danang-resort-and-spa",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Pullman Danang Beach Resort",
+      "display_name": "Pullman Danang Beach Resort",
+      "url": "https://www.trip.com/w/vQ0p1cN9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 23,
+      "slug": "pullman-danang-beach-resort",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Danang Marriott Resort & Spa",
+      "display_name": "Danang Marriott Resort & Spa",
+      "url": "https://www.trip.com/w/CEpzy8O9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 24,
+      "slug": "danang-marriott-resort-spa",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "InterContinental DANANG SUN PENINSULA RESORT by IHG",
+      "display_name": "InterContinental DANANG SUN PENINSULA RESORT by IHG",
+      "url": "https://www.trip.com/w/h7q3ijO9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 25,
+      "slug": "intercontinental-danang-sun-peninsula-resort-by-ihg",
+      "included": true,
+      "location_note": null
+    },
+    {
+      "name": "Four Seasons Resort The Nam Hai Hoi An",
+      "display_name": "Four Seasons Resort The Nam Hai Hoi An",
+      "url": "https://www.trip.com/w/6q70LJP9kW2",
+      "group": "Hot Sellers",
+      "sheet_row": 26,
+      "slug": "four-seasons-resort-the-nam-hai-hoi-an",
+      "included": false,
+      "location_note": null
+    }
+  ],
+  "source_sha256": "96ca779ba375f6b6cd1cf9cec127df858f7741f1674eb7ace598ad9128e07830"
+}
