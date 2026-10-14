@@ -15,6 +15,7 @@ from home_tools import home_tools
 from marketplace import marketplace, service_url
 from world_guides import build_pages as build_world_pages, teaser as world_teaser
 from seo import extras as seo_extras, discovery_files
+from assistant import build_data as build_assistant_data, widget as assistant_widget, stats as assistant_stats
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -64,10 +65,10 @@ def document(lang, path, title, description, body, counterparts, structured=None
 <meta name="theme-color" content="#0b3152"><title>{E(title)} | Stay in Da Nang</title>
 <meta name="description" content="{E(description)}"><link rel="canonical" href="{url(path)}">{alternates}
 <meta property="og:type" content="{'article' if structured and structured.get('@type') == 'BlogPosting' else 'website'}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url(path)}">
-<link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}{seo_extras(lang,path,title,description)}</head><body>
+<link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}{seo_extras(lang,path,title,description)}<script src="{relative(path, "assets/assistant.js")}" defer></script></head><body>
 <header class="header simple-header"><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}">☀ Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
 <nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, deals_index(lang))}">{E(DEAL_COPY[lang][0])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a><a href="{relative(path,resources_path(lang))}">{E(TRAVEL_UI[lang][16])}</a></nav>
-<main id="main">{body}</main><footer class="footer"><div class="container"><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p></div></footer></body></html>
+<main id="main">{body}</main><footer class="footer"><div class="container"><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p>{assistant_stats(lang)}</div></footer>{assistant_widget(lang,path,relative)}</body></html>
 '''
 
 
@@ -159,12 +160,18 @@ def build():
     if 'property="og:image"' not in updated:
         updated=updated.replace('</head>', f'<meta property="og:image" content="{BASE}assets/social/travel-guide.png"></head>')
     updated=updated.replace('</head>', '<!-- SEO START -->'+seo_extras('en','index.html',CONTENT['en']['ui'][6],CONTENT['en']['ui'][18])+'<!-- SEO END --></head>')
+    updated=re.sub(r'<!-- ASSISTANT START -->.*?<!-- ASSISTANT END -->', '', updated, flags=re.S)
+    updated=re.sub(r'<!-- FOOTER STATS START -->.*?<!-- FOOTER STATS END -->', '', updated, flags=re.S)
+    updated=updated.replace('</footer>', '<!-- FOOTER STATS START --><div class="container">'+assistant_stats('en')+'</div><!-- FOOTER STATS END --></footer>')
+    if 'assets/assistant.js' not in updated:updated=updated.replace('</head>', '<script src="assets/assistant.js" defer></script></head>')
+    updated=updated.replace('</body>', '<!-- ASSISTANT START -->'+assistant_widget('en','index.html',relative)+'<!-- ASSISTANT END --></body>')
     english.write_text(updated, encoding='utf-8')
     export_deal_posts()
     all_pages.extend(build_deal_pages(document, relative, url, LANGUAGES))
     all_pages.extend(build_travel_pages(document, relative, url, LANGUAGES))
     all_pages.extend(build_world_pages(document,relative,url,LANGUAGES))
     discovery_files(ROOT)
+    build_assistant_data()
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     ET.register_namespace('xhtml','http://www.w3.org/1999/xhtml')
     sitemap = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')

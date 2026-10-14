@@ -1,0 +1,72 @@
+name: Deploy AI assistant and private analytics
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: stayindanang-content-refresh
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ADMIN_TOKEN: ${{ secrets.ASSISTANT_ADMIN_TOKEN }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '22'
+      - name: Check configuration and backend
+        run: |
+          python3 - <<'PY'
+          import os
+          required=('CLOUDFLARE_ACCOUNT_ID','CLOUDFLARE_API_TOKEN','OPENAI_API_KEY','ADMIN_TOKEN')
+          missing=[name for name in required if not os.environ.get(name)]
+          if missing:raise SystemExit('Missing required account variable or secrets: '+', '.join(missing))
+          if len(os.environ['ADMIN_TOKEN'])<32:raise SystemExit('Admin token must have at least 32 characters')
+          PY
+          node --test server/worker.test.mjs
+      - name: Configure Cloudflare resources
+        run: python3 server/configure_cloudflare.py
+      - name: Apply database schema and deploy
+        working-directory: server
+        run: |
+          npx --yes wrangler@4.151.0 d1 migrations apply stayindanang-analytics --remote
+          npx --yes wrangler@4.151.0 deploy
+          printf '%s' "$OPENAI_API_KEY" | npx --yes wrangler@4.151.0 secret put OPENAI_API_KEY
+          printf '%s' "$ADMIN_TOKEN" | npx --yes wrangler@4.151.0 secret put ADMIN_TOKEN
+      - name: Verify deployed health
+        run: |
+          python3 - <<'PY'
+          import json
+          from urllib.request import Request,urlopen
+          config=json.load(open('data/assistant_config.json'))
+          req=Request(config['backend_url']+'/health',headers={'Origin':'https://stayinvietnamtravel.github.io'})
+          with urlopen(req,timeout=30) as response:health=json.load(response)
+          if not health.get('chatReady') or not health.get('analyticsReady'):raise SystemExit('Backend is not ready; website was not connected')
+          payload=json.dumps({'message':'Help me plan a trip to Da Nang.','language':'en','cityKey':'da-nang','history':[]}).encode()
+          req=Request(config['backend_url']+'/chat',data=payload,method='POST',headers={'Origin':'https://stayinvietnamtravel.github.io','Content-Type':'application/json'})
+          with urlopen(req,timeout=40) as response:answer=json.load(response)
+          if not answer.get('answer') or not answer.get('links'):raise SystemExit('AI verification failed; website was not connected')
+          PY
+      - name: Build, check and connect website
+        run: |
+          python3 scripts/build_site.py
+          python3 scripts/check_site.py
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add server/wrangler.jsonc data/assistant_config.json assets/chatbot-data.json index.html de es fr hi id ja ko ru th vi zh zh-Hant blog deals news resources explore sitemap.xml llms.txt
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Connect deployed AI assistant and private visitor statistics'
+          git push origin HEAD:main
+      - name: Request Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" > /dev/null

@@ -102,6 +102,7 @@ def check():
         assert any(schema.get('@type')=='Organization' for schema in page.schemas), (path,'publisher identity')
         assert any(schema.get('@type')=='WebSite' for schema in page.schemas), (path,'site identity')
         assert 'name="twitter:card"' in (ROOT/path).read_text(encoding='utf-8'), (path,'social metadata')
+        assert 'travel-chat-dialog' in page.ids and 'visitor-stats-title' in page.ids, (path,'travel assistant and footer statistics')
         assert not page.frames, (path, "Trip.com banners must remain removed")
         assert "www.trip.com/partners/ad/" not in (ROOT/path).read_text(encoding="utf-8"), path
         if path==home(page.lang):

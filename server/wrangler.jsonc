@@ -1,0 +1,19 @@
+{
+  "name": "stayindanang-travel-assistant",
+  "main": "worker.mjs",
+  "compatibility_date": "2025-04-01",
+  "workers_dev": true,
+  "vars": {
+    "ALLOWED_ORIGIN": "https://stayinvietnamtravel.github.io",
+    "KNOWLEDGE_URL": "https://stayinvietnamtravel.github.io/stayindanang/assets/chatbot-data.json",
+    "OPENAI_MODEL": "gpt-4.1-mini"
+  },
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "stayindanang-analytics",
+    "database_id": "REPLACE_WITH_CREATED_D1_DATABASE_ID",
+    "migrations_dir": "migrations"
+  }],
+  "triggers": {"crons": ["0 * * * *"]},
+  "observability": {"enabled": false}
+}
