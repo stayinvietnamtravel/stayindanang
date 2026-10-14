@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-10-14T08:13:12.600923+00:00",
+  "last_updated": "2026-10-14T09:01:03.919720+00:00",
   "articles": [
+    {
+      "title": "Europe maintains long-haul travel share as Autumn bookings hold steady",
+      "url": "https://www.traveldailynews.com/statistics-trends/long-haul-travel-europe-autumn-2026-bookings/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T08:37:10+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Jamaica and Guyana sign tourism cooperation agreement",
+      "url": "https://www.traveldailynews.com/destinations/jamaica-guyana-tourism-cooperation-agreement-sotic-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T08:28:45+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "Incentive Travel Index 2026 highlights stable demand and rising risks",
       "url": "https://www.traveldailynews.com/mice-industry/incentive-travel/incentive-travel-index-2026-demand-airlift-destination-risks/",
@@ -107,26 +127,6 @@
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-10-14T05:54:41+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Malta Tourism Authority and Trip.com Group sign tourism cooperation agreement",
-      "url": "https://www.traveldailynews.com/destinations/malta-trip-com-partnership-tourism-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:50:31+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Fraport reports 2.7% passenger growth in September 2026",
-      "url": "https://www.traveldailynews.com/aviation/fraport-passenger-traffic-september-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:50:02+00:00",
       "countries": [
         "international"
       ]
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-14T08:13:12.600923+00:00",
-      "last_success_at": "2026-10-14T08:13:12.600923+00:00",
+      "last_attempt_at": "2026-10-14T09:01:03.919720+00:00",
+      "last_success_at": "2026-10-14T09:01:03.919720+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-14T08:13:12.600923+00:00",
-      "last_success_at": "2026-10-14T08:13:12.600923+00:00",
+      "last_attempt_at": "2026-10-14T09:01:03.919720+00:00",
+      "last_success_at": "2026-10-14T09:01:03.919720+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-14T08:13:12.600923+00:00",
-      "last_success_at": "2026-10-14T08:13:12.600923+00:00",
+      "last_attempt_at": "2026-10-14T09:01:03.919720+00:00",
+      "last_success_at": "2026-10-14T09:01:03.919720+00:00",
       "status": "ok",
       "count": 10
     }
