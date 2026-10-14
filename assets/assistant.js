@@ -31,7 +31,9 @@
   };
   const guideReply = question => {
     const text = clean(question);
-    const hotel = data.hotels.find(h => text.includes(clean(h.name)) || text.length >= 6 && clean(h.name).includes(text));
+    const isDestination = Object.values(data.cities).some(city => [city.name,...(city.aliases || [])].some(name => clean(name) === text));
+    const partial = text.length >= 6 && !isDestination ? data.hotels.filter(h => clean(h.name).includes(text)) : [];
+    const hotel = data.hotels.find(h => text.includes(clean(h.name))) || (partial.length === 1 ? partial[0] : null);
     const region = location.pathname.match(/\/explore\/[^/]+\/(asia|europe|americas|oceania)\//)?.[1];
     const selectedCity = document.querySelector('.booking-destination')?.value || (region ? Object.entries(data.cities).find(([,city]) => city.region === region)?.[0] : null);
     const city = Object.entries(data.cities).find(([key,value]) => [value.name,...(value.aliases || [])].some(name => text.includes(clean(name))) || text.includes(key.replace(/-/g,' ')))?.[0] || selectedCity || 'da-nang';

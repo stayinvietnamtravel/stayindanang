@@ -37,7 +37,10 @@ function linksFor(result,data,language,message) {
   const labels=data.locales[language] || data.locales.en;
   const service=Object.hasOwn(data.services,result.service)?result.service:'hotels';
   const normalize=value=>value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-  const hotel=data.hotels.find(h=>h.slug===result.hotelSlug && (normalize(message).includes(normalize(h.name)) || message.length>=6 && normalize(h.name).includes(normalize(message))));
+  const text=normalize(message);
+  const destinationName=Object.values(data.cities).some(city=>[city.name,...(city.aliases || [])].some(name=>normalize(name)===text));
+  const partial=message.length>=6 && !destinationName ? data.hotels.filter(h=>normalize(h.name).includes(text)) : [];
+  const hotel=data.hotels.find(h=>h.slug===result.hotelSlug && (text.includes(normalize(h.name)) || partial.length===1 && partial[0].slug===h.slug));
   const city=Object.hasOwn(data.cities,result.cityKey)?result.cityKey:'da-nang';
   const links=[{label:labels.services[service]+' · Trip.com',url:hotel && service==='hotels' && city==='da-nang' ? hotel.url : data.services[service],service}];
   links.push({label:labels.ui[5],url:data.base+'explore/'+(Object.hasOwn(data.locales,language)?language:'en')+'/'+data.cities[city].region+'/'});
