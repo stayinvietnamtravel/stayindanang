@@ -11,6 +11,7 @@ from content import LANGUAGES, SLUGS, ARTICLE_DETAILS
 from deal_posts import HOTELS, DATA, EXPORT_ROOT, page_pairs, post_path, image_path, social_post, short_post
 from hotel_editorial import editorial
 from marketplace import CONFIG as AFFILIATE_CONFIG, FEATURED, service_url
+from world_destinations import COUNTRIES, CITY_KEYS, REGION_KEYS
 from travel_portal import page_pairs as travel_page_pairs, SOURCES as TRAVEL_SOURCES, safe_articles
 import struct
 import zipfile
@@ -102,6 +103,9 @@ def check():
         if path==home(page.lang):
             assert 'weather' in page.ids and 'trip-ideas' in page.ids and 'weather-city' in page.ids, (path,'homepage tools')
             assert all(key in page.ids for key in ('booking','destinations','tours','hotels','flights','affiliate-routes')), (path,'discovery navigation')
+            html=(ROOT/path).read_text(encoding='utf-8')
+            assert 'class="booking-continent"' in html and 'class="booking-country"' in html, (path,'world destination filters')
+            assert all(f'value="{key}" data-country=' in html for key in CITY_KEYS), (path,'world destination options')
             targets=[target for kind,target in page.links if kind=='a']
             assert all(link in targets for link in AFFILIATE_CONFIG['services'].values()), (path,'service affiliate routes')
             assert all(h['url'] in targets for h in HOTELS if h['slug'] in FEATURED), (path,'featured property routes')

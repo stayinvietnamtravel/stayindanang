@@ -7,6 +7,7 @@ import re
 from deal_posts import HOTELS, image_path, post_path, index_path, COPY as HOTEL_COPY
 from home_tools import COPY as HOME_COPY
 from destinations import CITIES, DESTINATIONS
+from world_destinations import COUNTRIES, CITY_KEYS, REGIONS, REGION_KEYS, country_name, city_name
 from content import CONTENT
 ROOT=Path(__file__).resolve().parents[1]
 CONFIG=json.loads((ROOT/'data/affiliate_routes.json').read_text())
@@ -20,7 +21,7 @@ def valid_url(value):
 valid_url(CONFIG['default_url'])
 for link in CONFIG['services'].values():valid_url(link)
 for city,routes in CONFIG['routes'].items():
-    if city not in CITIES:raise ValueError('Unknown affiliate destination')
+    if city not in CITY_KEYS:raise ValueError('Unknown affiliate destination')
     for service,link in routes.items():
         if service not in ('hotels','tours','flights','transfers','cars'):raise ValueError('Unknown affiliate service')
         valid_url(link)
@@ -53,8 +54,16 @@ def affiliate_config():
 
 def booking(lang,current,relative):
     u=UI[lang];content=CONTENT[lang]['ui'];names=DESTINATIONS[lang][3]
-    result=f'<section class="booking-hub" id="booking"><div class="container"><div class="booking-panel"><div class="section-heading"><h2>{E(u[0])}</h2><a class="text-link" href="{relative(current,index_path(lang))}">{E(u[10])}</a></div><div class="booking-fields"><label>{E(u[1])}<select class="booking-destination">'
-    for key,name in zip(CITIES,names):result+=f'<option value="{key}">{E(name)}</option>'
+    world=REGIONS[lang]
+    result=f'<section class="booking-hub" id="booking"><div class="container"><div class="booking-panel"><div class="section-heading"><h2>{E(u[0])}</h2><a class="text-link" href="{relative(current,index_path(lang))}">{E(u[10])}</a></div><div class="booking-geography"><label>{E(world[0])}<select class="booking-continent"><option value="all">{E(world[3])}</option>'
+    for key,label in zip(REGION_KEYS,world[4:]):result+=f'<option value="{key}">{E(label)}</option>'
+    result+=f'</select></label><label>{E(world[1])}<select class="booking-country"><option value="all">{E(world[3])}</option>'
+    for country in COUNTRIES:result+=f'<option value="{country[1]}" data-continent="{country[0]}" data-country-code="{country[1]}">{E(country_name(country,lang))}</option>'
+    result+=f'</select></label></div><div class="booking-fields"><label>{E(world[2])}<select class="booking-destination">'
+    for country in COUNTRIES:
+        result+=f'<optgroup label="{E(country_name(country,lang))}" data-country-code="{country[1]}">'
+        for city in country[4]:result+=f'<option value="{city[0]}" data-country="{country[1]}" data-continent="{country[0]}">{E(city_name(city,lang))}</option>'
+        result+='</optgroup>'
     result+=f'</select></label><label>{E(u[2])}<select class="booking-service">'
     for key,label in service_labels(lang).items():
         result+=f'<option value="{key}">{E(label)}</option>'

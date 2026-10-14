@@ -104,9 +104,38 @@
     try {
       const routes = JSON.parse(routeElement.textContent);
       const destination = booking.querySelector('.booking-destination');
+      const continent = booking.querySelector('.booking-continent');
+      const country = booking.querySelector('.booking-country');
       const service = booking.querySelector('.booking-service');
       const hotel = booking.querySelector('.booking-property');
       const action = booking.querySelector('.booking-action');
+      const weather = document.querySelector('#weather-city');
+      let countryNames;
+      try { countryNames = new Intl.DisplayNames([document.documentElement.lang], {type:'region'}); } catch (_) {}
+      if (countryNames) {
+        country.querySelectorAll('[data-country-code]').forEach(option => { option.textContent = countryNames.of(option.dataset.countryCode); });
+        destination.querySelectorAll('optgroup').forEach(group => { group.label = countryNames.of(group.dataset.countryCode); });
+      }
+      const allCountries = Array.from(country.options).map(option => option.cloneNode(true));
+      const allGroups = Array.from(destination.children).map(group => group.cloneNode(true));
+      const allCities = Array.from(destination.options);
+      const preferenceKey = 'stayindanang-booking-destination:v1';
+      const filterCountries = () => {
+        const previous = country.value;
+        country.replaceChildren(...allCountries.filter(option => option.value === 'all' || continent.value === 'all' || option.dataset.continent === continent.value).map(option => option.cloneNode(true)));
+        country.value = Array.from(country.options).some(option => option.value === previous) ? previous : 'all';
+      };
+      const filterCities = (preferred = destination.value) => {
+        const groups = allGroups.map(original => {
+          const group = original.cloneNode(true);
+          Array.from(group.children).forEach(option => {
+            if ((continent.value !== 'all' && option.dataset.continent !== continent.value) || (country.value !== 'all' && option.dataset.country !== country.value)) option.remove();
+          });
+          return group;
+        }).filter(group => group.children.length);
+        destination.replaceChildren(...groups);
+        destination.value = Array.from(destination.options).some(option => option.value === preferred) ? preferred : destination.options[0].value;
+      };
       const updateBooking = () => {
         const specific = destination.value === 'da-nang' && service.value === 'hotels';
         hotel.disabled = !specific;
@@ -117,22 +146,39 @@
         if (parsed.protocol !== 'https:' || parsed.hostname !== 'www.trip.com' || !/^\/(t|w)\/[a-zA-Z0-9]+$/.test(parsed.pathname) || parsed.search || parsed.hash || parsed.username || parsed.password || parsed.port) return;
         action.href = target;
         action.dataset.affiliate = hotelKey ? `hotel-${hotelKey}` : `planner-${destination.value}-${service.value}`;
-        const summary = [destination.selectedOptions[0].textContent,service.selectedOptions[0].textContent];
+        const city = destination.selectedOptions[0];
+        const countryLabel = allCountries.find(option => option.value === city.dataset.country)?.textContent;
+        const summary = [city.textContent];
+        if (countryLabel && countryLabel !== city.textContent) summary.push(countryLabel);
+        summary.push(service.selectedOptions[0].textContent);
         if (hotelKey) summary.push(hotel.selectedOptions[0].textContent);
         booking.querySelector('.booking-summary').textContent = summary.join(' · ');
+        try { localStorage.setItem(preferenceKey, destination.value); } catch (_) {}
       };
-      destination.addEventListener('change', () => {
-        updateBooking();
-        const weather = document.querySelector('#weather-city');
-        if (weather) { weather.value = destination.value; weather.dispatchEvent(new Event('change')); }
+      const syncWeather = () => {
+        if (weather && Array.from(weather.options).some(option => option.value === destination.value)) {
+          weather.value = destination.value;
+          weather.dispatchEvent(new Event('change'));
+        }
+      };
+      continent.addEventListener('change', () => {
+        country.value = 'all';filterCountries();filterCities();updateBooking();syncWeather();
       });
-      service.addEventListener('change',updateBooking);
-      hotel.addEventListener('change',updateBooking);
-      const weather = document.querySelector('#weather-city');
-      if (weather) {
-        destination.value = weather.value;
-        weather.addEventListener('change', () => { destination.value = weather.value; updateBooking(); });
-      }
+      country.addEventListener('change', () => { filterCities();updateBooking();syncWeather(); });
+      destination.addEventListener('change', () => { updateBooking();syncWeather(); });
+      service.addEventListener('change', updateBooking);
+      hotel.addEventListener('change', updateBooking);
+      let initial = weather?.value || 'da-nang';
+      try {
+        const saved = localStorage.getItem(preferenceKey);
+        if (allCities.some(option => option.value === saved)) initial = saved;
+      } catch (_) {}
+      destination.value = initial;
+      if (weather) weather.addEventListener('change', () => {
+        // Keep international choices independent from the Vietnam-only forecasts.
+        if (weather.value === destination.value) return;
+        continent.value = 'asia';filterCountries();country.value = 'VN';filterCities(weather.value);updateBooking();
+      });
       updateBooking();
     } catch (_) { /* Keep the validated static affiliate link usable. */ }
   }
