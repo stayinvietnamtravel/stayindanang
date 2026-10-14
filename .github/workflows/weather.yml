@@ -1,4 +1,4 @@
-name: Refresh Vietnam destination weather
+name: Refresh World destination weather
 
 on:
   workflow_dispatch:
@@ -10,6 +10,8 @@ on:
       - '.github/workflows/weather.yml'
       - 'scripts/refresh_weather.py'
       - 'scripts/destinations.py'
+      - 'scripts/world_weather.py'
+      - 'scripts/world_destinations.py'
 
 permissions:
   contents: write
@@ -43,8 +45,8 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/weather.json index.html de es fr hi id ja ko ru th vi zh zh-Hant news resources blog deals sitemap.xml assets/blog
-          git commit -m 'Refresh Vietnam destination weather forecast'
+          git add data/weather.json index.html de es fr hi id ja ko ru th vi zh zh-Hant news resources blog deals sitemap.xml assets/blog explore
+          git commit -m 'Refresh World destination weather forecast'
           git push origin HEAD:main
           echo 'changed=true' >> "$GITHUB_OUTPUT"
       - name: Request the Pages branch build

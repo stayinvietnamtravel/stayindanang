@@ -13,6 +13,8 @@ from travel_portal import build_pages as build_travel_pages, teaser as travel_te
 from home_tools import home_tools
 
 from marketplace import marketplace, service_url
+from world_guides import build_pages as build_world_pages, teaser as world_teaser
+from seo import extras as seo_extras, discovery_files
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -56,13 +58,13 @@ def document(lang, path, title, description, body, counterparts, structured=None
     alternates = ''.join(f'<link rel="alternate" hreflang="{code}" href="{url(target)}">' for code, target in counterparts.items())
     alternates += f'<link rel="alternate" hreflang="x-default" href="{url(counterparts["en"])}">'
     schema = '' if structured is None else '<script type="application/ld+json">' + json.dumps(structured, ensure_ascii=False).replace('<', '\\u003c') + '</script>'
-    image_metadata = '' if not structured or 'image' not in structured else f'<meta property="og:image" content="{E(structured["image"])}"><meta property="og:image:alt" content="{E(title)}">'
+    image_metadata = f'<meta property="og:image" content="{BASE}assets/social/travel-guide.png"><meta property="og:image:alt" content="Stay in Da Nang travel guides">' if not structured or 'image' not in structured else f'<meta property="og:image" content="{E(structured["image"])}"><meta property="og:image:alt" content="{E(title)}">'
     return f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0b3152"><title>{E(title)} | Stay in Da Nang</title>
 <meta name="description" content="{E(description)}"><link rel="canonical" href="{url(path)}">{alternates}
 <meta property="og:type" content="{'article' if structured and structured.get('@type') == 'BlogPosting' else 'website'}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url(path)}">
-<link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}</head><body>
+<link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}{seo_extras(lang,path,title,description)}</head><body>
 <header class="header simple-header"><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}">☀ Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
 <nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, deals_index(lang))}">{E(DEAL_COPY[lang][0])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a><a href="{relative(path,resources_path(lang))}">{E(TRAVEL_UI[lang][16])}</a></nav>
 <main id="main">{body}</main><footer class="footer"><div class="container"><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p></div></footer></body></html>
@@ -99,6 +101,7 @@ def build():
             path = home(lang)
             body = f'<section class="localized-hero"><div class="container"><div class="eyebrow">{E(u[21])}</div><h1>{E(u[6])}</h1><p>{E(u[7])}</p><div class="hero-actions"><a class="btn btn-light" href="{relative(path,deals_index(lang))}">{E(u[3])} ↓</a><a class="btn btn-outline" href="{relative(path, blog(lang))}">{E(u[1])} →</a></div></div></section>'
             body += marketplace(lang,path,relative)
+            body += world_teaser(lang,path,relative)
             body += home_tools(lang,path,relative)
             body += f'<section class="section soft"><div class="container"><h2>{E(u[16])}</h2><p class="lead main-blog-heading">{E(u[18])}</p>{cards(lang,path)}</div></section>'
             write(path, document(lang,path,u[6],u[18],body,counterparts))
@@ -145,17 +148,23 @@ def build():
         for section_id in ('destinations','hotels','tours','flights','deals'):
             after=re.sub(r'<section class="[^"]*" id="'+section_id+r'">.*?</section>', '', after, flags=re.S)
         updated=before+'<!-- HOME TOOLS START -->'+old_tools+'<!-- HOME TOOLS END -->'+after
-    tools_section = '<!-- HOME TOOLS START -->'+marketplace('en','index.html',relative)+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
+    tools_section = '<!-- HOME TOOLS START -->'+marketplace('en','index.html',relative)+world_teaser('en','index.html',relative)+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
     if '<!-- HOME TOOLS START -->' in updated:
         updated=re.sub(r'<!-- HOME TOOLS START -->.*?<!-- HOME TOOLS END -->\s*',lambda _:tools_section,updated,flags=re.S)
     else:
         marker='<section class="section" id="destinations">'
         if marker not in updated:raise ValueError('Missing English homepage tools insertion point')
         updated=updated.replace(marker,tools_section+marker,1)
+    updated=re.sub(r'<!-- SEO START -->.*?<!-- SEO END -->', '', updated, flags=re.S)
+    if 'property="og:image"' not in updated:
+        updated=updated.replace('</head>', f'<meta property="og:image" content="{BASE}assets/social/travel-guide.png"></head>')
+    updated=updated.replace('</head>', '<!-- SEO START -->'+seo_extras('en','index.html',CONTENT['en']['ui'][6],CONTENT['en']['ui'][18])+'<!-- SEO END --></head>')
     english.write_text(updated, encoding='utf-8')
     export_deal_posts()
     all_pages.extend(build_deal_pages(document, relative, url, LANGUAGES))
     all_pages.extend(build_travel_pages(document, relative, url, LANGUAGES))
+    all_pages.extend(build_world_pages(document,relative,url,LANGUAGES))
+    discovery_files(ROOT)
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     ET.register_namespace('xhtml','http://www.w3.org/1999/xhtml')
     sitemap = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')

@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /data/
+Disallow: /scripts/
 Sitemap: https://stayinvietnamtravel.github.io/stayindanang/sitemap.xml

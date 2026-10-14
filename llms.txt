@@ -1,0 +1,23 @@
+# Stay in Da Nang
+
+> Independent travel planning guides, hotel affiliate links and attributed destination forecasts.
+
+## International guides
+
+- [Asia travel planning](https://stayinvietnamtravel.github.io/stayindanang/explore/en/asia/): Sample routes, food ideas, destination lists and official tourism references.
+- [Europe travel planning](https://stayinvietnamtravel.github.io/stayindanang/explore/en/europe/): Sample routes, food ideas, destination lists and official tourism references.
+- [Americas travel planning](https://stayinvietnamtravel.github.io/stayindanang/explore/en/americas/): Sample routes, food ideas, destination lists and official tourism references.
+- [Oceania travel planning](https://stayinvietnamtravel.github.io/stayindanang/explore/en/oceania/): Sample routes, food ideas, destination lists and official tourism references.
+
+## Vietnam and services
+
+- [Travel blog](https://stayinvietnamtravel.github.io/stayindanang/blog/)
+- [Da Nang hotels](https://stayinvietnamtravel.github.io/stayindanang/deals/en/)
+- [Official tourism sources](https://stayinvietnamtravel.github.io/stayindanang/resources/en/)
+- [Attributed travel news](https://stayinvietnamtravel.github.io/stayindanang/news/en/)
+- [World weather](https://stayinvietnamtravel.github.io/stayindanang/#weather)
+- [Sitemap](https://stayinvietnamtravel.github.io/stayindanang/sitemap.xml)
+
+## Editorial scope
+
+Guides are planning suggestions, not firsthand reviews. Check entry requirements, opening hours and availability with official sources. Hotel links are affiliate links; prices are checked on Trip.com. Weather uses MET Norway Locationforecast, CC BY 4.0, at fixed city-center coordinates. Forecast times use the destination IANA timezone. Model update timestamps and missing/stale data are visible. Forecasts are not observations or a substitute for official local warnings. This file is an optional reading index, not a guarantee of crawler support or search visibility.

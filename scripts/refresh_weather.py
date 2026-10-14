@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Cache independent MET Norway forecasts for five Vietnam destinations."""
+"""Cache independent MET Norway forecasts for 101 world destinations."""
 from pathlib import Path
-from destinations import CITIES
+from world_weather import CITIES
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError
@@ -60,7 +61,8 @@ def refresh():
     target=ROOT/'data/weather.json';previous=json.loads(target.read_text())
     cached=previous.get('cities',{'da-nang':previous})
     now=datetime.now(timezone.utc);results={};successes=0
-    for key,(city,latitude,longitude) in CITIES.items():
+    def fetch_city(item):
+        key,(city,latitude,longitude)=item
         prior=cached.get(key,{})
         source_url=f'https://api.met.no/weatherapi/locationforecast/2.0/compact?lat={latitude}&lon={longitude}'
         headers={'User-Agent':'StayInDaNangWeather/2.0 (+https://github.com/stayinvietnamtravel/stayindanang)','Accept':'application/json'}
@@ -79,11 +81,16 @@ def refresh():
                     result={**prior,'fetched_at':now.isoformat()}
                 else:raise
             result.update(last_attempt_at=now.isoformat(),fetch_status='ok',failure_reason=None)
-            results[key]=result;successes+=1
-            print(f'Cached {len(result["points"])} forecast points for {city}.')
+            return key,result,True
+
         except Exception as error:
-            results[key]={**prior,'city':city,'latitude':latitude,'longitude':longitude,'source_url':source_url,'last_attempt_at':now.isoformat(),'fetch_status':'unavailable','failure_reason':f'{type(error).__name__}: {error}'}
+            result={**prior,'city':city,'latitude':latitude,'longitude':longitude,'source_url':source_url,'last_attempt_at':now.isoformat(),'fetch_status':'unavailable','failure_reason':f'{type(error).__name__}: {error}'}
             print(f'{city}: unavailable; prior forecast retained.',file=sys.stderr)
+            return key,result,False
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        for key,result,ok in executor.map(fetch_city,CITIES.items()):
+            results[key]=result;successes+=int(ok)
+    print(f'Weather refresh: {successes}/{len(CITIES)} cities updated.')
     target.write_text(json.dumps({'provider':'MET Norway','cities':results,'last_attempt_at':now.isoformat()},ensure_ascii=False,indent=2)+'\n')
     return 0 if successes==len(CITIES) else 1
 

@@ -5,6 +5,10 @@ from html import escape as E
 import json
 from urllib.parse import quote
 from destinations import CITIES, DESTINATIONS
+from world_weather import CITIES as WORLD_CITIES, TIMEZONES
+from world_destinations import COUNTRIES, city_name, REGIONS
+from zoneinfo import ZoneInfo
+from world_guides import COPY as WORLD_GUIDE_COPY
 from travel_portal import display_time
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -76,23 +80,30 @@ def condition(code,lang):
 
 def weather(lang,now=None):
     u=COPY[lang];heading,select_label,missing,names,suggestions=DESTINATIONS[lang]
+    heading=WORLD_HEADINGS[lang]
     cache=json.loads((ROOT/'data/weather.json').read_text());cities=cache.get('cities',{'da-nang':cache})
-    result=f'<section class="home-weather" id="weather" aria-labelledby="weather-title"><div class="container"><div class="weather-panel"><h2 id="weather-title">{E(heading)}</h2><p>{E(u[1])}</p><label class="destination-label" for="weather-city">{E(select_label)}</label><select id="weather-city" class="destination-select">'
-    for index,key in enumerate(CITIES):result+=f'<option value="{key}">{E(names[index])}</option>'
+    result=f'<section class="home-weather" id="weather" aria-labelledby="weather-title"><div class="container"><div class="weather-panel"><h2 id="weather-title">{E(heading)}</h2><p>{E(u[1])}</p><p class="notice">{E(WORLD_GUIDE_COPY[lang][5])}</p><label class="destination-label" for="weather-city">{E(select_label)}</label><select id="weather-city" class="destination-select">'
+    labels={city[0]:city_name(city,lang) for *_,entries in COUNTRIES for city in entries}
+    regions={city[0]:region for region,_,_,_,entries in COUNTRIES for city in entries}
+    for country in COUNTRIES:
+        result+=f'<optgroup data-country-code="{country[1]}" label="{E(country[3] if lang=="vi" else country[2])}">'
+        for city in country[4]:result+=f'<option value="{city[0]}">{E(labels[city[0]])}</option>'
+        result+='</optgroup>'
     result+='</select><div class="destination-results" aria-live="polite">'
-    for index,(key,(city,_,_)) in enumerate(CITIES.items()):
+    for index,(key,(city,_,_)) in enumerate(WORLD_CITIES.items()):
         data=cities.get(key,{});points=forecast_points(data,now or datetime.now(timezone.utc))
         hidden=' hidden' if index else ''
-        result+=f'<div data-weather-city="{key}"{hidden}><h3>{E(names[index])}</h3>'
+        result+=f'<div data-weather-city="{key}"{hidden}><h3>{E(labels[key])}</h3><p class="notice">{E(TIMEZONES[key])}</p>'
         if points:
             result+='<div class="weather-grid">'
             for point in points:
                 icon,label=condition(point['symbol_code'],lang)
                 rain='—' if point['precipitation_mm'] is None else f'{point["precipitation_mm"]:g} mm / {point["precipitation_hours"]} h'
-                result+=f'<article class="weather-card"><time datetime="{E(point["time"])}">{display_time(point["time"])}</time><span class="weather-icon" aria-hidden="true">{icon}</span><strong class="weather-temperature">{point["temperature_c"]:.0f} °C</strong><p>{E(label)}</p><small>{E(u[4])}: {rain}<br>{E(u[5])}: {point["wind_mps"]:g} m/s</small></article>'
+                local_time=datetime.fromisoformat(point["time"]).astimezone(ZoneInfo(TIMEZONES[key])).strftime("%Y-%m-%d %H:%M %Z")
+                result+=f'<article class="weather-card"><time datetime="{E(point["time"])}">{local_time}</time><span class="weather-icon" aria-hidden="true">{icon}</span><strong class="weather-temperature">{point["temperature_c"]:.0f} °C</strong><p>{E(label)}</p><small>{E(u[4])}: {rain}<br>{E(u[5])}: {point["wind_mps"]:g} m/s</small></article>'
             result+=f'</div><p class="weather-updated">{E(u[3])}: <time datetime="{E(data["source_updated_at"])}">{display_time(data["source_updated_at"])}</time></p>'
         else:result+=f'<p class="weather-unavailable">{E(missing)}</p>'
-        result+=f'<aside class="destination-inspiration"><h4>{E(u[6])} · {E(names[index])}</h4><p>{E(suggestions[index])}</p></aside><p class="notice"><a href="https://www.yr.no/en/search?q={quote(city)}" target="_blank" rel="noopener noreferrer">Yr · {E(names[index])} ↗</a></p></div>'
+        result+=f'<aside class="destination-inspiration"><h4>{E(u[6])} · {E(labels[key])}</h4><p>{E(suggestions[list(CITIES).index(key)] if key in CITIES else u[7])}</p></aside><p class="notice"><a href="https://www.yr.no/en/search?q={quote(city)}" target="_blank" rel="noopener noreferrer">Yr · {E(labels[key])} ↗</a></p></div>'
     result+='</div><p class="notice"><a href="https://www.met.no/en" target="_blank" rel="noopener noreferrer">MET Norway</a> · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a></p></div></div></section>'
     return result
 
@@ -115,3 +126,5 @@ def ideas(lang,current,relative):
 
 
 def home_tools(lang,current,relative):return weather(lang)+ideas(lang,current,relative)
+
+WORLD_HEADINGS={'vi':'Dự báo thời tiết các điểm đến trên thế giới','en':'World destination weather forecasts','fr':'Météo des destinations du monde','de':'Wettervorhersagen für Reiseziele weltweit','es':'Pronóstico de destinos del mundo','zh':'全球目的地天气预报','zh-Hant':'全球目的地天氣預報','ru':'Погода в туристических городах мира','ko':'세계 여행지 날씨 예보','ja':'世界の旅行先の天気予報','hi':'दुनिया के गंतव्यों का मौसम पूर्वानुमान','th':'พยากรณ์อากาศจุดหมายทั่วโลก','id':'Prakiraan cuaca destinasi dunia'}

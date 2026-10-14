@@ -42,7 +42,7 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/travel_news.json news resources index.html blog deals de es fr hi id ja ko ru th vi zh zh-Hant sitemap.xml assets/blog
+          git add data/travel_news.json news resources index.html blog deals de es fr hi id ja ko ru th vi zh zh-Hant sitemap.xml assets/blog explore
           git commit -m 'Refresh attributed travel news'
           git push origin HEAD:main
           echo 'changed=true' >> "$GITHUB_OUTPUT"

@@ -43,6 +43,10 @@
   document.querySelectorAll('.home-weather').forEach(weather => {
     const select = weather.querySelector('.destination-select');
     const panels = Array.from(weather.querySelectorAll('[data-weather-city]'));
+    try {
+      const names = new Intl.DisplayNames([document.documentElement.lang], {type: 'region'});
+      select.querySelectorAll('[data-country-code]').forEach(group => { group.label = names.of(group.dataset.countryCode); });
+    } catch (_) {}
     const update = () => {
       panels.forEach(panel => { panel.hidden = panel.dataset.weatherCity !== select.value; });
       try { localStorage.setItem('stayindanang-destination:v1', select.value); } catch (_) {}
@@ -51,6 +55,8 @@
       const saved = localStorage.getItem('stayindanang-destination:v1');
       if (panels.some(panel => panel.dataset.weatherCity === saved)) select.value = saved;
     } catch (_) {}
+    const requested = new URLSearchParams(location.search).get('weather');
+    if (panels.some(panel => panel.dataset.weatherCity === requested)) select.value = requested;
     select.addEventListener('change', update);
     update();
   });
@@ -171,13 +177,15 @@
       let initial = weather?.value || 'da-nang';
       try {
         const saved = localStorage.getItem(preferenceKey);
-        if (allCities.some(option => option.value === saved)) initial = saved;
+        if (!new URLSearchParams(location.search).get('weather') && allCities.some(option => option.value === saved)) initial = saved;
       } catch (_) {}
       destination.value = initial;
       if (weather) weather.addEventListener('change', () => {
-        // Keep international choices independent from the Vietnam-only forecasts.
+        // Synchronize world forecast choices with the matching country and city.
         if (weather.value === destination.value) return;
-        continent.value = 'asia';filterCountries();country.value = 'VN';filterCities(weather.value);updateBooking();
+        const city = allCities.find(option => option.value === weather.value);
+        if (!city) return;
+        continent.value = city.dataset.continent;filterCountries();country.value = city.dataset.country;filterCities(weather.value);updateBooking();
       });
       updateBooking();
     } catch (_) { /* Keep the validated static affiliate link usable. */ }

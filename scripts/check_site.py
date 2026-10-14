@@ -12,6 +12,7 @@ from deal_posts import HOTELS, DATA, EXPORT_ROOT, page_pairs, post_path, image_p
 from hotel_editorial import editorial
 from marketplace import CONFIG as AFFILIATE_CONFIG, FEATURED, service_url
 from world_destinations import COUNTRIES, CITY_KEYS, REGION_KEYS
+from world_guides import page_pairs as world_page_pairs
 from travel_portal import page_pairs as travel_page_pairs, SOURCES as TRAVEL_SOURCES, safe_articles
 import struct
 import zipfile
@@ -98,6 +99,9 @@ def check():
                 dest.feed(target.read_text(encoding='utf-8'))
                 assert unquote(parts.fragment) in dest.ids, (path, 'missing anchor', link)
         assert 'Bookdeal' not in (ROOT/path).read_text(encoding='utf-8') and 'docs.google.com/spreadsheets' not in (ROOT/path).read_text(encoding='utf-8'), (path,'spreadsheet details must remain hidden')
+        assert any(schema.get('@type')=='Organization' for schema in page.schemas), (path,'publisher identity')
+        assert any(schema.get('@type')=='WebSite' for schema in page.schemas), (path,'site identity')
+        assert 'name="twitter:card"' in (ROOT/path).read_text(encoding='utf-8'), (path,'social metadata')
         assert not page.frames, (path, "Trip.com banners must remain removed")
         assert "www.trip.com/partners/ad/" not in (ROOT/path).read_text(encoding="utf-8"), path
         if path==home(page.lang):
@@ -112,6 +116,7 @@ def check():
     expected_paths = {target for lang in LANGUAGES for target in [home(lang), blog(lang), *(article(lang, i) for i in range(len(SLUGS)))]}
     expected_paths.update(path for path, _ in page_pairs(LANGUAGES))
     expected_paths.update(path for path, _ in travel_page_pairs(LANGUAGES))
+    expected_paths.update(path for path, _ in world_page_pairs(LANGUAGES))
     assert set(paths) == expected_paths, 'Unexpected or missing generated pages'
     assert len(TRAVEL_SOURCES['official_sites'])==18 and len(TRAVEL_SOURCES['magazines'])==10
     for source in TRAVEL_SOURCES['official_sites']+TRAVEL_SOURCES['magazines']:
