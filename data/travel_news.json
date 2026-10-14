@@ -1,6 +1,36 @@
 {
-  "last_updated": "2026-10-14T05:49:57.556356+00:00",
+  "last_updated": "2026-10-14T06:15:50.923056+00:00",
   "articles": [
+    {
+      "title": "Makeready promotes Sam Tucker to Regional Sales and Marketing Director",
+      "url": "https://www.traveldailynews.com/people/new-appointments/makeready-promotes-sam-tucker-regional-director/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T05:54:41+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Malta Tourism Authority and Trip.com Group sign tourism cooperation agreement",
+      "url": "https://www.traveldailynews.com/destinations/malta-trip-com-partnership-tourism-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T05:50:31+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Fraport reports 2.7% passenger growth in September 2026",
+      "url": "https://www.traveldailynews.com/aviation/fraport-passenger-traffic-september-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T05:50:02+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "Rwanda to host Formula One African Grand Prix under 10-year agreement",
       "url": "https://www.traveldailynews.com/special-interest-travel/recreation-sport/rwanda-formula-one-african-grand-prix/",
@@ -87,36 +117,6 @@
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-10-14T05:12:29+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "ICAO joins IATA alliance to address CORSIA carbon credit supply gap",
-      "url": "https://www.traveldailynews.com/aviation/icao-iata-alliance-corsia-carbon-credits/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:11:50+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Simpson Travel acquires South France Villas to expand French portfolio",
-      "url": "https://www.traveldailynews.com/tour-operators/simpson-travel-acquisition-south-france-villas/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:06:10+00:00",
-      "countries": [
-        "france"
-      ]
-    },
-    {
-      "title": "Preferred Hotels & Resorts appoints Çağlar Göncüler as Middle East Sales Director",
-      "url": "https://www.traveldailynews.com/people/new-appointments/preferred-hotels-middle-east-sales-director/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:00:05+00:00",
       "countries": [
         "international"
       ]
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-14T05:49:57.556356+00:00",
-      "last_success_at": "2026-10-14T05:49:57.556356+00:00",
+      "last_attempt_at": "2026-10-14T06:15:50.923056+00:00",
+      "last_success_at": "2026-10-14T06:15:50.923056+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-14T05:49:57.556356+00:00",
-      "last_success_at": "2026-10-14T05:49:57.556356+00:00",
+      "last_attempt_at": "2026-10-14T06:15:50.923056+00:00",
+      "last_success_at": "2026-10-14T06:15:50.923056+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-14T05:49:57.556356+00:00",
-      "last_success_at": "2026-10-14T05:49:57.556356+00:00",
+      "last_attempt_at": "2026-10-14T06:15:50.923056+00:00",
+      "last_success_at": "2026-10-14T06:15:50.923056+00:00",
       "status": "ok",
       "count": 10
     }
