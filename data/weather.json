@@ -8,17 +8,9 @@
       "city": "Da Nang",
       "latitude": 16.0544,
       "longitude": 108.2022,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:31+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 29.5,
-          "wind_mps": 4.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.9,
@@ -669,7 +661,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -680,17 +672,9 @@
       "city": "Hanoi",
       "latitude": 21.0285,
       "longitude": 105.8542,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:24:49+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 31.7,
-          "wind_mps": 1.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 31.3,
@@ -1341,7 +1325,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -1352,17 +1336,9 @@
       "city": "Sa Pa",
       "latitude": 22.3364,
       "longitude": 103.8438,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 24.4,
-          "wind_mps": 2.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 23.5,
@@ -2013,7 +1989,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -2024,17 +2000,9 @@
       "city": "Ho Chi Minh City",
       "latitude": 10.8231,
       "longitude": 106.6297,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:19+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 26.9,
-          "wind_mps": 2.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 27.7,
@@ -2685,7 +2653,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -2696,17 +2664,9 @@
       "city": "Phu Quoc",
       "latitude": 10.2899,
       "longitude": 103.984,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 30.0,
-          "wind_mps": 3.5,
-          "precipitation_mm": 1.2,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.2,
@@ -3357,7 +3317,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -3368,17 +3328,9 @@
       "city": "Hoi An",
       "latitude": 15.8801,
       "longitude": 108.338,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 29.4,
-          "wind_mps": 5.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.8,
@@ -4029,7 +3981,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -4040,17 +3992,9 @@
       "city": "Hue",
       "latitude": 16.4637,
       "longitude": 107.5909,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 29.0,
-          "wind_mps": 3.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.5,
@@ -4701,7 +4645,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -4712,17 +4656,9 @@
       "city": "Nha Trang",
       "latitude": 12.2388,
       "longitude": 109.1967,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 28.3,
-          "wind_mps": 8.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.0,
@@ -5373,7 +5309,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -5384,17 +5320,9 @@
       "city": "Da Lat",
       "latitude": 11.9404,
       "longitude": 108.4583,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 19.4,
-          "wind_mps": 2.5,
-          "precipitation_mm": 1.5,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 19.4,
@@ -6045,7 +5973,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -6056,17 +5984,9 @@
       "city": "Ha Long",
       "latitude": 20.95,
       "longitude": 107.08,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 29.8,
-          "wind_mps": 3.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 29.1,
@@ -6717,7 +6637,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -6728,17 +6648,9 @@
       "city": "Bangkok",
       "latitude": 13.7563,
       "longitude": 100.5018,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 26.3,
-          "wind_mps": 2.2,
-          "precipitation_mm": 1.1,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 26.5,
@@ -7389,7 +7301,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -7400,17 +7312,9 @@
       "city": "Chiang Mai",
       "latitude": 18.7883,
       "longitude": 98.9853,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 29.2,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.7,
@@ -8061,7 +7965,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -8072,17 +7976,9 @@
       "city": "Phuket",
       "latitude": 7.8804,
       "longitude": 98.3923,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 29.5,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 29.5,
@@ -8733,7 +8629,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -8744,17 +8640,9 @@
       "city": "Krabi",
       "latitude": 8.0863,
       "longitude": 98.9063,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 30.9,
-          "wind_mps": 2.4,
-          "precipitation_mm": 3.7,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 26.7,
@@ -9405,7 +9293,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -9416,17 +9304,9 @@
       "city": "Tokyo",
       "latitude": 35.6762,
       "longitude": 139.6503,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 24.4,
-          "wind_mps": 2.9,
-          "precipitation_mm": 0.9,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 22.5,
@@ -10077,7 +9957,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -10088,17 +9968,9 @@
       "city": "Osaka",
       "latitude": 34.6937,
       "longitude": 135.5023,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 20.7,
-          "wind_mps": 6.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 19.1,
@@ -10749,7 +10621,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -10761,16 +10633,8 @@
       "latitude": 35.0116,
       "longitude": 135.7681,
       "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 19.2,
-          "wind_mps": 4.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 17.8,
@@ -11421,7 +11285,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -11432,17 +11296,9 @@
       "city": "Fukuoka",
       "latitude": 33.5902,
       "longitude": 130.4017,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 19.1,
-          "wind_mps": 6.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 19.0,
@@ -12093,7 +11949,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -12104,17 +11960,9 @@
       "city": "Beijing",
       "latitude": 39.9042,
       "longitude": 116.4074,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 21.3,
-          "wind_mps": 3.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 20.8,
@@ -12765,7 +12613,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -12776,17 +12624,9 @@
       "city": "Shanghai",
       "latitude": 31.2304,
       "longitude": 121.4737,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 22.9,
-          "wind_mps": 3.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 21.6,
@@ -13437,7 +13277,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -13448,17 +13288,9 @@
       "city": "Chengdu",
       "latitude": 30.5728,
       "longitude": 104.0668,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 24.7,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.3,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 23.9,
@@ -14109,7 +13941,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -14120,17 +13952,9 @@
       "city": "Guangzhou",
       "latitude": 23.1291,
       "longitude": 113.2644,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:31+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 32.6,
-          "wind_mps": 4.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 30.4,
@@ -14781,7 +14605,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -14792,17 +14616,9 @@
       "city": "Hong Kong",
       "latitude": 22.3193,
       "longitude": 114.1694,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:24:50+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 27.6,
-          "wind_mps": 8.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 27.2,
@@ -15453,7 +15269,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -15465,16 +15281,8 @@
       "latitude": 37.5665,
       "longitude": 126.978,
       "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 16.8,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 15.3,
@@ -16125,7 +15933,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -16136,17 +15944,9 @@
       "city": "Busan",
       "latitude": 35.1796,
       "longitude": 129.0756,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 18.2,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 15.7,
@@ -16797,7 +16597,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -16808,17 +16608,9 @@
       "city": "Jeju",
       "latitude": 33.4996,
       "longitude": 126.5312,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 17.5,
-          "wind_mps": 7.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 16.8,
@@ -17469,7 +17261,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -17480,17 +17272,9 @@
       "city": "Singapore",
       "latitude": 1.3521,
       "longitude": 103.8198,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 32.0,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.3,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 31.0,
@@ -18141,7 +17925,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -18152,17 +17936,9 @@
       "city": "Bali",
       "latitude": -8.5069,
       "longitude": 115.2625,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 29.7,
-          "wind_mps": 4.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.6,
@@ -18813,7 +18589,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -18824,17 +18600,9 @@
       "city": "Jakarta",
       "latitude": -6.2088,
       "longitude": 106.8456,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 32.5,
-          "wind_mps": 5.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 31.5,
@@ -19485,7 +19253,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -19496,17 +19264,9 @@
       "city": "Yogyakarta",
       "latitude": -7.7956,
       "longitude": 110.3695,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 32.9,
-          "wind_mps": 6.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 31.0,
@@ -20157,7 +19917,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -20168,17 +19928,9 @@
       "city": "Kuala Lumpur",
       "latitude": 3.139,
       "longitude": 101.6869,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:31+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 31.6,
-          "wind_mps": 2.9,
-          "precipitation_mm": 0.6,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 30.3,
@@ -20829,7 +20581,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -20840,17 +20592,9 @@
       "city": "George Town / Penang",
       "latitude": 5.4141,
       "longitude": 100.3288,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 27.4,
-          "wind_mps": 1.3,
-          "precipitation_mm": 1.1,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 27.0,
@@ -21501,7 +21245,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -21512,17 +21256,9 @@
       "city": "Langkawi",
       "latitude": 6.35,
       "longitude": 99.8,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 27.6,
-          "wind_mps": 2.4,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.0,
@@ -22173,7 +21909,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -22184,17 +21920,9 @@
       "city": "Manila",
       "latitude": 14.5995,
       "longitude": 120.9842,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 30.7,
-          "wind_mps": 4.7,
-          "precipitation_mm": 0.8,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 29.6,
@@ -22845,7 +22573,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -22856,17 +22584,9 @@
       "city": "Cebu",
       "latitude": 10.3157,
       "longitude": 123.8854,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 26.6,
-          "wind_mps": 1.0,
-          "precipitation_mm": 0.3,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 26.3,
@@ -23517,7 +23237,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -23528,17 +23248,9 @@
       "city": "El Nido",
       "latitude": 11.2027,
       "longitude": 119.4169,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 25.8,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 26.1,
@@ -24189,7 +23901,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -24200,17 +23912,9 @@
       "city": "New Delhi",
       "latitude": 28.6139,
       "longitude": 77.209,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 31.6,
-          "wind_mps": 1.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 31.7,
@@ -24861,7 +24565,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -24872,17 +24576,9 @@
       "city": "Mumbai",
       "latitude": 19.076,
       "longitude": 72.8777,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 37.5,
-          "wind_mps": 3.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 37.4,
@@ -25533,7 +25229,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -25544,17 +25240,9 @@
       "city": "Jaipur",
       "latitude": 26.9124,
       "longitude": 75.7873,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 33.5,
-          "wind_mps": 2.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 33.7,
@@ -26205,7 +25893,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -26216,17 +25904,9 @@
       "city": "Agra",
       "latitude": 27.1767,
       "longitude": 78.0081,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 33.1,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 33.1,
@@ -26877,7 +26557,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -26888,17 +26568,9 @@
       "city": "Dubai",
       "latitude": 25.2048,
       "longitude": 55.2708,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 36.1,
-          "wind_mps": 3.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 35.8,
@@ -27549,7 +27221,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -27560,17 +27232,9 @@
       "city": "Abu Dhabi",
       "latitude": 24.4539,
       "longitude": 54.3773,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 34.8,
-          "wind_mps": 4.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 34.7,
@@ -28221,7 +27885,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -28232,17 +27896,9 @@
       "city": "Siem Reap",
       "latitude": 13.3671,
       "longitude": 103.8448,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 27.6,
-          "wind_mps": 2.4,
-          "precipitation_mm": 0.1,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrainshowers_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 28.7,
@@ -28893,7 +28549,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -28904,17 +28560,9 @@
       "city": "Phnom Penh",
       "latitude": 11.5564,
       "longitude": 104.9282,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 31.6,
-          "wind_mps": 2.2,
-          "precipitation_mm": 0.1,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 31.6,
@@ -29565,7 +29213,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -29576,17 +29224,9 @@
       "city": "Vientiane",
       "latitude": 17.9757,
       "longitude": 102.6331,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 31.8,
-          "wind_mps": 2.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 31.2,
@@ -30237,7 +29877,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -30248,8 +29888,8 @@
       "city": "Luang Prabang",
       "latitude": 19.8833,
       "longitude": 102.1333,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -30901,7 +30541,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -30912,17 +30552,9 @@
       "city": "Kathmandu",
       "latitude": 27.7172,
       "longitude": 85.324,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 24.2,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 23.8,
@@ -31573,7 +31205,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -31584,17 +31216,9 @@
       "city": "Paris",
       "latitude": 48.8566,
       "longitude": 2.3522,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 11.5,
-          "wind_mps": 0.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 13.6,
@@ -32245,7 +31869,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -32256,17 +31880,9 @@
       "city": "Nice",
       "latitude": 43.7102,
       "longitude": 7.262,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 20.5,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 21.4,
@@ -32917,7 +32533,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -32928,17 +32544,9 @@
       "city": "Lyon",
       "latitude": 45.764,
       "longitude": 4.8357,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 14.8,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fog"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 15.3,
@@ -33589,7 +33197,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -33600,17 +33208,9 @@
       "city": "London",
       "latitude": 51.5074,
       "longitude": -0.1278,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 11.0,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 13.0,
@@ -34261,7 +33861,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -34272,17 +33872,9 @@
       "city": "Edinburgh",
       "latitude": 55.9533,
       "longitude": -3.1883,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:19+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 11.4,
-          "wind_mps": 8.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 12.6,
@@ -34933,7 +34525,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -34944,17 +34536,9 @@
       "city": "Manchester",
       "latitude": 53.4808,
       "longitude": -2.2426,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:24:49+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 10.0,
-          "wind_mps": 4.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 11.9,
@@ -35605,7 +35189,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -35616,8 +35200,8 @@
       "city": "Rome",
       "latitude": 41.9028,
       "longitude": 12.4964,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -36269,7 +35853,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -36280,17 +35864,9 @@
       "city": "Venice",
       "latitude": 45.4408,
       "longitude": 12.3155,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 15.9,
-          "wind_mps": 2.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 17.6,
@@ -36941,7 +36517,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -36952,8 +36528,8 @@
       "city": "Florence",
       "latitude": 43.7696,
       "longitude": 11.2558,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -37605,7 +37181,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -37616,17 +37192,9 @@
       "city": "Barcelona",
       "latitude": 41.3851,
       "longitude": 2.1734,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 18.9,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 21.0,
@@ -38277,7 +37845,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -38288,17 +37856,9 @@
       "city": "Madrid",
       "latitude": 40.4168,
       "longitude": -3.7038,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:31+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 17.3,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 19.8,
@@ -38949,7 +38509,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -38960,17 +38520,9 @@
       "city": "Seville",
       "latitude": 37.3891,
       "longitude": -5.9845,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 21.0,
-          "wind_mps": 3.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 24.2,
@@ -39621,7 +39173,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -39632,17 +39184,9 @@
       "city": "Berlin",
       "latitude": 52.52,
       "longitude": 13.405,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 12.3,
-          "wind_mps": 4.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 13.5,
@@ -40293,7 +39837,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -40304,17 +39848,9 @@
       "city": "Munich",
       "latitude": 48.1351,
       "longitude": 11.582,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 12.6,
-          "wind_mps": 3.0,
-          "precipitation_mm": 0.1,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 12.7,
@@ -40965,7 +40501,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -40976,17 +40512,9 @@
       "city": "Frankfurt",
       "latitude": 50.1109,
       "longitude": 8.6821,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:19+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 11.3,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fog"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 13.2,
@@ -41637,7 +41165,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -41648,17 +41176,9 @@
       "city": "Athens",
       "latitude": 37.9838,
       "longitude": 23.7275,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:24:49+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 16.1,
-          "wind_mps": 7.8,
-          "precipitation_mm": 1.1,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 16.0,
@@ -42309,7 +41829,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -42320,17 +41840,9 @@
       "city": "Santorini",
       "latitude": 36.3932,
       "longitude": 25.4615,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:31+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 19.1,
-          "wind_mps": 4.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 19.4,
@@ -42981,7 +42493,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -42992,8 +42504,8 @@
       "city": "Zurich",
       "latitude": 47.3769,
       "longitude": 8.5417,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -43645,7 +43157,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -43656,8 +43168,8 @@
       "city": "Lucerne",
       "latitude": 47.0502,
       "longitude": 8.3093,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -44309,7 +43821,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -44321,16 +43833,8 @@
       "latitude": 52.3676,
       "longitude": 4.9041,
       "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 13.1,
-          "wind_mps": 1.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 14.6,
@@ -44981,7 +44485,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -44992,17 +44496,9 @@
       "city": "Lisbon",
       "latitude": 38.7223,
       "longitude": -9.1393,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 17.9,
-          "wind_mps": 2.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 20.5,
@@ -45653,7 +45149,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -45664,8 +45160,8 @@
       "city": "Porto",
       "latitude": 41.1579,
       "longitude": -8.6291,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -46317,7 +45813,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -46328,17 +45824,9 @@
       "city": "Vienna",
       "latitude": 48.2082,
       "longitude": 16.3738,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 11.2,
-          "wind_mps": 3.2,
-          "precipitation_mm": 0.5,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 12.2,
@@ -46989,7 +46477,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -47000,8 +46488,8 @@
       "city": "Salzburg",
       "latitude": 47.8095,
       "longitude": 13.055,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -47653,7 +47141,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -47664,8 +47152,8 @@
       "city": "Prague",
       "latitude": 50.0755,
       "longitude": 14.4378,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -48317,7 +47805,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -48328,8 +47816,8 @@
       "city": "Brno",
       "latitude": 49.1951,
       "longitude": 16.6068,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -48981,7 +48469,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -48992,17 +48480,9 @@
       "city": "Moscow",
       "latitude": 55.7558,
       "longitude": 37.6173,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 9.3,
-          "wind_mps": 2.2,
-          "precipitation_mm": 0.1,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 9.4,
@@ -49653,7 +49133,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -49664,69 +49144,69 @@
       "city": "Saint Petersburg",
       "latitude": 59.9311,
       "longitude": 30.3609,
-      "source_updated_at": "2026-10-14T08:31:40+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:30:42+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
-          "temperature_c": 5.7,
-          "wind_mps": 3.6,
+          "temperature_c": 5.4,
+          "wind_mps": 3.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_day"
         },
         {
           "time": "2026-10-14T10:00:00+00:00",
-          "temperature_c": 6.6,
-          "wind_mps": 3.9,
+          "temperature_c": 6.5,
+          "wind_mps": 3.6,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_day"
         },
         {
           "time": "2026-10-14T11:00:00+00:00",
-          "temperature_c": 7.4,
-          "wind_mps": 3.9,
+          "temperature_c": 7.5,
+          "wind_mps": 3.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_day"
         },
         {
           "time": "2026-10-14T12:00:00+00:00",
-          "temperature_c": 7.9,
-          "wind_mps": 3.7,
+          "temperature_c": 8.2,
+          "wind_mps": 3.5,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-10-14T13:00:00+00:00",
+          "temperature_c": 8.4,
+          "wind_mps": 3.6,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_day"
         },
         {
-          "time": "2026-10-14T13:00:00+00:00",
-          "temperature_c": 8.1,
-          "wind_mps": 3.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
-        {
           "time": "2026-10-14T14:00:00+00:00",
-          "temperature_c": 7.9,
-          "wind_mps": 4.2,
+          "temperature_c": 8.2,
+          "wind_mps": 4.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
+          "symbol_code": "fair_day"
         },
         {
           "time": "2026-10-14T15:00:00+00:00",
-          "temperature_c": 7.3,
-          "wind_mps": 4.1,
+          "temperature_c": 7.6,
+          "wind_mps": 3.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
+          "symbol_code": "fair_night"
         },
         {
           "time": "2026-10-14T16:00:00+00:00",
-          "temperature_c": 6.6,
-          "wind_mps": 4.1,
+          "temperature_c": 6.7,
+          "wind_mps": 3.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
@@ -49734,7 +49214,7 @@
         {
           "time": "2026-10-14T17:00:00+00:00",
           "temperature_c": 6.0,
-          "wind_mps": 3.8,
+          "wind_mps": 3.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
@@ -49742,31 +49222,31 @@
         {
           "time": "2026-10-14T18:00:00+00:00",
           "temperature_c": 5.7,
-          "wind_mps": 3.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-14T19:00:00+00:00",
-          "temperature_c": 5.6,
-          "wind_mps": 3.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-14T20:00:00+00:00",
-          "temperature_c": 5.8,
-          "wind_mps": 3.0,
+          "wind_mps": 4.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
         },
         {
+          "time": "2026-10-14T19:00:00+00:00",
+          "temperature_c": 5.5,
+          "wind_mps": 3.7,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-10-14T20:00:00+00:00",
+          "temperature_c": 5.7,
+          "wind_mps": 3.1,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "cloudy"
+        },
+        {
           "time": "2026-10-14T21:00:00+00:00",
           "temperature_c": 5.8,
-          "wind_mps": 3.1,
+          "wind_mps": 3.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
@@ -49774,54 +49254,54 @@
         {
           "time": "2026-10-14T22:00:00+00:00",
           "temperature_c": 5.8,
-          "wind_mps": 3.7,
+          "wind_mps": 3.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-14T23:00:00+00:00",
-          "temperature_c": 5.9,
-          "wind_mps": 3.0,
+          "temperature_c": 5.8,
+          "wind_mps": 3.3,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-15T00:00:00+00:00",
-          "temperature_c": 5.8,
-          "wind_mps": 2.9,
+          "temperature_c": 5.7,
+          "wind_mps": 3.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-15T01:00:00+00:00",
-          "temperature_c": 5.6,
-          "wind_mps": 3.2,
+          "temperature_c": 5.5,
+          "wind_mps": 3.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-15T02:00:00+00:00",
-          "temperature_c": 5.2,
-          "wind_mps": 2.9,
+          "temperature_c": 5.3,
+          "wind_mps": 2.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
+          "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-15T03:00:00+00:00",
-          "temperature_c": 5.1,
-          "wind_mps": 1.9,
+          "temperature_c": 5.0,
+          "wind_mps": 2.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-15T04:00:00+00:00",
-          "temperature_c": 5.2,
+          "temperature_c": 5.0,
           "wind_mps": 2.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -49829,95 +49309,95 @@
         },
         {
           "time": "2026-10-15T05:00:00+00:00",
-          "temperature_c": 5.1,
-          "wind_mps": 2.2,
+          "temperature_c": 4.9,
+          "wind_mps": 2.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-15T06:00:00+00:00",
-          "temperature_c": 5.2,
-          "wind_mps": 2.2,
+          "temperature_c": 5.1,
+          "wind_mps": 2.5,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
+          "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-15T07:00:00+00:00",
-          "temperature_c": 5.7,
-          "wind_mps": 2.8,
+          "temperature_c": 5.5,
+          "wind_mps": 3.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_day"
         },
         {
           "time": "2026-10-15T08:00:00+00:00",
-          "temperature_c": 6.7,
-          "wind_mps": 2.7,
+          "temperature_c": 6.4,
+          "wind_mps": 2.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_day"
         },
         {
           "time": "2026-10-15T09:00:00+00:00",
-          "temperature_c": 8.0,
-          "wind_mps": 2.7,
+          "temperature_c": 7.5,
+          "wind_mps": 2.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_day"
         },
         {
           "time": "2026-10-15T10:00:00+00:00",
-          "temperature_c": 9.0,
-          "wind_mps": 2.3,
+          "temperature_c": 8.2,
+          "wind_mps": 2.5,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
+          "symbol_code": "fair_day"
         },
         {
           "time": "2026-10-15T11:00:00+00:00",
-          "temperature_c": 9.5,
-          "wind_mps": 1.9,
+          "temperature_c": 8.9,
+          "wind_mps": 2.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_day"
         },
         {
           "time": "2026-10-15T12:00:00+00:00",
-          "temperature_c": 10.0,
-          "wind_mps": 1.9,
+          "temperature_c": 9.4,
+          "wind_mps": 2.3,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_day"
         },
         {
           "time": "2026-10-15T13:00:00+00:00",
-          "temperature_c": 10.2,
-          "wind_mps": 1.9,
+          "temperature_c": 9.5,
+          "wind_mps": 2.3,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_day"
+          "symbol_code": "clearsky_day"
         },
         {
           "time": "2026-10-15T14:00:00+00:00",
-          "temperature_c": 10.0,
-          "wind_mps": 2.0,
+          "temperature_c": 9.3,
+          "wind_mps": 2.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_day"
+          "symbol_code": "clearsky_day"
         },
         {
           "time": "2026-10-15T15:00:00+00:00",
-          "temperature_c": 9.3,
-          "wind_mps": 2.0,
+          "temperature_c": 8.8,
+          "wind_mps": 2.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_night"
         },
         {
           "time": "2026-10-15T16:00:00+00:00",
-          "temperature_c": 8.1,
+          "temperature_c": 7.9,
           "wind_mps": 2.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -49925,87 +49405,87 @@
         },
         {
           "time": "2026-10-15T17:00:00+00:00",
-          "temperature_c": 7.3,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-15T18:00:00+00:00",
-          "temperature_c": 6.9,
-          "wind_mps": 2.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-15T19:00:00+00:00",
-          "temperature_c": 6.5,
-          "wind_mps": 2.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-15T20:00:00+00:00",
-          "temperature_c": 6.1,
+          "temperature_c": 7.1,
           "wind_mps": 2.6,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_night"
         },
         {
-          "time": "2026-10-15T21:00:00+00:00",
-          "temperature_c": 5.8,
-          "wind_mps": 2.3,
+          "time": "2026-10-15T18:00:00+00:00",
+          "temperature_c": 6.6,
+          "wind_mps": 2.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-10-15T19:00:00+00:00",
+          "temperature_c": 6.2,
+          "wind_mps": 2.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-10-15T20:00:00+00:00",
+          "temperature_c": 5.9,
+          "wind_mps": 2.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-10-15T21:00:00+00:00",
+          "temperature_c": 5.8,
+          "wind_mps": 2.7,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "fair_night"
         },
         {
           "time": "2026-10-15T22:00:00+00:00",
-          "temperature_c": 5.6,
-          "wind_mps": 2.3,
+          "temperature_c": 5.4,
+          "wind_mps": 2.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
+          "symbol_code": "fair_night"
         },
         {
           "time": "2026-10-15T23:00:00+00:00",
-          "temperature_c": 5.5,
-          "wind_mps": 2.3,
+          "temperature_c": 5.3,
+          "wind_mps": 2.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_night"
         },
         {
           "time": "2026-10-16T00:00:00+00:00",
-          "temperature_c": 5.5,
-          "wind_mps": 2.2,
+          "temperature_c": 5.4,
+          "wind_mps": 2.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_night"
         },
         {
           "time": "2026-10-16T01:00:00+00:00",
-          "temperature_c": 5.5,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-16T02:00:00+00:00",
-          "temperature_c": 5.7,
-          "wind_mps": 2.4,
+          "temperature_c": 5.4,
+          "wind_mps": 2.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_night"
         },
         {
+          "time": "2026-10-16T02:00:00+00:00",
+          "temperature_c": 5.0,
+          "wind_mps": 2.7,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_night"
+        },
+        {
           "time": "2026-10-16T03:00:00+00:00",
-          "temperature_c": 5.7,
+          "temperature_c": 4.7,
           "wind_mps": 2.6,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -50013,80 +49493,120 @@
         },
         {
           "time": "2026-10-16T04:00:00+00:00",
-          "temperature_c": 5.8,
-          "wind_mps": 2.4,
+          "temperature_c": 5.0,
+          "wind_mps": 2.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_night"
+          "symbol_code": "fog"
         },
         {
           "time": "2026-10-16T05:00:00+00:00",
-          "temperature_c": 5.9,
-          "wind_mps": 2.5,
+          "temperature_c": 4.9,
+          "wind_mps": 3.3,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_day"
+          "symbol_code": "fog"
         },
         {
           "time": "2026-10-16T06:00:00+00:00",
-          "temperature_c": 6.2,
-          "wind_mps": 2.5,
+          "temperature_c": 5.3,
+          "wind_mps": 3.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_day"
+          "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-16T07:00:00+00:00",
-          "temperature_c": 7.1,
-          "wind_mps": 2.5,
+          "temperature_c": 5.8,
+          "wind_mps": 4.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_day"
+          "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-16T08:00:00+00:00",
-          "temperature_c": 7.5,
-          "wind_mps": 3.2,
+          "temperature_c": 6.6,
+          "wind_mps": 4.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
+          "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-16T09:00:00+00:00",
-          "temperature_c": 7.5,
-          "wind_mps": 3.2,
+          "temperature_c": 7.7,
+          "wind_mps": 4.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_day"
         },
         {
           "time": "2026-10-16T10:00:00+00:00",
-          "temperature_c": 8.3,
-          "wind_mps": 3.3,
+          "temperature_c": 8.9,
+          "wind_mps": 4.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-10-16T11:00:00+00:00",
+          "temperature_c": 9.9,
+          "wind_mps": 3.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-10-16T12:00:00+00:00",
+          "temperature_c": 10.1,
+          "wind_mps": 3.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_day"
         },
         {
-          "time": "2026-10-16T11:00:00+00:00",
-          "temperature_c": 8.9,
-          "wind_mps": 3.6,
+          "time": "2026-10-16T13:00:00+00:00",
+          "temperature_c": 10.1,
+          "wind_mps": 3.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_day"
+          "symbol_code": "partlycloudy_day"
         },
         {
-          "time": "2026-10-16T12:00:00+00:00",
-          "temperature_c": 8.9,
-          "wind_mps": 3.5,
+          "time": "2026-10-16T14:00:00+00:00",
+          "temperature_c": 9.9,
+          "wind_mps": 3.9,
           "precipitation_mm": 0.0,
-          "precipitation_hours": 6,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-10-16T15:00:00+00:00",
+          "temperature_c": 9.6,
+          "wind_mps": 2.9,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-10-16T16:00:00+00:00",
+          "temperature_c": 8.9,
+          "wind_mps": 2.9,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-10-16T17:00:00+00:00",
+          "temperature_c": 8.5,
+          "wind_mps": 3.3,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-16T18:00:00+00:00",
-          "temperature_c": 8.2,
-          "wind_mps": 3.4,
+          "temperature_c": 8.3,
+          "wind_mps": 3.6,
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
@@ -50237,7 +49757,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -50248,17 +49768,9 @@
       "city": "New York",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:31+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 19.3,
-          "wind_mps": 4.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 19.1,
@@ -50909,7 +50421,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -50920,17 +50432,9 @@
       "city": "Los Angeles",
       "latitude": 34.0522,
       "longitude": -118.2437,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:24:50+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 12.6,
-          "wind_mps": 2.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 12.2,
@@ -51581,7 +51085,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -51592,17 +51096,9 @@
       "city": "San Francisco",
       "latitude": 37.7749,
       "longitude": -122.4194,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:24:50+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 13.9,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 13.5,
@@ -52253,7 +51749,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -52264,8 +51760,8 @@
       "city": "Las Vegas",
       "latitude": 36.1699,
       "longitude": -115.1398,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -52917,7 +52413,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -52928,8 +52424,8 @@
       "city": "Honolulu",
       "latitude": 21.3099,
       "longitude": -157.8581,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -53581,7 +53077,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -53592,17 +53088,9 @@
       "city": "Toronto",
       "latitude": 43.6532,
       "longitude": -79.3832,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:31+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 15.4,
-          "wind_mps": 4.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 15.2,
@@ -54253,7 +53741,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -54264,17 +53752,9 @@
       "city": "Vancouver",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:24:50+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 11.3,
-          "wind_mps": 4.4,
-          "precipitation_mm": 2.6,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 11.2,
@@ -54925,7 +54405,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -54936,17 +54416,9 @@
       "city": "Montreal",
       "latitude": 45.5017,
       "longitude": -73.5673,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 7.2,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 7.2,
@@ -55597,7 +55069,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -55608,17 +55080,9 @@
       "city": "Mexico City",
       "latitude": 19.4326,
       "longitude": -99.1332,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 14.9,
-          "wind_mps": 1.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 14.7,
@@ -56269,7 +55733,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -56280,17 +55744,9 @@
       "city": "Cancún",
       "latitude": 21.1619,
       "longitude": -86.8515,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:24:49+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 25.4,
-          "wind_mps": 4.1,
-          "precipitation_mm": 0.5,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 25.0,
@@ -56941,7 +56397,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -56952,8 +56408,8 @@
       "city": "Oaxaca",
       "latitude": 17.0732,
       "longitude": -96.7266,
-      "source_updated_at": "2026-10-14T08:23:19+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -57605,7 +57061,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -57616,17 +57072,9 @@
       "city": "Rio de Janeiro",
       "latitude": -22.9068,
       "longitude": -43.1729,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 22.8,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 22.9,
@@ -58277,7 +57725,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -58288,17 +57736,9 @@
       "city": "São Paulo",
       "latitude": -23.5505,
       "longitude": -46.6333,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 17.6,
-          "wind_mps": 3.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 17.8,
@@ -58949,7 +58389,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -58960,17 +58400,9 @@
       "city": "Buenos Aires",
       "latitude": -34.6037,
       "longitude": -58.3816,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:19+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 13.5,
-          "wind_mps": 6.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 13.6,
@@ -59621,7 +59053,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -59632,17 +59064,9 @@
       "city": "Lima",
       "latitude": -12.0464,
       "longitude": -77.0428,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:26:00+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 20.1,
-          "wind_mps": 4.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 20.1,
@@ -60293,7 +59717,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -60304,8 +59728,8 @@
       "city": "Cusco",
       "latitude": -13.532,
       "longitude": -71.9675,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -60957,7 +60381,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -60968,17 +60392,9 @@
       "city": "Santiago",
       "latitude": -33.4489,
       "longitude": -70.6693,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 8.2,
-          "wind_mps": 0.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 8.0,
@@ -61629,7 +61045,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -61640,17 +61056,9 @@
       "city": "Sydney",
       "latitude": -33.8688,
       "longitude": 151.2093,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:06+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 15.9,
-          "wind_mps": 10.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 15.6,
@@ -62301,7 +61709,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -62312,17 +61720,9 @@
       "city": "Melbourne",
       "latitude": -37.8136,
       "longitude": 144.9631,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 12.3,
-          "wind_mps": 6.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 11.2,
@@ -62973,7 +62373,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -62984,17 +62384,9 @@
       "city": "Brisbane",
       "latitude": -27.4698,
       "longitude": 153.0251,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 19.9,
-          "wind_mps": 5.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 19.4,
@@ -63645,7 +63037,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -63656,17 +63048,9 @@
       "city": "Perth",
       "latitude": -31.9505,
       "longitude": 115.8605,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:19+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 23.5,
-          "wind_mps": 4.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 22.8,
@@ -64317,7 +63701,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -64328,17 +63712,9 @@
       "city": "Gold Coast",
       "latitude": -28.0167,
       "longitude": 153.4,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 19.7,
-          "wind_mps": 11.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 19.3,
@@ -64989,7 +64365,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -65000,17 +64376,9 @@
       "city": "Auckland",
       "latitude": -36.8485,
       "longitude": 174.7633,
-      "source_updated_at": "2026-10-14T08:24:50+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:17+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 17.2,
-          "wind_mps": 6.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 16.9,
@@ -65661,7 +65029,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -65672,8 +65040,8 @@
       "city": "Queenstown",
       "latitude": -45.0312,
       "longitude": 168.6626,
-      "source_updated_at": "2026-10-14T08:23:31+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
         {
           "time": "2026-10-14T09:00:00+00:00",
@@ -66325,7 +65693,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -66336,17 +65704,9 @@
       "city": "Wellington",
       "latitude": -41.2865,
       "longitude": 174.7762,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T08:23:19+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 15.8,
-          "wind_mps": 13.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 15.8,
@@ -66997,7 +66357,7 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -67008,17 +66368,9 @@
       "city": "Nadi",
       "latitude": -17.7765,
       "longitude": 177.4356,
-      "source_updated_at": "2026-10-14T08:24:49+00:00",
-      "fetched_at": "2026-10-14T08:59:51.872058+00:00",
+      "source_updated_at": "2026-10-14T09:25:58+00:00",
+      "fetched_at": "2026-10-14T09:42:05.257249+00:00",
       "points": [
-        {
-          "time": "2026-10-14T08:00:00+00:00",
-          "temperature_c": 23.7,
-          "wind_mps": 4.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-14T09:00:00+00:00",
           "temperature_c": 23.3,
@@ -67669,10 +67021,10 @@
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-14T08:59:51.872058+00:00",
+      "last_attempt_at": "2026-10-14T09:42:05.257249+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     }
   },
-  "last_attempt_at": "2026-10-14T08:59:51.872058+00:00"
+  "last_attempt_at": "2026-10-14T09:42:05.257249+00:00"
 }
