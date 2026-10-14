@@ -1,0 +1,199 @@
+{
+  "official_sites": [
+    {
+      "id": "vietnam",
+      "country": "Vietnam",
+      "name": "Vietnam Tourism",
+      "url": "https://vietnam.travel/"
+    },
+    {
+      "id": "thailand",
+      "country": "Thailand",
+      "name": "Tourism Authority of Thailand",
+      "url": "https://www.tourismthailand.org/"
+    },
+    {
+      "id": "japan",
+      "country": "Japan",
+      "name": "Japan National Tourism Organization",
+      "url": "https://www.japan.travel/en/"
+    },
+    {
+      "id": "south-korea",
+      "country": "South Korea",
+      "name": "Korea Tourism Organization",
+      "url": "https://english.visitkorea.or.kr/"
+    },
+    {
+      "id": "singapore",
+      "country": "Singapore",
+      "name": "Singapore Tourism Board",
+      "url": "https://www.visitsingapore.com/"
+    },
+    {
+      "id": "indonesia",
+      "country": "Indonesia",
+      "name": "Wonderful Indonesia",
+      "url": "https://www.indonesia.travel/"
+    },
+    {
+      "id": "malaysia",
+      "country": "Malaysia",
+      "name": "Tourism Malaysia",
+      "url": "https://www.malaysia.travel/"
+    },
+    {
+      "id": "philippines",
+      "country": "Philippines",
+      "name": "Philippines Department of Tourism",
+      "url": "https://philippines.travel/"
+    },
+    {
+      "id": "india",
+      "country": "India",
+      "name": "Incredible India",
+      "url": "https://www.incredibleindia.gov.in/"
+    },
+    {
+      "id": "france",
+      "country": "France",
+      "name": "France.fr",
+      "url": "https://www.france.fr/"
+    },
+    {
+      "id": "germany",
+      "country": "Germany",
+      "name": "German National Tourist Board",
+      "url": "https://www.germany.travel/"
+    },
+    {
+      "id": "spain",
+      "country": "Spain",
+      "name": "Spain Tourism",
+      "url": "https://www.spain.info/"
+    },
+    {
+      "id": "italy",
+      "country": "Italy",
+      "name": "Italia.it",
+      "url": "https://www.italia.it/"
+    },
+    {
+      "id": "united-kingdom",
+      "country": "United Kingdom",
+      "name": "VisitBritain",
+      "url": "https://www.visitbritain.com/"
+    },
+    {
+      "id": "united-states",
+      "country": "United States",
+      "name": "Visit The USA",
+      "url": "https://www.visittheusa.com/"
+    },
+    {
+      "id": "canada",
+      "country": "Canada",
+      "name": "Destination Canada",
+      "url": "https://travel.destinationcanada.com/"
+    },
+    {
+      "id": "australia",
+      "country": "Australia",
+      "name": "Tourism Australia",
+      "url": "https://www.australia.com/"
+    },
+    {
+      "id": "new-zealand",
+      "country": "New Zealand",
+      "name": "Tourism New Zealand",
+      "url": "https://www.newzealand.com/"
+    }
+  ],
+  "magazines": [
+    {
+      "name": "Conde Nast Traveler",
+      "market": "United States",
+      "url": "https://www.cntraveler.com/"
+    },
+    {
+      "name": "Travel + Leisure",
+      "market": "United States",
+      "url": "https://www.travelandleisure.com/"
+    },
+    {
+      "name": "AFAR",
+      "market": "United States",
+      "url": "https://www.afar.com/"
+    },
+    {
+      "name": "National Geographic Travel",
+      "market": "International",
+      "url": "https://www.nationalgeographic.com/travel"
+    },
+    {
+      "name": "Lonely Planet",
+      "market": "International",
+      "url": "https://www.lonelyplanet.com/"
+    },
+    {
+      "name": "GEO",
+      "market": "France",
+      "url": "https://www.geo.fr/"
+    },
+    {
+      "name": "Le Routard",
+      "market": "France",
+      "url": "https://www.routard.com/"
+    },
+    {
+      "name": "GEO Reisen",
+      "market": "Germany",
+      "url": "https://www.geo.de/reisen"
+    },
+    {
+      "name": "Travel Weekly",
+      "market": "United States",
+      "url": "https://www.travelweekly.com/"
+    },
+    {
+      "name": "TTG Asia",
+      "market": "Asia",
+      "url": "https://www.ttgasia.com/"
+    }
+  ],
+  "feeds": [
+    {
+      "id": "tat-news",
+      "name": "TAT Newsroom",
+      "url": "https://www.tatnews.org/feed/",
+      "homepage": "https://www.tatnews.org/",
+      "article_hosts": [
+        "www.tatnews.org",
+        "tatnews.org"
+      ],
+      "default_country": "thailand"
+    },
+    {
+      "id": "ttg-asia",
+      "name": "TTG Asia",
+      "url": "https://www.ttgasia.com/feed/",
+      "homepage": "https://www.ttgasia.com/",
+      "article_hosts": [
+        "www.ttgasia.com",
+        "ttgasia.com"
+      ],
+      "default_country": "international"
+    },
+    {
+      "id": "travel-daily-news",
+      "name": "TravelDailyNews International",
+      "url": "https://www.traveldailynews.com/feed/",
+      "homepage": "https://www.traveldailynews.com/",
+      "article_hosts": [
+        "www.traveldailynews.com",
+        "traveldailynews.com"
+      ],
+      "default_country": "international"
+    }
+  ]
+}

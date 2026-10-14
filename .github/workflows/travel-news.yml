@@ -1,0 +1,53 @@
+name: Refresh travel news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6,18 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/travel-news.yml'
+      - 'scripts/refresh_travel_news.py'
+      - 'data/travel_sources.json'
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: travel-news-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Fetch attributed headlines with TLS verification
+        run: python3 scripts/refresh_travel_news.py
+      - name: Build and validate the static site
+        run: |
+          python3 scripts/build_site.py
+          python3 scripts/check_site.py
+      - name: Commit refreshed news
+        id: commit
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/travel_news.json news resources index.html blog deals de es fr hi id ja ko ru th vi zh zh-Hant sitemap.xml downloads assets/blog
+          git commit -m 'Refresh attributed travel news'
+          git push origin HEAD:main
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+      - name: Request the GitHub Pages branch build
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" > /dev/null

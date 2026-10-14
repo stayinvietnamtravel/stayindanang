@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 from content import CONTENT, LANGUAGES, SLUGS, SOURCES, SEARCH_COPY, ARTICLE_DETAILS, FEATURE_CAPTIONS
 from feature_images import build_images
 from deal_posts import build_pages as build_deal_pages, exports as export_deal_posts, COPY as DEAL_COPY, index_path as deals_index
+from travel_portal import build_pages as build_travel_pages, teaser as travel_teaser, UI as TRAVEL_UI, resources_path, news_path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -78,7 +79,7 @@ def document(lang, path, title, description, body, counterparts, structured=None
 <meta property="og:type" content="{'article' if structured and structured.get('@type') == 'BlogPosting' else 'website'}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url(path)}">
 <link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}</head><body>
 <header class="header simple-header"><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}">☀ Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
-<nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, deals_index(lang))}">{E(DEAL_COPY[lang][0])}</a></nav>
+<nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, deals_index(lang))}">{E(DEAL_COPY[lang][0])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a><a href="{relative(path,resources_path(lang))}">{E(TRAVEL_UI[lang][16])}</a></nav>
 <main id="main">{body}</main><footer class="footer"><div class="container"><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p></div></footer></body></html>
 '''
 
@@ -93,7 +94,7 @@ def cards(lang, current):
     filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
     filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
     deal_link = f'<aside class="deals-callout"><h3>{E(DEAL_COPY[lang][0])}</h3><p>{E(DEAL_COPY[lang][1])}</p><a class="btn" href="{relative(current,deals_index(lang))}">{E(DEAL_COPY[lang][0])} →</a></aside>'
-    return '<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>' + deal_link
+    return '<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>' + deal_link + travel_teaser(lang,current,relative)
 
 
 def write(path, html):
@@ -154,6 +155,7 @@ def build():
     english.write_text(updated, encoding='utf-8')
     export_deal_posts()
     all_pages.extend(build_deal_pages(document, relative, url, LANGUAGES))
+    all_pages.extend(build_travel_pages(document, relative, url, LANGUAGES))
     ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
     ET.register_namespace('xhtml','http://www.w3.org/1999/xhtml')
     sitemap = ET.Element('{http://www.sitemaps.org/schemas/sitemap/0.9}urlset')

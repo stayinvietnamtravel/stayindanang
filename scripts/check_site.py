@@ -10,6 +10,7 @@ from build_site import BASE, BANNERS, home, blog, article, url
 from content import LANGUAGES, SLUGS, ARTICLE_DETAILS
 from deal_posts import HOTELS, DATA, page_pairs, post_path, image_path, social_post, short_post
 from hotel_editorial import editorial
+from travel_portal import page_pairs as travel_page_pairs, SOURCES as TRAVEL_SOURCES, safe_articles
 import struct
 import zipfile
 import csv
@@ -110,7 +111,14 @@ def check():
             assert frame.get('loading') == ('eager' if ident == 'S14984461' else 'lazy')
     expected_paths = {target for lang in LANGUAGES for target in [home(lang), blog(lang), *(article(lang, i) for i in range(len(SLUGS)))]}
     expected_paths.update(path for path, _ in page_pairs(LANGUAGES))
+    expected_paths.update(path for path, _ in travel_page_pairs(LANGUAGES))
     assert set(paths) == expected_paths, 'Unexpected or missing generated pages'
+    assert len(TRAVEL_SOURCES['official_sites'])==18 and len(TRAVEL_SOURCES['magazines'])==10
+    for source in TRAVEL_SOURCES['official_sites']+TRAVEL_SOURCES['magazines']:
+        parsed=urlsplit(source['url'])
+        assert parsed.scheme=='https' and parsed.hostname and not parsed.username and not parsed.password
+    news=json.loads((ROOT/'data/travel_news.json').read_text())
+    assert len(safe_articles(news))==len(news['articles']), 'Unsafe cached news URL or title'
     assert len(HOTELS) == 42 and len({h['url'] for h in HOTELS}) == 42
     for hotel in HOTELS:
         assert hotel['url'] in hotel['blog_content_en'] and hotel['url'] in hotel['social_post_en'] and hotel['url'] in hotel['booking_cta_en']

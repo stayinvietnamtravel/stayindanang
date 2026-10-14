@@ -28,6 +28,18 @@
       });
     }));
   });
+  document.querySelectorAll('.news-browser').forEach(browser => {
+    const select = browser.querySelector('.news-country');
+    const cards = browser.querySelectorAll('.news-card');
+    select.addEventListener('change', () => {
+      let visible = 0;
+      cards.forEach(card => {
+        card.hidden = select.value !== 'all' && !card.dataset.newsCountries.split(' ').includes(select.value);
+        if (!card.hidden) visible += 1;
+      });
+      browser.querySelector('.news-empty-filter').hidden = visible > 0;
+    });
+  });
   document.querySelectorAll('.ad-frame').forEach(frame => {
     // Preserve the partner widget's readable controls; contain horizontal
     // scrolling within the frame instead of shrinking the search interface.

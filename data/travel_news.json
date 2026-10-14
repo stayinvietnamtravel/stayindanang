@@ -1,0 +1,24 @@
+{
+  "last_updated": null,
+  "articles": [],
+  "sources": {
+    "tat-news": {
+      "last_attempt_at": "2026-10-14T05:40:10.754003+00:00",
+      "last_success_at": null,
+      "status": "unavailable",
+      "count": 0
+    },
+    "ttg-asia": {
+      "last_attempt_at": "2026-10-14T05:40:10.754003+00:00",
+      "last_success_at": null,
+      "status": "unavailable",
+      "count": 0
+    },
+    "travel-daily-news": {
+      "last_attempt_at": "2026-10-14T05:40:10.754003+00:00",
+      "last_success_at": null,
+      "status": "unavailable",
+      "count": 0
+    }
+  }
+}

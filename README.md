@@ -15,7 +15,7 @@ The website uses shared CSS and JavaScript under `assets/`. Upload the complete 
 
 English remains at the root. The site supports 13 language editions: English, Vietnamese (`vi`), simplified Chinese (`zh`), traditional Chinese (`zh-Hant`), Russian (`ru`), Korean (`ko`), Japanese (`ja`), Hindi (`hi`), French (`fr`), German (`de`), Spanish (`es`), Thai (`th`) and Indonesian (`id`). Hindi is one language used in India, not a translation into every Indian language. A compact language picker opens the equivalent article in the selected language. Translations are editorial drafts and may benefit from native-speaker review.
 
-There are eight editorial topics in every language: planning, hotel areas, a Central Vietnam itinerary, heritage destinations, the source-based Da Nang 2026 guide, regional food, coastal experiences and city walks. These produce 104 guide pages. A separate hotel-picks section adds 42 hotels in 13 language editions and 13 indexes, bringing the site to 689 HTML pages. The category buttons filter blog cards by tips, hotels, routes, destinations, food or experiences; all cards remain available without JavaScript.
+There are eight editorial topics in every language: planning, hotel areas, a Central Vietnam itinerary, heritage destinations, the source-based Da Nang 2026 guide, regional food, coastal experiences and city walks. These produce 104 guide pages. A separate hotel-picks section adds 42 hotels in 13 language editions and 13 indexes. International resource/news pages add 26 pages, bringing the site to 715 HTML pages. The category buttons filter blog cards by tips, hotels, routes, destinations, food or experiences; all cards remain available without JavaScript.
 
 ```text
 assets/                         Shared styles and browser behavior
@@ -36,7 +36,11 @@ blog/
     experiences/coastal-vietnam-experiences/index.html
     destinations/hanoi-ho-chi-minh-city-walks/index.html
 deals/<language>/              Top Deals / Hot Sellers index and hotel posts
+resources/<language>/          International tourism sites and travel magazines
+news/<language>/               Attributed international travel headlines
 data/bookdeal.json             Extracted hotel names, links and source provenance
+data/travel_sources.json       Tourism references, publications and RSS configuration
+data/travel_news.json          Fetched headlines, source status and actual timestamps
 downloads/
   bookdeal-posts/               42 Vietnamese social posts and CSV with short posts
   bookdeal-posts-hd.zip         Social texts + 42 HD cards
@@ -49,6 +53,10 @@ scripts/
   deal_posts.py                 Bookdeal posts, hotel pages, exports and HD cards
   hotel_editorial.py            Translations of the workbook's blog themes
   import_bookdeal.py            Validated name/link/content spreadsheet importer
+  travel_portal.py              International resources and news page generator
+  refresh_travel_news.py        Safe RSS/Atom headline cache updater
+.github/workflows/
+  travel-news.yml               Scheduled headline refresh and Pages build request
   build_site.py                 Static page and sitemap generator
   check_site.py                 Dependency-free structural checks
 ```
@@ -72,6 +80,18 @@ The downloadable ZIP contains 42 updated Vietnamese social posts, 42 original En
 `python3 scripts/build_site.py` rebuilds the hotel pages and deterministic downloadable bundle from the JSON and committed artwork using the standard library. To recreate the artwork itself, run `python3 scripts/deal_posts.py --render-images`; this optional command requires Playwright and Chromium at `/usr/bin/chromium`. The extractor used OpenPyXL only when reading the uploaded workbook; normal site builds do not need it.
 
 To import another workbook using the same column headings, run `python3 scripts/import_bookdeal.py /path/to/file.xlsx` (requires OpenPyXL), then rebuild and check the site. The importer reads cached values without executing Excel formulas, validates each blog/social/CTA URL against the hotel's booking link, keeps existing slugs and exclusions, and rejects conflicting hyperlinks, duplicate identities or missing existing hotels. Input is validated before the JSON is replaced. Image URL presence alone is not proof of licensing or verification.
+
+## International resources and news
+
+The directory lists 18 official tourism destinations and 10 travel magazines/publications, including Vietnam Tourism, JNTO, Korea Tourism Organization, Tourism Thailand, Singapore Tourism Board, France.fr, VisitBritain, Condé Nast Traveler, Travel + Leisure, AFAR, GEO and Lonely Planet. These are outbound reference links, not claims of partnership or reciprocal backlinks. Destination and publication names retain their original branding; navigation and explanatory text have 13 language editions.
+
+News pages render attributed headlines from TAT Newsroom, TTG Asia and TravelDailyNews International RSS feeds. Article bodies and publisher photographs are not copied. Dates come from the feed, never from the fetch time; absent dates are labelled as missing. Displayed times use Asia/Bangkok (+07:00). Headline destination tags use explicitly mentioned location names and the publisher's scope; headlines remain in their source language. Visitors can filter by destination and open the original publication. With no successful fetch, the page states that no headlines have been downloaded and provides direct publisher links instead.
+
+Run `python3 scripts/refresh_travel_news.py` to refresh the cache, then rebuild and check the site. Only HTTPS article links on configured publisher hosts are accepted, duplicates are removed, dates more than 60 days old or over one hour in the future are rejected, and at most 12 items per publisher are retained. Missing publication dates remain null. TLS verification stays enabled. HTML/script markup and RSS instructions are treated as data; no commands from feeds are executed. A publisher failure preserves its existing cache. If every publisher fails, the command exits nonzero and does not claim a successful fetch.
+
+The `Refresh travel news` GitHub Actions workflow runs on initial configuration push, manual dispatch and at 06:00/18:00 UTC (13:00/01:00 Asia/Bangkok), subject to GitHub scheduler timing. It uses only Python's standard library, rebuilds/validates the site and commits refreshed data with the platform token. Because token-based commits do not automatically trigger a GitHub Pages branch build, the workflow explicitly requests that build through the Pages API. It has `contents: write` and `pages: write` permissions, preserves normal fast-forward safeguards and never force-pushes. It assumes the documented `main / root` Pages deployment; it does not alter Pages settings.
+
+The cloud task's first feed fetch was blocked by its network policy, so the initial cache contained no invented headlines. A successful build of the site alone does not establish that the scheduled workflow fetched feeds or that Pages published them; check the Actions run and Pages deployment for runtime status.
 
 ## Local development
 
