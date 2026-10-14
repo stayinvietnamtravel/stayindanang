@@ -94,10 +94,14 @@
     panel.querySelectorAll('[data-analytics-consent]').forEach(button => button.addEventListener('click', () => { storageSet(consentKey,button.dataset.analyticsConsent);panel.querySelector('.analytics-consent').hidden = true;panel.querySelector('.analytics-revoke').hidden = button.dataset.analyticsConsent !== 'yes';if (button.dataset.analyticsConsent === 'yes') record(); }));
     panel.querySelector('.analytics-revoke').addEventListener('click', () => { storageSet(consentKey,'no');panel.querySelector('.analytics-revoke').hidden = true; });
     const adminForm = panel.querySelector('.analytics-admin-form');
+    panel.querySelector('.analytics-admin').addEventListener('toggle', event => {
+      if (!event.target.open) { panel.querySelector('.analytics-results').replaceChildren();panel.querySelector('.analytics-status').textContent = '';adminForm.elements.token.value = ''; }
+    });
     adminForm.addEventListener('submit', async event => {
       event.preventDefault();const token = adminForm.elements.token.value;adminForm.elements.token.value = '';const results = panel.querySelector('.analytics-results');results.replaceChildren();
       try {
         const result = await api('/stats',{headers:{Authorization:'Bearer '+token}});
+        if (!panel.querySelector('.analytics-admin').open) return;
         panel.querySelector('.analytics-status').textContent = labels.ui[18]+': '+result.visits+' · '+labels.ui[19]+': '+result.uniqueIps;
         const table = document.createElement('table');
         result.ips.forEach(item => { const row = table.insertRow();row.insertCell().textContent = item.ip;row.insertCell().textContent = String(item.visits);row.insertCell().textContent = new Date(item.lastSeen).toLocaleString(locale,{timeZone:'Asia/Bangkok'}); });results.append(table);
