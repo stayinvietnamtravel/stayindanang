@@ -5,7 +5,7 @@ from html import escape
 import json
 import os
 import xml.etree.ElementTree as ET
-from content import CONTENT, LANGUAGES, SLUGS, SOURCES
+from content import CONTENT, LANGUAGES, SLUGS, SOURCES, SEARCH_COPY
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -45,12 +45,19 @@ def language_links(lang, current, counterparts):
 def ads(lang, ids=None):
     u = CONTENT[lang]['ui']
     frames = []
+    search = ''
     for ident, sub, width, height in BANNERS:
         if ids is not None and ident not in ids:
             continue
         src = f'https://www.trip.com/partners/ad/{ident}?Allianceid=7874910&SID=295648032&trip_sub1={sub}'
+        if ident == 'S14984461':
+            title, description, hint = SEARCH_COPY[lang]
+            search = f'<section class="hotel-search" id="hotel-search" aria-labelledby="hotel-search-title"><div class="container"><div class="search-panel"><p class="ad-label">{E(u[9])}</p><h2 id="hotel-search-title">{E(title)}</h2><p>{E(description)}</p><div class="ad-frame search-frame" data-ad-width="900" data-ad-height="200" data-ad-mode="scroll" style="width:900px" tabindex="0" role="region" aria-label="{E(title)}"><iframe src="{E(src)}" width="900" height="200" title="{E(title)}" id="{ident}" loading="eager" referrerpolicy="strict-origin-when-cross-origin" scrolling="no" style="border:0;width:900px;height:200px"></iframe></div><p class="search-hint">{E(hint)}</p><p class="ad-fallback"><a href="https://www.trip.com/t/Ygo40EEhzV2" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-search-fallback">{E(u[10])} ↗</a></p></div></div></section>'
+            continue
         frames.append(f'<div class="ad-frame" data-ad-width="{width}" data-ad-height="{height}" style="width:{width}px"><iframe src="{E(src)}" width="{width}" height="{height}" title="{E(u[9])} — {ident}" id="{ident}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" scrolling="no" style="border:0;width:{width}px;height:{height}px"></iframe></div>')
-    return f'<section class="ad-section" aria-label="{E(u[9])}"><div class="container"><p class="ad-label">{E(u[9])}</p><div class="banner-grid">' + ''.join(frames) + f'</div><p class="ad-fallback"><a href="https://www.trip.com/t/Ygo40EEhzV2" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="banner-fallback">{E(u[10])} ↗</a></p></div></section>'
+    if not frames:
+        return search
+    return search + f'<section class="ad-section" aria-label="{E(u[9])}"><div class="container"><p class="ad-label">{E(u[9])}</p><div class="banner-grid">' + ''.join(frames) + f'</div><p class="ad-fallback"><a href="https://www.trip.com/t/Ygo40EEhzV2" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="banner-fallback">{E(u[10])} ↗</a></p></div></section>'
 
 
 def document(lang, path, title, description, body, counterparts, structured=None):
@@ -92,7 +99,7 @@ def build():
         all_pages.append((home(lang), counterparts))
         if lang != 'en':
             path = home(lang)
-            body = f'<section class="localized-hero"><div class="container"><div class="eyebrow">{E(u[21])}</div><h1>{E(u[6])}</h1><p>{E(u[7])}</p><a class="btn btn-light" href="{relative(path, blog(lang))}">{E(u[1])} →</a></div></section>'
+            body = f'<section class="localized-hero"><div class="container"><div class="eyebrow">{E(u[21])}</div><h1>{E(u[6])}</h1><p>{E(u[7])}</p><div class="hero-actions"><a class="btn btn-light" href="#hotel-search">{E(SEARCH_COPY[lang][0])} ↓</a><a class="btn btn-outline" href="{relative(path, blog(lang))}">{E(u[1])} →</a></div></div></section>'
             body += ads(lang, ['S14984461'])
             body += f'<section class="section soft"><div class="container"><h2>{E(u[16])}</h2><p class="lead main-blog-heading">{E(u[18])}</p>{cards(lang,path)}</div></section>'
             body += ads(lang, ['SB20219796', 'DB13678212'])

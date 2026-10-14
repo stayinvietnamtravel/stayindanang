@@ -92,7 +92,8 @@ def check():
             assert src.path == '/partners/ad/'+ident
             assert parse_qs(src.query) == {'Allianceid':['7874910'],'SID':['295648032'],'trip_sub1':[sub]}
             assert frame['width'] == str(width) and frame['height'] == str(height)
-            assert frame.get('title') and frame.get('loading') == 'lazy'
+            assert frame.get('title')
+            assert frame.get('loading') == ('eager' if ident == 'S14984461' else 'lazy')
     assert len(paths) == 42, len(paths)
     for path, page in pages.items():
         for lang in LANGUAGES:

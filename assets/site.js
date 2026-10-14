@@ -18,6 +18,9 @@
     });
   });
   document.querySelectorAll('.ad-frame').forEach(frame => {
+    // Preserve the partner widget's readable controls; contain horizontal
+    // scrolling within the frame instead of shrinking the search interface.
+    if (frame.dataset.adMode === 'scroll') return;
     const iframe = frame.querySelector('iframe');
     const resize = () => {
       const scale = Math.min(1, frame.clientWidth / Number(frame.dataset.adWidth));
