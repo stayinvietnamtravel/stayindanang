@@ -10,6 +10,7 @@ from build_site import BASE, home, blog, article, url
 from content import LANGUAGES, SLUGS, ARTICLE_DETAILS
 from deal_posts import HOTELS, DATA, EXPORT_ROOT, page_pairs, post_path, image_path, social_post, short_post
 from hotel_editorial import editorial
+from marketplace import CONFIG as AFFILIATE_CONFIG, FEATURED, service_url
 from travel_portal import page_pairs as travel_page_pairs, SOURCES as TRAVEL_SOURCES, safe_articles
 import struct
 import zipfile
@@ -100,6 +101,10 @@ def check():
         assert "www.trip.com/partners/ad/" not in (ROOT/path).read_text(encoding="utf-8"), path
         if path==home(page.lang):
             assert 'weather' in page.ids and 'trip-ideas' in page.ids and 'weather-city' in page.ids, (path,'homepage tools')
+            assert all(key in page.ids for key in ('booking','destinations','tours','hotels','flights','affiliate-routes')), (path,'discovery navigation')
+            targets=[target for kind,target in page.links if kind=='a']
+            assert all(link in targets for link in AFFILIATE_CONFIG['services'].values()), (path,'service affiliate routes')
+            assert all(h['url'] in targets for h in HOTELS if h['slug'] in FEATURED), (path,'featured property routes')
     expected_paths = {target for lang in LANGUAGES for target in [home(lang), blog(lang), *(article(lang, i) for i in range(len(SLUGS)))]}
     expected_paths.update(path for path, _ in page_pairs(LANGUAGES))
     expected_paths.update(path for path, _ in travel_page_pairs(LANGUAGES))

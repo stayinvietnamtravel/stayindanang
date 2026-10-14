@@ -12,6 +12,8 @@ from deal_posts import build_pages as build_deal_pages, exports as export_deal_p
 from travel_portal import build_pages as build_travel_pages, teaser as travel_teaser, UI as TRAVEL_UI, resources_path, news_path
 from home_tools import home_tools
 
+from marketplace import marketplace, service_url
+
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
 E = escape
@@ -96,9 +98,9 @@ def build():
         if lang != 'en':
             path = home(lang)
             body = f'<section class="localized-hero"><div class="container"><div class="eyebrow">{E(u[21])}</div><h1>{E(u[6])}</h1><p>{E(u[7])}</p><div class="hero-actions"><a class="btn btn-light" href="{relative(path,deals_index(lang))}">{E(u[3])} ↓</a><a class="btn btn-outline" href="{relative(path, blog(lang))}">{E(u[1])} →</a></div></div></section>'
+            body += marketplace(lang,path,relative)
             body += home_tools(lang,path,relative)
             body += f'<section class="section soft"><div class="container"><h2>{E(u[16])}</h2><p class="lead main-blog-heading">{E(u[18])}</p>{cards(lang,path)}</div></section>'
-            body += f'<section class="section"><div class="container"><h2>{E(u[3])} · {E(u[4])}</h2><p>{E(u[14])}</p><a class="btn" href="https://www.trip.com/t/Ygo40EEhzV2" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="localized-booking">{E(u[8])}</a><p class="notice">{E(u[13])}</p></div></section>'
             write(path, document(lang,path,u[6],u[18],body,counterparts))
         path = blog(lang)
         counterparts = {code: blog(code) for code in LANGUAGES}
@@ -109,7 +111,7 @@ def build():
             path = article(lang,i)
             category = u[CATEGORY_LABELS[SLUGS[i][0]]]
             details = ARTICLE_DETAILS.get(SLUGS[i][1], {})
-            booking = details.get('booking', 'https://www.trip.com/t/Ygo40EEhzV2')
+            booking = details.get('booking', service_url({'hotels':'hotels','tours':'tours','experiences':'tours','destinations':'tours'}.get(SLUGS[i][0], 'home')))
             counterparts = {code: article(code,i) for code in LANGUAGES}
             all_pages.append((path,counterparts))
             body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(category)}</nav><span class="pill">{E(category)}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p>'
@@ -136,7 +138,14 @@ def build():
     updated = updated.replace('<meta property="og:type"', alternates+'<meta property="og:type"', 1)
     updated = updated.replace('<a href="news/en/index.html">News</a><a href="resources/en/index.html">Resources</a>', '')
     updated = updated.replace('<a href="blog/index.html">Blog</a></nav>', '<a href="blog/index.html">Blog</a><a href="news/en/index.html">News</a><a href="resources/en/index.html">Resources</a></nav>', 1)
-    tools_section = '<!-- HOME TOOLS START -->'+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
+    # Replace legacy English landing sections with the shared discovery UI.
+    if '<!-- HOME TOOLS START -->' in updated:
+        before, remaining = updated.split('<!-- HOME TOOLS START -->', 1)
+        old_tools, after = remaining.split('<!-- HOME TOOLS END -->', 1)
+        for section_id in ('destinations','hotels','tours','flights','deals'):
+            after=re.sub(r'<section class="[^"]*" id="'+section_id+r'">.*?</section>', '', after, flags=re.S)
+        updated=before+'<!-- HOME TOOLS START -->'+old_tools+'<!-- HOME TOOLS END -->'+after
+    tools_section = '<!-- HOME TOOLS START -->'+marketplace('en','index.html',relative)+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
     if '<!-- HOME TOOLS START -->' in updated:
         updated=re.sub(r'<!-- HOME TOOLS START -->.*?<!-- HOME TOOLS END -->\s*',lambda _:tools_section,updated,flags=re.S)
     else:

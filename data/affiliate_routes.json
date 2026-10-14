@@ -1,0 +1,11 @@
+{
+  "default_url": "https://www.trip.com/t/Ygo40EEhzV2",
+  "services": {
+    "flights": "https://www.trip.com/t/n2TiC46cVU2",
+    "hotels": "https://www.trip.com/t/FcAw256rUU2",
+    "tours": "https://www.trip.com/t/kK2O3GfvuV2",
+    "transfers": "https://www.trip.com/t/6cbffux5gW2",
+    "cars": "https://www.trip.com/t/5cRIlmfAgW2"
+  },
+  "routes": {}
+}

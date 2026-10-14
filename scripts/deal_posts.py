@@ -156,9 +156,10 @@ def exports():
 def build_pages(document,relative,url,languages):
     for lang in languages:
         c=COPY[lang];current=index_path(lang)
-        body=f'<section class="section soft"><div class="container"><h1>{E(c[0])}</h1><p class="lead">{E(c[7])}</p><div class="blog-browser"><div class="blog-filters" role="group" aria-label="{E(c[0])}"><button type="button" data-blog-filter="all" aria-pressed="true">Top Deals + Hot Sellers</button><button type="button" data-blog-filter="top-deals" aria-pressed="false">Top Deals (23)</button><button type="button" data-blog-filter="hot-sellers" aria-pressed="false">Hot Sellers (19)</button></div><div class="blog-grid">'
+        body=f'<section class="section soft hotel-directory"><div class="container"><h1>{E(c[0])}</h1><p class="lead">{E(c[7])}</p><div class="blog-browser"><div class="blog-filters" role="group" aria-label="{E(c[0])}"><button type="button" data-blog-filter="all" aria-pressed="true">Top Deals + Hot Sellers</button><button type="button" data-blog-filter="top-deals" aria-pressed="false">Top Deals (23)</button><button type="button" data-blog-filter="hot-sellers" aria-pressed="false">Hot Sellers (19)</button></div><div class="blog-grid">'
         for h in HOTELS:
-            body+=f'<a class="blog-card" data-blog-category="{h["group"].lower().replace(" ","-")}" href="{relative(current,post_path(lang,h))}"><img class="blog-cover" src="{relative(current,image_path(h))}" width="1600" height="900" alt="{E(h["display_name"])} — {h["group"]}" loading="lazy"><div class="blog-card-body"><span class="pill">{h["group"]}</span><h3>{E(h["display_name"])}</h3><p>{E(c[7])}</p></div></a>'
+            body+=f'<article class="blog-card" data-blog-category="{h["group"].lower().replace(" ","-")}"><a href="{relative(current,post_path(lang,h))}"><img class="blog-cover" src="{relative(current,image_path(h))}" width="1600" height="900" alt="{E(h["display_name"])} — {h["group"]}" loading="lazy"></a><div class="blog-card-body"><span class="pill">{h["group"]}</span><h3><a href="{relative(current,post_path(lang,h))}">{E(h["display_name"])}</a></h3><p>{E(c[7])}</p><a class="hotel-book-link" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{h["slug"]}">{E(c[3].replace("↗","→"))}</a></div></article>'
+
         body+='</div></div></div></section>'
         targets={code:index_path(code) for code in languages}
         write(current,document(lang,current,c[0],c[7],body,targets))
