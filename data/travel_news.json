@@ -1,6 +1,36 @@
 {
-  "last_updated": "2026-10-14T06:32:30.552786+00:00",
+  "last_updated": "2026-10-14T07:13:55.042217+00:00",
   "articles": [
+    {
+      "title": "TAT and Tripadvisor partner to support Thailand’s 2027 tourism transformation",
+      "url": "https://www.tatnews.org/2026/10/tat-and-tripadvisor-partner-to-support-thailands-2027-tourism-transformation/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-10-14T07:12:02+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "Jeddah hotels record September growth during Gulf Cup",
+      "url": "https://www.traveldailynews.com/statistics-trends/jeddah-hotel-performance-september-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T07:10:41+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "DesignBlok 2026 returned to Prague with “Light” as its central theme",
+      "url": "https://www.traveldailynews.com/meetings-events/designblok-2026-prague-marcel-wanders-light/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-14T07:03:17+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "HAMA releases Fall 2026 Hospitality Industry Outlook Survey",
       "url": "https://www.traveldailynews.com/statistics-trends/hama-fall-2026-hospitality-industry-outlook-survey/",
@@ -87,26 +117,6 @@
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-10-14T05:32:05+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Concord Hospitality expands North Carolina portfolio with management of seven Poteat Hotels",
-      "url": "https://www.traveldailynews.com/hospitality/concord-hospitality-north-carolina-seven-hotels/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:28:18+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Embraer and LATAM sign component support agreement for E195-E2 fleet",
-      "url": "https://www.traveldailynews.com/aviation/embraer-latam-agreement-e195-e2-component-support/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T05:26:35+00:00",
       "countries": [
         "international"
       ]
@@ -292,34 +302,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "Amazing Journeys 2026 connects Middle East travel trade with Thai tourism businesses",
-      "url": "https://www.tatnews.org/2026/10/amazing-journeys-2026-connects-middle-east-travel-trade-with-thai-tourism-businesses/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-02T03:28:00+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-14T06:32:30.552786+00:00",
-      "last_success_at": "2026-10-14T06:32:30.552786+00:00",
+      "last_attempt_at": "2026-10-14T07:13:55.042217+00:00",
+      "last_success_at": "2026-10-14T07:13:55.042217+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-14T06:32:30.552786+00:00",
-      "last_success_at": "2026-10-14T06:32:30.552786+00:00",
+      "last_attempt_at": "2026-10-14T07:13:55.042217+00:00",
+      "last_success_at": "2026-10-14T07:13:55.042217+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-14T06:32:30.552786+00:00",
-      "last_success_at": "2026-10-14T06:32:30.552786+00:00",
+      "last_attempt_at": "2026-10-14T07:13:55.042217+00:00",
+      "last_success_at": "2026-10-14T07:13:55.042217+00:00",
       "status": "ok",
       "count": 10
     }
