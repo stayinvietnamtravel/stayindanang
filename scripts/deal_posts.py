@@ -4,6 +4,7 @@ from html import escape as E
 from urllib.parse import urlsplit
 import json,csv,zipfile,struct
 from hotel_editorial import editorial
+from responsive_images import image as responsive_image
 
 ROOT=Path(__file__).resolve().parents[1]
 EXPORT_ROOT=ROOT.parent/'stayindanang-admin-exports'
@@ -158,7 +159,8 @@ def build_pages(document,relative,url,languages):
         c=COPY[lang];current=index_path(lang)
         body=f'<section class="section soft hotel-directory"><div class="container"><h1>{E(c[0])}</h1><p class="lead">{E(c[7])}</p><div class="blog-browser"><div class="blog-filters" role="group" aria-label="{E(c[0])}"><button type="button" data-blog-filter="all" aria-pressed="true">Top Deals + Hot Sellers</button><button type="button" data-blog-filter="top-deals" aria-pressed="false">Top Deals (23)</button><button type="button" data-blog-filter="hot-sellers" aria-pressed="false">Hot Sellers (19)</button></div><div class="blog-grid">'
         for h in HOTELS:
-            body+=f'<article class="blog-card" data-blog-category="{h["group"].lower().replace(" ","-")}"><a href="{relative(current,post_path(lang,h))}"><img class="blog-cover" src="{relative(current,image_path(h))}" width="1600" height="900" alt="{E(h["display_name"])} — {h["group"]}" loading="lazy"></a><div class="blog-card-body"><span class="pill">{h["group"]}</span><h3><a href="{relative(current,post_path(lang,h))}">{E(h["display_name"])}</a></h3><p>{E(c[7])}</p><a class="hotel-book-link" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{h["slug"]}">{E(c[3].replace("↗","→"))}</a></div></article>'
+            img=responsive_image(image_path(h),current,relative,h["display_name"],"blog-cover",sizes="(max-width: 700px) 44vw, 300px")
+            body+=f'<article class="blog-card" data-blog-category="{h["group"].lower().replace(" ","-")}"><a href="{relative(current,post_path(lang,h))}">{img}</a><div class="blog-card-body"><span class="pill">{h["group"]}</span><h3><a href="{relative(current,post_path(lang,h))}">{E(h["display_name"])}</a></h3><p>{E(c[7])}</p><a class="hotel-book-link" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{h["slug"]}">{E(c[3].replace("↗","→"))}</a></div></article>'
 
         body+='</div></div></div></section>'
         targets={code:index_path(code) for code in languages}
@@ -166,7 +168,8 @@ def build_pages(document,relative,url,languages):
         for h in HOTELS:
             path=post_path(lang,h)
             title,intro,sections=editorial(h,lang)
-            body=f'<div class="container"><article class="article"><nav class="breadcrumbs"><a href="{relative(path,index_path(lang))}">{E(c[0])}</a></nav><span class="pill">{h["group"]}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p><figure class="featured-image"><img src="{relative(path,image_path(h))}" width="1600" height="900" alt="{E(title)}" fetchpriority="high"><figcaption>{E(h["display_name"])}</figcaption></figure>'
+            img=responsive_image(image_path(h),path,relative,title,sizes="(max-width: 800px) 92vw, 780px",eager=True)
+            body=f'<div class="container"><article class="article"><nav class="breadcrumbs"><a href="{relative(path,index_path(lang))}">{E(c[0])}</a></nav><span class="pill">{h["group"]}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p><figure class="featured-image">{img}<figcaption>{E(h["display_name"])}</figcaption></figure>'
             if h['location_note']:body+=f'<p class="editorial-note">{E(c[10])}</p>'
             body+=''.join(f'<section class="hotel-editorial"><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
             body+=f'<section><h2>{E(c[4])}</h2><ul>'+''.join(f'<li>{E(check)}</li>' for check in c[5:8])+'</ul></section>'

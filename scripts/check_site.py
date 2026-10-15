@@ -55,6 +55,8 @@ class Page(HTMLParser):
             self.frames.append(a)
         if tag == 'img':
             self.images.append(a)
+            for source in a.get('srcset','').split(','):
+                if source.strip():self.links.append(('image variant',source.strip().split()[0]))
         if tag == 'script' and a.get('type') == 'application/ld+json':
             self.script = ''
 
@@ -84,7 +86,7 @@ def check():
             assert len(page.images) == 1, (path, 'featured image')
             image = page.images[0]
             assert image.get('alt') and image.get('width') and image.get('height'), (path, 'image accessibility')
-            assert image['src'].endswith(('.svg','.png')) and not urlsplit(image['src']).scheme, (path, 'local image')
+            assert image['src'].endswith(('.svg','.png','.webp')) and not urlsplit(image['src']).scheme, (path, 'local image')
         for kind, link in page.links:
             parts = urlsplit(link)
             if parts.scheme or parts.netloc:

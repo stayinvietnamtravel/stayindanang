@@ -15,6 +15,7 @@ from home_tools import home_tools
 from marketplace import marketplace, service_url
 from world_guides import build_pages as build_world_pages, teaser as world_teaser
 from seo import extras as seo_extras, discovery_files
+from responsive_images import image as responsive_image
 from travel_art import cover as art_cover, dimensions as art_dimensions, gallery as art_gallery, COPY as ART_COPY
 from assistant import build_data as build_assistant_data, widget as assistant_widget, stats as assistant_stats
 
@@ -80,7 +81,8 @@ def cards(lang, current):
         category = u[CATEGORY_LABELS[SLUGS[i][0]]]
         image = art_cover(SLUGS[i][1])
         width,height=art_dimensions(image)
-        result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}"><img class="blog-cover" src="{relative(current,image)}" width="{width}" height="{height}" alt="{E(title)}" loading="lazy"><div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
+        img=responsive_image(image,current,relative,title,"blog-cover",sizes="(max-width: 780px) 92vw, 390px")
+        result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}">{img}<div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
     filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
     filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
     deal_link = f'<aside class="deals-callout"><h3>{E(DEAL_COPY[lang][0])}</h3><p>{E(DEAL_COPY[lang][7])}</p><a class="btn" href="{relative(current,deals_index(lang))}">{E(DEAL_COPY[lang][0])} →</a></aside>'
@@ -124,7 +126,8 @@ def build():
             body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(category)}</nav><span class="pill">{E(category)}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p>'
             image = art_cover(SLUGS[i][1])
             width,height=art_dimensions(image)
-            body += f'<figure class="featured-image"><img src="{relative(path,image)}" width="{width}" height="{height}" alt="{E(title)}" fetchpriority="high"><figcaption>{E(ART_COPY[lang][1] if image.startswith("assets/ai-travel/") else FEATURE_CAPTIONS[lang])}</figcaption></figure>'
+            img=responsive_image(image,path,relative,title,sizes="(max-width: 800px) 92vw, 780px",eager=True)
+            body += f'<figure class="featured-image">{img}<figcaption>{E(ART_COPY[lang][1] if image.startswith("assets/ai-travel/") else FEATURE_CAPTIONS[lang])}</figcaption></figure>'
             if 'source_notes' in details:
                 body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)

@@ -3,6 +3,8 @@ from html import escape as E
 from pathlib import Path
 from world_weather import CITIES as WEATHER_CITIES
 import json
+from responsive_images import image as responsive_image
+from travel_art import COPY as ART_COPY
 from world_destinations import COUNTRIES,REGIONS,REGION_KEYS,city_name,country_name
 ROOT=Path(__file__).resolve().parents[1]
 # heading, intro, planning heading/body, weather heading/body, food heading,
@@ -29,7 +31,11 @@ def path(lang,region):return f'explore/{lang}/{region}/index.html'
 def page_pairs(languages):return [(path(lang,region),{code:path(code,region) for code in languages}) for lang in languages for region in REGION_KEYS]
 def teaser(lang,current,relative):
     u=COPY[lang];result=f'<section class="section world-ideas"><div class="container"><h2>{E(u[0])}</h2><p>{E(u[1])}</p><div class="world-region-grid">'
-    for key,label in zip(REGION_KEYS,REGIONS[lang][4:]):result+=f'<a class="world-region-card" href="{relative(current,path(lang,key))}"><h3>{E(label)}</h3><p>{E(ROUTES[key])}</p><span>{E(u[10])} →</span></a>'
+    for key,label in zip(REGION_KEYS,REGIONS[lang][4:]):
+        image='assets/ai-travel/world-'+key+'.png'
+        img=responsive_image(image,current,relative,ROUTES[key]) if (ROOT/image).exists() else ''
+        badge=f'<span class="image-ai-badge" title="{E(ART_COPY[lang][1])}">AI</span>' if img else ''
+        result+=f'<a class="world-region-card" href="{relative(current,path(lang,key))}">{img}{badge}<div class="world-region-body"><h3>{E(label)}</h3><p>{E(ROUTES[key])}</p><span>{E(u[10])} →</span></div></a>'
     return result+'</div></div></section>'
 def build_pages(document,relative,url,languages):
     from marketplace import service_url,service_labels

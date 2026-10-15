@@ -9,6 +9,8 @@ from home_tools import COPY as HOME_COPY
 from destinations import CITIES, DESTINATIONS
 from world_destinations import COUNTRIES, CITY_KEYS, REGIONS, REGION_KEYS, country_name, city_name
 from content import CONTENT
+from responsive_images import image as responsive_image
+from travel_art import COPY as ART_COPY
 from travel_art import cover as art_cover, dimensions as art_dimensions
 ROOT=Path(__file__).resolve().parents[1]
 CONFIG=json.loads((ROOT/'data/affiliate_routes.json').read_text())
@@ -86,14 +88,18 @@ def discovery(lang,current,relative):
     u=UI[lang];content=CONTENT[lang];guide=HOME_COPY[lang][21]
     result=rail_start('destinations',u[7],f'blog/{lang}/tours/da-nang-hoi-an-hue/index.html',current,relative,u)
     for title,article,image,num in SIGHTS:
-        result+=f'<article class="sight-card">{favorite("sight-"+num,title,u)}<a class="sight-cover" href="{relative(current,f"blog/{lang}/{article}/index.html")}"><img src="{relative(current,f"assets/discovery/{image}.svg")}" width="1020" height="540" alt="" loading="lazy"><span class="sight-number">{num}</span><div class="sight-caption"><span class="pill">{E(content["ui"][5])}</span><h3>{E(title)}</h3><span>{E(guide)}</span></div></a></article>'
+        path="assets/ai-travel/"+image+".png"
+        if not (ROOT/path).exists():path="assets/discovery/"+image+".svg"
+        img=responsive_image(path,current,relative,title+" · "+ART_COPY[lang][1])
+        result+=f'<article class="sight-card">{favorite("sight-"+num,title,u)}<a class="sight-cover" href="{relative(current,f"blog/{lang}/{article}/index.html")}">{img}<span class="image-ai-badge" title="{E(ART_COPY[lang][1])}">AI</span><div class="sight-caption"><span class="pill">{E(content["ui"][5])}</span><h3>{E(title)}</h3><span>{E(guide)}</span></div></a></article>'
     result+='</div>'+service_action('tours',lang)+'</div></section>'
     result+=rail_start('tours',u[8],f'blog/{lang}/experiences/coastal-vietnam-experiences/index.html',current,relative,u)
     from content import SLUGS
     for category,slug in EXPERIENCES:
         title,intro,_=content['articles'][SLUGS.index((category,slug))]
         art=art_cover(slug);width,height=art_dimensions(art)
-        result+=f'<article class="experience-card">{favorite("guide-"+slug,title,u)}<a href="{relative(current,f"blog/{lang}/{category}/{slug}/index.html")}"><img src="{relative(current,art)}" width="{width}" height="{height}" alt="" loading="lazy"><div class="experience-body"><h3>{E(title)}</h3><span class="text-link">{E(guide)}</span></div></a></article>'
+        img=responsive_image(art,current,relative,title+" · "+ART_COPY[lang][1],sizes="(max-width: 700px) 80vw, 300px")
+        result+=f'<article class="experience-card">{favorite("guide-"+slug,title,u)}<span class="image-ai-badge" title="{E(ART_COPY[lang][1])}">AI</span><a href="{relative(current,f"blog/{lang}/{category}/{slug}/index.html")}">{img}<div class="experience-body"><h3>{E(title)}</h3><span class="text-link">{E(guide)}</span></div></a></article>'
     result+='</div></div></section>'
     result+=rail_start('hotels',u[9],index_path(lang),current,relative,u)
     # Filters precede the rail without duplicating nested button/link hit areas.
@@ -103,7 +109,9 @@ def discovery(lang,current,relative):
     result+=f'</div><div class="discovery-rail hotel-rail" tabindex="0" aria-label="{E(u[9])}">'
     for slug in FEATURED:
         h=next(h for h in HOTELS if h['slug']==slug)
-        result+=f'<article class="hotel-pick" data-hotel-group="{h["group"].lower().replace(" ","-")}" data-saved-id="hotel-{slug}">{favorite("hotel-"+slug,h["display_name"],u)}<a class="hotel-artwork" href="{relative(current,post_path(lang,h))}"><img src="{relative(current,image_path(h))}" width="1600" height="900" alt="{E(h["display_name"])}" loading="lazy"></a><div class="hotel-pick-body"><small>{E(DESTINATIONS[lang][3][0])} · {h["group"]}</small><h3><a href="{relative(current,post_path(lang,h))}">{E(h["display_name"])}</a></h3><p>{E(HOTEL_COPY[lang][7])}</p><a class="hotel-book-link" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{slug}">{E(HOTEL_COPY[lang][3].replace('↗','→'))}</a></div></article>'
+        illustration='assets/ai-travel/hotel-inspiration.png'
+        img=responsive_image(illustration if (ROOT/illustration).exists() else image_path(h),current,relative,ART_COPY[lang][1],sizes='(max-width: 700px) 80vw, 300px')
+        result+=f'<article class="hotel-pick" data-hotel-group="{h["group"].lower().replace(" ","-")}" data-saved-id="hotel-{slug}">{favorite("hotel-"+slug,h["display_name"],u)}<a class="hotel-artwork" href="{relative(current,post_path(lang,h))}">{img}<span class="image-ai-badge" title="{E(ART_COPY[lang][1])}">AI · {E(content["ui"][5])}</span></a><div class="hotel-pick-body"><small>{E(DESTINATIONS[lang][3][0])} · {h["group"]}</small><h3><a href="{relative(current,post_path(lang,h))}">{E(h["display_name"])}</a></h3><p>{E(HOTEL_COPY[lang][7])}</p><a class="hotel-book-link" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{slug}">{E(HOTEL_COPY[lang][3].replace('↗','→'))}</a></div></article>'
     result+=f'</div><p class="saved-empty" hidden>{E(u[17])}</p></div></section>'
     result+=f'<section class="service-links" id="flights"><div class="container"><div class="service-link-card"><span aria-hidden="true">✈</span><div><h2>{E(FLIGHTS[lang])}</h2><p>{E(u[6])}</p></div><a class="btn" href="{E(CONFIG["services"]["flights"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="flight-general">{E(u[5])}</a></div></div></section><section class="service-links" id="deals"><div class="container"><a class="deals-shortcut" href="{relative(current,index_path(lang))}">{E(HOTEL_COPY[lang][0])}<span>{E(u[10])}</span></a></div></section>'
     result+=transport_cards(lang)

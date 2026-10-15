@@ -1,0 +1,1626 @@
+{
+  "assets/ai-travel/ba-na-hills.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2900277,
+    "sha256": "b30c37bff4cd9a45ee219ef1107a2ffd622288bbc6165d3c95edf0faea088d80",
+    "variants": [
+      {
+        "file": "assets/ai-travel/ba-na-hills-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 69332,
+        "quality": 74
+      },
+      {
+        "file": "assets/ai-travel/ba-na-hills-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 181592,
+        "quality": 66
+      },
+      {
+        "file": "assets/ai-travel/ba-na-hills-1024.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 301484,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/ai-travel/city-walks.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3510195,
+    "sha256": "84a845ec7991464e1dcc4dc3d55af45932e1e4b146fa9c278d206f325868689f",
+    "variants": [
+      {
+        "file": "assets/ai-travel/city-walks-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 63686,
+        "quality": 78
+      },
+      {
+        "file": "assets/ai-travel/city-walks-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 181162,
+        "quality": 66
+      },
+      {
+        "file": "assets/ai-travel/city-walks-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 355656,
+        "quality": 62
+      }
+    ]
+  },
+  "assets/ai-travel/coastal-vietnam.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2836233,
+    "sha256": "b49c17ee74191dcfde3a8ba041ad5f8246d73207c64feaeaca2c9e893331ee81",
+    "variants": [
+      {
+        "file": "assets/ai-travel/coastal-vietnam-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39344,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/coastal-vietnam-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 134278,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/coastal-vietnam-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 289550,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/ai-travel/discover-vietnam.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2890635,
+    "sha256": "72c4865cf9c53da850ad49f166b2e1c666a0706105d69e70390832fc3e6289cf",
+    "variants": [
+      {
+        "file": "assets/ai-travel/discover-vietnam-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 56650,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/discover-vietnam-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 171474,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/discover-vietnam-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 306374,
+        "quality": 78
+      }
+    ]
+  },
+  "assets/ai-travel/hoi-an.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 2850340,
+    "sha256": "7c22e0d5d4248a6e1d4fe15226b05482483c96f72da7aff6ae536bbdf9936827",
+    "variants": [
+      {
+        "file": "assets/ai-travel/hoi-an-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 75482,
+        "quality": 62
+      },
+      {
+        "file": "assets/ai-travel/hoi-an-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 213184,
+        "quality": 62
+      },
+      {
+        "file": "assets/ai-travel/hoi-an-1024.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 302262,
+        "quality": 78
+      }
+    ]
+  },
+  "assets/ai-travel/hotel-inspiration.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3303768,
+    "sha256": "5c3cfbb3a2e15343cafe7ce82e8c6a4c7384508704794a543a072c7355ad8a05",
+    "variants": [
+      {
+        "file": "assets/ai-travel/hotel-inspiration-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 49538,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-inspiration-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 179490,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-inspiration-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 309754,
+        "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/hue.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 3182845,
+    "sha256": "1b3d24b8653dda8b08578bd2a0d5192ad85111306d390c428c1443b0ba232bfa",
+    "variants": [
+      {
+        "file": "assets/ai-travel/hue-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 68972,
+        "quality": 62
+      },
+      {
+        "file": "assets/ai-travel/hue-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 215702,
+        "quality": 62
+      },
+      {
+        "file": "assets/ai-travel/hue-1024.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 322824,
+        "quality": 78
+      }
+    ]
+  },
+  "assets/ai-travel/marble-mountains.png": {
+    "width": 1024,
+    "height": 1536,
+    "original_bytes": 3446923,
+    "sha256": "27fe5f1302f7d4a5c972dcbd57670deff9675cc7ceb1c7b627e46369231e7ee0",
+    "variants": [
+      {
+        "file": "assets/ai-travel/marble-mountains-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 83466,
+        "quality": 62
+      },
+      {
+        "file": "assets/ai-travel/marble-mountains-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 252428,
+        "quality": 62
+      },
+      {
+        "file": "assets/ai-travel/marble-mountains-1024.webp",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 325896,
+        "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/taste-vietnam.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2786418,
+    "sha256": "cc4307d2a6549dbd852b5ff3f59da2aaac6343e2af50259b8053a08b128f5102",
+    "variants": [
+      {
+        "file": "assets/ai-travel/taste-vietnam-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 58980,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/taste-vietnam-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 162566,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/taste-vietnam-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 312740,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/ai-travel/travel-planning.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2594965,
+    "sha256": "487780d5a6dcbf3a77b89701207e719835e8518c5f62882a4a1f37f6ad704c2c",
+    "variants": [
+      {
+        "file": "assets/ai-travel/travel-planning-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39712,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/travel-planning-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 114246,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/travel-planning-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 228380,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/ai-travel/world-americas.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2908059,
+    "sha256": "3f618a92849e71a1bc048fe8f1c91ba9936a60d3a0b2975eb1961d5b4d82a8e5",
+    "variants": [
+      {
+        "file": "assets/ai-travel/world-americas-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42238,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-americas-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 147558,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-americas-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 323592,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/ai-travel/world-asia.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3349848,
+    "sha256": "f2cc80341e81b34079ae8a1b59c4b5a0ce185af3b2eecb55df177b07e0633df4",
+    "variants": [
+      {
+        "file": "assets/ai-travel/world-asia-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 55982,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-asia-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 171748,
+        "quality": 78
+      },
+      {
+        "file": "assets/ai-travel/world-asia-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 330106,
+        "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/world-europe.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3077103,
+    "sha256": "bfdc64c2f17a8270908a6d1fcd8d2109b4bf14114080937a98101cc8e2b9be41",
+    "variants": [
+      {
+        "file": "assets/ai-travel/world-europe-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 56142,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-europe-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 187304,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-europe-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 311294,
+        "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/world-oceania.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3038346,
+    "sha256": "df5531012c0c7e7edaa132181a9d7e0df201c07a867b2b743272a1a80f8243aa",
+    "variants": [
+      {
+        "file": "assets/ai-travel/world-oceania-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44590,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-oceania-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 157958,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-oceania-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 307756,
+        "quality": 78
+      }
+    ]
+  },
+  "assets/hotel-deals/anfada-hotel-danang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 596165,
+    "sha256": "6edc852758afe4b947e86d178e3bc485c6ffa6815da0a0ebb9e92f6ddddeaf44",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/anfada-hotel-danang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8016,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/anfada-hotel-danang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18164,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/anfada-hotel-danang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 32302,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/avatar-danang-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 595245,
+    "sha256": "7e8a0c75d514ec42dea2da537205a2a42a5ac04a9d484407fe1839ae07fd7ae7",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/avatar-danang-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7720,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/avatar-danang-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 17794,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/avatar-danang-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 31560,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/da-nang-mikazuki-japanese-resorts-spa.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 594298,
+    "sha256": "06f5cf749f33c040f50f541f26989c2b5e24cecb5742a9df61a0edbe4c7c5b77",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/da-nang-mikazuki-japanese-resorts-spa-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6664,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/da-nang-mikazuki-japanese-resorts-spa-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16330,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/da-nang-mikazuki-japanese-resorts-spa-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 29584,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/danang-marriott-resort-spa.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 611850,
+    "sha256": "fb0fcc95ff1aaca25d644bf0c5847c271d356888fdee1c6a541403346cd4c640",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/danang-marriott-resort-spa-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9886,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/danang-marriott-resort-spa-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 23092,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/danang-marriott-resort-spa-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 40794,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/doma-by-hsuites-hotel-apartment.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 612099,
+    "sha256": "1ca4d4fa04fa2dfb33039394cd1f0b6da890f1cb24c3261fdc9ab01258b4b796",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/doma-by-hsuites-hotel-apartment-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9758,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/doma-by-hsuites-hotel-apartment-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21668,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/doma-by-hsuites-hotel-apartment-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 37610,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/elite-riverlight-boutique-hotel-by-elite24.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 611268,
+    "sha256": "89b2e88b25c03d547fc39176fbf8c28afa39cb9839d400203b806c28eabb8d9a",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/elite-riverlight-boutique-hotel-by-elite24-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9534,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/elite-riverlight-boutique-hotel-by-elite24-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21288,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/elite-riverlight-boutique-hotel-by-elite24-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36710,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/first-studio-hotel-da-nang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 596040,
+    "sha256": "1855a0fe5997a88649326edd6a34f656b92e1c798fcbe0476c6adc8f6bf8c4eb",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/first-studio-hotel-da-nang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8446,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/first-studio-hotel-da-nang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18998,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/first-studio-hotel-da-nang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 32962,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/four-points-by-sheraton-danang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 610165,
+    "sha256": "4811d2772586dac82b49e1a336197d847b6209235e0c91d7a04a8db88c2a1e81",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/four-points-by-sheraton-danang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9232,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/four-points-by-sheraton-danang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21058,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/four-points-by-sheraton-danang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36414,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/furama-resort-danang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 596709,
+    "sha256": "b3a8d1ccb0e2b6a85c0610c0ec7894b5b04dae4d13c74a5b277270ab1bb630ff",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/furama-resort-danang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8708,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/furama-resort-danang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 20448,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/furama-resort-danang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36100,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/golden-light-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 594454,
+    "sha256": "22d10113848236f1a851b91176cd4756fb176935f5dd36b980894079c0118a3d",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/golden-light-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7548,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/golden-light-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 17084,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/golden-light-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 30398,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/golden-lotus-grand-da-nang-panoramic-rooftop-bar-daily-afternoon-tea.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 611639,
+    "sha256": "4eded4243f9c4571f8a1fa8791117ab7b363c7df22c65edb9e6beeaf90312af4",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/golden-lotus-grand-da-nang-panoramic-rooftop-bar-daily-afternoon-tea-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8758,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/golden-lotus-grand-da-nang-panoramic-rooftop-bar-daily-afternoon-tea-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 19892,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/golden-lotus-grand-da-nang-panoramic-rooftop-bar-daily-afternoon-tea-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 34880,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/haian-beach-hotel-spa.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 596615,
+    "sha256": "8102bbd8e011feccb742e7228a8fbf2cc36f1fc0887ec12ee7a95556b49ff98c",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/haian-beach-hotel-spa-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9010,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/haian-beach-hotel-spa-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 20836,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/haian-beach-hotel-spa-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36236,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/hilton-da-nang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 593760,
+    "sha256": "a980457f7aff490092ddc7a097d94de556f82fc0807f7ca138b515a109820729",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/hilton-da-nang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7648,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/hilton-da-nang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18160,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/hilton-da-nang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 32258,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/hotel-de-soie.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 598899,
+    "sha256": "24fc0b03243acdddeea0922dcd078c1bd1a021dca9c337d114e495616b18f5b8",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/hotel-de-soie-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7088,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/hotel-de-soie-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16698,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/hotel-de-soie-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 30094,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/hyatt-regency-danang-resort-and-spa.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 613452,
+    "sha256": "28a1238609fb79b20b4b94750ee05872b38effc82b9b93d68aed71feb5d8c1d9",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/hyatt-regency-danang-resort-and-spa-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 10578,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/hyatt-regency-danang-resort-and-spa-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 24386,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/hyatt-regency-danang-resort-and-spa-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 42430,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/intercontinental-danang-sun-peninsula-resort-by-ihg.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 612046,
+    "sha256": "c1217d649c37dbc1c91881c99083d91fdfd75be486692fff184f22037b21247a",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/intercontinental-danang-sun-peninsula-resort-by-ihg-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 11692,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/intercontinental-danang-sun-peninsula-resort-by-ihg-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 26200,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/intercontinental-danang-sun-peninsula-resort-by-ihg-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 44424,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/la-palma-boutique-hotel-da-nang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 610254,
+    "sha256": "fa2c4e5c8d9df0a8de9f274680cbcb98b7104b74b0a9be59021a018c14b19a5a",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/la-palma-boutique-hotel-da-nang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9138,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/la-palma-boutique-hotel-da-nang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 20550,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/la-palma-boutique-hotel-da-nang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 35962,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/lavender-riverside-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 596541,
+    "sha256": "71cbffe3a5325aba478481a204159bd99af616d3fa85f43b4a8efd5515e0cf98",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/lavender-riverside-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8324,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/lavender-riverside-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18874,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/lavender-riverside-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 33588,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/m-hotel-danang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 592912,
+    "sha256": "4745064550785e694eb358fd49a86b21d2f9e93618e68d3d08ea182a321a54a1",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/m-hotel-danang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7714,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/m-hotel-danang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18134,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/m-hotel-danang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 32318,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/menora-grand-da-nang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 598769,
+    "sha256": "dc1eec6c7426bc94bbc01bfc6e2db262c6ef7e5abd282f27aed99ec6baff1304",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/menora-grand-da-nang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8120,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/menora-grand-da-nang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18808,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/menora-grand-da-nang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 33250,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/mercure-danang-french-village-bana-hills.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 613057,
+    "sha256": "8c9c0306391eeb9673ae5088dae80e84ff63ab01e9a012f95331f538e87d3079",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/mercure-danang-french-village-bana-hills-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 10172,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/mercure-danang-french-village-bana-hills-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 23650,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/mercure-danang-french-village-bana-hills-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 40300,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/mercury-beach-danang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 598388,
+    "sha256": "dda73c0e14e739791b2fc6caa66c22f4cf1959eda9402dbc50b7d98ac1b0bb54",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/mercury-beach-danang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8336,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/mercury-beach-danang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18852,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/mercury-beach-danang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 33792,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/muong-thanh-luxury-da-nang-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 607152,
+    "sha256": "d8806ff10438bb8a1ba3b7137d6d1d04e149dc78133bb5051b973dd2f75abb3c",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/muong-thanh-luxury-da-nang-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9808,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/muong-thanh-luxury-da-nang-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 22526,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/muong-thanh-luxury-da-nang-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 38564,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/my-khe-diamond-beach-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 611285,
+    "sha256": "80a9beb3ab0a3962153b04f4bf162fe394c03a8f6f813e260360ff07b2da12e6",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/my-khe-diamond-beach-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8950,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/my-khe-diamond-beach-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 20132,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/my-khe-diamond-beach-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 35122,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/novotel-danang-premier-han-river.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 608706,
+    "sha256": "fe9d3e671666b4476d579c43a23a38cc473fbf97ee5377662f917ec9bf7e9cb1",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/novotel-danang-premier-han-river-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9966,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/novotel-danang-premier-han-river-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 22602,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/novotel-danang-premier-han-river-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 39400,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/ocean-garden-boutique-da-nang-a-salve-by-haviland.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 616329,
+    "sha256": "f10fb6cc32b3c12008d43e22aa4adc79cf7296490372c31841434e90a21c94ed",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/ocean-garden-boutique-da-nang-a-salve-by-haviland-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 10586,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/ocean-garden-boutique-da-nang-a-salve-by-haviland-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 23874,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/ocean-garden-boutique-da-nang-a-salve-by-haviland-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 41390,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/olwen-boutique-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 596339,
+    "sha256": "a4a710771c6b43e0a68615abed1c1145c2b0722d216872de0094a465eb914298",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/olwen-boutique-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7976,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/olwen-boutique-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18206,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/olwen-boutique-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 32902,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/peninsula-hotel-danang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 594445,
+    "sha256": "2721c300294572663a01567e8db36e8116d31890d5b3ff403e4ada68fef57a4d",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/peninsula-hotel-danang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8632,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/peninsula-hotel-danang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 19934,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/peninsula-hotel-danang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 35062,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/phuong-ong-orient-hotel-da-nang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 597541,
+    "sha256": "6c20c9221ffa4dc7fd58bb30456f6ae1383699e74ab0e1aca21bc116826bfe92",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/phuong-ong-orient-hotel-da-nang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7056,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/phuong-ong-orient-hotel-da-nang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16482,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/phuong-ong-orient-hotel-da-nang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 30370,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/pullman-danang-beach-resort.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 605855,
+    "sha256": "a211843fbbd2e9044c2f252790ee00cc54ac74107cfb16297925dec14cbbd29c",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/pullman-danang-beach-resort-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9284,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/pullman-danang-beach-resort-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21524,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/pullman-danang-beach-resort-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 37252,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/royal-charm-hotel-danang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 606681,
+    "sha256": "2529cfc8e0fa0c63858aab8c016eaa69f2e934c064dcc991194220af580ab6a3",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/royal-charm-hotel-danang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8366,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/royal-charm-hotel-danang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 19300,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/royal-charm-hotel-danang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 33608,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/sala-danang-beach-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 597404,
+    "sha256": "43e0ecffa872db996e636ddb17e1a3915ccd64dd3e53772177dd6af51fef378a",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/sala-danang-beach-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9086,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/sala-danang-beach-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21172,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/sala-danang-beach-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 37190,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/sea-queen-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 590989,
+    "sha256": "fe4305f448a6bda4d93ccc7241f2dee600bc84189d8503ac3f90426c2b63f40e",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/sea-queen-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7208,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/sea-queen-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16452,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/sea-queen-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 29136,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/seahorse-natalie-da-nang-hotel-by-sujet-of-haviland.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 619023,
+    "sha256": "d75c621e4f6e4e1133e418ba73d397793fa3deeb471c01777c6fa868995ad96b",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/seahorse-natalie-da-nang-hotel-by-sujet-of-haviland-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 10806,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/seahorse-natalie-da-nang-hotel-by-sujet-of-haviland-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 24454,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/seahorse-natalie-da-nang-hotel-by-sujet-of-haviland-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 41334,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/shilla-monogram-danang.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 595003,
+    "sha256": "665f52da690f0781d29a40b19efff7889b42ead2c7cb7a7b94e7ded0512c3ba1",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/shilla-monogram-danang-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8914,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/shilla-monogram-danang-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 20566,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/shilla-monogram-danang-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 35838,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/smeraldo-hotel-apartment.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 609417,
+    "sha256": "c3bbbf69447a581f91e841e944c418164d9f98d5799ea028d27a79ef815869bc",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/smeraldo-hotel-apartment-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8682,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/smeraldo-hotel-apartment-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 19540,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/smeraldo-hotel-apartment-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 34790,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/taian-hotel-apartment.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 598254,
+    "sha256": "a0035e7db3f3a510d595cfcc6425994122879ece1ec1a00a01a6cd31d15f1001",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/taian-hotel-apartment-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8404,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/taian-hotel-apartment-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 19260,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/taian-hotel-apartment-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 33974,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/tms-hotel-da-nang-beach.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 597829,
+    "sha256": "5444d86b11482437c6d1a3b8e90c36b2fcd7bb50818fc47f116de308434f2767",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/tms-hotel-da-nang-beach-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9080,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/tms-hotel-da-nang-beach-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21070,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/tms-hotel-da-nang-beach-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36974,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/tui-blue-han-river.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 593705,
+    "sha256": "c80616a8360506f0ce37ee6577af5289a00df8a124a92ee6285804082f164ad9",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/tui-blue-han-river-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7496,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/tui-blue-han-river-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 17052,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/tui-blue-han-river-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 30136,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/voco-ma-belle-danang-by-ihg.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 607231,
+    "sha256": "b6a7332410f7836f60f489cb3e5c687a3f1765e47fcbbb346c7c498ba3cdcf5f",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/voco-ma-belle-danang-by-ihg-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9346,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/voco-ma-belle-danang-by-ihg-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21744,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/voco-ma-belle-danang-by-ihg-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 37870,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/wyndham-danang-golden-bay-free-shuttle-bus-to-beach.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 608892,
+    "sha256": "8fba0c18d8c31356b6e2c88d9d7c3be83e225875f42a4dc60a1ef3f0f0d6dfc0",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/wyndham-danang-golden-bay-free-shuttle-bus-to-beach-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9824,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/wyndham-danang-golden-bay-free-shuttle-bus-to-beach-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 22744,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/wyndham-danang-golden-bay-free-shuttle-bus-to-beach-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 39982,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hotel-deals/wyndham-soleil-danang-free-schedule-airport-shuttle.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 598283,
+    "sha256": "3afd7c351eec88966572bf7bfcb11733da65bffea17134142dbce5dcc34c622a",
+    "variants": [
+      {
+        "file": "assets/hotel-deals/wyndham-soleil-danang-free-schedule-airport-shuttle-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8920,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/wyndham-soleil-danang-free-schedule-airport-shuttle-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 20898,
+        "quality": 82
+      },
+      {
+        "file": "assets/hotel-deals/wyndham-soleil-danang-free-schedule-airport-shuttle-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36526,
+        "quality": 82
+      }
+    ]
+  }
+}
