@@ -155,9 +155,9 @@ See `server/README.md` for account setup, secret configuration and the manual **
 
 ## Original AI travel images
 
-`assets/ai-travel/` contains 23 original ChatGPT-generated HD illustrations: five text posters and eighteen destination/editorial scenes. Native HTML titles and AI attribution work in all 13 editions. HD PNG originals are preserved in the repository; browser images use responsive WebP. The standalone homepage artwork section has been removed, with images placed inside relevant blog and regional guides instead. Generic Da Nang hotel-area illustrations are not presented as photographs of individual properties.
+`assets/ai-travel/` contains 29 original ChatGPT-generated HD illustrations: eleven text posters and eighteen destination/editorial scenes. Native HTML titles and AI attribution work in all 13 editions. HD PNG originals are preserved in the repository; browser images use responsive WebP. The standalone homepage artwork section has been removed, with images placed inside relevant blog and regional guides instead. Generic Da Nang hotel-area illustrations are not presented as photographs of individual properties.
 
-`scripts/optimize_images.py` exports 285 responsive WebP variants from 95 originals, including 42 Da Nang and 30 Hanoi hotel text cards. New AI thumbnails are approximately 39–84 KB (median 56 KB), around 98% smaller than their PNG originals; this compares file sizes, not total page-load times. `scripts/responsive_images.py` supplies `srcset`, accurate dimensions and lazy loading, with priority loading for article covers. Normal builds read the committed image registry without Pillow; install Pillow only to export new artwork. Open Graph/Twitter retain the HD covers.
+`scripts/optimize_images.py` exports 303 responsive WebP variants from 101 originals, including 42 Da Nang and 30 Hanoi hotel text cards. New AI thumbnails are approximately 39–84 KB (median 56 KB), around 98% smaller than their PNG originals; this compares file sizes, not total page-load times. `scripts/responsive_images.py` supplies `srcset`, accurate dimensions and lazy loading, with priority loading for article covers. Normal builds read the committed image registry without Pillow; install Pillow only to export new artwork. Open Graph/Twitter retain the HD covers.
 
 ## Hanoi hotel guides
 
@@ -180,3 +180,10 @@ All 13 homepages share a compact sticky header, a short illustrated hero and an 
 `scripts/hotel_visuals.py` gives all 42 Da Nang and 30 Hanoi hotel cards a city-specific AI scenic cover with the exact hotel name rendered as accessible HTML. These are destination illustrations, not photos of the individual property. Shared city images are cached across hotel cards, avoiding dozens of large duplicate composites. The existing individual HD text-card originals remain available in the repository and administrative exports. Hotel article share metadata continues to use the individual text card.
 
 `scripts/vietnam_ideas.py` adds Ninh Binh, Sa Pa and Phu Quoc guides with three new original text posters. Vietnamese and English articles contain destination-specific routes, food ideas, weather alternatives and booking advice; other editions provide localized destination introductions and planning advice. Each guide cites official sources and uses the approved service affiliate links. These guides appear in the homepage experience carousel and multilingual blog filters, canonical links and sitemap.
+
+
+## Vietnam and international poster itineraries
+
+`scripts/world_posters.py` adds six poster-led itinerary ideas: Hue (3 days), Ha Long/Cat Ba (3 days with confirmed-connection caveats), Kyoto (3 days), Paris (4 days), New York (4 days) and Sydney (3 days). Vietnamese and English editions contain detailed day-by-day routes; other editions provide localized concise planning summaries. The 78 localized articles have individual titles/descriptions, official tourism or UNESCO citations, reciprocal language metadata, sitemap entries and real city/place coordinates in BlogPosting spatialCoverage. No tour package, included tickets, current prices or guaranteed seasonal conditions are claimed.
+
+Original HD PNG and full-resolution WebP poster downloads are available inside each article. Browser images remain responsive/lazy WebP with uncropped article posters. Approved hotel, flight, tour, transfer and car-rental short links retain their original destinations; visitors choose actual dates and conditions on Trip.com. The homepage experience carousel highlights the new itineraries.

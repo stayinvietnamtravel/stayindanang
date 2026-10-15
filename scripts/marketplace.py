@@ -83,7 +83,8 @@ def booking(lang,current,relative):
 FLIGHTS={'vi':'Chuyến bay','en':'Flights','fr':'Vols','de':'Flüge','es':'Vuelos','zh':'机票','zh-Hant':'機票','ru':'Авиабилеты','ko':'항공편','ja':'航空券','hi':'उड़ानें','th':'เที่ยวบิน','id':'Penerbangan'}
 
 SIGHTS=[('Ba Na Hills · Golden Bridge','tours/da-nang-hoi-an-hue','ba-na-hills','01'),('Ngũ Hành Sơn · Marble Mountains','tours/da-nang-hoi-an-hue','marble-mountains','02'),('Hội An · Old Town','destinations/vietnam-heritage-guide','hoi-an','03'),('Huế · Imperial City','tours/da-nang-hoi-an-hue','hue','04')]
-EXPERIENCES=[('destinations','ninh-binh-two-day-escape'),('experiences','sapa-valley-walks'),('tips','phu-quoc-three-day-plan'),('food','vietnam-food-guide'),('experiences','coastal-vietnam-experiences'),('tips','da-nang-hotels-tours-flights-2026'),('destinations','hanoi-ho-chi-minh-city-walks')]
+from world_posters import TRIPS as POSTER_TRIPS
+EXPERIENCES=[('destinations',trip['slug']) for trip in POSTER_TRIPS]+[('destinations','ninh-binh-two-day-escape'),('experiences','sapa-valley-walks'),('tips','phu-quoc-three-day-plan'),('food','vietnam-food-guide'),('experiences','coastal-vietnam-experiences'),('tips','da-nang-hotels-tours-flights-2026'),('destinations','hanoi-ho-chi-minh-city-walks')]
 FEATURED=['menora-grand-da-nang','ocean-garden-boutique-da-nang-a-salve-by-haviland','haian-beach-hotel-spa','sala-danang-beach-hotel','hilton-da-nang','tui-blue-han-river','furama-resort-danang','tms-hotel-da-nang-beach']
 
 def rail_start(section,title,more,current,relative,u):
@@ -103,7 +104,7 @@ def discovery(lang,current,relative):
     for category,slug in EXPERIENCES:
         title,intro,_=content['articles'][SLUGS.index((category,slug))]
         art=art_cover(slug);width,height=art_dimensions(art)
-        img=responsive_image(art,current,relative,title+" · "+ART_COPY[lang][1],sizes="(max-width: 700px) 80vw, 300px")
+        img=responsive_image(art,current,relative,title+" · "+ART_COPY[lang][1],css="poster-cover" if any(t["slug"]==slug for t in POSTER_TRIPS) else "",sizes="(max-width: 700px) 80vw, 300px")
         result+=f'<article class="experience-card">{favorite("guide-"+slug,title,u)}<span class="image-ai-badge" title="{E(ART_COPY[lang][1])}">AI</span><a href="{relative(current,f"blog/{lang}/{category}/{slug}/index.html")}">{img}<div class="experience-body"><h3>{E(title)}</h3><span class="text-link">{E(guide)}</span></div></a></article>'
     result+='</div></div></section>'
     result+=rail_start('hotels',u[9],index_path(lang),current,relative,u)

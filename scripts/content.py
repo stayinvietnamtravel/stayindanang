@@ -193,3 +193,6 @@ for code in LANGUAGES:
 
 from vietnam_ideas import register as register_vietnam_ideas
 register_vietnam_ideas(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)
+
+from world_posters import register as register_world_posters
+register_world_posters(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)

@@ -230,5 +230,71 @@
     "generator": "ChatGPT image generation",
     "type": "AI editorial illustration",
     "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "hue-heritage-days.png",
+    "topic": "Hue Heritage Days",
+    "blog_slug": "hue-heritage-days",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "ha-long-cat-ba-escape.png",
+    "topic": "Ha Long Cat Ba Escape",
+    "blog_slug": "ha-long-cat-ba-escape",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "kyoto-three-day-guide.png",
+    "topic": "Kyoto Three Day Guide",
+    "blog_slug": "kyoto-three-day-guide",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "paris-four-day-guide.png",
+    "topic": "Paris Four Day Guide",
+    "blog_slug": "paris-four-day-guide",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "new-york-four-day-guide.png",
+    "topic": "New York Four Day Guide",
+    "blog_slug": "new-york-four-day-guide",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "sydney-three-day-guide.png",
+    "topic": "Sydney Three Day Guide",
+    "blog_slug": "sydney-three-day-guide",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
   }
 ]

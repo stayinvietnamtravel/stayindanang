@@ -96,3 +96,9 @@
 @media(max-width:700px){.hotel-visual-title strong{font-size:21px}.featured-image .hotel-visual-title{left:20px;right:20px;bottom:18px}.featured-image .hotel-visual-title strong{font-size:24px}.featured-image .hotel-visual-title small{font-size:8px;margin-bottom:7px}}
 .hotel-visual-context{top:11px;right:auto;width:fit-content;max-width:calc(100% - 110px);padding:5px 8px;border-radius:20px;background:#082f49c9;text-shadow:none}
 .hotel-visual .image-ai-badge{bottom:auto}
+
+.poster-downloads{display:flex;gap:16px;flex-wrap:wrap;padding:12px 16px;border:1px solid #dce7ef;background:#f5f9fd;border-radius:12px}
+
+.featured-image.poster-feature img{aspect-ratio:3/2;object-fit:contain}
+
+.blog-cover.poster-cover,.experience-card img.poster-cover,.home-page #blog .blog-cover.poster-cover{aspect-ratio:3/2;object-fit:contain}

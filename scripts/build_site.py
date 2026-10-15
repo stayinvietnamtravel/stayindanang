@@ -15,7 +15,7 @@ from home_tools import home_tools
 from marketplace import marketplace, service_url, service_labels
 from world_guides import build_pages as build_world_pages, teaser as world_teaser
 from seo import extras as seo_extras, discovery_files
-from responsive_images import image as responsive_image
+from responsive_images import image as responsive_image, registry as image_registry
 from travel_art import cover as art_cover, dimensions as art_dimensions, contextual_images, COPY as ART_COPY
 from assistant import build_data as build_assistant_data, widget as assistant_widget, stats as assistant_stats
 from hanoi_hotels import build_pages as build_hanoi_pages, teaser as hanoi_teaser
@@ -87,7 +87,7 @@ def cards(lang, current):
         category = u[CATEGORY_LABELS[SLUGS[i][0]]]
         image = art_cover(SLUGS[i][1])
         width,height=art_dimensions(image)
-        img=responsive_image(image,current,relative,title,"blog-cover",sizes="(max-width: 780px) 92vw, 390px")
+        img=responsive_image(image,current,relative,title,"blog-cover"+(" poster-cover" if ARTICLE_DETAILS.get(SLUGS[i][1],{}).get("poster_download") else ""),sizes="(max-width: 780px) 92vw, 390px")
         result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}">{img}<div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
     filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
     filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
@@ -125,9 +125,14 @@ def build():
             all_pages.append((path,counterparts))
             body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(category)}</nav><span class="pill">{E(category)}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p>'
             image = art_cover(SLUGS[i][1])
+            poster_class=' poster-feature' if details.get('poster_download') else ''
             width,height=art_dimensions(image)
             img=responsive_image(image,path,relative,title,sizes="(max-width: 800px) 92vw, 780px",eager=True)
-            body += f'<figure class="featured-image">{img}<figcaption>{E(ART_COPY[lang][1] if image.startswith("assets/ai-travel/") else FEATURE_CAPTIONS[lang])}</figcaption></figure>'
+            body += f'<figure class="featured-image{poster_class}">{img}<figcaption>{E(ART_COPY[lang][1] if image.startswith("assets/ai-travel/") else FEATURE_CAPTIONS[lang])}</figcaption></figure>'
+            if details.get('poster_download'):
+                variants=image_registry().get(image,{}).get('variants',[])
+                webp=variants[-1]['file'] if variants else image
+                body+=f'<p class="poster-downloads"><a class="text-link" href="{relative(path,image)}" download>{E(ART_COPY[lang][2])} · PNG →</a><a class="text-link" href="{relative(path,webp)}" download>WebP →</a></p>'
             if 'source_notes' in details:
                 body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
@@ -138,6 +143,9 @@ def build():
             body += ''.join(f'<li><a href="{E(source)}" target="_blank" rel="noopener noreferrer">{E(label)}</a></li>' for label,source in SOURCES[i])
             body += f'</ul><p><a class="btn" href="{E(booking)}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="blog-{SLUGS[i][0]}">{E(u[8])}</a></p><p><a href="{relative(path, blog(lang))}">{E(u[14])} →</a></p></article></div>'
             structured = {'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'image':BASE+image,'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[source for _,source in SOURCES[i]]}
+            if details.get('place'):
+                place=details['place']
+                structured['spatialCoverage']={'@type':'Place','name':place['name'],'geo':{'@type':'GeoCoordinates','latitude':place['latitude'],'longitude':place['longitude']}}
             write(path,document(lang,path,title,intro,body,counterparts,structured))
     all_pages.extend(build_service_pages(document,relative,url,LANGUAGES))
     export_deal_posts()

@@ -173,6 +173,35 @@
       }
     ]
   },
+  "assets/ai-travel/ha-long-cat-ba-escape.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3131008,
+    "sha256": "21e9fcb7c4dabc24537af10a48f4535fa5d936acbf7397a79fb5d400b66c393b",
+    "variants": [
+      {
+        "file": "assets/ai-travel/ha-long-cat-ba-escape-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 50534,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/ha-long-cat-ba-escape-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 174436,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/ha-long-cat-ba-escape-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 329000,
+        "quality": 78
+      }
+    ]
+  },
   "assets/ai-travel/hoi-an.png": {
     "width": 1024,
     "height": 1536,
@@ -289,6 +318,35 @@
       }
     ]
   },
+  "assets/ai-travel/hue-heritage-days.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3157720,
+    "sha256": "dd55abba838c206e371b7ed78eed39a0eb048e9601d704a05f12921ac932fb22",
+    "variants": [
+      {
+        "file": "assets/ai-travel/hue-heritage-days-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 51652,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hue-heritage-days-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 177022,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hue-heritage-days-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 305944,
+        "quality": 74
+      }
+    ]
+  },
   "assets/ai-travel/hue.png": {
     "width": 1024,
     "height": 1536,
@@ -315,6 +373,35 @@
         "height": 1536,
         "bytes": 322824,
         "quality": 78
+      }
+    ]
+  },
+  "assets/ai-travel/kyoto-three-day-guide.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3106787,
+    "sha256": "d8b01e7bd81157e7717fb74fa05b5589c2537990cbc06d4e240630e8ad402769",
+    "variants": [
+      {
+        "file": "assets/ai-travel/kyoto-three-day-guide-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 56850,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/kyoto-three-day-guide-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 182180,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/kyoto-three-day-guide-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 307104,
+        "quality": 74
       }
     ]
   },
@@ -347,6 +434,35 @@
       }
     ]
   },
+  "assets/ai-travel/new-york-four-day-guide.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2930619,
+    "sha256": "2f91b1090c294eaa914a9bad811a9326c097e78b17e8f48817955ef29e2a6e74",
+    "variants": [
+      {
+        "file": "assets/ai-travel/new-york-four-day-guide-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 52532,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/new-york-four-day-guide-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 170974,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/new-york-four-day-guide-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 317754,
+        "quality": 78
+      }
+    ]
+  },
   "assets/ai-travel/ninh-binh-escape.png": {
     "width": 1536,
     "height": 1024,
@@ -373,6 +489,35 @@
         "height": 1024,
         "bytes": 300534,
         "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/paris-four-day-guide.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3046741,
+    "sha256": "27e0eeef8b9de19bbb3c29d4954f5c24fb72f840575b351329d34612a50a3463",
+    "variants": [
+      {
+        "file": "assets/ai-travel/paris-four-day-guide-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 55268,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/paris-four-day-guide-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 182572,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/paris-four-day-guide-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 333902,
+        "quality": 78
       }
     ]
   },
@@ -431,6 +576,35 @@
         "height": 1024,
         "bytes": 323160,
         "quality": 82
+      }
+    ]
+  },
+  "assets/ai-travel/sydney-three-day-guide.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2893989,
+    "sha256": "01543ac422f93dc39cc98c0316dd077fdf11501ffb637ea9b5c2715d17ba62c0",
+    "variants": [
+      {
+        "file": "assets/ai-travel/sydney-three-day-guide-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 49920,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/sydney-three-day-guide-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 166018,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/sydney-three-day-guide-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 305928,
+        "quality": 78
       }
     ]
   },
