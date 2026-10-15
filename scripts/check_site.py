@@ -30,6 +30,7 @@ class Page(HTMLParser):
         self.alternates = {}
         self.frames = []
         self.images = []
+        self.featured_figures = 0
         self.lang = None
         self.canonical = None
         self.script = None
@@ -37,6 +38,8 @@ class Page(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == 'figure' and 'featured-image' in a.get('class','').split():
+            self.featured_figures += 1
         if 'id' in a:
             self.ids.append(a['id'])
         if tag == 'html':
@@ -83,10 +86,10 @@ def check():
         assert set(page.alternates) == set(LANGUAGES) | {'x-default'}, (path, 'alternates')
         assert sum(kind == 'language' for kind, _ in page.links) == len(LANGUAGES), (path, 'language selector')
         if any(schema.get('@type') == 'BlogPosting' for schema in page.schemas):
-            assert len(page.images) == 1, (path, 'featured image')
-            image = page.images[0]
-            assert image.get('alt') and image.get('width') and image.get('height'), (path, 'image accessibility')
-            assert image['src'].endswith(('.svg','.png','.webp')) and not urlsplit(image['src']).scheme, (path, 'local image')
+            assert page.featured_figures == 1 and page.images, (path, 'featured image')
+            for image in page.images:
+                assert image.get('alt') and image.get('width') and image.get('height'), (path, 'image accessibility')
+                assert image['src'].endswith(('.svg','.png','.webp')) and not urlsplit(image['src']).scheme, (path, 'local image')
         for kind, link in page.links:
             parts = urlsplit(link)
             if parts.scheme or parts.netloc:

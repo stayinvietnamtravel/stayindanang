@@ -28,23 +28,21 @@ def dimensions(path):
         with (ROOT/path).open('rb') as image:header=image.read(24)
         return struct.unpack('>II',header[16:24])
     return 1020,540
-def gallery(lang,current,relative):
-    u=COPY[lang];result=f'<section class="section travel-art" id="travel-art"><div class="container"><h2>{E(u[0])}</h2><p class="notice">{E(u[1])}</p><div class="travel-art-grid">'
-    for filename,title in [('discover-vietnam.png','Discover Vietnam'),('taste-vietnam.png','Taste Vietnam')]:
+def contextual_images(lang,current,relative,slug):
+    """Place artwork inside the relevant guide, rather than a homepage gallery."""
+    from marketplace import service_labels,service_url
+    plans={
+        'da-nang-hotels-tours-flights-2026':[('tours','ha-long-bay.png'),('cars','tour-road-trip.png'),('flights','flight-planning.png')],
+        'vietnam-travel-planning':[('tours','world-travel-ideas.png'),('cars','tour-road-trip.png'),('flights','flight-planning.png')],
+        'da-nang-hoi-an-hue':[('tours','hue.png'),('cars','tour-road-trip.png')],
+        'vietnam-heritage-guide':[('tours','ha-long-bay.png')],
+        'coastal-vietnam-experiences':[('cars','tour-road-trip.png')],
+    }
+    items=[]
+    for service,filename in plans.get(slug,[]):
         path='assets/ai-travel/'+filename
         if not (ROOT/path).exists():continue
-        width,height=dimensions(path)
-        variants=image_registry().get(path,{}).get("variants",[])
-        webp=variants[-1]["file"] if variants else path
-        img=responsive_image(path,current,relative,title+" · "+u[1],sizes="(max-width: 800px) 92vw, 700px")
-        result+=f'<figure><a href="{relative(current,path)}">{img}</a><figcaption><strong>{title}</strong><a class="text-link" href="{relative(current,path)}" download>PNG · {E(u[2])} →</a><a class="text-link" href="{relative(current,webp)}" download>WebP →</a></figcaption></figure>'
-    result+='</div>'
-    entries=json.loads((ROOT/'assets/ai-travel/manifest.json').read_text())
-    more=[item for item in entries if item['file'] not in ('discover-vietnam.png','taste-vietnam.png')]
-    if more:
-        result+=f'<details class="art-library-more"><summary>{E(u[0])} · {len(more)}</summary><div class="art-library-grid">'
-        for item in more:
-            path='assets/ai-travel/'+item['file'];variants=image_registry().get(path,{}).get('variants',[]);webp=variants[-1]['file'] if variants else path;img=responsive_image(path,current,relative,item['topic']+' · '+u[1],sizes='(max-width: 700px) 44vw, 270px')
-            result+=f'<figure><a href="{relative(current,path)}">{img}</a><figcaption><strong>{E(item["topic"])}</strong><a class="text-link" href="{relative(current,path)}" download>PNG · {E(u[2])} →</a><a class="text-link" href="{relative(current,webp)}" download>WebP →</a></figcaption></figure>'
-        result+='</div></details>'
-    return result+'</div></section>'
+        label=service_labels(lang)[service]
+        img=responsive_image(path,current,relative,label+' · '+COPY[lang][1],sizes='(max-width: 700px) 90vw, 380px')
+        items.append(f'<figure>{img}<figcaption><strong>{E(label)}</strong><small>{E(COPY[lang][1])}</small><a class="text-link" href="{E(service_url(service))}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="illustrated-{service}">{E(label)} · Trip.com →</a></figcaption></figure>')
+    return '<div class="article-inspiration">'+''.join(items)+'</div>' if items else ''

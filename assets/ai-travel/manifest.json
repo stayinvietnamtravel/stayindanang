@@ -140,5 +140,45 @@
     "generator": "ChatGPT image generation",
     "type": "AI editorial illustration",
     "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "ha-long-bay.png",
+    "topic": "Ha Long Bay",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "world-travel-ideas.png",
+    "topic": "World Travel Ideas",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "tour-road-trip.png",
+    "topic": "Tour Road Trip",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "flight-planning.png",
+    "topic": "Flight Planning",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
   }
 ]

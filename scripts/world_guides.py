@@ -44,12 +44,17 @@ def build_pages(document,relative,url,languages):
         for region,label in zip(REGION_KEYS,REGIONS[lang][4:]):
             current=path(lang,region);title=f'{label}: {u[0]}'
             body=f'<div class="container"><article class="article"><nav class="breadcrumbs"><a href="{relative(current,"index.html" if lang=="en" else lang+"/index.html")}">Stay in Da Nang</a> / {E(label)}</nav><h1>{E(title)}</h1><p class="intro">{E(u[1])}</p><h2>{E(u[2])}</h2><p>{E(u[3])}</p><aside class="editorial-note"><strong>{E(u[10])}</strong><p>{E(ROUTES[region])}</p></aside><h2>{E(u[6])}</h2><p>{E(FOOD[region])}</p><h2>{E(u[4])}</h2><p>{E(u[5])}</p><a class="text-link" href="{relative(current,"index.html" if lang=="en" else lang+"/index.html")}#weather">{E(u[4])} →</a><h2>{E(REGIONS[lang][1])} · {E(REGIONS[lang][2])}</h2><div class="world-country-grid">'
+            image='assets/ai-travel/world-'+region+'.png'
+            if (ROOT/image).exists():
+                img=responsive_image(image,current,relative,label+' · '+ART_COPY[lang][1],sizes='(max-width: 800px) 92vw, 780px',eager=True)
+                figure=f'<figure class="featured-image">{img}<figcaption>{E(ART_COPY[lang][1])}</figcaption></figure>'
+                body=body.replace('</p><h2>', '</p>'+figure+'<h2>',1)
             for country in COUNTRIES:
                 if country[0]==region:body+=f'<section><h3>{E(country_name(country,lang))}</h3><p>{" · ".join(f'<a class="text-link" href="{relative(current,"index.html" if lang=="en" else lang+"/index.html")}?weather={city[0]}#weather">{E(city_name(city,lang))}</a>' for city in country[4])}</p></section>'
             body+=f'</div><h2>{E(u[7])}</h2><p>{E(u[8])}</p><div class="world-booking-links">'
             for service,service_label in service_labels(lang).items():body+=f'<a class="btn" href="{E(service_url(service))}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="world-{region}-{service}">{E(service_label)} →</a>'
             body+=f'</div><h2>{E(u[9])}</h2><ul>'+''.join(f'<li><a href="{E(link)}" target="_blank" rel="noopener noreferrer">{E(name)}</a></li>' for name,link in SOURCES[region])+'</ul></article></div>'
-            schema={'@context':'https://schema.org','@type':'Article','headline':title,'description':label+' · '+ROUTES[region]+'. '+u[1],'inLanguage':lang,'mainEntityOfPage':url(current),'author':{'@type':'Organization','name':'Stay in Da Nang'},'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[link for _,link in SOURCES[region]],'datePublished':'2026-10-14','image':url('assets/social/travel-guide.png')}
+            schema={'@context':'https://schema.org','@type':'Article','headline':title,'description':label+' · '+ROUTES[region]+'. '+u[1],'inLanguage':lang,'mainEntityOfPage':url(current),'author':{'@type':'Organization','name':'Stay in Da Nang'},'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[link for _,link in SOURCES[region]],'datePublished':'2026-10-14','image':url(image)}
             schema['spatialCoverage']=[{'@type':'Place','name':city_name(city,lang),'geo':{'@type':'GeoCoordinates','latitude':WEATHER_CITIES[city[0]][1],'longitude':WEATHER_CITIES[city[0]][2]}} for country in COUNTRIES if country[0]==region for city in country[4]]
             breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':1,'name':'Stay in Da Nang','item':url('index.html' if lang=='en' else lang+'/index.html')},{'@type':'ListItem','position':2,'name':label,'item':url(current)}]}
             body+='<script type="application/ld+json">'+json.dumps(breadcrumb,ensure_ascii=False).replace('<','\u003c')+'</script>'

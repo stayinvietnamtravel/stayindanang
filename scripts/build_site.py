@@ -16,7 +16,7 @@ from marketplace import marketplace, service_url
 from world_guides import build_pages as build_world_pages, teaser as world_teaser
 from seo import extras as seo_extras, discovery_files
 from responsive_images import image as responsive_image
-from travel_art import cover as art_cover, dimensions as art_dimensions, gallery as art_gallery, COPY as ART_COPY
+from travel_art import cover as art_cover, dimensions as art_dimensions, contextual_images, COPY as ART_COPY
 from assistant import build_data as build_assistant_data, widget as assistant_widget, stats as assistant_stats
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -106,7 +106,6 @@ def build():
             path = home(lang)
             body = f'<section class="localized-hero"><div class="container"><div class="eyebrow">{E(u[21])}</div><h1>{E(u[6])}</h1><p>{E(u[7])}</p><div class="hero-actions"><a class="btn btn-light" href="{relative(path,deals_index(lang))}">{E(u[3])} ↓</a><a class="btn btn-outline" href="{relative(path, blog(lang))}">{E(u[1])} →</a></div></div></section>'
             body += marketplace(lang,path,relative)
-            body += art_gallery(lang,path,relative)
             body += world_teaser(lang,path,relative)
             body += home_tools(lang,path,relative)
             body += f'<section class="section soft"><div class="container"><h2>{E(u[16])}</h2><p class="lead main-blog-heading">{E(u[18])}</p>{cards(lang,path)}</div></section>'
@@ -131,6 +130,7 @@ def build():
             if 'source_notes' in details:
                 body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
+            body += contextual_images(lang,path,relative,SLUGS[i][1])
             body += f'<aside class="editorial-note">{E(u[13])}</aside><h2>{E(u[12])}</h2><ul class="source-list">'
             body += ''.join(f'<li><a href="{E(source)}" target="_blank" rel="noopener noreferrer">{E(label)}</a></li>' for label,source in SOURCES[i])
             body += f'</ul><p><a class="btn" href="{E(booking)}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="blog-{SLUGS[i][0]}">{E(u[8])}</a></p><p><a href="{relative(path, blog(lang))}">{E(u[14])} →</a></p></article></div>'
@@ -156,7 +156,7 @@ def build():
         for section_id in ('destinations','hotels','tours','flights','deals'):
             after=re.sub(r'<section class="[^"]*" id="'+section_id+r'">.*?</section>', '', after, flags=re.S)
         updated=before+'<!-- HOME TOOLS START -->'+old_tools+'<!-- HOME TOOLS END -->'+after
-    tools_section = '<!-- HOME TOOLS START -->'+marketplace('en','index.html',relative)+art_gallery('en','index.html',relative)+world_teaser('en','index.html',relative)+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
+    tools_section = '<!-- HOME TOOLS START -->'+marketplace('en','index.html',relative)+world_teaser('en','index.html',relative)+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
     if '<!-- HOME TOOLS START -->' in updated:
         updated=re.sub(r'<!-- HOME TOOLS START -->.*?<!-- HOME TOOLS END -->\s*',lambda _:tools_section,updated,flags=re.S)
     else:

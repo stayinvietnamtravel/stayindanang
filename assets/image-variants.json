@@ -115,6 +115,64 @@
       }
     ]
   },
+  "assets/ai-travel/flight-planning.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2237187,
+    "sha256": "67753e61272d4508545555e8a343cb2c57ea87d7bd389fb61ed53617140c861d",
+    "variants": [
+      {
+        "file": "assets/ai-travel/flight-planning-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 35308,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/flight-planning-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 98716,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/flight-planning-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 183564,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/ai-travel/ha-long-bay.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3156344,
+    "sha256": "2f6d07e6af9add78806f9dafd22060eeec512a50a13a19ca80827313720e8698",
+    "variants": [
+      {
+        "file": "assets/ai-travel/ha-long-bay-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44486,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/ha-long-bay-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 163114,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/ha-long-bay-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 318908,
+        "quality": 78
+      }
+    ]
+  },
   "assets/ai-travel/hoi-an.png": {
     "width": 1024,
     "height": 1536,
@@ -260,6 +318,35 @@
       }
     ]
   },
+  "assets/ai-travel/tour-road-trip.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3096921,
+    "sha256": "c498e564dbac9bbe75848469e4579461882c29998d6c9db306f21e98d6ba0ab5",
+    "variants": [
+      {
+        "file": "assets/ai-travel/tour-road-trip-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42398,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/tour-road-trip-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 156840,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/tour-road-trip-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 301390,
+        "quality": 78
+      }
+    ]
+  },
   "assets/ai-travel/travel-planning.png": {
     "width": 1536,
     "height": 1024,
@@ -402,6 +489,35 @@
         "height": 1024,
         "bytes": 307756,
         "quality": 78
+      }
+    ]
+  },
+  "assets/ai-travel/world-travel-ideas.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3252814,
+    "sha256": "0a6268dc617b2b04696f5123bc3ee7a797067d4f40b069c50752ce59ba6a2389",
+    "variants": [
+      {
+        "file": "assets/ai-travel/world-travel-ideas-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 53394,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-travel-ideas-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 188532,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/world-travel-ideas-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 319070,
+        "quality": 74
       }
     ]
   },
