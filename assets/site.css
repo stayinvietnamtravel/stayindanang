@@ -52,3 +52,7 @@
 .article-inspiration figcaption{display:flex;flex-direction:column;gap:12px;padding:20px}
 .article-inspiration small{color:#617b90;line-height:1.5}
 @media(max-width:700px){.article-inspiration{grid-template-columns:1fr}}
+
+/* Preserve every hotel name and affiliate line in its own text artwork. */
+.hotel-artwork img{aspect-ratio:16/9;object-fit:contain;background:#082f49}
+.hotel-directory .blog-cover{aspect-ratio:16/9;object-fit:contain;background:#082f49}
