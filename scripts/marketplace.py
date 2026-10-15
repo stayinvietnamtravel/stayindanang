@@ -9,6 +9,7 @@ from home_tools import COPY as HOME_COPY
 from destinations import CITIES, DESTINATIONS
 from world_destinations import COUNTRIES, CITY_KEYS, REGIONS, REGION_KEYS, country_name, city_name
 from content import CONTENT
+from travel_art import cover as art_cover, dimensions as art_dimensions
 ROOT=Path(__file__).resolve().parents[1]
 CONFIG=json.loads((ROOT/'data/affiliate_routes.json').read_text())
 
@@ -91,7 +92,8 @@ def discovery(lang,current,relative):
     from content import SLUGS
     for category,slug in EXPERIENCES:
         title,intro,_=content['articles'][SLUGS.index((category,slug))]
-        result+=f'<article class="experience-card">{favorite("guide-"+slug,title,u)}<a href="{relative(current,f"blog/{lang}/{category}/{slug}/index.html")}"><img src="{relative(current,f"assets/blog/{slug}.svg")}" width="1020" height="540" alt="" loading="lazy"><div class="experience-body"><h3>{E(title)}</h3><span class="text-link">{E(guide)}</span></div></a></article>'
+        art=art_cover(slug);width,height=art_dimensions(art)
+        result+=f'<article class="experience-card">{favorite("guide-"+slug,title,u)}<a href="{relative(current,f"blog/{lang}/{category}/{slug}/index.html")}"><img src="{relative(current,art)}" width="{width}" height="{height}" alt="" loading="lazy"><div class="experience-body"><h3>{E(title)}</h3><span class="text-link">{E(guide)}</span></div></a></article>'
     result+='</div></div></section>'
     result+=rail_start('hotels',u[9],index_path(lang),current,relative,u)
     # Filters precede the rail without duplicating nested button/link hit areas.

@@ -15,6 +15,7 @@ from home_tools import home_tools
 from marketplace import marketplace, service_url
 from world_guides import build_pages as build_world_pages, teaser as world_teaser
 from seo import extras as seo_extras, discovery_files
+from travel_art import cover as art_cover, dimensions as art_dimensions, gallery as art_gallery, COPY as ART_COPY
 from assistant import build_data as build_assistant_data, widget as assistant_widget, stats as assistant_stats
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,7 +66,7 @@ def document(lang, path, title, description, body, counterparts, structured=None
 <meta name="theme-color" content="#0b3152"><title>{E(title)} | Stay in Da Nang</title>
 <meta name="description" content="{E(description)}"><link rel="canonical" href="{url(path)}">{alternates}
 <meta property="og:type" content="{'article' if structured and structured.get('@type') == 'BlogPosting' else 'website'}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url(path)}">
-<link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}{seo_extras(lang,path,title,description)}<script src="{relative(path, "assets/assistant.js")}" defer></script></head><body>
+<link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}{seo_extras(lang,path,title,description,structured.get("image") if structured else None)}<script src="{relative(path, "assets/assistant.js")}" defer></script></head><body>
 <header class="header simple-header"><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}">☀ Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
 <nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, deals_index(lang))}">{E(DEAL_COPY[lang][0])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a><a href="{relative(path,resources_path(lang))}">{E(TRAVEL_UI[lang][16])}</a></nav>
 <main id="main">{body}</main><footer class="footer"><div class="container"><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p>{assistant_stats(lang)}</div></footer>{assistant_widget(lang,path,relative)}</body></html>
@@ -77,8 +78,9 @@ def cards(lang, current):
     result = []
     for i, (title, intro, _) in enumerate(CONTENT[lang]['articles']):
         category = u[CATEGORY_LABELS[SLUGS[i][0]]]
-        image = f'assets/blog/{SLUGS[i][1]}.svg'
-        result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}"><img class="blog-cover" src="{relative(current,image)}" width="1020" height="540" alt="{E(title)}" loading="lazy"><div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
+        image = art_cover(SLUGS[i][1])
+        width,height=art_dimensions(image)
+        result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}"><img class="blog-cover" src="{relative(current,image)}" width="{width}" height="{height}" alt="{E(title)}" loading="lazy"><div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
     filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
     filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
     deal_link = f'<aside class="deals-callout"><h3>{E(DEAL_COPY[lang][0])}</h3><p>{E(DEAL_COPY[lang][7])}</p><a class="btn" href="{relative(current,deals_index(lang))}">{E(DEAL_COPY[lang][0])} →</a></aside>'
@@ -102,6 +104,7 @@ def build():
             path = home(lang)
             body = f'<section class="localized-hero"><div class="container"><div class="eyebrow">{E(u[21])}</div><h1>{E(u[6])}</h1><p>{E(u[7])}</p><div class="hero-actions"><a class="btn btn-light" href="{relative(path,deals_index(lang))}">{E(u[3])} ↓</a><a class="btn btn-outline" href="{relative(path, blog(lang))}">{E(u[1])} →</a></div></div></section>'
             body += marketplace(lang,path,relative)
+            body += art_gallery(lang,path,relative)
             body += world_teaser(lang,path,relative)
             body += home_tools(lang,path,relative)
             body += f'<section class="section soft"><div class="container"><h2>{E(u[16])}</h2><p class="lead main-blog-heading">{E(u[18])}</p>{cards(lang,path)}</div></section>'
@@ -119,8 +122,9 @@ def build():
             counterparts = {code: article(code,i) for code in LANGUAGES}
             all_pages.append((path,counterparts))
             body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(category)}</nav><span class="pill">{E(category)}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p>'
-            image = f'assets/blog/{SLUGS[i][1]}.svg'
-            body += f'<figure class="featured-image"><img src="{relative(path,image)}" width="1020" height="540" alt="{E(title)}" fetchpriority="high"><figcaption>{E(FEATURE_CAPTIONS[lang])}</figcaption></figure>'
+            image = art_cover(SLUGS[i][1])
+            width,height=art_dimensions(image)
+            body += f'<figure class="featured-image"><img src="{relative(path,image)}" width="{width}" height="{height}" alt="{E(title)}" fetchpriority="high"><figcaption>{E(ART_COPY[lang][1] if image.startswith("assets/ai-travel/") else FEATURE_CAPTIONS[lang])}</figcaption></figure>'
             if 'source_notes' in details:
                 body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
@@ -149,7 +153,7 @@ def build():
         for section_id in ('destinations','hotels','tours','flights','deals'):
             after=re.sub(r'<section class="[^"]*" id="'+section_id+r'">.*?</section>', '', after, flags=re.S)
         updated=before+'<!-- HOME TOOLS START -->'+old_tools+'<!-- HOME TOOLS END -->'+after
-    tools_section = '<!-- HOME TOOLS START -->'+marketplace('en','index.html',relative)+world_teaser('en','index.html',relative)+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
+    tools_section = '<!-- HOME TOOLS START -->'+marketplace('en','index.html',relative)+art_gallery('en','index.html',relative)+world_teaser('en','index.html',relative)+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
     if '<!-- HOME TOOLS START -->' in updated:
         updated=re.sub(r'<!-- HOME TOOLS START -->.*?<!-- HOME TOOLS END -->\s*',lambda _:tools_section,updated,flags=re.S)
     else:

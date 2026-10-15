@@ -3,10 +3,11 @@ from html import escape as E
 from pathlib import Path
 import json
 BASE='https://stayinvietnamtravel.github.io/stayindanang/'
-def extras(lang,path,title,description):
+def extras(lang,path,title,description,image=None):
+    image=image or BASE+'assets/social/travel-guide.png'
     website={'@context':'https://schema.org','@type':'WebSite','@id':BASE+'#website','url':BASE,'name':'Stay in Da Nang','publisher':{'@id':BASE+'#organization'},'inLanguage':lang}
     organization={'@context':'https://schema.org','@type':'Organization','@id':BASE+'#organization','name':'Stay in Da Nang','url':BASE,'sameAs':['https://x.com/stayindanang']}
-    return f'<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(description)}"><meta name="twitter:image" content="{BASE}assets/social/travel-guide.png">'+''.join('<script type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+'</script>' for obj in (website,organization))
+    return f'<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(description)}"><meta name="twitter:image" content="{E(image)}">'+''.join('<script type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\\u003c')+'</script>' for obj in (website,organization))
 def discovery_files(root):
     from world_guides import REGION_KEYS
     text='# Stay in Da Nang\n\n> Independent travel planning guides, hotel affiliate links and attributed destination forecasts.\n\n'
