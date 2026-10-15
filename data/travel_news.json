@@ -1,82 +1,132 @@
 {
-  "last_updated": "2026-10-14T18:18:23.380340+00:00",
+  "last_updated": "2026-10-15T06:17:49.761810+00:00",
   "articles": [
     {
-      "title": "World Aviation Festival 2026 opened in Lisbon with focus on AI and operations",
-      "url": "https://www.traveldailynews.com/meetings-events/world-aviation-festival-2026-ai-airline-innovation/",
+      "title": "Air Canada adds Seville to its European network in 2027",
+      "url": "https://www.traveldailynews.com/aviation/air-canada-montreal-seville-flights-2027/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T12:40:51+00:00",
+      "published_at": "2026-10-15T06:07:58+00:00",
+      "countries": [
+        "canada"
+      ]
+    },
+    {
+      "title": "How to Choose the Right E-Bike for Travel: A Practical Buying Guide",
+      "url": "https://www.traveldailynews.com/column/featured-articles/travel-e-bike-buying-guide/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-15T06:07:38+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "IATA and WSHA partner on sustainable hotel procurement",
-      "url": "https://www.traveldailynews.com/special-interest-travel/sustainable-tourism/iata-wsha-sustainable-hotel-procurement/",
+      "title": "IAPCO Launches Sustainability Handbook for PCOs",
+      "url": "https://www.traveldailynews.com/associations/iapco-sustainability-handbook-pcos/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T12:15:21+00:00",
+      "published_at": "2026-10-15T06:01:14+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Ethiopia explores tourism Cooperation with ECTAA",
-      "url": "https://www.traveldailynews.com/destinations/ethiopia-tourism-cooperation-ectaa-europe/",
+      "title": "Íslandshótel selects Aven Hospitality for 18 properties",
+      "url": "https://www.traveldailynews.com/hospitality/islandshotel-aven-hospitality-booking-distribution/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T10:15:53+00:00",
+      "published_at": "2026-10-15T05:59:00+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "oneworld relaunches Meetings & Events product for international gatherings",
-      "url": "https://www.traveldailynews.com/mice-industry/oneworld-meetings-events-relaunch-global-gatherings-trends/",
+      "title": "Lufthansa Group selected in TAP Air Portugal privatisation process",
+      "url": "https://www.traveldailynews.com/aviation/lufthansa-group-tap-air-portugal-privatisation/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T10:05:05+00:00",
+      "published_at": "2026-10-15T05:48:30+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "FACILITATE Community launches at TIS 2026 to support tourism data transition",
-      "url": "https://www.traveldailynews.com/meetings-events/facilitate-community-launch-tis-2026-tourism-data/",
+      "title": "GUEXT Forum 2026 to address key hospitality industry challenges",
+      "url": "https://www.traveldailynews.com/meetings-events/guext-forum-2026-hospitality-industry-trends/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T09:11:25+00:00",
+      "published_at": "2026-10-15T05:33:45+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Europe maintains long-haul travel share as Autumn bookings hold steady",
-      "url": "https://www.traveldailynews.com/statistics-trends/long-haul-travel-europe-autumn-2026-bookings/",
+      "title": "TripAdmit appoints John Boulding and Steve Farrelly to Advisory Board",
+      "url": "https://www.traveldailynews.com/people/new-appointments/tripadmit-advisory-board-boulding-farrelly/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T08:37:10+00:00",
+      "published_at": "2026-10-15T05:27:42+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Jamaica and Guyana sign tourism cooperation agreement",
-      "url": "https://www.traveldailynews.com/destinations/jamaica-guyana-tourism-cooperation-agreement-sotic-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T08:28:45+00:00",
+      "title": "Anantara Desaru Coast taps into new karting attraction",
+      "url": "https://www.ttgasia.com/2026/10/15/anantara-desaru-coast-taps-into-new-karting-attraction/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-15T05:21:26+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Incentive Travel Index 2026 highlights stable demand and rising risks",
-      "url": "https://www.traveldailynews.com/mice-industry/incentive-travel/incentive-travel-index-2026-demand-airlift-destination-risks/",
+      "title": "New hotels: Conrad Koh Samui, Oaks Vacation Club Kyoto Shijo and more",
+      "url": "https://www.ttgasia.com/2026/10/15/new-hotels-conrad-koh-samui-oaks-vacation-club-kyoto-shijo-and-more/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-15T05:19:19+00:00",
+      "countries": [
+        "japan"
+      ]
+    },
+    {
+      "title": "Corporate SAF purchases could reach 1.9 million tonnes by 2030",
+      "url": "https://www.traveldailynews.com/aviation/corporate-demand-sustainable-aviation-fuel-2030/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T08:10:09+00:00",
+      "published_at": "2026-10-15T05:18:54+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Peachtree Group completes $524 million in government-enabled financing",
+      "url": "https://www.traveldailynews.com/hospitality/peachtree-group-government-enabled-financing-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-15T05:16:40+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Legoland Hotel Malaysia builds on stays with Lego City rooms",
+      "url": "https://www.ttgasia.com/2026/10/15/legoland-hotel-malaysia-builds-on-stays-with-lego-city-rooms/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-15T05:16:10+00:00",
+      "countries": [
+        "malaysia"
+      ]
+    },
+    {
+      "title": "Loews Nashville Hotel completes multimillion-dollar renovation",
+      "url": "https://www.traveldailynews.com/hotels-lodging/loews-nashville-hotel-multimillion-dollar-renovation/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-15T05:13:05+00:00",
       "countries": [
         "international"
       ]
@@ -97,26 +147,6 @@
       "source_id": "ttg-asia",
       "publisher": "TTG Asia",
       "published_at": "2026-10-14T07:55:06+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Aena Group airports handle 37.7 million passengers in September",
-      "url": "https://www.traveldailynews.com/aviation/aena-group-passenger-traffic-september-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T07:45:35+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Access Point Financial releases hotel construction loan report",
-      "url": "https://www.traveldailynews.com/hospitality/access-point-financial-hotel-construction-loan-report/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-14T07:35:40+00:00",
       "countries": [
         "international"
       ]
@@ -189,36 +219,6 @@
       "published_at": "2026-10-13T06:00:52+00:00",
       "countries": [
         "malaysia"
-      ]
-    },
-    {
-      "title": "Singapore’s tourism businesses explore AI for business needs",
-      "url": "https://www.ttgasia.com/2026/10/13/singapores-tourism-businesses-explore-ai-for-business-needs/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-13T05:49:59+00:00",
-      "countries": [
-        "singapore"
-      ]
-    },
-    {
-      "title": "India to host WTTC Global Summit in 2027",
-      "url": "https://www.ttgasia.com/2026/10/13/india-to-host-wttc-global-summit-in-2027/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-13T05:33:16+00:00",
-      "countries": [
-        "india"
-      ]
-    },
-    {
-      "title": "Singapore Grand Prix draws second-highest attendance on record",
-      "url": "https://www.ttgasia.com/2026/10/13/singapore-grand-prix-draws-second-highest-attendance-on-record/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-13T05:28:24+00:00",
-      "countries": [
-        "singapore"
       ]
     },
     {
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-14T18:18:23.380340+00:00",
-      "last_success_at": "2026-10-14T18:18:23.380340+00:00",
+      "last_attempt_at": "2026-10-15T06:17:49.761810+00:00",
+      "last_success_at": "2026-10-15T06:17:49.761810+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-14T18:18:23.380340+00:00",
-      "last_success_at": "2026-10-14T18:18:23.380340+00:00",
+      "last_attempt_at": "2026-10-15T06:17:49.761810+00:00",
+      "last_success_at": "2026-10-15T06:17:49.761810+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-14T18:18:23.380340+00:00",
-      "last_success_at": "2026-10-14T18:18:23.380340+00:00",
+      "last_attempt_at": "2026-10-15T06:17:49.761810+00:00",
+      "last_success_at": "2026-10-15T06:17:49.761810+00:00",
       "status": "ok",
       "count": 10
     }
