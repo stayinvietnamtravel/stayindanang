@@ -1738,5 +1738,875 @@
         "quality": 82
       }
     ]
+  },
+  "assets/hanoi-hotels/22land-residence-50-truong-cong-giai.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 388749,
+    "sha256": "892738177d2cc43888db60c8a9bf66e591ae4cc7896c51189e05a143d839e3eb",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/22land-residence-50-truong-cong-giai-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8908,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/22land-residence-50-truong-cong-giai-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21118,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/22land-residence-50-truong-cong-giai-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36520,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/a89-west-lake-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 376668,
+    "sha256": "2518b4c714a6c80ef6899f9a47e2de14460222287b42b186ebb063f814f07609",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/a89-west-lake-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7420,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/a89-west-lake-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18108,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/a89-west-lake-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 31828,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/aurora-premium-a-lifestyle-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 389927,
+    "sha256": "85f28096a362f499c3ac788ffa777dcd981ab6d8c57939266bbec797bc667d3a",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/aurora-premium-a-lifestyle-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9548,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/aurora-premium-a-lifestyle-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 22250,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/aurora-premium-a-lifestyle-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 38110,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/bao-son-international-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 382571,
+    "sha256": "d3899b0dddb61e1170ab41994dcbcc21ac68879375328cda01933b677bdaf2c2",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/bao-son-international-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8090,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/bao-son-international-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18972,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/bao-son-international-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 32520,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/calidas-landmark72-royal-residence-hanoi.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 391761,
+    "sha256": "1a9903fea073011c9389db08e17ece4138b801277b8e0ea33e7bcd4a650d61b4",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/calidas-landmark72-royal-residence-hanoi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9504,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/calidas-landmark72-royal-residence-hanoi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 22320,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/calidas-landmark72-royal-residence-hanoi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 38242,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/capella-hanoi.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 375396,
+    "sha256": "47f3e627dd67e47d99c18b4a7aca8baf84244280304d674b9ed0f5c7f4b5ca7b",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/capella-hanoi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6616,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/capella-hanoi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16724,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/capella-hanoi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 29842,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/conifer-boutique-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 375595,
+    "sha256": "d2fe88addbdf0464d05fc85c128e8f68913ef3f9966b53145fc648f519a6f6ab",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/conifer-boutique-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7570,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/conifer-boutique-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18350,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/conifer-boutique-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 31524,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/eli-rina-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 365056,
+    "sha256": "3e991298c0e06311c9824631c37130ec63d03bc7b1c813e62a25c5c851a0d381",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/eli-rina-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6064,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/eli-rina-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 15044,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/eli-rina-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 26496,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/fairmont-hanoi.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 370211,
+    "sha256": "53ed3d1956c778194dd8799818a90797c5d1f9a526ee39c46865e4ed140f4253",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/fairmont-hanoi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6420,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/fairmont-hanoi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16264,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/fairmont-hanoi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 28676,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/gilson-hanoi-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 370613,
+    "sha256": "8624855420772a14eefe8ddf1e8668c9db01f1ed17df2181c63960481f9a280c",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/gilson-hanoi-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6744,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/gilson-hanoi-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16426,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/gilson-hanoi-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 28932,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/gloud-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 365210,
+    "sha256": "54bc25040f97c83e29db8f02fb9969085e45a35a6ca5040713b85ea3d5da17bc",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/gloud-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 5742,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/gloud-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 14590,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/gloud-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 25444,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/grand-plaza-hanoi-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 372847,
+    "sha256": "01d9ca34b749febe90c993c555052a6634acbcac26de643582bcc049712557ff",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/grand-plaza-hanoi-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7756,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/grand-plaza-hanoi-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18426,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/grand-plaza-hanoi-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 31560,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/grandiose-hotel-spa.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 377395,
+    "sha256": "38d026ebdf3ae5accc3328635254598a1a3ad6306306dd1f9ae3f33838494d35",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/grandiose-hotel-spa-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7686,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/grandiose-hotel-spa-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18756,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/grandiose-hotel-spa-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 32744,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/hanoi-20-hotel-apartment.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 385792,
+    "sha256": "b29037b9261649ab544ef2a2ce83f22e6a3c61f3d8ed786426d4d0f2bf7b332e",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/hanoi-20-hotel-apartment-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8344,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/hanoi-20-hotel-apartment-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 19534,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/hanoi-20-hotel-apartment-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 33278,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/hanoi-daewoo-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 373028,
+    "sha256": "6d7a6434f4754b09e102a6c28ee1f7dbcfcb15827c8fbb8978cfae5a59b9e1e3",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/hanoi-daewoo-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7154,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/hanoi-daewoo-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 17686,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/hanoi-daewoo-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 30918,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/hanoi-morning-hotel.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 372104,
+    "sha256": "2901fa2e4e8e0b2b63290fe0e65dfc6ed239c3e67b6b590201ac6f306f439c88",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/hanoi-morning-hotel-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7220,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/hanoi-morning-hotel-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 17448,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/hanoi-morning-hotel-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 30728,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/intercontinental-hanoi-westlake-by-ihg.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 383297,
+    "sha256": "c4ee52a9cfbf17c4df60d056a0f3849ce569254767514d151264a6399cbf26ac",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/intercontinental-hanoi-westlake-by-ihg-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8866,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/intercontinental-hanoi-westlake-by-ihg-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21152,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/intercontinental-hanoi-westlake-by-ihg-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 35628,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/jw-marriott-hotel-hanoi.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 373213,
+    "sha256": "43be6c7657df2ce0a9c90c36d52973494faeefea2108bd3a287bca9ee36bebdb",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/jw-marriott-hotel-hanoi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7658,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/jw-marriott-hotel-hanoi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 18482,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/jw-marriott-hotel-hanoi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 31708,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/lestar-hotel-hanoi.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 371369,
+    "sha256": "44dc6979a395c738a8eca8efbfb2e7181c9022c858f410d36113ebf64c4d6701",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/lestar-hotel-hanoi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6822,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/lestar-hotel-hanoi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16730,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/lestar-hotel-hanoi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 29262,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/lotte-hotel-hanoi.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 371000,
+    "sha256": "77ea89bd02621e124eb00b8d97f974bb8044ae15d86e718441ff30bc97c50704",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/lotte-hotel-hanoi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6732,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/lotte-hotel-hanoi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 16734,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/lotte-hotel-hanoi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 29292,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/luxe-paradise-suites-doi-can.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 386378,
+    "sha256": "58fcf3fa9da8dbdf1f7aed20363b18b1fe7a85f95a26a9f14fc4fa93401d66fc",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/luxe-paradise-suites-doi-can-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8764,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/luxe-paradise-suites-doi-can-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 20576,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/luxe-paradise-suites-doi-can-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 35458,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/luxe-paradise-suites-hotel-spa.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 392956,
+    "sha256": "70b577e36b8f655db52160214272c1032f70795543f00d7e436a57650d7f3390",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/luxe-paradise-suites-hotel-spa-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9206,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/luxe-paradise-suites-hotel-spa-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21544,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/luxe-paradise-suites-hotel-spa-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36896,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/m-village-hotel-long-bien-a-brand-of-modern-village-lifestyle.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 392739,
+    "sha256": "bdf94f7770ddc197c3b16f11313c20c8ffd6ae3408fbb9ab6920eda20f56f7bf",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/m-village-hotel-long-bien-a-brand-of-modern-village-lifestyle-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9808,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/m-village-hotel-long-bien-a-brand-of-modern-village-lifestyle-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 23096,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/m-village-hotel-long-bien-a-brand-of-modern-village-lifestyle-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 39506,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/melia-hanoi.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 371163,
+    "sha256": "9230104304753c2f8711527c5f72944cf7947b8c63480ca5083fe089d0348087",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/melia-hanoi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 6144,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/melia-hanoi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 15874,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/melia-hanoi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 27984,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/parosand-hanoi-hotel-apartment.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 387669,
+    "sha256": "d445763767ccf1f011cdf9f631aa4150169e72bcea7789b5b43ef2f6cfc19336",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/parosand-hanoi-hotel-apartment-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9218,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/parosand-hanoi-hotel-apartment-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21240,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/parosand-hanoi-hotel-apartment-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 36086,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/signature-tho-nhuom-a-brand-of-modern-village-lifestyle.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 393984,
+    "sha256": "5021b15abb59dc190bf24f416945344ed9ce0913536ba8c365077adec1e397ea",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/signature-tho-nhuom-a-brand-of-modern-village-lifestyle-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9736,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/signature-tho-nhuom-a-brand-of-modern-village-lifestyle-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 22720,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/signature-tho-nhuom-a-brand-of-modern-village-lifestyle-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 39304,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/sofitel-legend-metropole-hanoi.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 388443,
+    "sha256": "fd209d4bd2396b4939e9bfa87503ffec321a00a987f8436e7738c51cca2cc656",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/sofitel-legend-metropole-hanoi-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 9082,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/sofitel-legend-metropole-hanoi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 21220,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/sofitel-legend-metropole-hanoi-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 35840,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/su-casa-hanoi-old-quarter.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 384213,
+    "sha256": "2db81836745c3dd7fe0addc15bcaba5b545c4d2254ad335ad93ffcd4a06a5c2b",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/su-casa-hanoi-old-quarter-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8100,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/su-casa-hanoi-old-quarter-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 19366,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/su-casa-hanoi-old-quarter-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 33382,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/the-five-suites-lilas.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 373402,
+    "sha256": "69ee9004c8ef9d49d676c38f77ca7e5681e5529f1f19154c27eebb0ec3a10a69",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/the-five-suites-lilas-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 7096,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/the-five-suites-lilas-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 17116,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/the-five-suites-lilas-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 30376,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/hanoi-hotels/victory-legend-hotel-spa.png": {
+    "width": 1600,
+    "height": 900,
+    "original_bytes": 386556,
+    "sha256": "fd08ee3b788ec4a04284cf88cb0b6c19b3395c2d2a668438f4b0c6ebdd60b5fc",
+    "variants": [
+      {
+        "file": "assets/hanoi-hotels/victory-legend-hotel-spa-480.webp",
+        "width": 480,
+        "height": 270,
+        "bytes": 8438,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/victory-legend-hotel-spa-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 20056,
+        "quality": 82
+      },
+      {
+        "file": "assets/hanoi-hotels/victory-legend-hotel-spa-1600.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 34542,
+        "quality": 82
+      }
+    ]
   }
 }

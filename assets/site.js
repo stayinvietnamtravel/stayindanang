@@ -142,8 +142,12 @@
         destination.replaceChildren(...groups);
         destination.value = Array.from(destination.options).some(option => option.value === preferred) ? preferred : destination.options[0].value;
       };
+      const allHotelOptions = Array.from(hotel.options).map(option => option.cloneNode(true));
       const updateBooking = () => {
-        const specific = destination.value === 'da-nang' && service.value === 'hotels';
+        const previousHotel = hotel.value;
+        hotel.replaceChildren(...allHotelOptions.filter(option => !option.value || option.dataset.city === destination.value).map(option => option.cloneNode(true)));
+        if (Array.from(hotel.options).some(option => option.value === previousHotel)) hotel.value = previousHotel;
+        const specific = ['da-nang', 'hanoi'].includes(destination.value) && service.value === 'hotels';
         hotel.disabled = !specific;
         booking.querySelector('.booking-property-field').hidden = !specific;
         const hotelKey = specific ? hotel.value : '';

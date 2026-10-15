@@ -162,7 +162,8 @@ def build_pages(document,relative,url,languages):
             img=responsive_image(image_path(h),current,relative,h["display_name"],"blog-cover",sizes="(max-width: 700px) 92vw, 300px")
             body+=f'<article class="blog-card" data-blog-category="{h["group"].lower().replace(" ","-")}"><a href="{relative(current,post_path(lang,h))}">{img}</a><div class="blog-card-body"><span class="pill">{h["group"]}</span><h3><a href="{relative(current,post_path(lang,h))}">{E(h["display_name"])}</a></h3><p>{E(c[7])}</p><a class="hotel-book-link" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{h["slug"]}">{E(c[3].replace("↗","→"))}</a></div></article>'
 
-        body+='</div></div></div></section>'
+        from hanoi_hotels import teaser as hanoi_teaser
+        body+='</div></div>'+hanoi_teaser(lang,current,relative)+'</div></section>'
         targets={code:index_path(code) for code in languages}
         write(current,document(lang,current,c[0],c[7],body,targets))
         for h in HOTELS:

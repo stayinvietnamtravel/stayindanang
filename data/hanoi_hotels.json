@@ -1,0 +1,460 @@
+{
+  "source_sha256": "c99e013e3c6f3da05db96c9cda3f613c74f71f7547b1ae3e82a4e72ff40934ad",
+  "rows": [
+    {
+      "name": "Hanoi Daewoo Hotel",
+      "slug": "hanoi-daewoo-hotel",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/iKQwzDyLkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 7
+        }
+      ]
+    },
+    {
+      "name": "Melia Hanoi",
+      "slug": "melia-hanoi",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/amuojs0MkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 8
+        }
+      ]
+    },
+    {
+      "name": "Lotte Hotel Hanoi",
+      "slug": "lotte-hotel-hanoi",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/QB5AAN1MkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "name": "InterContinental HANOI WESTLAKE by IHG",
+      "slug": "intercontinental-hanoi-westlake-by-ihg",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/pLcu0C2MkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "name": "Sofitel Legend Metropole Hanoi",
+      "slug": "sofitel-legend-metropole-hanoi",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/I2LLWV3MkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "name": "JW Marriott Hotel Hanoi",
+      "slug": "jw-marriott-hotel-hanoi",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/8Net1B4MkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "name": "Fairmont Hanoi",
+      "slug": "fairmont-hanoi",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/aqAbcs4MkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "name": "Capella Hanoi",
+      "slug": "capella-hanoi",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/ZOmy3c5MkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "name": "Grand Plaza Hanoi Hotel",
+      "slug": "grand-plaza-hanoi-hotel",
+      "city": "hanoi",
+      "group": "Hot Sellers",
+      "urls": [
+        "https://www.trip.com/w/Ftml6J6MkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Hot Sellers_Ha Noi",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "name": "Aurora Premium - A Lifestyle Hotel",
+      "slug": "aurora-premium-a-lifestyle-hotel",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/SGGF6H9MkW2",
+        "https://www.trip.com/w/rnQZ37exkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 8
+        },
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 12
+        }
+      ]
+    },
+    {
+      "name": "Signature Tho Nhuom, a brand of Modern Village Lifestyle",
+      "slug": "signature-tho-nhuom-a-brand-of-modern-village-lifestyle",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/MtuYz2bxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 9
+        }
+      ]
+    },
+    {
+      "name": "Hanoi 20 Hotel & Apartment",
+      "slug": "hanoi-20-hotel-apartment",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/yfLCN3cxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 10
+        }
+      ]
+    },
+    {
+      "name": "A89 West Lake Hotel",
+      "slug": "a89-west-lake-hotel",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/U6HVFycxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 11
+        }
+      ]
+    },
+    {
+      "name": "Victory Legend Hotel & Spa",
+      "slug": "victory-legend-hotel-spa",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/jZ9C9oexkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 13
+        }
+      ]
+    },
+    {
+      "name": "Lestar Hotel Hanoi",
+      "slug": "lestar-hotel-hanoi",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/fFnNDOfxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 14
+        }
+      ]
+    },
+    {
+      "name": "Luxe Paradise Suites Hotel & Spa",
+      "slug": "luxe-paradise-suites-hotel-spa",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/lSUN24gxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 15
+        }
+      ]
+    },
+    {
+      "name": "M Village Hotel Long Bien, a brand of Modern Village Lifestyle",
+      "slug": "m-village-hotel-long-bien-a-brand-of-modern-village-lifestyle",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/mwxcNfgxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 16
+        }
+      ]
+    },
+    {
+      "name": "Conifer Boutique Hotel",
+      "slug": "conifer-boutique-hotel",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/2f2FjKhxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 17
+        }
+      ]
+    },
+    {
+      "name": "Su Casa Hanoi Old Quarter",
+      "slug": "su-casa-hanoi-old-quarter",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/9xDZt2ixkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 18
+        }
+      ]
+    },
+    {
+      "name": "Gilson Hanoi Hotel",
+      "slug": "gilson-hanoi-hotel",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/bYsoZeixkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 19
+        }
+      ]
+    },
+    {
+      "name": "Gloud Hotel",
+      "slug": "gloud-hotel",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/bGtfEUjxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 20
+        }
+      ]
+    },
+    {
+      "name": "22land Residence – 50 Truong Cong Giai",
+      "slug": "22land-residence-50-truong-cong-giai",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/8YmAX3kxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 21
+        }
+      ]
+    },
+    {
+      "name": "Hanoi Morning Hotel",
+      "slug": "hanoi-morning-hotel",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/oA4ZxmkxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 22
+        }
+      ]
+    },
+    {
+      "name": "Grandiose Hotel & Spa",
+      "slug": "grandiose-hotel-spa",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/NTuGsNlxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 23
+        }
+      ]
+    },
+    {
+      "name": "Bao Son International Hotel",
+      "slug": "bao-son-international-hotel",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/O9X39qlxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 24
+        }
+      ]
+    },
+    {
+      "name": "Calidas Landmark72 Royal Residence Hanoi",
+      "slug": "calidas-landmark72-royal-residence-hanoi",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/JSPqHmmxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 25
+        }
+      ]
+    },
+    {
+      "name": "Luxe Paradise Suites Doi Can",
+      "slug": "luxe-paradise-suites-doi-can",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/7VvChnnxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 26
+        }
+      ]
+    },
+    {
+      "name": "Eli Rina Hotel",
+      "slug": "eli-rina-hotel",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/RJTDlLoxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 27
+        }
+      ]
+    },
+    {
+      "name": "The Five Suites Lilas",
+      "slug": "the-five-suites-lilas",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/CZcPY3pxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 28
+        }
+      ]
+    },
+    {
+      "name": "Parosand Hanoi Hotel & Apartment",
+      "slug": "parosand-hanoi-hotel-apartment",
+      "city": "hanoi",
+      "group": "Top Deals",
+      "urls": [
+        "https://www.trip.com/w/exJrIwpxkW2"
+      ],
+      "source_rows": [
+        {
+          "sheet": "Top Deals_ Ha Noi",
+          "row": 29
+        }
+      ]
+    }
+  ]
+}

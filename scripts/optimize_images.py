@@ -9,7 +9,7 @@ def optimize():
     outputs={}
     manifest=ROOT/'assets/image-variants.json'
     previous=json.loads(manifest.read_text()) if manifest.exists() else {}
-    sources=sorted((ROOT/'assets/ai-travel').glob('*.png'))+sorted((ROOT/'assets/hotel-deals').glob('*.png'))
+    sources=sorted((ROOT/'assets/ai-travel').glob('*.png'))+sorted((ROOT/'assets/hotel-deals').glob('*.png'))+sorted((ROOT/'assets/hanoi-hotels').glob('*.png'))
     for source in sources:
         path=source.relative_to(ROOT).as_posix();variants=[]
         digest=sha256(source.read_bytes()).hexdigest()

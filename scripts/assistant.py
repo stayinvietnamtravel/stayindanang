@@ -25,6 +25,7 @@ UI={
 }
 def build_data():
     from marketplace import CONFIG,HOTELS,service_labels
+    from hanoi_hotels import HOTELS as HANOI_HOTELS
     from world_destinations import COUNTRIES,city_name
     from world_guides import COPY as GUIDES
     from home_tools import forecast_points
@@ -37,7 +38,7 @@ def build_data():
         p=urlsplit(endpoint)
         if p.scheme!='https' or not p.hostname or p.username or p.password or p.query or p.fragment or p.path not in ('','/') or p.port:raise ValueError('Backend URL must be a HTTPS origin without credentials')
     forecasts=json.loads((ROOT/'data/weather.json').read_text())['cities']
-    data={'base':BASE,'backendUrl':endpoint.rstrip('/'),'retentionDays':7,'services':CONFIG['services'],'hotels':[{'slug':h['slug'],'name':h['name'] if h['display_name']=='Da Nang' else h['display_name'],'url':h['url']} for h in HOTELS],'cities':{city[0]:{'name':city[1],'country':country[2],'region':country[0],'aliases':sorted({city_name(city,lang) for lang in UI})} for country in COUNTRIES for city in country[4]},'weather':{key:{'timezone':TIMEZONES[key],'updated':value.get('source_updated_at'),'points':forecast_points(value,datetime.now(timezone.utc))} for key,value in forecasts.items()},'locales':{lang:{'ui':ui,'services':service_labels(lang),'guide':GUIDES[lang][3],'booking':GUIDES[lang][8],'weather':GUIDES[lang][5],'weatherTitle':GUIDES[lang][4],'planningTitle':GUIDES[lang][2]} for lang,ui in UI.items()}}
+    data={'base':BASE,'backendUrl':endpoint.rstrip('/'),'retentionDays':7,'services':CONFIG['services'],'hotels':[{'slug':h['slug'],'name':h['name'] if h['display_name']=='Da Nang' else h['display_name'],'url':h['url']} for h in HOTELS]+[{'slug':h['slug'],'name':h['name'],'url':h['urls'][0],'city':'hanoi'} for h in HANOI_HOTELS],'cities':{city[0]:{'name':city[1],'country':country[2],'region':country[0],'aliases':sorted({city_name(city,lang) for lang in UI})} for country in COUNTRIES for city in country[4]},'weather':{key:{'timezone':TIMEZONES[key],'updated':value.get('source_updated_at'),'points':forecast_points(value,datetime.now(timezone.utc))} for key,value in forecasts.items()},'locales':{lang:{'ui':ui,'services':service_labels(lang),'guide':GUIDES[lang][3],'booking':GUIDES[lang][8],'weather':GUIDES[lang][5],'weatherTitle':GUIDES[lang][4],'planningTitle':GUIDES[lang][2]} for lang,ui in UI.items()}}
     (ROOT/'assets/chatbot-data.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
 def widget(lang,current,relative):
     u=UI[lang]

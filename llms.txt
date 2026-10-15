@@ -13,6 +13,7 @@
 
 - [Travel blog](https://stayinvietnamtravel.github.io/stayindanang/blog/)
 - [Da Nang hotels](https://stayinvietnamtravel.github.io/stayindanang/deals/en/)
+- [Hanoi hotel guides](https://stayinvietnamtravel.github.io/stayindanang/blog/en/destinations/hanoi/)
 - [Official tourism sources](https://stayinvietnamtravel.github.io/stayindanang/resources/en/)
 - [Attributed travel news](https://stayinvietnamtravel.github.io/stayindanang/news/en/)
 - [World weather](https://stayinvietnamtravel.github.io/stayindanang/#weather)

@@ -10,6 +10,7 @@ from destinations import CITIES, DESTINATIONS
 from world_destinations import COUNTRIES, CITY_KEYS, REGIONS, REGION_KEYS, country_name, city_name
 from content import CONTENT
 from responsive_images import image as responsive_image
+from hanoi_hotels import HOTELS as HANOI_HOTELS
 from travel_art import COPY as ART_COPY
 from travel_art import cover as art_cover, dimensions as art_dimensions
 ROOT=Path(__file__).resolve().parents[1]
@@ -52,7 +53,7 @@ def favorite(key,title,u):
     return f'<button class="save-card" type="button" data-save-id="{E(key)}" data-save-label="{E(u[11])}" data-saved-label="{E(u[12])}" data-item-title="{E(title)}" aria-label="{E(u[11]+": "+title)}" aria-pressed="false"><span aria-hidden="true">♡</span></button>'
 
 def affiliate_config():
-    data={**CONFIG,'hotels':{h['slug']:h['url'] for h in HOTELS}}
+    data={**CONFIG,'hotels':{**{h['slug']:h['url'] for h in HOTELS},**{h['slug']:h['urls'][0] for h in HANOI_HOTELS}}}
     return '<script type="application/json" id="affiliate-routes">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'
 
 def booking(lang,current,relative):
@@ -71,7 +72,8 @@ def booking(lang,current,relative):
     for key,label in service_labels(lang).items():
         result+=f'<option value="{key}">{E(label)}</option>'
     result+=f'</select></label><label class="booking-property-field">{E(u[3])}<select class="booking-property"><option value="">{E(u[4])}</option>'
-    for h in HOTELS:result+=f'<option value="{h["slug"]}">{E(h["display_name"])}</option>'
+    for h in HOTELS:result+=f'<option value="{h["slug"]}" data-city="da-nang">{E(h["display_name"])}</option>'
+    for h in HANOI_HOTELS:result+=f'<option value="{h["slug"]}" data-city="hanoi">{E(h["name"])}</option>'
     result+=f'</select></label><a class="btn booking-action" href="{E(CONFIG["services"]["hotels"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="planner-da-nang-hotels">{E(u[5])}</a></div><p class="booking-summary" aria-live="polite">{E(names[0])} · {E(content[3])}</p><p class="notice">{E(u[6])}</p><p class="notice">{E(content[9])}</p></div></div></section>'
     return result+affiliate_config()
 

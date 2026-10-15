@@ -56,3 +56,9 @@
 /* Preserve every hotel name and affiliate line in its own text artwork. */
 .hotel-artwork img{aspect-ratio:16/9;object-fit:contain;background:#082f49}
 .hotel-directory .blog-cover{aspect-ratio:16/9;object-fit:contain;background:#082f49}
+
+/* Keep long Hanoi hotel names readable and align booking actions. */
+.hanoi-directory .blog-card-body{display:flex;flex-direction:column;flex:1;gap:12px}
+.hanoi-directory .blog-card-body h2{font-size:22px;line-height:1.4;margin:0;overflow-wrap:anywhere}
+.hanoi-directory .blog-card-body p{margin:0}
+.hanoi-directory .hotel-book-link{margin-top:auto}

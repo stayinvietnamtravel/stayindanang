@@ -18,6 +18,7 @@ from seo import extras as seo_extras, discovery_files
 from responsive_images import image as responsive_image
 from travel_art import cover as art_cover, dimensions as art_dimensions, contextual_images, COPY as ART_COPY
 from assistant import build_data as build_assistant_data, widget as assistant_widget, stats as assistant_stats
+from hanoi_hotels import build_pages as build_hanoi_pages, teaser as hanoi_teaser
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -86,7 +87,7 @@ def cards(lang, current):
     filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
     filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
     deal_link = f'<aside class="deals-callout"><h3>{E(DEAL_COPY[lang][0])}</h3><p>{E(DEAL_COPY[lang][7])}</p><a class="btn" href="{relative(current,deals_index(lang))}">{E(DEAL_COPY[lang][0])} →</a></aside>'
-    return '<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>' + deal_link + travel_teaser(lang,current,relative)
+    return '<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>' + deal_link + hanoi_teaser(lang,current,relative) + travel_teaser(lang,current,relative)
 
 
 def write(path, html):
@@ -175,6 +176,7 @@ def build():
     english.write_text(updated, encoding='utf-8')
     export_deal_posts()
     all_pages.extend(build_deal_pages(document, relative, url, LANGUAGES))
+    all_pages.extend(build_hanoi_pages(document, relative, url, LANGUAGES))
     all_pages.extend(build_travel_pages(document, relative, url, LANGUAGES))
     all_pages.extend(build_world_pages(document,relative,url,LANGUAGES))
     discovery_files(ROOT)
