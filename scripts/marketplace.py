@@ -10,6 +10,7 @@ from destinations import CITIES, DESTINATIONS
 from world_destinations import COUNTRIES, CITY_KEYS, REGIONS, REGION_KEYS, country_name, city_name
 from content import CONTENT
 from responsive_images import image as responsive_image
+from hotel_visuals import cover as hotel_cover
 from hanoi_hotels import HOTELS as HANOI_HOTELS
 from travel_art import COPY as ART_COPY
 from travel_art import cover as art_cover, dimensions as art_dimensions
@@ -82,7 +83,7 @@ def booking(lang,current,relative):
 FLIGHTS={'vi':'Chuyến bay','en':'Flights','fr':'Vols','de':'Flüge','es':'Vuelos','zh':'机票','zh-Hant':'機票','ru':'Авиабилеты','ko':'항공편','ja':'航空券','hi':'उड़ानें','th':'เที่ยวบิน','id':'Penerbangan'}
 
 SIGHTS=[('Ba Na Hills · Golden Bridge','tours/da-nang-hoi-an-hue','ba-na-hills','01'),('Ngũ Hành Sơn · Marble Mountains','tours/da-nang-hoi-an-hue','marble-mountains','02'),('Hội An · Old Town','destinations/vietnam-heritage-guide','hoi-an','03'),('Huế · Imperial City','tours/da-nang-hoi-an-hue','hue','04')]
-EXPERIENCES=[('food','vietnam-food-guide'),('experiences','coastal-vietnam-experiences'),('tips','da-nang-hotels-tours-flights-2026'),('destinations','hanoi-ho-chi-minh-city-walks')]
+EXPERIENCES=[('destinations','ninh-binh-two-day-escape'),('experiences','sapa-valley-walks'),('tips','phu-quoc-three-day-plan'),('food','vietnam-food-guide'),('experiences','coastal-vietnam-experiences'),('tips','da-nang-hotels-tours-flights-2026'),('destinations','hanoi-ho-chi-minh-city-walks')]
 FEATURED=['menora-grand-da-nang','ocean-garden-boutique-da-nang-a-salve-by-haviland','haian-beach-hotel-spa','sala-danang-beach-hotel','hilton-da-nang','tui-blue-han-river','furama-resort-danang','tms-hotel-da-nang-beach']
 
 def rail_start(section,title,more,current,relative,u):
@@ -113,7 +114,7 @@ def discovery(lang,current,relative):
     result+=f'</div><div class="discovery-rail hotel-rail" tabindex="0" aria-label="{E(u[9])}">'
     for slug in FEATURED:
         h=next(h for h in HOTELS if h['slug']==slug)
-        img=responsive_image(image_path(h),current,relative,h['display_name'],sizes='(max-width: 700px) 80vw, 300px')
+        img=hotel_cover(h,'da-nang',lang,current,relative)
         result+=f'<article class="hotel-pick" data-hotel-group="{h["group"].lower().replace(" ","-")}" data-saved-id="hotel-{slug}">{favorite("hotel-"+slug,h["display_name"],u)}<a class="hotel-artwork" href="{relative(current,post_path(lang,h))}">{img}</a><div class="hotel-pick-body"><small>{E(DESTINATIONS[lang][3][0])} · {h["group"]}</small><h3><a href="{relative(current,post_path(lang,h))}">{E(h["display_name"])}</a></h3><p>{E(HOTEL_COPY[lang][7])}</p><a class="hotel-book-link" href="{E(h["url"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{slug}">{E(HOTEL_COPY[lang][3].replace('↗','→'))}</a></div></article>'
     result+=f'</div><p class="saved-empty" hidden>{E(u[17])}</p></div></section>'
     result+=f'<section class="service-links" id="flights"><div class="container"><div class="service-link-card"><span aria-hidden="true">✈</span><div><h2>{E(FLIGHTS[lang])}</h2><p>{E(u[6])}</p></div><a class="btn" href="{E(CONFIG["services"]["flights"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="flight-general">{E(u[5])}</a></div></div></section><section class="service-links" id="deals"><div class="container"><a class="deals-shortcut" href="{relative(current,index_path(lang))}">{E(HOTEL_COPY[lang][0])}<span>{E(u[10])}</span></a></div></section>'

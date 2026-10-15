@@ -190,3 +190,6 @@ for code in LANGUAGES:
     CONTENT[code]['ui'].extend(EXTRA_LABELS[code][:2] + [ALL_LABELS[code]])
     CONTENT[code]['articles'].extend(EXTRA_ARTICLES[code])
     FEATURE_CAPTIONS[code] = EXTRA_LABELS[code][2]
+
+from vietnam_ideas import register as register_vietnam_ideas
+register_vietnam_ideas(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)

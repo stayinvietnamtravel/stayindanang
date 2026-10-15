@@ -202,6 +202,64 @@
       }
     ]
   },
+  "assets/ai-travel/hotel-danang-scene.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2968341,
+    "sha256": "bd40c0c742f29bea166e3379758cc10da326cdeae447798efe9bd603bdc1e8a6",
+    "variants": [
+      {
+        "file": "assets/ai-travel/hotel-danang-scene-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 40412,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-danang-scene-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 149448,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-danang-scene-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 335416,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/ai-travel/hotel-hanoi-scene.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3069700,
+    "sha256": "581b63ebf640082fa8dfc19013212335303c382a8b50db67c037e9126201a2c1",
+    "variants": [
+      {
+        "file": "assets/ai-travel/hotel-hanoi-scene-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 48204,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-hanoi-scene-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 172186,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-hanoi-scene-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 329064,
+        "quality": 78
+      }
+    ]
+  },
   "assets/ai-travel/hotel-inspiration.png": {
     "width": 1536,
     "height": 1024,
@@ -286,6 +344,93 @@
         "height": 1536,
         "bytes": 325896,
         "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/ninh-binh-escape.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3108131,
+    "sha256": "55244f164ea401b897a8ad9cb771c7b7f1cbc73afb91539775bcf7a29154df67",
+    "variants": [
+      {
+        "file": "assets/ai-travel/ninh-binh-escape-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 54552,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/ninh-binh-escape-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 180840,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/ninh-binh-escape-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 300534,
+        "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/phu-quoc-island-days.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3243472,
+    "sha256": "b1d86aeaac6712df91151e595e45e2e546735c285ba3324159c65434c45c599e",
+    "variants": [
+      {
+        "file": "assets/ai-travel/phu-quoc-island-days-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 47690,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/phu-quoc-island-days-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 174692,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/phu-quoc-island-days-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 299574,
+        "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/sapa-mountain-escape.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2760873,
+    "sha256": "e615cbbf92970cbec79d568dca79de641ea3231e86dc9cae8ff511ab33195d0f",
+    "variants": [
+      {
+        "file": "assets/ai-travel/sapa-mountain-escape-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 54708,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/sapa-mountain-escape-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 168088,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/sapa-mountain-escape-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 323160,
+        "quality": 82
       }
     ]
   },

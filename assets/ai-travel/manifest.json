@@ -180,5 +180,55 @@
     "generator": "ChatGPT image generation",
     "type": "AI editorial illustration",
     "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "hotel-danang-scene.png",
+    "topic": "Hotel Danang Scene",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "hotel-hanoi-scene.png",
+    "topic": "Hotel Hanoi Scene",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "ninh-binh-escape.png",
+    "topic": "Ninh Binh Escape",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "sapa-mountain-escape.png",
+    "topic": "Sapa Mountain Escape",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "phu-quoc-island-days.png",
+    "topic": "Phu Quoc Island Days",
+    "width": 1536,
+    "height": 1024,
+    "created": "2026-10-15",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration",
+    "brand": "Stay in Da Nang"
   }
 ]

@@ -1,11 +1,13 @@
 # Travel artwork library
 
-Eighteen original ChatGPT-generated HD PNG illustrations are preserved here. Two branded posters contain English typography; sixteen destination and editorial scenes use native HTML titles so the same artwork works in all 13 language editions. These are AI illustrations, not documentary photographs or verified hotel imagery.
+Twenty-three original ChatGPT-generated HD PNG illustrations are preserved here. Five branded posters contain English typography; eighteen destination and editorial scenes use native HTML titles so the same artwork works in all 13 language editions. These are AI illustrations, not documentary photographs or verified hotel imagery.
 
 - Central Vietnam: Ba Na Hills, Marble Mountains, Hoi An and Hue (portrait).
 - Editorial covers: coastal Vietnam, separate Hanoi/Ho Chi Minh City walks, trip planning and generic Da Nang hotel-area inspiration.
 - Regional inspiration: Kyoto, Venice, San Francisco and Sydney.
 - New editorial scenes: Ha Long Bay, Japan/Paris travel inspiration, Hai Van road trips and airport flight planning.
+- New hotel covers: separate Da Nang and Hanoi city scenes, combined with each property’s native HTML name.
+- New text posters: Ninh Binh, Sa Pa and Phu Quoc.
 - Original posters: Discover Vietnam and Taste Vietnam.
 - `manifest.json` records topics, original dimensions and creation details.
 

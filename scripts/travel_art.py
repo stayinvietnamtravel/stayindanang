@@ -1,8 +1,7 @@
 """Original AI artwork, reusable blog covers and download links."""
 from pathlib import Path
 from html import escape as E
-from responsive_images import image as responsive_image, registry as image_registry
-import json
+from responsive_images import image as responsive_image
 ROOT=Path(__file__).resolve().parents[1]
 COPY={
 'vi':['Bộ ảnh cảm hứng du lịch','Hình minh họa do AI tạo, không phải ảnh chụp thực tế của địa điểm hoặc khách sạn.','Mở / tải ảnh HD'],
@@ -19,6 +18,7 @@ COPY={
 'th':['ภาพสร้างแรงบันดาลใจเที่ยว','ภาพประกอบสร้างด้วย AI ไม่ใช่ภาพถ่ายจริงของสถานที่หรือโรงแรม','เปิด / ดาวน์โหลดภาพ HD'],
 'id':['Gambar inspirasi perjalanan','Ilustrasi AI, bukan foto asli destinasi atau hotel.','Buka / unduh gambar HD']}
 ART={'da-nang-hotels-tours-flights-2026':'discover-vietnam.png','vietnam-food-guide':'taste-vietnam.png','vietnam-travel-planning':'travel-planning.png','where-to-stay-in-da-nang':'hotel-inspiration.png','da-nang-hoi-an-hue':'ba-na-hills.png','vietnam-heritage-guide':'hoi-an.png','coastal-vietnam-experiences':'coastal-vietnam.png','hanoi-ho-chi-minh-city-walks':'city-walks.png'}
+ART.update({'ninh-binh-two-day-escape':'ninh-binh-escape.png','sapa-valley-walks':'sapa-mountain-escape.png','phu-quoc-three-day-plan':'phu-quoc-island-days.png'})
 def cover(slug):
     target='assets/ai-travel/'+ART[slug] if slug in ART else ''
     return target if target and (ROOT/target).exists() else f'assets/blog/{slug}.svg'

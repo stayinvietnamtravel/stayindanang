@@ -12,7 +12,7 @@ from deal_posts import build_pages as build_deal_pages, exports as export_deal_p
 from travel_portal import build_pages as build_travel_pages, teaser as travel_teaser, UI as TRAVEL_UI, resources_path, news_path
 from home_tools import home_tools
 
-from marketplace import marketplace, service_url
+from marketplace import marketplace, service_url, service_labels
 from world_guides import build_pages as build_world_pages, teaser as world_teaser
 from seo import extras as seo_extras, discovery_files
 from responsive_images import image as responsive_image
@@ -132,6 +132,8 @@ def build():
                 body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
             body += contextual_images(lang,path,relative,SLUGS[i][1])
+            if details.get('booking_services'):
+                body+='<div class="topic-shortcuts">'+''.join(f'<a href="{E(service_url(key))}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="idea-{key}">{E(service_labels(lang)[key])} · Trip.com →</a>' for key in details['booking_services'])+'</div>'
             body += f'<aside class="editorial-note">{E(u[13])}</aside><h2>{E(u[12])}</h2><ul class="source-list">'
             body += ''.join(f'<li><a href="{E(source)}" target="_blank" rel="noopener noreferrer">{E(label)}</a></li>' for label,source in SOURCES[i])
             body += f'</ul><p><a class="btn" href="{E(booking)}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="blog-{SLUGS[i][0]}">{E(u[8])}</a></p><p><a href="{relative(path, blog(lang))}">{E(u[14])} →</a></p></article></div>'

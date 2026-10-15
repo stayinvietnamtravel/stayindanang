@@ -2,7 +2,7 @@
 from pathlib import Path
 from html import escape as E
 import json
-from responsive_images import image as responsive_image
+from hotel_visuals import cover as hotel_cover
 ROOT=Path(__file__).resolve().parents[1]
 HOTELS=json.loads((ROOT/'data/hanoi_hotels.json').read_text())['rows']
 # Heading, introduction, comparison heading, city ideas, disclosure.
@@ -85,14 +85,14 @@ def build_pages(document,relative,url,languages):
         body=f'<section class="section soft hotel-directory hanoi-directory"><div class="container"><nav class="breadcrumbs"><a href="{relative(current,"blog/index.html" if lang=="en" else "blog/"+lang+"/index.html")}">{E(CONTENT[lang]["ui"][1])}</a> / Hà Nội</nav><h1>{E(u[0])}</h1><p class="lead">{E(u[1])}</p><div class="blog-browser"><div class="blog-filters" role="group" aria-label="{E(u[0])}">'
         body+=f'<button data-blog-filter="all" aria-pressed="true">{E(CONTENT[lang]["ui"][24])}</button>'+''.join(f'<button data-blog-filter="{g.lower().replace(" ","-")}" aria-pressed="false">{g} ({count})</button>' for g,count in groups.items())+'</div><div class="blog-grid">'
         for h in HOTELS:
-            img=responsive_image(image_path(h),current,relative,h['name'],'blog-cover',sizes='(max-width:700px) 92vw, 300px')
+            img=hotel_cover(h,"hanoi",lang,current,relative)
             body+=f'<article class="blog-card" data-blog-category="{h["group"].lower().replace(" ","-")}"><a href="{relative(current,post_path(lang,h))}">{img}</a><div class="blog-card-body"><span class="pill">Hà Nội · {h["group"]}</span><h2><a href="{relative(current,post_path(lang,h))}">{E(h["name"])}</a></h2><p>{E(EDITORIAL[h["name"]][0] if lang=="vi" else u[1])}</p><a class="hotel-book-link" href="{E(h["urls"][0])}" target="_blank" rel="sponsored noopener noreferrer">{E(c[3].replace("↗","→"))}</a></div></article>'
         body+=f'</div></div><p class="editorial-note">{E(u[4])}</p></div></section>'
         write(current,document(lang,current,u[0],u[1],body,{code:index_path(code) for code in languages}))
         for h in HOTELS:
             path=post_path(lang,h);title=h['name']+' | '+u[0];angle,text=EDITORIAL[h['name']]
             intro=(h['name']+': '+angle.lower()+'. Tìm hiểu cách chọn phòng, sắp xếp hành trình và kiểm tra điều kiện đặt phòng cho chuyến đi Hà Nội.') if lang=='vi' else h['name']+' · '+u[1]
-            img=responsive_image(image_path(h),path,relative,h['name'],sizes='(max-width:800px) 92vw, 780px',eager=True)
+            img=hotel_cover(h,"hanoi",lang,path,relative,eager=True)
             body=f'<div class="container"><article class="article"><nav class="breadcrumbs"><a href="{relative(path,index_path(lang))}">{E(u[0])}</a> / {E(h["name"])}</nav><span class="pill">Hà Nội · {h["group"]}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p><figure class="featured-image">{img}<figcaption>{E(u[4])}</figcaption></figure><h2>{E(angle if lang=="vi" else u[2])}</h2><p>{E(text if lang=="vi" else c[5]+" "+c[6])}</p><h2>{E(u[2])}</h2><p>{E(c[5]+" "+c[6]+" "+c[7])}</p><h2>Hà Nội</h2><p>{E(u[3])}</p>'
             for i,link in enumerate(h['urls'],1):body+=f'<p><a class="btn" href="{E(link)}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hanoi-{h["slug"]}-{i}">{E(c[3].replace("↗","→"))}{" · "+str(i) if len(h["urls"])>1 else ""}</a></p>'
             body+=f'<p class="editorial-note">{E(u[4])}</p><p><a href="{relative(path,index_path(lang))}">{E(u[0])} →</a></p></article></div>'

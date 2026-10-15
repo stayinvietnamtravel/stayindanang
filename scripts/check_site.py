@@ -141,7 +141,7 @@ def check():
             page=pages[path]
             supplied=[target for kind,target in page.links if kind=='a' and urlsplit(target).netloc=='www.trip.com']
             assert supplied == hotel['urls'], (path,'exact Hanoi property affiliate links')
-            assert any(kind=='img' and hotel['slug'] in target for kind,target in page.links), (path,'matching Hanoi artwork')
+            assert f'data-hotel-art="{hotel["slug"]}"' in (ROOT/path).read_text(), (path,'matching Hanoi artwork')
             schema=next(s for s in page.schemas if s.get('@type')=='BlogPosting')
             assert hotel['name'] in schema['headline'] and schema['spatialCoverage']['name']=='Hanoi, Vietnam'
             assert hanoi_index_path(lang) in pages
@@ -187,8 +187,9 @@ def check():
             details = ARTICLE_DETAILS[slug]
             assert any(link == details['booking'] for _, link in page.links), (path, 'source booking link')
             text = (ROOT/path).read_text(encoding='utf-8')
-            assert 'source-note' in text and '2089517209634869439' in text, (path, 'X attribution')
-            assert any('2089517209634869439' in citation for schema in page.schemas for citation in schema.get('citation', [])), (path, 'source citation')
+            if 'source_notes' in details:
+                assert 'source-note' in text and '2089517209634869439' in text, (path, 'X attribution')
+                assert any('2089517209634869439' in citation for schema in page.schemas for citation in schema.get('citation', [])), (path, 'source citation')
     for path, page in pages.items():
         for lang in LANGUAGES:
             target = page.alternates[lang].removeprefix(BASE)+'index.html'
