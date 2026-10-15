@@ -19,6 +19,8 @@ from responsive_images import image as responsive_image
 from travel_art import cover as art_cover, dimensions as art_dimensions, contextual_images, COPY as ART_COPY
 from assistant import build_data as build_assistant_data, widget as assistant_widget, stats as assistant_stats
 from hanoi_hotels import build_pages as build_hanoi_pages, teaser as hanoi_teaser
+from home_layout import body as homepage_body, header as homepage_header, schema as homepage_schema
+from travel_services import build_pages as build_service_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -63,14 +65,17 @@ def document(lang, path, title, description, body, counterparts, structured=None
     alternates += f'<link rel="alternate" hreflang="x-default" href="{url(counterparts["en"])}">'
     schema = '' if structured is None else '<script type="application/ld+json">' + json.dumps(structured, ensure_ascii=False).replace('<', '\\u003c') + '</script>'
     image_metadata = f'<meta property="og:image" content="{BASE}assets/social/travel-guide.png"><meta property="og:image:alt" content="Stay in Da Nang travel guides">' if not structured or 'image' not in structured else f'<meta property="og:image" content="{E(structured["image"])}"><meta property="og:image:alt" content="{E(title)}">'
+    is_home=path==home(lang)
+    header=homepage_header(lang,path,relative,language_links(lang,path,counterparts)) if is_home else ''
     return f'''<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#0b3152"><title>{E(title)} | Stay in Da Nang</title>
 <meta name="description" content="{E(description)}"><link rel="canonical" href="{url(path)}">{alternates}
 <meta property="og:type" content="{'article' if structured and structured.get('@type') == 'BlogPosting' else 'website'}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url(path)}">
-<link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}{seo_extras(lang,path,title,description,structured.get("image") if structured else None)}<script src="{relative(path, "assets/assistant.js")}" defer></script></head><body>
-<header class="header simple-header"><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}">☀ Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
+<link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}{seo_extras(lang,path,title,description,structured.get("image") if structured else None)}<script src="{relative(path, "assets/assistant.js")}" defer></script></head><body class="{'home-page' if is_home else 'content-page'}"><a class="skip" href="#main">{E(u[0])} →</a>{header}
+{'' if is_home else f'''<header class="header simple-header"{' hidden' if is_home else ''}><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}">☀ Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
 <nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, deals_index(lang))}">{E(DEAL_COPY[lang][0])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a><a href="{relative(path,resources_path(lang))}">{E(TRAVEL_UI[lang][16])}</a></nav>
+'''}
 <main id="main">{body}</main><footer class="footer"><div class="container"><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p>{assistant_stats(lang)}</div></footer>{assistant_widget(lang,path,relative)}</body></html>
 '''
 
@@ -103,14 +108,9 @@ def build():
         u = CONTENT[lang]['ui']
         counterparts = {code: home(code) for code in LANGUAGES}
         all_pages.append((home(lang), counterparts))
-        if lang != 'en':
-            path = home(lang)
-            body = f'<section class="localized-hero"><div class="container"><div class="eyebrow">{E(u[21])}</div><h1>{E(u[6])}</h1><p>{E(u[7])}</p><div class="hero-actions"><a class="btn btn-light" href="{relative(path,deals_index(lang))}">{E(u[3])} ↓</a><a class="btn btn-outline" href="{relative(path, blog(lang))}">{E(u[1])} →</a></div></div></section>'
-            body += marketplace(lang,path,relative)
-            body += world_teaser(lang,path,relative)
-            body += home_tools(lang,path,relative)
-            body += f'<section class="section soft"><div class="container"><h2>{E(u[16])}</h2><p class="lead main-blog-heading">{E(u[18])}</p>{cards(lang,path)}</div></section>'
-            write(path, document(lang,path,u[6],u[18],body,counterparts))
+        path=home(lang)
+        body=homepage_body(lang,path,relative,cards)
+        write(path,document(lang,path,u[6],u[18],body,counterparts,homepage_schema(lang,path,url)))
         path = blog(lang)
         counterparts = {code: blog(code) for code in LANGUAGES}
         all_pages.append((path,counterparts))
@@ -137,43 +137,7 @@ def build():
             body += f'</ul><p><a class="btn" href="{E(booking)}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="blog-{SLUGS[i][0]}">{E(u[8])}</a></p><p><a href="{relative(path, blog(lang))}">{E(u[14])} →</a></p></article></div>'
             structured = {'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'image':BASE+image,'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[source for _,source in SOURCES[i]]}
             write(path,document(lang,path,title,intro,body,counterparts,structured))
-    # Keep the hand-maintained English landing page's blog cards in sync.
-    english = ROOT / 'index.html'
-    section = '<section class="section" id="blog"><div class="container"><div class="eyebrow">Practical travel guides</div><h2>Vietnam Travel Blog</h2><p class="lead main-blog-heading">Real places, hotel areas and flexible itineraries with official sources for further reading.</p>' + cards('en', 'index.html') + '</div></section>'
-    updated, matches = re.subn(r'<section class="section" id="blog">.*?</section>', lambda _: section, english.read_text(encoding='utf-8'), flags=re.S)
-    if matches != 1:
-        raise ValueError('Expected exactly one English homepage blog section')
-    updated = re.sub(r'<details class="language-picker">.*?</details>|<nav class="language-bar".*?</nav>', lambda _: language_links('en', 'index.html', {code:home(code) for code in LANGUAGES}), updated, flags=re.S)
-    updated = re.sub(r'<link rel="alternate"[^>]*>\s*', '', updated)
-    alternates = ''.join(f'<link rel="alternate" hreflang="{code}" href="{url(home(code))}">\n' for code in LANGUAGES)
-    alternates += f'<link rel="alternate" hreflang="x-default" href="{url(home("en"))}">\n'
-    updated = updated.replace('<meta property="og:type"', alternates+'<meta property="og:type"', 1)
-    updated = updated.replace('<a href="news/en/index.html">News</a><a href="resources/en/index.html">Resources</a>', '')
-    updated = updated.replace('<a href="blog/index.html">Blog</a></nav>', '<a href="blog/index.html">Blog</a><a href="news/en/index.html">News</a><a href="resources/en/index.html">Resources</a></nav>', 1)
-    # Replace legacy English landing sections with the shared discovery UI.
-    if '<!-- HOME TOOLS START -->' in updated:
-        before, remaining = updated.split('<!-- HOME TOOLS START -->', 1)
-        old_tools, after = remaining.split('<!-- HOME TOOLS END -->', 1)
-        for section_id in ('destinations','hotels','tours','flights','deals'):
-            after=re.sub(r'<section class="[^"]*" id="'+section_id+r'">.*?</section>', '', after, flags=re.S)
-        updated=before+'<!-- HOME TOOLS START -->'+old_tools+'<!-- HOME TOOLS END -->'+after
-    tools_section = '<!-- HOME TOOLS START -->'+marketplace('en','index.html',relative)+world_teaser('en','index.html',relative)+home_tools('en','index.html',relative)+'<!-- HOME TOOLS END -->\n'
-    if '<!-- HOME TOOLS START -->' in updated:
-        updated=re.sub(r'<!-- HOME TOOLS START -->.*?<!-- HOME TOOLS END -->\s*',lambda _:tools_section,updated,flags=re.S)
-    else:
-        marker='<section class="section" id="destinations">'
-        if marker not in updated:raise ValueError('Missing English homepage tools insertion point')
-        updated=updated.replace(marker,tools_section+marker,1)
-    updated=re.sub(r'<!-- SEO START -->.*?<!-- SEO END -->', '', updated, flags=re.S)
-    if 'property="og:image"' not in updated:
-        updated=updated.replace('</head>', f'<meta property="og:image" content="{BASE}assets/social/travel-guide.png"></head>')
-    updated=updated.replace('</head>', '<!-- SEO START -->'+seo_extras('en','index.html',CONTENT['en']['ui'][6],CONTENT['en']['ui'][18])+'<!-- SEO END --></head>')
-    updated=re.sub(r'<!-- ASSISTANT START -->.*?<!-- ASSISTANT END -->', '', updated, flags=re.S)
-    updated=re.sub(r'<!-- FOOTER STATS START -->.*?<!-- FOOTER STATS END -->', '', updated, flags=re.S)
-    updated=updated.replace('</footer>', '<!-- FOOTER STATS START --><div class="container">'+assistant_stats('en')+'</div><!-- FOOTER STATS END --></footer>')
-    if 'assets/assistant.js' not in updated:updated=updated.replace('</head>', '<script src="assets/assistant.js" defer></script></head>')
-    updated=updated.replace('</body>', '<!-- ASSISTANT START -->'+assistant_widget('en','index.html',relative)+'<!-- ASSISTANT END --></body>')
-    english.write_text(updated, encoding='utf-8')
+    all_pages.extend(build_service_pages(document,relative,url,LANGUAGES))
     export_deal_posts()
     all_pages.extend(build_deal_pages(document, relative, url, LANGUAGES))
     all_pages.extend(build_hanoi_pages(document, relative, url, LANGUAGES))

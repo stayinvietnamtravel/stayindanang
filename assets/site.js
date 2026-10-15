@@ -142,8 +142,10 @@
         destination.replaceChildren(...groups);
         destination.value = Array.from(destination.options).some(option => option.value === preferred) ? preferred : destination.options[0].value;
       };
+      booking.querySelectorAll('[data-booking-service]').forEach(button => button.addEventListener('click', () => { service.value=button.dataset.bookingService;service.dispatchEvent(new Event('change',{bubbles:true})); }));
       const allHotelOptions = Array.from(hotel.options).map(option => option.cloneNode(true));
       const updateBooking = () => {
+        booking.querySelectorAll('[data-booking-service]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.bookingService === service.value)));
         const previousHotel = hotel.value;
         hotel.replaceChildren(...allHotelOptions.filter(option => !option.value || option.dataset.city === destination.value).map(option => option.cloneNode(true)));
         if (Array.from(hotel.options).some(option => option.value === previousHotel)) hotel.value = previousHotel;

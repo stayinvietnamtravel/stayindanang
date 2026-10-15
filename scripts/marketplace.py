@@ -75,6 +75,8 @@ def booking(lang,current,relative):
     for h in HOTELS:result+=f'<option value="{h["slug"]}" data-city="da-nang">{E(h["display_name"])}</option>'
     for h in HANOI_HOTELS:result+=f'<option value="{h["slug"]}" data-city="hanoi">{E(h["name"])}</option>'
     result+=f'</select></label><a class="btn booking-action" href="{E(CONFIG["services"]["hotels"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="planner-da-nang-hotels">{E(u[5])}</a></div><p class="booking-summary" aria-live="polite">{E(names[0])} · {E(content[3])}</p><p class="notice">{E(u[6])}</p><p class="notice">{E(content[9])}</p></div></div></section>'
+    result=result.replace('<div class="booking-geography">',f'<details class="booking-advanced"><summary>{E(world[0])} / {E(world[1])}</summary><div class="booking-geography">',1)
+    result=result.replace('</div><div class="booking-fields">','</div></details><div class="booking-fields">',1)
     return result+affiliate_config()
 
 FLIGHTS={'vi':'Chuyến bay','en':'Flights','fr':'Vols','de':'Flüge','es':'Vuelos','zh':'机票','zh-Hant':'機票','ru':'Авиабилеты','ko':'항공편','ja':'航空券','hi':'उड़ानें','th':'เที่ยวบิน','id':'Penerbangan'}

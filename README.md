@@ -104,7 +104,7 @@ python3 scripts/check_site.py
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit the appropriate content module in `scripts/` and run the generator to update localized pages, blog pages, cover illustrations and `sitemap.xml`. The English landing page is maintained directly except for blog cards, language navigation, alternate-language metadata and the marked `HOME TOOLS` section, which the generator refreshes. Shared CSS and JavaScript in `assets/` are maintained directly.
+No package installation or build service is required for deployment: generated HTML is committed alongside the generator. Edit the appropriate content module in `scripts/` and run the generator to update localized pages, blog pages, cover illustrations and `sitemap.xml`. Every homepage, including English, is generated from the shared `scripts/home_layout.py` layout. Do not edit generated homepage HTML directly. Shared CSS and JavaScript in `assets/` are maintained directly.
 
 ## Homepage weather and new trip ideas
 
@@ -118,7 +118,7 @@ Run `python3 scripts/refresh_weather.py` to fetch the forecast, then build and c
 
 The three advertising iframes, including the hotel-search banner, have been removed from all pages and from the generator. The automated checks reject any reintroduced iframe or Trip.com ad URL. Booking buttons now point to the hotel's own supplied affiliate URL or to the original general booking link, depending on the page; the hotel links remain intact. There is no embedded booking engine.
 
-The original English homepage photos load remotely from Unsplash; blog covers and HD text artwork are local files. Photos remain illustrative, and verified licensed property photographs still require source URLs and attribution.
+The shared homepage hero, blog covers and HD text artwork use local responsive assets. Photos remain illustrative, and verified licensed property photographs still require source URLs and attribution.
 
 The website does not offer live pricing, booking forms or direct transactions.
 Review GitHub Pages' limitations for primarily commercial sites; Cloudflare Pages is a potential alternative.
@@ -166,3 +166,10 @@ See `server/README.md` for account setup, secret configuration and the manual **
 `blog/<language>/destinations/hanoi/` contains the destination index and `hotels/<slug>/` contains each guide in all 13 languages. Vietnamese guides contain individual editorial angles; other editions use localized room-comparison and Hanoi itinerary guidance. Articles avoid unsupported amenities, prices, rankings and proximity claims. Blog/homepage and Deals callouts link to Hanoi, and the booking selector filters property names by city. The chatbot links to the correct Hanoi guide path.
 
 Run `python3 scripts/hanoi_hotels.py` to render 30 exact-name HD text designs (Playwright/Chromium), then `python3 scripts/optimize_images.py` to export lightweight WebP variants. Regular builds reuse the committed images. Each card includes its own hotel name, Hanoi label and supplied affiliate URL(s); these are typographic designs, not property photographs.
+
+
+## Booking-first homepage and service topics
+
+All 13 homepages share a compact sticky header, a short illustrated hero and an overlapping service selector. Accessible buttons switch hotels, flights, tours/tickets, transfers and car rentals; the city/property controls preserve exact approved affiliate links. Geographic filters are expandable. Users continue selecting travel dates, passengers and final conditions on Trip.com; the website does not pretend to pass unsupported search parameters through short links. Mobile service buttons scroll without overlapping text.
+
+`travel/<language>/<service>/` adds 65 category guides with service-specific booking links, editorial advice, related guides, official tourism sources, canonicals, reciprocal hreflang and sitemap entries. Vietnamese and English editions have distinct advice for each service; other editions use localized planning guidance. Homepage CollectionPage/ItemList markup describes visible Vietnam destination links and real city-center coordinates, without invented ratings, offers or business addresses. SEO/GEO improvements help organize readable information and do not guarantee search positions or AI citations.

@@ -13,6 +13,7 @@ from hotel_editorial import editorial
 from marketplace import CONFIG as AFFILIATE_CONFIG, FEATURED, service_url
 from world_destinations import COUNTRIES, CITY_KEYS, REGION_KEYS
 from world_guides import page_pairs as world_page_pairs
+from travel_services import page_pairs as service_page_pairs
 from hanoi_hotels import page_pairs as hanoi_page_pairs, HOTELS as HANOI_HOTELS, post_path as hanoi_post_path, index_path as hanoi_index_path
 from travel_portal import page_pairs as travel_page_pairs, SOURCES as TRAVEL_SOURCES, safe_articles
 import struct
@@ -125,6 +126,7 @@ def check():
     expected_paths.update(path for path, _ in travel_page_pairs(LANGUAGES))
     expected_paths.update(path for path, _ in world_page_pairs(LANGUAGES))
     expected_paths.update(path for path, _ in hanoi_page_pairs(LANGUAGES))
+    expected_paths.update(path for path, _ in service_page_pairs(LANGUAGES))
     assert set(paths) == expected_paths, 'Unexpected or missing generated pages'
     assert len(TRAVEL_SOURCES['official_sites'])==18 and len(TRAVEL_SOURCES['magazines'])==10
     for source in TRAVEL_SOURCES['official_sites']+TRAVEL_SOURCES['magazines']:

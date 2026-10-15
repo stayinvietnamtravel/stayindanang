@@ -9,6 +9,14 @@
 - [Americas travel planning](https://stayinvietnamtravel.github.io/stayindanang/explore/en/americas/): Sample routes, food ideas, destination lists and official tourism references.
 - [Oceania travel planning](https://stayinvietnamtravel.github.io/stayindanang/explore/en/oceania/): Sample routes, food ideas, destination lists and official tourism references.
 
+## Booking topic guides
+
+- [Hotels planning](https://stayinvietnamtravel.github.io/stayindanang/travel/en/hotels/): Category-specific advice and disclosed Trip.com affiliate links.
+- [Flights planning](https://stayinvietnamtravel.github.io/stayindanang/travel/en/flights/): Category-specific advice and disclosed Trip.com affiliate links.
+- [Tours planning](https://stayinvietnamtravel.github.io/stayindanang/travel/en/tours/): Category-specific advice and disclosed Trip.com affiliate links.
+- [Transfers planning](https://stayinvietnamtravel.github.io/stayindanang/travel/en/transfers/): Category-specific advice and disclosed Trip.com affiliate links.
+- [Cars planning](https://stayinvietnamtravel.github.io/stayindanang/travel/en/cars/): Category-specific advice and disclosed Trip.com affiliate links.
+
 ## Vietnam and services
 
 - [Travel blog](https://stayinvietnamtravel.github.io/stayindanang/blog/)
