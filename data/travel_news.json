@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T07:13:57.624244+00:00",
+  "last_updated": "2026-10-16T18:14:34.231849+00:00",
   "articles": [
     {
       "title": "ITA Airways to launch Rome – Caracas flights in March 2027",
@@ -307,21 +307,21 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-16T07:13:57.624244+00:00",
-      "last_success_at": "2026-10-16T07:13:57.624244+00:00",
+      "last_attempt_at": "2026-10-16T18:14:34.231849+00:00",
+      "last_success_at": "2026-10-16T18:14:34.231849+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-16T07:13:57.624244+00:00",
-      "last_success_at": "2026-10-16T07:13:57.624244+00:00",
+      "last_attempt_at": "2026-10-16T18:14:34.231849+00:00",
+      "last_success_at": "2026-10-16T18:14:34.231849+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-16T07:13:57.624244+00:00",
+      "last_attempt_at": "2026-10-16T18:14:34.231849+00:00",
       "last_success_at": "2026-10-16T07:13:57.624244+00:00",
-      "status": "ok",
+      "status": "unavailable",
       "count": 10
     }
   }
