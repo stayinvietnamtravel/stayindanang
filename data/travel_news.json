@@ -1,6 +1,26 @@
 {
-  "last_updated": "2026-10-16T06:17:02.249966+00:00",
+  "last_updated": "2026-10-16T07:13:57.624244+00:00",
   "articles": [
+    {
+      "title": "ITA Airways to launch Rome – Caracas flights in March 2027",
+      "url": "https://www.traveldailynews.com/aviation/ita-airways-rome-caracas-direct-flight-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T06:57:21+00:00",
+      "countries": [
+        "italy"
+      ]
+    },
+    {
+      "title": "Jet2 launches Summer 2028 holidays and flights early",
+      "url": "https://www.traveldailynews.com/aviation/jet2-summer-2028-holidays-flights-on-sale/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T06:46:02+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "SITA to acquire Collins Aerospace Airport Solutions",
       "url": "https://www.traveldailynews.com/aviation/sita-acquires-collins-aerospace-airport-solutions/",
@@ -87,26 +107,6 @@
       "source_id": "ttg-asia",
       "publisher": "TTG Asia",
       "published_at": "2026-10-16T05:20:04+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Juniper and 247tpd partner to automate hotel contract data loading",
-      "url": "https://www.traveldailynews.com/technology/juniper-and-247tpd-partner-to-automate-hotel-contract-data-loading/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T05:16:00+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "easyJet adds five routes for Summer 2027",
-      "url": "https://www.traveldailynews.com/aviation/easyjet-five-new-routes-summer-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T05:11:26+00:00",
       "countries": [
         "international"
       ]
@@ -307,20 +307,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-16T06:17:02.249966+00:00",
-      "last_success_at": "2026-10-16T06:17:02.249966+00:00",
+      "last_attempt_at": "2026-10-16T07:13:57.624244+00:00",
+      "last_success_at": "2026-10-16T07:13:57.624244+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-16T06:17:02.249966+00:00",
-      "last_success_at": "2026-10-16T06:17:02.249966+00:00",
+      "last_attempt_at": "2026-10-16T07:13:57.624244+00:00",
+      "last_success_at": "2026-10-16T07:13:57.624244+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-16T06:17:02.249966+00:00",
-      "last_success_at": "2026-10-16T06:17:02.249966+00:00",
+      "last_attempt_at": "2026-10-16T07:13:57.624244+00:00",
+      "last_success_at": "2026-10-16T07:13:57.624244+00:00",
       "status": "ok",
       "count": 10
     }
