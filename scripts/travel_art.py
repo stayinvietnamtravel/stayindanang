@@ -21,8 +21,9 @@ ART={'da-nang-hotels-tours-flights-2026':'discover-vietnam.png','vietnam-food-gu
 ART.update({'ninh-binh-two-day-escape':'ninh-binh-escape.png','sapa-valley-walks':'sapa-mountain-escape.png','phu-quoc-three-day-plan':'phu-quoc-island-days.png'})
 from world_posters import TRIPS as POSTER_TRIPS
 ART.update({trip['slug']:trip['slug']+'.png' for trip in POSTER_TRIPS})
+from campaign_guides import DAYS as CAMPAIGN_DAYS
 def cover(slug):
-    target='assets/ai-travel/'+ART[slug] if slug in ART else ''
+    target=next((d['image'] for d in CAMPAIGN_DAYS if d['slug']==slug),'') or ('assets/ai-travel/'+ART[slug] if slug in ART else '')
     return target if target and (ROOT/target).exists() else f'assets/blog/{slug}.svg'
 def dimensions(path):
     if path.endswith('.png'):

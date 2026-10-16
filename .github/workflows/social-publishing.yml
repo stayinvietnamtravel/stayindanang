@@ -1,0 +1,83 @@
+name: Publish daily travel campaign
+
+on:
+  workflow_dispatch:
+    inputs:
+      day:
+        description: Campaign day (1-30)
+        required: true
+        default: '1'
+      platform:
+        description: Destination platforms
+        type: choice
+        options: [all, x, facebook, instagram]
+        default: all
+      mode:
+        description: Preview, verify accounts, or publish
+        type: choice
+        options: [preview, verify-accounts, publish]
+        default: preview
+  schedule:
+    - cron: '0 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-travel-social-publisher
+  cancel-in-progress: false
+
+jobs:
+  campaign:
+    if: github.event_name == 'workflow_dispatch' || vars.SOCIAL_AUTO_PUBLISH == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run campaign publisher
+        env:
+          CAMPAIGN_DAY: ${{ inputs.day }}
+          CAMPAIGN_PLATFORM: ${{ inputs.platform }}
+          CAMPAIGN_MODE: ${{ inputs.mode }}
+          EVENT_NAME: ${{ github.event_name }}
+          SOCIAL_AUTO_PUBLISH: ${{ vars.SOCIAL_AUTO_PUBLISH }}
+          SOCIAL_START_DATE: ${{ vars.SOCIAL_START_DATE }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+        run: |
+          if [ "$EVENT_NAME" = schedule ]; then
+            python3 scripts/publish_social.py --scheduled --publish
+          elif [ "$CAMPAIGN_MODE" = publish ]; then
+            python3 scripts/publish_social.py --day "$CAMPAIGN_DAY" --platform "$CAMPAIGN_PLATFORM" --publish
+          elif [ "$CAMPAIGN_MODE" = verify-accounts ]; then
+            python3 scripts/publish_social.py --platform "$CAMPAIGN_PLATFORM" --verify-accounts
+          else
+            python3 scripts/publish_social.py --day "$CAMPAIGN_DAY" --platform "$CAMPAIGN_PLATFORM"
+          fi
+      - name: Persist publication identifiers and uncertain outcomes
+        if: always()
+        run: |
+          if git diff --quiet -- data/social_publications.json; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/social_publications.json
+          git commit -m 'Record social campaign publication results'
+          git pull --rebase origin main
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: social-publication-ledger
+          path: data/social_publications.json
+          retention-days: 30

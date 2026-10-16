@@ -2985,5 +2985,875 @@
         "quality": 82
       }
     ]
+  },
+  "assets/campaign/day-01.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2791653,
+    "sha256": "7882b63ffc274236bfbe93b1907c0d423b9f6a9fa96c214565243ac195dc453c",
+    "variants": [
+      {
+        "file": "assets/campaign/day-01-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43332,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-01-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 143940,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-01-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 311660,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-02.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3001268,
+    "sha256": "4f7cafca8fa524c2a156f0723ac9209087e34f9e83a4412dc054717e6cddaad0",
+    "variants": [
+      {
+        "file": "assets/campaign/day-02-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 51526,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-02-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 165522,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-02-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 305986,
+        "quality": 78
+      }
+    ]
+  },
+  "assets/campaign/day-03.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2715118,
+    "sha256": "bb380519711eb5bb4d15ba5b55eade5113867fddc944cca39b6a0f03889ea6bc",
+    "variants": [
+      {
+        "file": "assets/campaign/day-03-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44978,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-03-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 145934,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-03-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 310310,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-04.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2460702,
+    "sha256": "ee89973af8529ffe0258e084ee9ad37f21fd1ae1f92b056e2ecd8d5841573553",
+    "variants": [
+      {
+        "file": "assets/campaign/day-04-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 38434,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-04-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 104864,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-04-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 207776,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-05.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2724901,
+    "sha256": "61c19042c18cab85cbc001cf7ce9b4012e647c4e54d581699d4af0d6248bc9b4",
+    "variants": [
+      {
+        "file": "assets/campaign/day-05-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 46556,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-05-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 148960,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-05-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 306410,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-06.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2603911,
+    "sha256": "e858d6cd4975615b26eaadac752f1bb6b9a4267659d22ddff7124c639ce728cb",
+    "variants": [
+      {
+        "file": "assets/campaign/day-06-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 35428,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-06-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 115008,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-06-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 246390,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-07.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2735697,
+    "sha256": "b2d4101668f2cad02984938a7baf6c420b6ec7bebc16e1bf2a44c23a4ccad0e5",
+    "variants": [
+      {
+        "file": "assets/campaign/day-07-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 48604,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-07-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 150078,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-07-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 308430,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-08.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2544000,
+    "sha256": "278252d4a48dc1a2999f2b7796cd65eafe3fa913c70c38a3a34dae261ebc6752",
+    "variants": [
+      {
+        "file": "assets/campaign/day-08-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39348,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-08-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 117236,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-08-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 239212,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-09.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2808801,
+    "sha256": "d6cfe1bc818f27d59490d3cce024a1eba2b8428ceb308600ed0cc0e1dca8477d",
+    "variants": [
+      {
+        "file": "assets/campaign/day-09-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45652,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-09-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 146846,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-09-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 309898,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-10.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2693282,
+    "sha256": "0aa08a55af81c5c6f719e73911663d38acae2a3ba5293727549f0609b4399850",
+    "variants": [
+      {
+        "file": "assets/campaign/day-10-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 51470,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-10-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 155156,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-10-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 308896,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-11.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2312483,
+    "sha256": "1eb23edfaa0ce83c45993adc4eed258519fe483ba7c0990c6816774613a1a452",
+    "variants": [
+      {
+        "file": "assets/campaign/day-11-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 35806,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-11-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 94862,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-11-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 176020,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-12.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2505199,
+    "sha256": "989cd149b0d0489a22b1719ceb3c1276d459f3f05c497a8ca18331b8fec94b91",
+    "variants": [
+      {
+        "file": "assets/campaign/day-12-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 39612,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-12-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 119458,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-12-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 237150,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-13.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2636720,
+    "sha256": "0f484ee382f09d91b3a10c6b8aaaff13b8d839b847c75f51163e1e14e4a72a5b",
+    "variants": [
+      {
+        "file": "assets/campaign/day-13-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 34984,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-13-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 109350,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-13-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 235930,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-14.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2611441,
+    "sha256": "2a7a4546e54fbbb818b6bf9ac872025366d6f66b6ce0156695e954902be54c6a",
+    "variants": [
+      {
+        "file": "assets/campaign/day-14-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 37378,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-14-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 113450,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-14-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 240512,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-15.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2391359,
+    "sha256": "15355564bdc2eaf0a6565c7f367739736c5b0f34428a1ff7ce702ceb6a80b9f5",
+    "variants": [
+      {
+        "file": "assets/campaign/day-15-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42156,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-15-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 119642,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-15-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 231286,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-16.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2835967,
+    "sha256": "e4067ad13695d8288240057cabb1c919522ab8a92fd2c304425372419876515a",
+    "variants": [
+      {
+        "file": "assets/campaign/day-16-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 48930,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-16-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 153270,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-16-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 316750,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-17.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2753721,
+    "sha256": "dd5d72966a055ad9dd0d5cce94aa2fb5977132126520401e591ab6eea0eaafa1",
+    "variants": [
+      {
+        "file": "assets/campaign/day-17-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 54426,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-17-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 167824,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-17-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 331886,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-18.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3041960,
+    "sha256": "7c57fdde4abf24fe8a42fc2ee0575d9fcf0d5f0f896f6e9ac5bb7487b1821246",
+    "variants": [
+      {
+        "file": "assets/campaign/day-18-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 54952,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-18-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 180438,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-18-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 330988,
+        "quality": 78
+      }
+    ]
+  },
+  "assets/campaign/day-19.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2606095,
+    "sha256": "2ddce721127d1e6317e55ed3cf86242f8f327bccc7732221c106f1f9eea323f5",
+    "variants": [
+      {
+        "file": "assets/campaign/day-19-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 52082,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-19-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 140506,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-19-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 263396,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-20.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2670064,
+    "sha256": "651dae471caa0ceb57b66e342b57c04963a0f2755f257bf68801fb4289958deb",
+    "variants": [
+      {
+        "file": "assets/campaign/day-20-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 50158,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-20-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 149164,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-20-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 290018,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-21.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3004234,
+    "sha256": "91ae144f9c509daf318167e5dc9bed3a2b8dd8adb68b8494cdb7f818cc54176b",
+    "variants": [
+      {
+        "file": "assets/campaign/day-21-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 60262,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-21-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 168014,
+        "quality": 78
+      },
+      {
+        "file": "assets/campaign/day-21-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 330796,
+        "quality": 78
+      }
+    ]
+  },
+  "assets/campaign/day-22.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2680908,
+    "sha256": "90ebdb422112d10b396ebe63f90b03a0786fcae31b7123a51e00692231bca9f3",
+    "variants": [
+      {
+        "file": "assets/campaign/day-22-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 42180,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-22-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 136458,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-22-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 285514,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-23.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2504687,
+    "sha256": "c34a5254e9fd33c066d0f112abbc7c78f6b89a88e218b03ae12fe0c6a698607d",
+    "variants": [
+      {
+        "file": "assets/campaign/day-23-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45106,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-23-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 127608,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-23-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 240608,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-24.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2564435,
+    "sha256": "183680d72375043cd5590971717edd3a484626c258e9942f916d85367b71d9ce",
+    "variants": [
+      {
+        "file": "assets/campaign/day-24-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 35906,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-24-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 116116,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-24-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 248192,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-25.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2873960,
+    "sha256": "14bf31cdf1d5b05d8d8402dc5d4915f2c27615d4550090fd47c05a5b0d4912e8",
+    "variants": [
+      {
+        "file": "assets/campaign/day-25-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45242,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-25-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 152474,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-25-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 333888,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-26.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3093512,
+    "sha256": "f0154a0313ce4e76fa489d6782501de81e74c53a50852282f90f8a7599555049",
+    "variants": [
+      {
+        "file": "assets/campaign/day-26-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 51640,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-26-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 173390,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-26-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 327828,
+        "quality": 78
+      }
+    ]
+  },
+  "assets/campaign/day-27.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2733599,
+    "sha256": "fb11922806aec34539012c8c0c6d83804a121648ddda3960914cd4aa30390494",
+    "variants": [
+      {
+        "file": "assets/campaign/day-27-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 44152,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-27-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 135950,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-27-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 273860,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-28.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2740225,
+    "sha256": "4c954157078a6faa0caad2293648f4d7b01705e39eeb7a41fb7e8813ebb2a845",
+    "variants": [
+      {
+        "file": "assets/campaign/day-28-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45894,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-28-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 143742,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-28-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 307020,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-29.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2834915,
+    "sha256": "48dcd2d19c5bed2180ba4e002f8766c926f5a3bbd7ad37262c59de7c6ad1db6e",
+    "variants": [
+      {
+        "file": "assets/campaign/day-29-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 45790,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-29-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 149846,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-29-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 318968,
+        "quality": 82
+      }
+    ]
+  },
+  "assets/campaign/day-30.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2887533,
+    "sha256": "9942e84300081da22493562438d3eabe94becf75233081554970c279883ef5c8",
+    "variants": [
+      {
+        "file": "assets/campaign/day-30-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 52058,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-30-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 163014,
+        "quality": 82
+      },
+      {
+        "file": "assets/campaign/day-30-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 297428,
+        "quality": 78
+      }
+    ]
   }
 }

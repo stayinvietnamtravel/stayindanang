@@ -23,6 +23,7 @@ from home_layout import body as homepage_body, header as homepage_header, schema
 from travel_services import build_pages as build_service_pages
 from hotel_collection import build_pages as build_collection_pages,path as collection_path
 from southern_hotels import build_pages as build_southern_pages
+from campaign_pages import build_pages as build_campaign_pages,callout as campaign_callout
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -94,11 +95,11 @@ def cards(lang, current):
         img=responsive_image(image,current,relative,title,"blog-cover"+(" poster-cover" if ARTICLE_DETAILS.get(SLUGS[i][1],{}).get("poster_download") else ""),sizes="(max-width: 780px) 92vw, 390px")
         result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}">{img}<div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
     if current==home(lang):
-        return '<div class="blog-grid home-journal-grid">'+''.join(result)+f'</div><p class="journal-more"><a class="btn" href="{relative(current,blog(lang))}">{E(u[1])} →</a></p>'+travel_teaser(lang,current,relative)
+        return campaign_callout(lang,current,relative)+'<div class="blog-grid home-journal-grid">'+''.join(result)+f'</div><p class="journal-more"><a class="btn" href="{relative(current,blog(lang))}">{E(u[1])} →</a></p>'+travel_teaser(lang,current,relative)
     filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
     filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
     deal_link = f'<aside class="deals-callout"><h3>{E(DEAL_COPY[lang][0])}</h3><p>{E(DEAL_COPY[lang][7])}</p><a class="btn" href="{relative(current,deals_index(lang))}">{E(DEAL_COPY[lang][0])} →</a></aside>'
-    return '<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>' + deal_link + hanoi_teaser(lang,current,relative) + travel_teaser(lang,current,relative)
+    return '<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>' + campaign_callout(lang,current,relative) + deal_link + hanoi_teaser(lang,current,relative) + travel_teaser(lang,current,relative)
 
 
 def write(path, html):
@@ -134,13 +135,15 @@ def build():
             poster_class=' poster-feature' if details.get('poster_download') else ''
             width,height=art_dimensions(image)
             img=responsive_image(image,path,relative,title,sizes="(max-width: 800px) 92vw, 780px",eager=True)
-            body += f'<figure class="featured-image{poster_class}">{img}<figcaption>{E(ART_COPY[lang][1] if image.startswith("assets/ai-travel/") else FEATURE_CAPTIONS[lang])}</figcaption></figure>'
+            body += f'<figure class="featured-image{poster_class}">{img}<figcaption>{E(ART_COPY[lang][1] if image.startswith(("assets/ai-travel/","assets/campaign/")) else FEATURE_CAPTIONS[lang])}</figcaption></figure>'
             if details.get('poster_download'):
                 variants=image_registry().get(image,{}).get('variants',[])
                 webp=variants[-1]['file'] if variants else image
                 body+=f'<p class="poster-downloads"><a class="text-link" href="{relative(path,image)}" download>{E(ART_COPY[lang][2])} · PNG →</a><a class="text-link" href="{relative(path,webp)}" download>WebP →</a></p>'
             if 'source_notes' in details:
                 body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
+            if details.get('source_summary_en') and lang not in ('en','vi'):
+                body+=f'<section lang="en"><h2>Planning idea · English</h2><p>{E(details["source_summary_en"])}</p></section>'
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
             body += contextual_images(lang,path,relative,SLUGS[i][1])
             if details.get('booking_services'):
@@ -153,6 +156,7 @@ def build():
                 place=details['place']
                 structured['spatialCoverage']={'@type':'Place','name':place['name'],'geo':{'@type':'GeoCoordinates','latitude':place['latitude'],'longitude':place['longitude']}}
             write(path,document(lang,path,title,intro,body,counterparts,structured))
+    all_pages.extend(build_campaign_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_collection_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_southern_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_service_pages(document,relative,url,LANGUAGES))

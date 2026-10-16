@@ -196,3 +196,6 @@ register_vietnam_ideas(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)
 
 from world_posters import register as register_world_posters
 register_world_posters(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)
+
+from campaign_guides import register as register_campaign_guides
+register_campaign_guides(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)

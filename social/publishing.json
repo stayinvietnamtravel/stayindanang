@@ -1,0 +1,11 @@
+{
+  "timezone": "Asia/Bangkok",
+  "local_time": "09:00",
+  "platforms": ["x", "facebook", "instagram"],
+  "expected_x_username": "stayindanang",
+  "expected_facebook_page_id": "61594990174326",
+  "expected_instagram_username": "stayindananghoianhue",
+  "graph_api_version": "v24.0",
+  "auto_publish_default": false,
+  "start_date": null
+}

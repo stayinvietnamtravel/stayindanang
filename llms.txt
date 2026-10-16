@@ -20,6 +20,7 @@
 ## Vietnam and services
 
 - [Travel blog](https://stayinvietnamtravel.github.io/stayindanang/blog/)
+- [30 Vietnam planning ideas](https://stayinvietnamtravel.github.io/stayindanang/ideas/en/)
 - [Hotel collection: Hot Deals and Hot Sellers](https://stayinvietnamtravel.github.io/stayindanang/stays/en/)
 - [Da Nang hotels](https://stayinvietnamtravel.github.io/stayindanang/deals/en/)
 - [Hanoi hotel guides](https://stayinvietnamtravel.github.io/stayindanang/blog/en/destinations/hanoi/)
