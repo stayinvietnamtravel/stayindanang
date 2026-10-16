@@ -52,7 +52,7 @@ python3 -m unittest discover -s tests -p 'test_social_publishing.py'
 python3 scripts/publish_social.py --day 1
 ```
 
-Pillow is needed for image export only. Normal HTML builds and the publisher use Python's standard library. The private review ZIP is written outside the public repository to `../stayindanang-admin-exports/social-campaign-30days.zip` and includes the 90 captions/JPEGs and all 150 original drafts.
+Pillow is needed for image export and the offline asset-validation tests. Normal HTML builds and the publisher use Python's standard library. The private review ZIP is written outside the public repository to `../stayindanang-admin-exports/social-campaign-30days.zip` and includes the 90 captions/JPEGs and all 150 original drafts.
 
 ## Reliability and recovery
 

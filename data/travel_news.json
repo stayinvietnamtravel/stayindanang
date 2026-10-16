@@ -1,6 +1,167 @@
 {
-  "last_updated": "2026-10-15T18:17:01.171193+00:00",
+  "last_updated": "2026-10-16T06:17:02.249966+00:00",
   "articles": [
+    {
+      "title": "SITA to acquire Collins Aerospace Airport Solutions",
+      "url": "https://www.traveldailynews.com/aviation/sita-acquires-collins-aerospace-airport-solutions/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:57:28+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Travefy integrates Berkshire Hathaway Travel Protection",
+      "url": "https://www.traveldailynews.com/travel-products/travefy-berkshire-hathaway-travel-insurance-integration/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:56:12+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Belgrade to host IATA’s Wings of Change Europe 2027",
+      "url": "https://www.traveldailynews.com/meetings-events/wings-of-change-europe-2027-belgrade/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:42:44+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "La Valise Bacalar to open in December 2026 under Namron Hospitality",
+      "url": "https://www.traveldailynews.com/hotels-lodging/la-valise-bacalar-namron-hospitality-opening-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:42:43+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Embraer and Portugália Airlines sign E-Jets component support agreement",
+      "url": "https://www.traveldailynews.com/aviation/embraer-portugalia-airlines-e-jets-component-pool-program/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:37:40+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Majestic Hospitality appoints Lisette Acosta Álvarez for Latin America and the Caribbean",
+      "url": "https://www.traveldailynews.com/people/new-appointments/majestic-hospitality-lisette-acosta-alvarez-latin-america-caribbean/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:31:06+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Booking Holdings plans $100m investment in Vayo",
+      "url": "https://www.traveldailynews.com/technology/booking-holdings-vayo-ai-startup-investment/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:28:13+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "ICAO calls for stronger commitment to CORSIA",
+      "url": "https://www.traveldailynews.com/aviation/icao-stronger-corsia-commitment-aviation-decarbonization/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:26:12+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Boracay’s first casino raises environmental and social concerns",
+      "url": "https://www.ttgasia.com/2026/10/16/boracays-first-casino-raises-environmental-and-social-concerns/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-16T05:20:04+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Juniper and 247tpd partner to automate hotel contract data loading",
+      "url": "https://www.traveldailynews.com/technology/juniper-and-247tpd-partner-to-automate-hotel-contract-data-loading/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:16:00+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "easyJet adds five routes for Summer 2027",
+      "url": "https://www.traveldailynews.com/aviation/easyjet-five-new-routes-summer-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-16T05:11:26+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Michelin Guide debut expected to raise South Australia’s tourism profile",
+      "url": "https://www.ttgasia.com/2026/10/16/michelin-guide-debut-expected-to-raise-south-australias-tourism-profile/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-16T05:00:31+00:00",
+      "countries": [
+        "australia"
+      ]
+    },
+    {
+      "title": "GetYourGuide, Singapore Tourism Board collaborate on tourism experiences",
+      "url": "https://www.ttgasia.com/2026/10/16/getyourguide-singapore-tourism-board-collaborate-on-tourism-experiences/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-16T04:42:16+00:00",
+      "countries": [
+        "singapore"
+      ]
+    },
+    {
+      "title": "Aviation roundup: Air Cambodia, Air Astana and more",
+      "url": "https://www.ttgasia.com/2026/10/16/aviation-roundup-air-cambodia-air-astana-and-more/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-16T04:39:52+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Resorts World Sentosa brings K-wave to Christmas celebrations",
+      "url": "https://www.ttgasia.com/2026/10/16/resorts-world-sentosa-brings-k-wave-to-christmas-celebrations/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-16T04:39:31+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "TAT expands ASEAN India+ Shoppers in Thailand 2026 to drive tourism spending",
+      "url": "https://www.tatnews.org/2026/10/tat-expands-asean-india-shoppers-in-thailand-2026-to-drive-tourism-spending/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-10-16T02:42:00+00:00",
+      "countries": [
+        "thailand",
+        "india"
+      ]
+    },
     {
       "title": "12th Global Tourism Economy Forum Macao 2026 announces key speakers and agenda highlights",
       "url": "https://www.ttgasia.com/2026/10/15/12th-global-tourism-economy-forum-macao-2026-announces-key-speakers-and-agenda-highlights/",
@@ -12,111 +173,11 @@
       ]
     },
     {
-      "title": "ALL Accor launches global Stay for More campaign",
-      "url": "https://www.traveldailynews.com/hospitality/all-accor-stay-for-more-global-campaign/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T09:51:09+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Seychelles tourism professionals establish new Society",
-      "url": "https://www.traveldailynews.com/organizations/seychelles-tourism-professionals-society-launch/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T09:10:10+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Russia and Egypt sign deal to expand direct flights",
-      "url": "https://www.traveldailynews.com/aviation/russia-egypt-expand-direct-flights-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T08:57:34+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Qatar Airways signs first Japanese JOLCO financing deal",
-      "url": "https://www.traveldailynews.com/aviation/qatar-airways-japanese-jolco-aircraft-financing/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T08:41:11+00:00",
-      "countries": [
-        "japan"
-      ]
-    },
-    {
-      "title": "Brussels Airport handles 2.36m passengers in September, Winter schedule adds four festinations",
-      "url": "https://www.traveldailynews.com/aviation/brussels-airport-passengers-winter-destinations-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T08:33:50+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Corporate travel buyers flag airfare costs for 2027",
-      "url": "https://www.traveldailynews.com/mice-industry/business-travel/corporate-travel-buyers-challenges-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T08:17:36+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Duetto selected for B&B Hotels’ 930-property portfolio",
-      "url": "https://www.traveldailynews.com/technology/duetto-bb-hotels-revenue-management-deal/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T07:51:07+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "The Standard, High Line appoints two new Directors",
-      "url": "https://www.traveldailynews.com/people/new-appointments/the-standard-high-line-leadership-appointments/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T07:34:23+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Chinese family travellers seek more suitable group tour itineraries",
       "url": "https://www.ttgasia.com/2026/10/15/chinese-family-travellers-seek-more-suitable-group-tour-itineraries/",
       "source_id": "ttg-asia",
       "publisher": "TTG Asia",
       "published_at": "2026-10-15T07:21:17+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Milan hotel rates near record high in September",
-      "url": "https://www.traveldailynews.com/hospitality/milan-hotel-room-rates-september-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T07:16:11+00:00",
-      "countries": [
-        "italy"
-      ]
-    },
-    {
-      "title": "Essence of Africa 2026 sets programme for Zanzibar Forum",
-      "url": "https://www.traveldailynews.com/meetings-events/essence-of-africa-2026-zanzibar-programme/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-15T07:02:04+00:00",
       "countries": [
         "international"
       ]
@@ -162,16 +223,6 @@
       ]
     },
     {
-      "title": "Legoland Hotel Malaysia builds on stays with Lego City rooms",
-      "url": "https://www.ttgasia.com/2026/10/15/legoland-hotel-malaysia-builds-on-stays-with-lego-city-rooms/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-15T05:16:10+00:00",
-      "countries": [
-        "malaysia"
-      ]
-    },
-    {
       "title": "TAT positions Thailand for high-value tourism at CNN Global Perspectives in Bangkok",
       "url": "https://www.tatnews.org/2026/10/tat-positions-thailand-for-high-value-tourism-at-cnn-global-perspectives-in-bangkok/",
       "source_id": "tat-news",
@@ -182,16 +233,6 @@
       ]
     },
     {
-      "title": "Hilton shifts Asia-Pacific brand leadership roles",
-      "url": "https://www.ttgasia.com/2026/10/14/hilton-shifts-asia-pacific-brand-leadership-roles/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-14T07:55:06+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "TAT and Tripadvisor partner to support Thailand’s 2027 tourism transformation",
       "url": "https://www.tatnews.org/2026/10/tat-and-tripadvisor-partner-to-support-thailands-2027-tourism-transformation/",
       "source_id": "tat-news",
@@ -199,36 +240,6 @@
       "published_at": "2026-10-14T07:12:02+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Langkawi targets China market through four-city roadshow",
-      "url": "https://www.ttgasia.com/2026/10/14/langkawi-targets-china-market-through-four-city-roadshow/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-14T05:34:25+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Philippines by Foot campaign heads to Clark",
-      "url": "https://www.ttgasia.com/2026/10/14/philippines-by-foot-campaign-heads-to-clark/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-14T05:13:38+00:00",
-      "countries": [
-        "philippines"
-      ]
-    },
-    {
-      "title": "Dida, Vortex explore tourism opportunities in Japan",
-      "url": "https://www.ttgasia.com/2026/10/14/dida-vortex-explore-tourism-opportunities-in-japan/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-14T04:47:52+00:00",
-      "countries": [
-        "japan"
       ]
     },
     {
@@ -292,34 +303,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "TAT highlights Phuket Vegetarian Festival 2026 as a distinctive cultural experience",
-      "url": "https://www.tatnews.org/2026/10/tat-highlights-phuket-vegetarian-festival-2026-as-a-distinctive-cultural-experience/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-06T08:30:00+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-15T18:17:01.171193+00:00",
-      "last_success_at": "2026-10-15T18:17:01.171193+00:00",
+      "last_attempt_at": "2026-10-16T06:17:02.249966+00:00",
+      "last_success_at": "2026-10-16T06:17:02.249966+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-15T18:17:01.171193+00:00",
-      "last_success_at": "2026-10-15T18:17:01.171193+00:00",
+      "last_attempt_at": "2026-10-16T06:17:02.249966+00:00",
+      "last_success_at": "2026-10-16T06:17:02.249966+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-15T18:17:01.171193+00:00",
-      "last_success_at": "2026-10-15T18:17:01.171193+00:00",
+      "last_attempt_at": "2026-10-16T06:17:02.249966+00:00",
+      "last_success_at": "2026-10-16T06:17:02.249966+00:00",
       "status": "ok",
       "count": 10
     }
