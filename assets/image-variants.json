@@ -318,6 +318,64 @@
       }
     ]
   },
+  "assets/ai-travel/hotel-saigon-scene.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3287632,
+    "sha256": "4ccbe79e8bcadcef487b5170239ebfa25fff21e5ceaa3d275d739b66f22af15c",
+    "variants": [
+      {
+        "file": "assets/ai-travel/hotel-saigon-scene-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 53620,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-saigon-scene-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 188784,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-saigon-scene-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 323104,
+        "quality": 74
+      }
+    ]
+  },
+  "assets/ai-travel/hotel-southern-coast-scene.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 3175074,
+    "sha256": "01c60a999ffc8924755ca9a770352958f6785035c8e977e37c83906be771265c",
+    "variants": [
+      {
+        "file": "assets/ai-travel/hotel-southern-coast-scene-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 43902,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-southern-coast-scene-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 161140,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/hotel-southern-coast-scene-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 323076,
+        "quality": 78
+      }
+    ]
+  },
   "assets/ai-travel/hue-heritage-days.png": {
     "width": 1536,
     "height": 1024,

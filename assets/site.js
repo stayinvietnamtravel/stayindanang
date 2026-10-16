@@ -66,16 +66,23 @@
     const stored = JSON.parse(localStorage.getItem(favoritesKey) || '[]');
     if (Array.isArray(stored)) favorites = new Set(stored.filter(item => typeof item === 'string').slice(0,200));
   } catch (_) {}
+  const normalizeHotelName = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/đ/g,'d').trim();
   const updateHotelFilters = () => {
-    document.querySelectorAll('#hotels').forEach(section => {
+    document.querySelectorAll('[data-hotel-collection]').forEach(section => {
       const selected = section.querySelector('[data-hotel-tab][aria-pressed="true"]')?.dataset.hotelTab || 'all';
+      const city = section.querySelector('[data-hotel-city-filter][aria-pressed="true"]')?.dataset.hotelCityFilter || 'all';
+      const query = normalizeHotelName(section.querySelector('[data-hotel-search]')?.value || '');
       let visible = 0;
       section.querySelectorAll('[data-hotel-group]').forEach(card => {
-        card.hidden = selected === 'saved' ? !favorites.has(card.dataset.savedId) : selected !== 'all' && selected !== card.dataset.hotelGroup;
+        const groupMatches = selected === 'saved' ? favorites.has(card.dataset.savedId) : selected === 'all' || selected === card.dataset.hotelGroup;
+        card.hidden = !groupMatches || (city !== 'all' && city !== card.dataset.hotelCity) || !normalizeHotelName(card.dataset.hotelName || '').includes(query);
         if (!card.hidden) visible += 1;
       });
-      const empty = section.querySelector('.saved-empty');
-      if (empty) empty.hidden = visible > 0;
+      const empty = section.querySelector('.collection-empty');if (empty) empty.hidden=visible>0;
+      const count=section.querySelector('[data-hotel-result]');if (count) count.textContent=visible;
+      const more=section.querySelector('[data-collection-link]');
+      if (more) { const target=new URL(more.href);target.search='';if (city!=='all') target.searchParams.set('city',city);if (selected!=='all' && selected!=='saved') target.searchParams.set('group',selected);more.href=target.href; }
+      const savedEmpty=section.querySelector('.saved-empty');if (savedEmpty) savedEmpty.hidden=true;
     });
   };
   const refreshFavorites = () => {
@@ -93,12 +100,14 @@
     try { localStorage.setItem(favoritesKey, JSON.stringify([...favorites])); } catch (_) {}
     refreshFavorites();
   }));
-  document.querySelectorAll('[data-hotel-tab]').forEach(button => button.addEventListener('click', () => {
-    const section = button.closest('#hotels');
-    section.querySelectorAll('[data-hotel-tab]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-    updateHotelFilters();
-    section.querySelector('.discovery-rail').scrollLeft = 0;
-  }));
+  document.querySelectorAll('[data-hotel-collection]').forEach(section => {
+    const select = (attribute,value) => section.querySelectorAll('['+attribute+']').forEach(button => button.setAttribute('aria-pressed',String(button.getAttribute(attribute)===value)));
+    section.querySelectorAll('[data-hotel-tab]').forEach(button => button.addEventListener('click',()=>{ select('data-hotel-tab',button.dataset.hotelTab);updateHotelFilters();section.querySelector('.discovery-rail')?.scrollTo({left:0}); }));
+    section.querySelectorAll('[data-hotel-city-filter]').forEach(button => button.addEventListener('click',()=>{ select('data-hotel-city-filter',button.dataset.hotelCityFilter);updateHotelFilters();section.querySelector('.discovery-rail')?.scrollTo({left:0}); }));
+    section.querySelector('[data-hotel-search]')?.addEventListener('input',updateHotelFilters);
+    section.querySelector('[data-hotel-reset]')?.addEventListener('click',()=>{select('data-hotel-tab','all');select('data-hotel-city-filter','all');section.querySelector('[data-hotel-search]').value='';updateHotelFilters();});
+    if (!section.closest('.home-page')) {const params=new URLSearchParams(location.search);if (params.has('city') && Array.from(section.querySelectorAll('[data-hotel-city-filter]')).some(button=>button.dataset.hotelCityFilter===params.get('city'))) select('data-hotel-city-filter',params.get('city'));if (['top-deals','hot-sellers'].includes(params.get('group'))) select('data-hotel-tab',params.get('group'));}
+  });
   refreshFavorites();
   document.querySelectorAll('[data-rail-direction]').forEach(button => button.addEventListener('click', () => {
     const rail = button.closest('.discovery-section').querySelector('.discovery-rail');
@@ -149,7 +158,7 @@
         const previousHotel = hotel.value;
         hotel.replaceChildren(...allHotelOptions.filter(option => !option.value || option.dataset.city === destination.value).map(option => option.cloneNode(true)));
         if (Array.from(hotel.options).some(option => option.value === previousHotel)) hotel.value = previousHotel;
-        const specific = ['da-nang', 'hanoi'].includes(destination.value) && service.value === 'hotels';
+        const specific = hotel.options.length>1 && service.value === 'hotels';
         hotel.disabled = !specific;
         booking.querySelector('.booking-property-field').hidden = !specific;
         const hotelKey = specific ? hotel.value : '';

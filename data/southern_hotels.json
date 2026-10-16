@@ -1,0 +1,310 @@
+{
+  "source": "Owner-supplied hotel names and affiliate links in chat",
+  "received_date": "2026-10-16",
+  "rows": [
+    {
+      "name": "La Vela Saigon Hotel",
+      "display_name": "La Vela Saigon Hotel",
+      "slug": "la-vela-saigon-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/xf4AMik4lW2"
+    },
+    {
+      "name": "Premier Pearl Hotel Vung Tau",
+      "display_name": "Premier Pearl Hotel Vung Tau",
+      "slug": "premier-pearl-hotel-vung-tau",
+      "city": "vung-tau",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/RtLMAxl4lW2"
+    },
+    {
+      "name": "Fusion Original Saigon Centre",
+      "display_name": "Fusion Original Saigon Centre",
+      "slug": "fusion-original-saigon-centre",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/m9oclkm4lW2"
+    },
+    {
+      "name": "Caravelle Saigon",
+      "display_name": "Caravelle Saigon",
+      "slug": "caravelle-saigon",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/59z6lWn4lW2"
+    },
+    {
+      "name": "Pullman Saigon Centre",
+      "display_name": "Pullman Saigon Centre",
+      "slug": "pullman-saigon-centre",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/y547P9o4lW2"
+    },
+    {
+      "name": "Park Hyatt Saigon",
+      "display_name": "Park Hyatt Saigon",
+      "slug": "park-hyatt-saigon",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/Ah6Plto4lW2"
+    },
+    {
+      "name": "Rex Hotel",
+      "display_name": "Rex Hotel",
+      "slug": "rex-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/BiaO1Vp4lW2"
+    },
+    {
+      "name": "Hotel Nikko Saigon",
+      "display_name": "Hotel Nikko Saigon",
+      "slug": "hotel-nikko-saigon",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/sfwfIDq4lW2"
+    },
+    {
+      "name": "Melia Ho Tram Beach Resort",
+      "display_name": "Melia Ho Tram Beach Resort",
+      "slug": "melia-ho-tram-beach-resort",
+      "city": "ho-tram",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/oEOsGsq4lW2"
+    },
+    {
+      "name": "Hilton Saigon",
+      "display_name": "Hilton Saigon",
+      "slug": "hilton-saigon",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/4MFYVRr4lW2"
+    },
+    {
+      "name": "Lotte Hotel Saigon",
+      "display_name": "Lotte Hotel Saigon",
+      "slug": "lotte-hotel-saigon",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/FCLra0s4lW2"
+    },
+    {
+      "name": "Mai House Saigon Hotel",
+      "display_name": "Mai House Saigon Hotel",
+      "slug": "mai-house-saigon-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/CM9aeYs4lW2"
+    },
+    {
+      "name": "New World Saigon Hotel",
+      "display_name": "New World Saigon Hotel",
+      "slug": "new-world-saigon-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/w3yhUEt4lW2"
+    },
+    {
+      "name": "Sheraton Saigon Grand Opera Hotel",
+      "display_name": "Sheraton Saigon Grand Opera Hotel",
+      "slug": "sheraton-saigon-grand-opera-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/COPrIot4lW2"
+    },
+    {
+      "name": "Le Meridien Saigon",
+      "display_name": "Le Meridien Saigon",
+      "slug": "le-meridien-saigon",
+      "city": "ho-chi-minh-city",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/FyrtWKu4lW2"
+    },
+    {
+      "name": "Akoya Saigon Central Hotel",
+      "display_name": "Akoya Saigon Central Hotel",
+      "slug": "akoya-saigon-central-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/ayZ91Oz4lW2"
+    },
+    {
+      "name": "Eastin Grand Hotel Saigon",
+      "display_name": "Eastin Grand Hotel Saigon",
+      "slug": "eastin-grand-hotel-saigon",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/fDnKoiy4lW2"
+    },
+    {
+      "name": "Central Hotel & Residences Swimming Pool",
+      "display_name": "Central Hotel & Residences Swimming Pool",
+      "slug": "central-hotel-residences-swimming-pool",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/5SoGTvz4lW2"
+    },
+    {
+      "name": "Chau Tri Hotel Ben Thanh Central",
+      "display_name": "Chau Tri Hotel Ben Thanh Central",
+      "slug": "chau-tri-hotel-ben-thanh-central",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/3An59k05lW2"
+    },
+    {
+      "name": "Brown Dot Hotel Saigon Airport",
+      "display_name": "Brown Dot Hotel Saigon Airport",
+      "slug": "brown-dot-hotel-saigon-airport",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/fXZigT15lW2"
+    },
+    {
+      "name": "Cochin Sang Hotel",
+      "display_name": "Cochin Sang Hotel",
+      "slug": "cochin-sang-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/nnXo0e35lW2"
+    },
+    {
+      "name": "M Village Hotel Premier Thi Sach, a brand of Modern Village Lifestyle",
+      "display_name": "M Village Hotel Premier Thi Sach, a brand of Modern Village Lifestyle",
+      "slug": "m-village-hotel-premier-thi-sach-a-brand-of-modern-village-lifestyle",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/xsa8F055lW2"
+    },
+    {
+      "name": "Dream Palace Ben Thanh Grand Hotel",
+      "display_name": "Dream Palace Ben Thanh Grand Hotel",
+      "slug": "dream-palace-ben-thanh-grand-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/vqG7YE65lW2"
+    },
+    {
+      "name": "Golden Lunar Hotel - Bui Vien Walking Street, District 1",
+      "display_name": "Golden Lunar Hotel - Bui Vien Walking Street, District 1",
+      "slug": "golden-lunar-hotel-bui-vien-walking-street-district-1",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/hBvGwz65lW2"
+    },
+    {
+      "name": "Paragon Saigon Hotel",
+      "display_name": "Paragon Saigon Hotel",
+      "slug": "paragon-saigon-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/08Ia5h75lW2"
+    },
+    {
+      "name": "Cap Town Hotel",
+      "display_name": "Cap Town Hotel",
+      "slug": "cap-town-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/QHyBUG85lW2"
+    },
+    {
+      "name": "California Hotel Saigon & Rooftop Pool",
+      "display_name": "California Hotel Saigon & Rooftop Pool",
+      "slug": "california-hotel-saigon-rooftop-pool",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/S3FVwZ95lW2"
+    },
+    {
+      "name": "Hotel le Jardin Secret Saigon",
+      "display_name": "Hotel le Jardin Secret Saigon",
+      "slug": "hotel-le-jardin-secret-saigon",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/4PPHnCA5lW2"
+    },
+    {
+      "name": "Aquari Hotel",
+      "display_name": "Aquari Hotel",
+      "slug": "aquari-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/kndUc2B5lW2"
+    },
+    {
+      "name": "NHAT HA LAVISH HOTEL",
+      "display_name": "NHAT HA LAVISH HOTEL",
+      "slug": "nhat-ha-lavish-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/QRKPUmB5lW2"
+    },
+    {
+      "name": "M Village Hotel Tao Dan Park, a brand of Modern Village Lifestyle",
+      "display_name": "M Village Hotel Tao Dan Park, a brand of Modern Village Lifestyle",
+      "slug": "m-village-hotel-tao-dan-park-a-brand-of-modern-village-lifestyle",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/0pdBRRC5lW2"
+    },
+    {
+      "name": "Le Vu Hotel",
+      "display_name": "Le Vu Hotel",
+      "slug": "le-vu-hotel",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/rfabA5D5lW2"
+    },
+    {
+      "name": "S Home Apartment by DDH",
+      "display_name": "S Home Apartment by DDH",
+      "slug": "s-home-apartment-by-ddh",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/pOWAFWD5lW2"
+    },
+    {
+      "name": "Liberty Saigon Greenview Hotel - Ho Chi Minh City",
+      "display_name": "Liberty Saigon Greenview Hotel - Ho Chi Minh City",
+      "slug": "liberty-saigon-greenview-hotel-ho-chi-minh-city",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/p1zjFME5lW2"
+    },
+    {
+      "name": "Amanaki Thao Dien",
+      "display_name": "Amanaki Thao Dien",
+      "slug": "amanaki-thao-dien",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/2qsMhxE5lW2"
+    },
+    {
+      "name": "President Maison Signature, a brand of Modern Village Lifestyle",
+      "display_name": "President Maison Signature, a brand of Modern Village Lifestyle",
+      "slug": "president-maison-signature-a-brand-of-modern-village-lifestyle",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/t3P14SF5lW2"
+    },
+    {
+      "name": "Vienna House by Wyndham Charm Long Hai",
+      "display_name": "Vienna House by Wyndham Charm Long Hai",
+      "slug": "vienna-house-by-wyndham-charm-long-hai",
+      "city": "long-hai",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/ZmSa6zF5lW2"
+    },
+    {
+      "name": "Vinpearl Landmark 81, Autograph Collection",
+      "display_name": "Vinpearl Landmark 81, Autograph Collection",
+      "slug": "vinpearl-landmark-81-autograph-collection",
+      "city": "ho-chi-minh-city",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/jsQ0xRG5lW2"
+    }
+  ]
+}

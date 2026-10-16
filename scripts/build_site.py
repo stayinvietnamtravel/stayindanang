@@ -21,6 +21,8 @@ from assistant import build_data as build_assistant_data, widget as assistant_wi
 from hanoi_hotels import build_pages as build_hanoi_pages, teaser as hanoi_teaser
 from home_layout import body as homepage_body, header as homepage_header, schema as homepage_schema
 from travel_services import build_pages as build_service_pages
+from hotel_collection import build_pages as build_collection_pages,path as collection_path
+from southern_hotels import build_pages as build_southern_pages
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -73,22 +75,26 @@ def document(lang, path, title, description, body, counterparts, structured=None
 <meta name="description" content="{E(description)}"><link rel="canonical" href="{url(path)}">{alternates}
 <meta property="og:type" content="{'article' if structured and structured.get('@type') == 'BlogPosting' else 'website'}"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(description)}"><meta property="og:url" content="{url(path)}">
 <link rel="stylesheet" href="{relative(path, 'assets/site.css')}"><script src="{relative(path, 'assets/site.js')}" defer></script>{image_metadata}{schema}{seo_extras(lang,path,title,description,structured.get("image") if structured else None)}<script src="{relative(path, "assets/assistant.js")}" defer></script></head><body class="{'home-page' if is_home else 'content-page'}"><a class="skip" href="#main">{E(u[0])} →</a>{header}
-{'' if is_home else f'''<header class="header simple-header"{' hidden' if is_home else ''}><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}">☀ Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
-<nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, deals_index(lang))}">{E(DEAL_COPY[lang][0])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a><a href="{relative(path,resources_path(lang))}">{E(TRAVEL_UI[lang][16])}</a></nav>
+{'' if is_home else f'''<header class="header simple-header"{' hidden' if is_home else ''}><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}"><span class="brand-mark" aria-hidden="true">∿</span>Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
+<nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, collection_path(lang))}">Hot Deals & Hot Sellers</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a><a href="{relative(path,resources_path(lang))}">{E(TRAVEL_UI[lang][16])}</a></nav>
 '''}
-<main id="main">{body}</main><footer class="footer"><div class="container"><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p>{assistant_stats(lang)}</div></footer>{assistant_widget(lang,path,relative)}</body></html>
+<main id="main">{body}</main><footer class="footer"><div class="container"><div class="footer-directory"><strong>Stay in Da Nang</strong><nav aria-label="{E(u[19])}"><a href="{relative(path,home(lang))}">{E(u[0])}</a><a href="{relative(path,collection_path(lang))}">Hot Deals & Hot Sellers</a><a href="{relative(path,blog(lang))}">{E(u[1])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a></nav></div><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p>{assistant_stats(lang)}</div></footer>{assistant_widget(lang,path,relative)}</body></html>
 '''
 
 
 def cards(lang, current):
     u = CONTENT[lang]['ui']
     result = []
-    for i, (title, intro, _) in enumerate(CONTENT[lang]['articles']):
+    articles=list(enumerate(CONTENT[lang]['articles']))
+    if current==home(lang):articles=articles[-6:]
+    for i, (title, intro, _) in articles:
         category = u[CATEGORY_LABELS[SLUGS[i][0]]]
         image = art_cover(SLUGS[i][1])
         width,height=art_dimensions(image)
         img=responsive_image(image,current,relative,title,"blog-cover"+(" poster-cover" if ARTICLE_DETAILS.get(SLUGS[i][1],{}).get("poster_download") else ""),sizes="(max-width: 780px) 92vw, 390px")
         result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}">{img}<div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
+    if current==home(lang):
+        return '<div class="blog-grid home-journal-grid">'+''.join(result)+f'</div><p class="journal-more"><a class="btn" href="{relative(current,blog(lang))}">{E(u[1])} →</a></p>'+travel_teaser(lang,current,relative)
     filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
     filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
     deal_link = f'<aside class="deals-callout"><h3>{E(DEAL_COPY[lang][0])}</h3><p>{E(DEAL_COPY[lang][7])}</p><a class="btn" href="{relative(current,deals_index(lang))}">{E(DEAL_COPY[lang][0])} →</a></aside>'
@@ -147,6 +153,8 @@ def build():
                 place=details['place']
                 structured['spatialCoverage']={'@type':'Place','name':place['name'],'geo':{'@type':'GeoCoordinates','latitude':place['latitude'],'longitude':place['longitude']}}
             write(path,document(lang,path,title,intro,body,counterparts,structured))
+    all_pages.extend(build_collection_pages(document,relative,url,LANGUAGES))
+    all_pages.extend(build_southern_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_service_pages(document,relative,url,LANGUAGES))
     export_deal_posts()
     all_pages.extend(build_deal_pages(document, relative, url, LANGUAGES))

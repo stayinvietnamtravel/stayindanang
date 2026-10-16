@@ -9,10 +9,13 @@ from world_guides import teaser as world_teaser
 from home_tools import home_tools
 from deal_posts import index_path as deals_index
 from travel_services import topic_path
-ICONS={'hotels':'▣','flights':'✈','tours':'⌖','transfers':'↔','cars':'◇'}
+from service_icons import icon
+from hotel_collection import rows as collection_rows,path as collection_path,COPY as COLLECTION_COPY
+from world_destinations import COUNTRIES,country_name
+ICONS={key:icon(key) for key in ('hotels','flights','tours','transfers','cars')}
 def header(lang,current,relative,language_picker):
     u=CONTENT[lang]['ui']
-    links=[('#booking',u[3]),('#destinations',u[5]),('#tours',u[4]),('#blog',u[1]),('#weather', 'Weather' if lang=='en' else 'Thời tiết' if lang=='vi' else '☀')]
+    links=[('#booking',u[3]),('#hotels','Hot Deals'),('#destinations',u[5]),('#tours',u[4]),('#blog',u[1]),('#weather', 'Weather' if lang=='en' else 'Thời tiết' if lang=='vi' else '☀')]
     return f'<header class="header home-header"><div class="container header-inner"><a class="logo" href="{relative(current,"index.html" if lang=="en" else lang+"/index.html")}"><span class="brand-mark" aria-hidden="true">∿</span>Stay in Da Nang</a><nav class="home-nav" aria-label="{E(u[19])}">'+''.join(f'<a href="{target}">{E(label)}</a>' for target,label in links)+f'</nav>{language_picker}</div></header>'
 def body(lang,current,relative,cards):
     u=CONTENT[lang]['ui'];labels=service_labels(lang)
@@ -23,7 +26,8 @@ def body(lang,current,relative,cards):
     panel=panel.replace('<div class="booking-panel">','<div class="booking-panel">'+tabs,1)
     result+=panel
     result+='<section class="home-topics"><div class="container topic-shortcuts">'+''.join(f'<a href="{relative(current,topic_path(lang,key))}"><span aria-hidden="true">{ICONS[key]}</span><strong>{E(label)}</strong><span aria-hidden="true">→</span></a>' for key,label in labels.items())+'</div></section>'
-    result+=f'<section class="container city-stays"><div><span class="eyebrow">VIETNAM</span><h2>{E(u[3])} · Đà Nẵng & Hà Nội</h2></div><div class="city-stay-links"><a href="{relative(current,deals_index(lang))}">Đà Nẵng · 42 {E(u[3])} →</a><a href="{relative(current,"blog/"+lang+"/destinations/hanoi/index.html")}">Hà Nội · 30 {E(u[3])} →</a></div></section>'
+    total=len(collection_rows());destinations=len({city for _,city in collection_rows()})
+    result+=f'<section class="container city-stays"><div><span class="eyebrow">VIETNAM HOTEL COLLECTION</span><h2>{E(u[3])} · {E(country_name(COUNTRIES[0],lang))}</h2></div><div class="city-stay-links"><a href="{relative(current,collection_path(lang))}"><strong>{total}</strong> {E(u[3])} →</a><a href="{relative(current,collection_path(lang))}"><strong>{destinations}</strong> {E(u[5])} →</a></div></section>'
     discovery_html=discovery(lang,current,relative)
     hotel=re.search(r'<section[^>]+id="hotels".*?</section>',discovery_html,re.S)
     result+=(hotel.group(0)+discovery_html.replace(hotel.group(0),'',1)) if hotel else discovery_html

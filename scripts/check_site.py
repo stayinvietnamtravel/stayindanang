@@ -13,6 +13,8 @@ from hotel_editorial import editorial
 from marketplace import CONFIG as AFFILIATE_CONFIG, FEATURED, service_url
 from world_destinations import COUNTRIES, CITY_KEYS, REGION_KEYS
 from world_guides import page_pairs as world_page_pairs
+from hotel_collection import page_pairs as collection_page_pairs
+from southern_hotels import page_pairs as southern_page_pairs,HOTELS as SOUTHERN_HOTELS,post_path as southern_post_path
 from travel_services import page_pairs as service_page_pairs
 from hanoi_hotels import page_pairs as hanoi_page_pairs, HOTELS as HANOI_HOTELS, post_path as hanoi_post_path, index_path as hanoi_index_path
 from travel_portal import page_pairs as travel_page_pairs, SOURCES as TRAVEL_SOURCES, safe_articles
@@ -127,6 +129,8 @@ def check():
     expected_paths.update(path for path, _ in world_page_pairs(LANGUAGES))
     expected_paths.update(path for path, _ in hanoi_page_pairs(LANGUAGES))
     expected_paths.update(path for path, _ in service_page_pairs(LANGUAGES))
+    expected_paths.update(path for path, _ in collection_page_pairs(LANGUAGES))
+    expected_paths.update(path for path, _ in southern_page_pairs(LANGUAGES))
     assert set(paths) == expected_paths, 'Unexpected or missing generated pages'
     assert len(TRAVEL_SOURCES['official_sites'])==18 and len(TRAVEL_SOURCES['magazines'])==10
     for source in TRAVEL_SOURCES['official_sites']+TRAVEL_SOURCES['magazines']:
@@ -145,6 +149,12 @@ def check():
             schema=next(s for s in page.schemas if s.get('@type')=='BlogPosting')
             assert hotel['name'] in schema['headline'] and schema['spatialCoverage']['name']=='Hanoi, Vietnam'
             assert hanoi_index_path(lang) in pages
+    for hotel in SOUTHERN_HOTELS:
+        for lang in LANGUAGES:
+            path=southern_post_path(lang,hotel);page=pages[path]
+            links=[target for kind,target in page.links if kind=='a' and urlsplit(target).netloc=='www.trip.com']
+            assert links==[hotel['url']], (path,'exact owner-supplied southern hotel link')
+            assert f'data-hotel-art="{hotel["slug"]}"' in (ROOT/path).read_text(), (path,'correct hotel artwork name')
     assert len(HOTELS) == 42 and len({h['url'] for h in HOTELS}) == 42
     for hotel in HOTELS:
         assert hotel['url'] in hotel['blog_content_en'] and hotel['url'] in hotel['social_post_en'] and hotel['url'] in hotel['booking_cta_en']
