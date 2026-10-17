@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T06:12:58.779270+00:00",
+  "last_updated": "2026-10-17T18:07:46.924645+00:00",
   "articles": [
     {
       "title": "oneworld’s 15 member airlines sign Buckingham Palace Declaration",
@@ -307,20 +307,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-17T06:12:58.779270+00:00",
+      "last_attempt_at": "2026-10-17T18:07:46.924645+00:00",
       "last_success_at": "2026-10-17T06:12:58.779270+00:00",
-      "status": "ok",
+      "status": "unavailable",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-17T06:12:58.779270+00:00",
-      "last_success_at": "2026-10-17T06:12:58.779270+00:00",
+      "last_attempt_at": "2026-10-17T18:07:46.924645+00:00",
+      "last_success_at": "2026-10-17T18:07:46.924645+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-17T06:12:58.779270+00:00",
-      "last_success_at": "2026-10-17T06:12:58.779270+00:00",
+      "last_attempt_at": "2026-10-17T18:07:46.924645+00:00",
+      "last_success_at": "2026-10-17T18:07:46.924645+00:00",
       "status": "ok",
       "count": 10
     }
