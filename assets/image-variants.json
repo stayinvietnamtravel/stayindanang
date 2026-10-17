@@ -695,6 +695,35 @@
       }
     ]
   },
+  "assets/ai-travel/thailand-seven-days.png": {
+    "width": 1536,
+    "height": 1024,
+    "original_bytes": 2841247,
+    "sha256": "693a801dd17bdd940f9c876cb9b9f2ccdbfad8e9f13b98ecfe471029d6f81dbf",
+    "variants": [
+      {
+        "file": "assets/ai-travel/thailand-seven-days-480.webp",
+        "width": 480,
+        "height": 320,
+        "bytes": 47558,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/thailand-seven-days-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 157100,
+        "quality": 82
+      },
+      {
+        "file": "assets/ai-travel/thailand-seven-days-1536.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 334766,
+        "quality": 82
+      }
+    ]
+  },
   "assets/ai-travel/tour-road-trip.png": {
     "width": 1536,
     "height": 1024,

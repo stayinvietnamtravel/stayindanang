@@ -199,3 +199,6 @@ register_world_posters(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)
 
 from campaign_guides import register as register_campaign_guides
 register_campaign_guides(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)
+
+from practical_guides import register as register_practical_guides
+register_practical_guides(CONTENT,LANGUAGES,SLUGS,SOURCES,ARTICLE_DETAILS)

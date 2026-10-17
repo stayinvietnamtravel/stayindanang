@@ -1,0 +1,47 @@
+{
+  "links": [
+    {
+      "label": "X · @stayindanang",
+      "url": "https://x.com/stayindanang",
+      "kind": "social",
+      "same_as": true
+    },
+    {
+      "label": "Facebook · Stay in Da Nang",
+      "url": "https://www.facebook.com/profile.php?id=61594990174326",
+      "kind": "social",
+      "same_as": true
+    },
+    {
+      "label": "Instagram · @stayindananghoianhue",
+      "url": "https://www.instagram.com/stayindananghoianhue/",
+      "kind": "social",
+      "same_as": true
+    },
+    {
+      "label": "Expats in Da Nang Guide",
+      "url": "https://expats-in-danang-guide.sunsetmars4.chatgpt.site/",
+      "kind": "website"
+    },
+    {
+      "label": "Visit Vietnam Deals",
+      "url": "https://visit-vietnam-deals.sunsetmars4.chatgpt.site/",
+      "kind": "website"
+    },
+    {
+      "label": "Da Nang Trip Guide",
+      "url": "https://danang-trip-guide.sunsetmars4.chatgpt.site/",
+      "kind": "website"
+    },
+    {
+      "label": "Vietnam Stay & Go",
+      "url": "https://vietnam-stay-go.sunsetmars4.chatgpt.site/",
+      "kind": "website"
+    },
+    {
+      "label": "Stay in Da Nang Hotel Deals",
+      "url": "https://stayindanang-hotel-deals.sunsetmars4.chatgpt.site/",
+      "kind": "website"
+    }
+  ]
+}

@@ -24,6 +24,8 @@ from travel_services import build_pages as build_service_pages
 from hotel_collection import build_pages as build_collection_pages,path as collection_path
 from southern_hotels import build_pages as build_southern_pages
 from campaign_pages import build_pages as build_campaign_pages,callout as campaign_callout
+from site_links import footer as footer_network
+from practical_guides import before_sections as guide_before, after_sections as guide_after
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -79,7 +81,7 @@ def document(lang, path, title, description, body, counterparts, structured=None
 {'' if is_home else f'''<header class="header simple-header"{' hidden' if is_home else ''}><div class="container header-inner"><a class="logo" href="{relative(path, home(lang))}" aria-label="{E(u[20])}"><span class="brand-mark" aria-hidden="true">∿</span>Stay in Da Nang</a>{language_links(lang, path, counterparts)}</div></header>
 <nav class="container site-links" aria-label="{E(u[19])}"><a href="{relative(path, home(lang))}">{E(u[0])}</a><a href="{relative(path, blog(lang))}">{E(u[1])}</a><a href="{relative(path, collection_path(lang))}">Hot Deals & Hot Sellers</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a><a href="{relative(path,resources_path(lang))}">{E(TRAVEL_UI[lang][16])}</a></nav>
 '''}
-<main id="main">{body}</main><footer class="footer"><div class="container"><div class="footer-directory"><strong>Stay in Da Nang</strong><nav aria-label="{E(u[19])}"><a href="{relative(path,home(lang))}">{E(u[0])}</a><a href="{relative(path,collection_path(lang))}">Hot Deals & Hot Sellers</a><a href="{relative(path,blog(lang))}">{E(u[1])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a></nav></div><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p>{assistant_stats(lang)}</div></footer>{assistant_widget(lang,path,relative)}</body></html>
+<main id="main">{body}</main><footer class="footer"><div class="container"><div class="footer-directory"><strong>Stay in Da Nang</strong><nav aria-label="{E(u[19])}"><a href="{relative(path,home(lang))}">{E(u[0])}</a><a href="{relative(path,collection_path(lang))}">Hot Deals & Hot Sellers</a><a href="{relative(path,blog(lang))}">{E(u[1])}</a><a href="{relative(path,news_path(lang))}">{E(TRAVEL_UI[lang][15])}</a></nav></div><p>{E(u[21])}</p><p>{E(u[11])}</p><p>© 2026 Stay in Da Nang</p>{assistant_stats(lang)}{footer_network(lang)}</div></footer>{assistant_widget(lang,path,relative)}</body></html>
 '''
 
 
@@ -127,10 +129,12 @@ def build():
             path = article(lang,i)
             category = u[CATEGORY_LABELS[SLUGS[i][0]]]
             details = ARTICLE_DETAILS.get(SLUGS[i][1], {})
+            description = details.get('description', {}).get(lang, details.get('description', {}).get('en', intro))
             booking = details.get('booking', service_url({'hotels':'hotels','tours':'tours','experiences':'tours','destinations':'tours'}.get(SLUGS[i][0], 'home')))
             counterparts = {code: article(code,i) for code in LANGUAGES}
             all_pages.append((path,counterparts))
-            body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(category)}</nav><span class="pill">{E(category)}</span><h1>{E(title)}</h1><p class="intro">{E(intro)}</p>'
+            heading_language=' lang="en"' if details.get('practical_guide') and lang not in ('en','vi') else ''
+            body = f'<div class="container"><article class="article"><nav class="breadcrumbs" aria-label="{E(u[19])}"><a href="{relative(path, blog(lang))}">{E(u[14])}</a> / {E(category)}</nav><span class="pill">{E(category)}</span><h1{heading_language}>{E(title)}</h1><p class="intro"{heading_language}>{E(intro)}</p>'
             image = art_cover(SLUGS[i][1])
             poster_class=' poster-feature' if details.get('poster_download') else ''
             width,height=art_dimensions(image)
@@ -144,18 +148,27 @@ def build():
                 body += f'<aside class="editorial-note source-note">{E(details["source_notes"][lang])}</aside>'
             if details.get('source_summary_en') and lang not in ('en','vi'):
                 body+=f'<section lang="en"><h2>Planning idea · English</h2><p>{E(details["source_summary_en"])}</p></section>'
+            body += guide_before(lang,SLUGS[i][1])
             body += ''.join(f'<section><h2>{E(heading)}</h2><p>{E(text)}</p></section>' for heading,text in sections)
+            body += guide_after(lang,path,relative,SLUGS[i][1])
             body += contextual_images(lang,path,relative,SLUGS[i][1])
             if details.get('booking_services'):
                 body+='<div class="topic-shortcuts">'+''.join(f'<a href="{E(service_url(key))}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="idea-{key}">{E(service_labels(lang)[key])} · Trip.com →</a>' for key in details['booking_services'])+'</div>'
             body += f'<aside class="editorial-note">{E(u[13])}</aside><h2>{E(u[12])}</h2><ul class="source-list">'
             body += ''.join(f'<li><a href="{E(source)}" target="_blank" rel="noopener noreferrer">{E(label)}</a></li>' for label,source in SOURCES[i])
             body += f'</ul><p><a class="btn" href="{E(booking)}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="blog-{SLUGS[i][0]}">{E(u[8])}</a></p><p><a href="{relative(path, blog(lang))}">{E(u[14])} →</a></p></article></div>'
-            structured = {'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':intro,'image':BASE+image,'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[source for _,source in SOURCES[i]]}
+            structured = {'@context':'https://schema.org','@type':'BlogPosting','headline':title,'description':description,'image':BASE+image,'inLanguage':lang,'mainEntityOfPage':url(path),'publisher':{'@type':'Organization','name':'Stay in Da Nang'},'citation':[source for _,source in SOURCES[i]]}
+            if details.get('published'):
+                structured.update(datePublished=details['published'], dateModified=details['published'], author={'@type':'Organization','name':'Stay in Da Nang','url':BASE})
+                structured['articleSection']=category
+                if lang not in ('en','vi'):
+                    structured['inLanguage']=[lang,'en']
             if details.get('place'):
                 place=details['place']
                 structured['spatialCoverage']={'@type':'Place','name':place['name'],'geo':{'@type':'GeoCoordinates','latitude':place['latitude'],'longitude':place['longitude']}}
-            write(path,document(lang,path,title,intro,body,counterparts,structured))
+            if details.get('places'):
+                structured['spatialCoverage']=[{'@type':'Place','name':place['name'],'geo':{'@type':'GeoCoordinates','latitude':place['latitude'],'longitude':place['longitude']}} for place in details['places']]
+            write(path,document(lang,path,title,description,body,counterparts,structured))
     all_pages.extend(build_campaign_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_collection_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_southern_pages(document,relative,url,LANGUAGES))

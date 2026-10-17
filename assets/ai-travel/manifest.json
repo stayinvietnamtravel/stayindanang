@@ -316,5 +316,14 @@
     "generator": "ChatGPT image generation",
     "type": "AI destination illustration, not verified property photography",
     "brand": "Stay in Da Nang"
+  },
+  {
+    "file": "thailand-seven-days.png",
+    "blog_slug": "thailand-seven-days-bangkok-chiang-mai",
+    "created": "2026-10-17",
+    "generator": "ChatGPT image generation",
+    "type": "AI editorial illustration, not destination photography",
+    "width": 1536,
+    "height": 1024
   }
 ]

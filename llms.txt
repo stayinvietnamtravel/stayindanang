@@ -17,6 +17,15 @@
 - [Transfers planning](https://stayinvietnamtravel.github.io/stayindanang/travel/en/transfers/): Category-specific advice and disclosed Trip.com affiliate links.
 - [Cars planning](https://stayinvietnamtravel.github.io/stayindanang/travel/en/cars/): Category-specific advice and disclosed Trip.com affiliate links.
 
+## Practical itineraries
+
+- [Da Nang and Hoi An in 4 days: a practical 3-night itinerary](https://stayinvietnamtravel.github.io/stayindanang/blog/en/tours/da-nang-hoi-an-four-day-itinerary/): Plan four days in Da Nang and Hoi An with a manageable route, hotel-area choices, one main day trip, weather alternatives and relevant booking links.
+- [Hanoi in 3 days: the Old Quarter, heritage and where to stay](https://stayinvietnamtravel.github.io/stayindanang/blog/en/destinations/hanoi-three-day-first-visit/): A practical three-day Hanoi itinerary with Old Quarter walks, heritage choices, hotel-area advice, food questions and airport-transfer planning.
+- [Vietnam in 10 days: a north-to-south route with three bases](https://stayinvietnamtravel.github.io/stayindanang/blog/en/tips/vietnam-ten-day-north-central-south-route/): Plan ten days across Hanoi, Da Nang–Hoi An and Ho Chi Minh City, with realistic night counts, transfer days and relevant flight and hotel links.
+- [Flights or trains in Vietnam: how to choose each leg](https://stayinvietnamtravel.github.io/stayindanang/blog/en/tips/vietnam-flights-or-trains-how-to-choose/): Compare flights and trains in Vietnam using door-to-door time, baggage, sleep, stations, connections and actual ticket conditions before booking.
+- [Japan in 7 days: Tokyo, Kyoto and an optional Osaka day](https://stayinvietnamtravel.github.io/stayindanang/blog/en/destinations/japan-seven-days-tokyo-kyoto-osaka/): Plan a first week in Japan with two main bases, realistic transfer days, Tokyo and Kyoto clusters, an optional Osaka outing and booking checks.
+- [Thailand in 7 days: a manageable Bangkok and Chiang Mai route](https://stayinvietnamtravel.github.io/stayindanang/blog/en/destinations/thailand-seven-days-bangkok-chiang-mai/): Plan a week in Thailand with Bangkok and Chiang Mai, six hotel nights, a realistic transfer day, area-based visits and weather-aware booking choices.
+
 ## Vietnam and services
 
 - [Travel blog](https://stayinvietnamtravel.github.io/stayindanang/blog/)

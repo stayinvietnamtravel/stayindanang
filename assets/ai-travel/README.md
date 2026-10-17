@@ -25,3 +25,5 @@ python3 scripts/check_site.py
 ```
 
 The exporter also processes existing hotel text cards. It preserves PNG originals, avoids upscaling and caches unchanged sources in `assets/image-variants.json`. Regular site builds only read that registry and do not require Pillow or an image API key. Prefer clear compositions, safe title areas, consistent navy/turquoise/warm accents and no fabricated prices, rankings or property details.
+
+`thailand-seven-days.png` (17 October 2026) illustrates the separate Bangkok and Chiang Mai sections of the seven-day Thailand guide. It is AI editorial artwork, not a location photograph. WebP derivatives preserve its full text.
