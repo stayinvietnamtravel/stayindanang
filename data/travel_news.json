@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-10-18T06:12:18.226939+00:00",
+  "last_updated": "2026-10-18T18:09:03.123275+00:00",
   "articles": [
+    {
+      "title": "Onyx Hospitality Group earns industry recognition across APAC",
+      "url": "https://www.ttgasia.com/2026/10/19/onyx-hospitality-group-earns-industry-recognition-across-apac/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-18T16:01:01+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "oneworld’s 15 member airlines sign Buckingham Palace Declaration",
       "url": "https://www.traveldailynews.com/meetings-events/oneworld-airlines-buckingham-palace-declaration-wildlife-trafficking/",
@@ -213,16 +223,6 @@
       ]
     },
     {
-      "title": "New hotels: Conrad Koh Samui, Oaks Vacation Club Kyoto Shijo and more",
-      "url": "https://www.ttgasia.com/2026/10/15/new-hotels-conrad-koh-samui-oaks-vacation-club-kyoto-shijo-and-more/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-15T05:19:19+00:00",
-      "countries": [
-        "japan"
-      ]
-    },
-    {
       "title": "TAT positions Thailand for high-value tourism at CNN Global Perspectives in Bangkok",
       "url": "https://www.tatnews.org/2026/10/tat-positions-thailand-for-high-value-tourism-at-cnn-global-perspectives-in-bangkok/",
       "source_id": "tat-news",
@@ -307,20 +307,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-18T06:12:18.226939+00:00",
-      "last_success_at": "2026-10-18T06:12:18.226939+00:00",
+      "last_attempt_at": "2026-10-18T18:09:03.123275+00:00",
+      "last_success_at": "2026-10-18T18:09:03.123275+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-18T06:12:18.226939+00:00",
-      "last_success_at": "2026-10-18T06:12:18.226939+00:00",
+      "last_attempt_at": "2026-10-18T18:09:03.123275+00:00",
+      "last_success_at": "2026-10-18T18:09:03.123275+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-18T06:12:18.226939+00:00",
-      "last_success_at": "2026-10-18T06:12:18.226939+00:00",
+      "last_attempt_at": "2026-10-18T18:09:03.123275+00:00",
+      "last_success_at": "2026-10-18T18:09:03.123275+00:00",
       "status": "ok",
       "count": 10
     }
