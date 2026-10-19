@@ -1,0 +1,986 @@
+{
+  "source": "Hotel names, category assignments and original affiliate links supplied by the owner in chat",
+  "received_date": "2026-10-19",
+  "original_rows": [
+    {
+      "name": "Wyndham Garden Grandworld Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/nQlASwfPoW2"
+    },
+    {
+      "name": "Seashells Phu Quoc Hotel & Spa",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/I8HV1ggPoW2"
+    },
+    {
+      "name": "La Festa Phu Quoc, Curio Collection by Hilton",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/8huT2ChPoW2"
+    },
+    {
+      "name": "WorldHotels Long Beach Resort Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/1GvJIghPoW2"
+    },
+    {
+      "name": "Vinholidays Fiesta Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/kOEhVEiPoW2"
+    },
+    {
+      "name": "Best Western Premier Sonasea Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/XjyWopiPoW2"
+    },
+    {
+      "name": "InterContinental Phu Quoc Long Beach Resort",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/1vnEdIjPoW2"
+    },
+    {
+      "name": "SOL by Melia Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/Oy5d6qjPoW2"
+    },
+    {
+      "name": "Movenpick Resort Waverly Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/sZbLwPkPoW2"
+    },
+    {
+      "name": "Radisson Blu Resort Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/MK5pmvkPoW2"
+    },
+    {
+      "name": "Pullman Phu Quoc Beach Resort",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/1RuhmMlPoW2"
+    },
+    {
+      "name": "Vinpearl Resort & Spa Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/Z03B4ulPoW2"
+    },
+    {
+      "name": "Premier Residences Phu Quoc Emerald Bay Managed by Accor",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/v3NJcHmPoW2"
+    },
+    {
+      "name": "Melia Vinpearl Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/mDY5f7oPoW2"
+    },
+    {
+      "name": "Sheraton Phu Quoc Long Beach Resort",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/6Qw4COoPoW2"
+    },
+    {
+      "name": "Crowne Plaza Phu Quoc Starbay by IHG",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/r69bCCpPoW2"
+    },
+    {
+      "name": "Wyndham Grand Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/7BpUXkpPoW2"
+    },
+    {
+      "name": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/F9S3OQqPoW2"
+    },
+    {
+      "name": "Vinpearl Wonderworld Phu Quoc",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/lPWkZzqPoW2"
+    },
+    {
+      "name": "Premier Village Phu Quoc Resort - Managed by Accor",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/geB4udrPoW2"
+    },
+    {
+      "name": "New World Phu Quoc Resort",
+      "group": "Hot Sellers",
+      "url": "https://www.trip.com/w/0HsIT6sPoW2"
+    },
+    {
+      "name": "Hoi An Phu Quoc Resort & Spa",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/V8t9JMuPoW2"
+    },
+    {
+      "name": "Muong Thanh Luxury Phu Quoc Hotel",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/57vEV6vPoW2"
+    },
+    {
+      "name": "Flora Hotel Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/KMxRtnvPoW2"
+    },
+    {
+      "name": "Vida Loca Sunset Beach Resort",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/wHiE6LwPoW2"
+    },
+    {
+      "name": "Soul Boutique Hotel Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/RaO2BxwPoW2"
+    },
+    {
+      "name": "Hana Hotel Sonasea Night Market Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/0SJ1BMxPoW2"
+    },
+    {
+      "name": "PHU QUOC BAMBUSA RESORT",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/mYIEC9yPoW2"
+    },
+    {
+      "name": "Luxor Boutique Hotel Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/zjuzydyPoW2"
+    },
+    {
+      "name": "GREENLIFE VILLAGE PHU QUOC",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/Dner3JzPoW2"
+    },
+    {
+      "name": "The Up Hotel Phu Quoc Island - The Poolside Escape",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/nIKfzrzPoW2"
+    },
+    {
+      "name": "Melica Resort Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/I2bgQR0QoW2"
+    },
+    {
+      "name": "Sun Viet Resort Beach & Spa",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/fBaUm21QoW2"
+    },
+    {
+      "name": "Novus Sol Hotel & Apartment Sunset Town Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/oLfG2h1QoW2"
+    },
+    {
+      "name": "VARIA Hotel Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/5JMFRK2QoW2"
+    },
+    {
+      "name": "Hoa Binh Phu Quoc Resort",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/dnrVPp2QoW2"
+    },
+    {
+      "name": "Thanh Kieu Beach Resort",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/ZaTNST3QoW2"
+    },
+    {
+      "name": "TIMES CORNER AMALFI HOTEL",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/ff22C54QoW2"
+    },
+    {
+      "name": "Cassia Cottage",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/KLEsmZ4QoW2"
+    },
+    {
+      "name": "Sheraton Phu Quoc Long Beach Resort",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/KADB155QoW2"
+    },
+    {
+      "name": "Avs Hotel Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/eMoXzX5QoW2"
+    },
+    {
+      "name": "Santa Garden Resort",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/mN1z306QoW2"
+    },
+    {
+      "name": "The Palmy Phu Quoc Resort & Spa",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/jBWBOS6QoW2"
+    },
+    {
+      "name": "Sailing Club Signature Resort Phu Quoc",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/5JifVx6QoW2"
+    },
+    {
+      "name": "Vung Bau Resort",
+      "group": "Top Deals",
+      "url": "https://www.trip.com/w/5FGDRr7QoW2"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Wyndham Garden Grandworld Phu Quoc",
+      "display_name": "Wyndham Garden Grandworld Phu Quoc",
+      "slug": "wyndham-garden-grandworld-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/nQlASwfPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/nQlASwfPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Seashells Phu Quoc Hotel & Spa",
+      "display_name": "Seashells Phu Quoc Hotel & Spa",
+      "slug": "seashells-phu-quoc-hotel-spa",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/I8HV1ggPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/I8HV1ggPoW2"
+        }
+      ]
+    },
+    {
+      "name": "La Festa Phu Quoc, Curio Collection by Hilton",
+      "display_name": "La Festa Phu Quoc, Curio Collection by Hilton",
+      "slug": "la-festa-phu-quoc-curio-collection-by-hilton",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/8huT2ChPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/8huT2ChPoW2"
+        }
+      ]
+    },
+    {
+      "name": "WorldHotels Long Beach Resort Phu Quoc",
+      "display_name": "WorldHotels Long Beach Resort Phu Quoc",
+      "slug": "worldhotels-long-beach-resort-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/1GvJIghPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/1GvJIghPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Vinholidays Fiesta Phu Quoc",
+      "display_name": "Vinholidays Fiesta Phu Quoc",
+      "slug": "vinholidays-fiesta-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/kOEhVEiPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/kOEhVEiPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Best Western Premier Sonasea Phu Quoc",
+      "display_name": "Best Western Premier Sonasea Phu Quoc",
+      "slug": "best-western-premier-sonasea-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/XjyWopiPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/XjyWopiPoW2"
+        }
+      ]
+    },
+    {
+      "name": "InterContinental Phu Quoc Long Beach Resort",
+      "display_name": "InterContinental Phu Quoc Long Beach Resort",
+      "slug": "intercontinental-phu-quoc-long-beach-resort",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/1vnEdIjPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/1vnEdIjPoW2"
+        }
+      ]
+    },
+    {
+      "name": "SOL by Melia Phu Quoc",
+      "display_name": "SOL by Melia Phu Quoc",
+      "slug": "sol-by-melia-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/Oy5d6qjPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/Oy5d6qjPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Movenpick Resort Waverly Phu Quoc",
+      "display_name": "Movenpick Resort Waverly Phu Quoc",
+      "slug": "movenpick-resort-waverly-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/sZbLwPkPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/sZbLwPkPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Radisson Blu Resort Phu Quoc",
+      "display_name": "Radisson Blu Resort Phu Quoc",
+      "slug": "radisson-blu-resort-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/MK5pmvkPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/MK5pmvkPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Pullman Phu Quoc Beach Resort",
+      "display_name": "Pullman Phu Quoc Beach Resort",
+      "slug": "pullman-phu-quoc-beach-resort",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/1RuhmMlPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/1RuhmMlPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Vinpearl Resort & Spa Phu Quoc",
+      "display_name": "Vinpearl Resort & Spa Phu Quoc",
+      "slug": "vinpearl-resort-spa-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/Z03B4ulPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/Z03B4ulPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Premier Residences Phu Quoc Emerald Bay Managed by Accor",
+      "display_name": "Premier Residences Phu Quoc Emerald Bay Managed by Accor",
+      "slug": "premier-residences-phu-quoc-emerald-bay-managed-by-accor",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/v3NJcHmPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/v3NJcHmPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Melia Vinpearl Phu Quoc",
+      "display_name": "Melia Vinpearl Phu Quoc",
+      "slug": "melia-vinpearl-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/mDY5f7oPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/mDY5f7oPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Sheraton Phu Quoc Long Beach Resort",
+      "display_name": "Sheraton Phu Quoc Long Beach Resort",
+      "slug": "sheraton-phu-quoc-long-beach-resort",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers",
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/6Qw4COoPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/6Qw4COoPoW2"
+        },
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/KADB155QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Crowne Plaza Phu Quoc Starbay by IHG",
+      "display_name": "Crowne Plaza Phu Quoc Starbay by IHG",
+      "slug": "crowne-plaza-phu-quoc-starbay-by-ihg",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/r69bCCpPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/r69bCCpPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Wyndham Grand Phu Quoc",
+      "display_name": "Wyndham Grand Phu Quoc",
+      "slug": "wyndham-grand-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/7BpUXkpPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/7BpUXkpPoW2"
+        }
+      ]
+    },
+    {
+      "name": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+      "display_name": "JW Marriott Phu Quoc Emerald Bay Resort & Spa",
+      "slug": "jw-marriott-phu-quoc-emerald-bay-resort-spa",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/F9S3OQqPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/F9S3OQqPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Vinpearl Wonderworld Phu Quoc",
+      "display_name": "Vinpearl Wonderworld Phu Quoc",
+      "slug": "vinpearl-wonderworld-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/lPWkZzqPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/lPWkZzqPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Premier Village Phu Quoc Resort - Managed by Accor",
+      "display_name": "Premier Village Phu Quoc Resort - Managed by Accor",
+      "slug": "premier-village-phu-quoc-resort-managed-by-accor",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/geB4udrPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/geB4udrPoW2"
+        }
+      ]
+    },
+    {
+      "name": "New World Phu Quoc Resort",
+      "display_name": "New World Phu Quoc Resort",
+      "slug": "new-world-phu-quoc-resort",
+      "city": "phu-quoc",
+      "group": "Hot Sellers",
+      "groups": [
+        "Hot Sellers"
+      ],
+      "url": "https://www.trip.com/w/0HsIT6sPoW2",
+      "offers": [
+        {
+          "group": "Hot Sellers",
+          "url": "https://www.trip.com/w/0HsIT6sPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Hoi An Phu Quoc Resort & Spa",
+      "display_name": "Hoi An Phu Quoc Resort & Spa",
+      "slug": "hoi-an-phu-quoc-resort-spa",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/V8t9JMuPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/V8t9JMuPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Muong Thanh Luxury Phu Quoc Hotel",
+      "display_name": "Muong Thanh Luxury Phu Quoc Hotel",
+      "slug": "muong-thanh-luxury-phu-quoc-hotel",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/57vEV6vPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/57vEV6vPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Flora Hotel Phu Quoc",
+      "display_name": "Flora Hotel Phu Quoc",
+      "slug": "flora-hotel-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/KMxRtnvPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/KMxRtnvPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Vida Loca Sunset Beach Resort",
+      "display_name": "Vida Loca Sunset Beach Resort",
+      "slug": "vida-loca-sunset-beach-resort",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/wHiE6LwPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/wHiE6LwPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Soul Boutique Hotel Phu Quoc",
+      "display_name": "Soul Boutique Hotel Phu Quoc",
+      "slug": "soul-boutique-hotel-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/RaO2BxwPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/RaO2BxwPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Hana Hotel Sonasea Night Market Phu Quoc",
+      "display_name": "Hana Hotel Sonasea Night Market Phu Quoc",
+      "slug": "hana-hotel-sonasea-night-market-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/0SJ1BMxPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/0SJ1BMxPoW2"
+        }
+      ]
+    },
+    {
+      "name": "PHU QUOC BAMBUSA RESORT",
+      "display_name": "PHU QUOC BAMBUSA RESORT",
+      "slug": "phu-quoc-bambusa-resort",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/mYIEC9yPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/mYIEC9yPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Luxor Boutique Hotel Phu Quoc",
+      "display_name": "Luxor Boutique Hotel Phu Quoc",
+      "slug": "luxor-boutique-hotel-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/zjuzydyPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/zjuzydyPoW2"
+        }
+      ]
+    },
+    {
+      "name": "GREENLIFE VILLAGE PHU QUOC",
+      "display_name": "GREENLIFE VILLAGE PHU QUOC",
+      "slug": "greenlife-village-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/Dner3JzPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/Dner3JzPoW2"
+        }
+      ]
+    },
+    {
+      "name": "The Up Hotel Phu Quoc Island - The Poolside Escape",
+      "display_name": "The Up Hotel Phu Quoc Island - The Poolside Escape",
+      "slug": "the-up-hotel-phu-quoc-island-the-poolside-escape",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/nIKfzrzPoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/nIKfzrzPoW2"
+        }
+      ]
+    },
+    {
+      "name": "Melica Resort Phu Quoc",
+      "display_name": "Melica Resort Phu Quoc",
+      "slug": "melica-resort-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/I2bgQR0QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/I2bgQR0QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Sun Viet Resort Beach & Spa",
+      "display_name": "Sun Viet Resort Beach & Spa",
+      "slug": "sun-viet-resort-beach-spa",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/fBaUm21QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/fBaUm21QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Novus Sol Hotel & Apartment Sunset Town Phu Quoc",
+      "display_name": "Novus Sol Hotel & Apartment Sunset Town Phu Quoc",
+      "slug": "novus-sol-hotel-apartment-sunset-town-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/oLfG2h1QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/oLfG2h1QoW2"
+        }
+      ]
+    },
+    {
+      "name": "VARIA Hotel Phu Quoc",
+      "display_name": "VARIA Hotel Phu Quoc",
+      "slug": "varia-hotel-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/5JMFRK2QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/5JMFRK2QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Hoa Binh Phu Quoc Resort",
+      "display_name": "Hoa Binh Phu Quoc Resort",
+      "slug": "hoa-binh-phu-quoc-resort",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/dnrVPp2QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/dnrVPp2QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Thanh Kieu Beach Resort",
+      "display_name": "Thanh Kieu Beach Resort",
+      "slug": "thanh-kieu-beach-resort",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/ZaTNST3QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/ZaTNST3QoW2"
+        }
+      ]
+    },
+    {
+      "name": "TIMES CORNER AMALFI HOTEL",
+      "display_name": "TIMES CORNER AMALFI HOTEL",
+      "slug": "times-corner-amalfi-hotel",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/ff22C54QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/ff22C54QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Cassia Cottage",
+      "display_name": "Cassia Cottage",
+      "slug": "cassia-cottage",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/KLEsmZ4QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/KLEsmZ4QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Avs Hotel Phu Quoc",
+      "display_name": "Avs Hotel Phu Quoc",
+      "slug": "avs-hotel-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/eMoXzX5QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/eMoXzX5QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Santa Garden Resort",
+      "display_name": "Santa Garden Resort",
+      "slug": "santa-garden-resort",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/mN1z306QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/mN1z306QoW2"
+        }
+      ]
+    },
+    {
+      "name": "The Palmy Phu Quoc Resort & Spa",
+      "display_name": "The Palmy Phu Quoc Resort & Spa",
+      "slug": "the-palmy-phu-quoc-resort-spa",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/jBWBOS6QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/jBWBOS6QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Sailing Club Signature Resort Phu Quoc",
+      "display_name": "Sailing Club Signature Resort Phu Quoc",
+      "slug": "sailing-club-signature-resort-phu-quoc",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/5JifVx6QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/5JifVx6QoW2"
+        }
+      ]
+    },
+    {
+      "name": "Vung Bau Resort",
+      "display_name": "Vung Bau Resort",
+      "slug": "vung-bau-resort",
+      "city": "phu-quoc",
+      "group": "Top Deals",
+      "groups": [
+        "Top Deals"
+      ],
+      "url": "https://www.trip.com/w/5FGDRr7QoW2",
+      "offers": [
+        {
+          "group": "Top Deals",
+          "url": "https://www.trip.com/w/5FGDRr7QoW2"
+        }
+      ]
+    }
+  ]
+}

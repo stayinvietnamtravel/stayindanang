@@ -33,6 +33,7 @@
 - [Hotel collection: Hot Deals and Hot Sellers](https://stayinvietnamtravel.github.io/stayindanang/stays/en/)
 - [Da Nang hotels](https://stayinvietnamtravel.github.io/stayindanang/deals/en/)
 - [Hanoi hotel guides](https://stayinvietnamtravel.github.io/stayindanang/blog/en/destinations/hanoi/)
+- [Phu Quoc hotels: 44 property guides, 45 supplied links](https://stayinvietnamtravel.github.io/stayindanang/blog/en/destinations/phu-quoc/)
 - [Official tourism sources](https://stayinvietnamtravel.github.io/stayindanang/resources/en/)
 - [Attributed travel news](https://stayinvietnamtravel.github.io/stayindanang/news/en/)
 - [World weather](https://stayinvietnamtravel.github.io/stayindanang/#weather)

@@ -26,6 +26,7 @@ from southern_hotels import build_pages as build_southern_pages
 from campaign_pages import build_pages as build_campaign_pages,callout as campaign_callout
 from site_links import footer as footer_network
 from practical_guides import before_sections as guide_before, after_sections as guide_after
+from phu_quoc_hotels import build_pages as build_phu_quoc_pages,teaser as phu_quoc_teaser
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://stayinvietnamtravel.github.io/stayindanang/'
@@ -97,11 +98,11 @@ def cards(lang, current):
         img=responsive_image(image,current,relative,title,"blog-cover"+(" poster-cover" if ARTICLE_DETAILS.get(SLUGS[i][1],{}).get("poster_download") else ""),sizes="(max-width: 780px) 92vw, 390px")
         result.append(f'<a class="blog-card" data-blog-category="{SLUGS[i][0]}" href="{relative(current, article(lang, i))}">{img}<div class="blog-card-body"><span class="pill">{E(category)}</span><h3>{E(title)}</h3><p>{E(intro)}</p><span class="blog-link">{E(u[15])}</span></div></a>')
     if current==home(lang):
-        return campaign_callout(lang,current,relative)+'<div class="blog-grid home-journal-grid">'+''.join(result)+f'</div><p class="journal-more"><a class="btn" href="{relative(current,blog(lang))}">{E(u[1])} →</a></p>'+travel_teaser(lang,current,relative)
+        return phu_quoc_teaser(lang,current,relative)+campaign_callout(lang,current,relative)+'<div class="blog-grid home-journal-grid">'+''.join(result)+f'</div><p class="journal-more"><a class="btn" href="{relative(current,blog(lang))}">{E(u[1])} →</a></p>'+travel_teaser(lang,current,relative)
     filters = f'<div class="blog-filters" role="group" aria-label="{E(u[1])}"><button type="button" data-blog-filter="all" aria-pressed="true">{E(u[24])}</button>'
     filters += ''.join(f'<button type="button" data-blog-filter="{category}" aria-pressed="false">{E(u[label])}</button>' for category,label in CATEGORY_LABELS.items()) + '</div>'
     deal_link = f'<aside class="deals-callout"><h3>{E(DEAL_COPY[lang][0])}</h3><p>{E(DEAL_COPY[lang][7])}</p><a class="btn" href="{relative(current,deals_index(lang))}">{E(DEAL_COPY[lang][0])} →</a></aside>'
-    return '<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>' + campaign_callout(lang,current,relative) + deal_link + hanoi_teaser(lang,current,relative) + travel_teaser(lang,current,relative)
+    return phu_quoc_teaser(lang,current,relative)+'<div class="blog-browser">' + filters + '<div class="blog-grid">' + ''.join(result) + '</div></div>' + campaign_callout(lang,current,relative) + deal_link + hanoi_teaser(lang,current,relative) + travel_teaser(lang,current,relative)
 
 
 def write(path, html):
@@ -171,6 +172,7 @@ def build():
             write(path,document(lang,path,title,description,body,counterparts,structured))
     all_pages.extend(build_campaign_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_collection_pages(document,relative,url,LANGUAGES))
+    all_pages.extend(build_phu_quoc_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_southern_pages(document,relative,url,LANGUAGES))
     all_pages.extend(build_service_pages(document,relative,url,LANGUAGES))
     export_deal_posts()

@@ -41,7 +41,11 @@
     const intents = {hotels:/hotel|khach san|resort|住宿|酒店|飯店|отел|숙소|ホテル|होटल|โรงแรม/,flights:/flight|fly|chuyen bay|ve may bay|机票|機票|авиа|항공|航空|उड़ान|เที่ยวบิน/,tours:/tour|ticket|tham quan|旅游|旅遊|門票|门票|тур|투어|ツアー|टूर|ทัวร์/,transfers:/transfer|airport pickup|dua don|接送|трансфер|픽업|送迎|स्थानांतरण|รถรับส่ง/,cars:/car rental|thue xe|租车|租車|аренд|렌터카|レンタカー|किराया|รถเช่า/};
     if (!service) service = Object.keys(intents).find(key => intents[key].test(text));
     if (text.includes(clean(labels.weatherTitle)) || /weather|thoi tiet|天气|天氣|погод|날씨|天気|मौसम|อากาศ|meteo|wetter|cuaca/.test(text)) return {answer:labels.weather,links:[{label:(data.cities[city]?.name || labels.weatherTitle)+' · '+labels.ui[0],url:data.base+(locale==='en'?'':locale+'/')+(data.cities[city]?'?weather='+city:'')+'#weather'}]};
-    if (hotel) return {answer:hotel.name+'\n'+labels.booking,links:[{label:labels.services.hotels+' · Trip.com',url:hotel.url,service:'hotels'},{label:labels.ui[5],url:data.base+(hotel.city && hotel.city!=='da-nang'?'blog/'+locale+'/destinations/'+hotel.city+'/hotels/'+hotel.slug+'/':'deals/'+locale+'/'+hotel.slug+'/')}]};
+    if (hotel) {
+      const requestedGroup = /top deals?|hot deals?/.test(text) ? 'Top Deals' : /hot sellers?/.test(text) ? 'Hot Sellers' : null;
+      const offer = hotel.offers?.find(item => item.group === requestedGroup);
+      return {answer:hotel.name+'\n'+labels.booking,links:[{label:labels.services.hotels+' · Trip.com'+(offer ? ' · '+offer.group : ''),url:offer?.url || hotel.url,service:'hotels'},{label:labels.ui[5],url:data.base+(hotel.city && hotel.city!=='da-nang'?'blog/'+locale+'/destinations/'+hotel.city+'/hotels/'+hotel.slug+'/':'deals/'+locale+'/'+hotel.slug+'/')}]};
+    }
     const guideRegion = data.cities[city]?.region || 'asia';
     const links = [{label:labels.ui[5],url:data.base+'explore/'+locale+'/'+guideRegion+'/'}];
     if (service) links.unshift({label:labels.services[service]+' · Trip.com',url:data.services[service],service});

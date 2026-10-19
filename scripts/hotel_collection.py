@@ -6,7 +6,8 @@ from hanoi_hotels import HOTELS as HANOI,post_path as hanoi_post
 from hotel_visuals import cover
 from content import CONTENT
 from southern_hotels import HOTELS as SOUTHERN,post_path as southern_post,CITY_LABELS as SOUTHERN_CITIES
-CITY_LABELS={"da-nang":"Đà Nẵng","hanoi":"Hà Nội",**SOUTHERN_CITIES}
+from phu_quoc_hotels import HOTELS as PHU_QUOC, post_path as phu_quoc_post
+CITY_LABELS={"da-nang":"Đà Nẵng","hanoi":"Hà Nội",**SOUTHERN_CITIES,"phu-quoc":"Phú Quốc"}
 COPY={
 'vi':['Hot Deals & Hot Sellers','Khám phá các khách sạn tại Việt Nam; so sánh vị trí, loại phòng và điều kiện trước khi đặt.','Tìm theo tên khách sạn','Tất cả điểm đến','Xem toàn bộ khách sạn','Giá và phòng trống cần kiểm tra theo ngày đi. Hot Deals / Hot Sellers là nhóm gợi ý, không phải xác nhận giảm giá hay xếp hạng bán chạy theo thời gian thực.','Không tìm thấy khách sạn phù hợp. Thử đổi bộ lọc hoặc tên tìm kiếm.','Xóa bộ lọc','khách sạn'],
 'en':['Hot Deals & Hot Sellers','Explore stays across Vietnam. Compare location, room types and conditions before booking.','Search hotel names','All destinations','View all hotels','Check prices and availability for your travel dates. Hot Deals / Hot Sellers are reference categories, not verified discounts or live sales rankings.','No matching hotels. Try another filter or search term.','Clear filters','hotels'],
@@ -22,14 +23,20 @@ COPY={
 'th':['Hot Deals & Hot Sellers','เปรียบเทียบที่ตั้ง ห้องพัก และเงื่อนไขโรงแรมในเวียดนามก่อนจอง','ค้นหาชื่อโรงแรม','ทุกจุดหมาย','ดูโรงแรมทั้งหมด','ตรวจสอบราคาและห้องว่างตามวันเดินทาง Hot Deals / Hot Sellers เป็นหมวดอ้างอิง ไม่ใช่ส่วนลดหรืออันดับขายปัจจุบันที่ยืนยันแล้ว','ไม่พบโรงแรม ลองเปลี่ยนตัวกรองหรือคำค้น','ล้างตัวกรอง','โรงแรม'],
 'id':['Hot Deals & Hot Sellers','Bandingkan lokasi, kamar dan syarat hotel di Vietnam sebelum memesan.','Cari nama hotel','Semua destinasi','Lihat semua hotel','Periksa harga dan ketersediaan sesuai tanggal. Hot Deals / Hot Sellers adalah kategori referensi, bukan diskon terverifikasi atau peringkat penjualan langsung.','Tidak ada hotel yang cocok. Ubah filter atau pencarian.','Hapus filter','hotel']}
 def rows():
-    return [(h,'da-nang') for h in DANANG]+[(h,'hanoi') for h in HANOI]+[(h,h['city']) for h in SOUTHERN]
+    return [(h,'da-nang') for h in DANANG]+[(h,'hanoi') for h in HANOI]+[(h,h['city']) for h in SOUTHERN]+[(h,'phu-quoc') for h in PHU_QUOC]
 def path(lang):return f'stays/{lang}/index.html'
 def page_pairs(languages):return [(path(lang),{c:path(c) for c in languages}) for lang in languages]
-def property_path(lang,h,city):return hanoi_post(lang,h) if city=='hanoi' else danang_post(lang,h) if city=='da-nang' else southern_post(lang,h)
+def property_path(lang,h,city):return phu_quoc_post(lang,h) if city=='phu-quoc' else hanoi_post(lang,h) if city=='hanoi' else danang_post(lang,h) if city=='da-nang' else southern_post(lang,h)
+def groups(h):return h.get('groups',[h['group']])
 def property_url(h):return h['urls'][0] if h.get('urls') else h['url']
 def card(lang,current,relative,h,city,save_button=''):
-    name=h.get('display_name',h['name']);group=h['group'].lower().replace(' ','-');label='Hot Deals' if group=='top-deals' else 'Hot Sellers';city_name=CITY_LABELS[city];target=property_path(lang,h,city)
-    return f'<article class="hotel-pick collection-card" data-hotel-group="{group}" data-hotel-city="{city}" data-hotel-name="{E(name)}" data-saved-id="hotel-{E(h["slug"])}">{save_button}<a class="hotel-artwork" href="{relative(current,target)}">{cover(h,city,lang,current,relative)}</a><div class="hotel-pick-body"><div class="hotel-card-meta"><span>{E(city_name)}</span><span class="hotel-category {group}">{label}</span></div><h3><a href="{relative(current,target)}">{E(name)}</a></h3><p>{E(DEAL_COPY[lang][7])}</p><a class="hotel-book-link" href="{E(property_url(h))}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{E(h["slug"])}">{E(DEAL_COPY[lang][3].replace("↗","→"))}</a></div></article>'
+    name=h.get('display_name',h['name']);group=h['group'].lower().replace(' ','-');labels=groups(h);city_name=CITY_LABELS[city];target=property_path(lang,h,city)
+    memberships=' '.join(label.lower().replace(' ','-') for label in labels)
+    badges=''.join(f'<span class="hotel-category {label.lower().replace(" ","-")}">{"Hot Deals" if label=="Top Deals" else "Hot Sellers"}</span>' for label in labels)
+    booking_attrs=''
+    if h.get('offers'):
+        booking_attrs=f' data-booking-default="{E(property_url(h))}"'+''.join(f' data-booking-{offer["group"].lower().replace(" ","-")}="{E(offer["url"])}"' for offer in h['offers'])
+    return f'<article class="hotel-pick collection-card" data-hotel-group="{group}" data-hotel-groups="{memberships}" data-hotel-city="{city}" data-hotel-name="{E(name)}" data-saved-id="hotel-{E(h["slug"])}">{save_button}<a class="hotel-artwork" href="{relative(current,target)}">{cover(h,city,lang,current,relative)}</a><div class="hotel-pick-body"><div class="hotel-card-meta"><span>{E(city_name)}</span>{badges}</div><h3><a href="{relative(current,target)}">{E(name)}</a></h3><p>{E(DEAL_COPY[lang][7])}</p><a class="hotel-book-link" href="{E(property_url(h))}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="hotel-{E(h["slug"])}"{booking_attrs}>{E(DEAL_COPY[lang][3].replace("↗","→"))}</a></div></article>'
 def filters(lang,saved_label=None):
     u=COPY[lang];all_label=CONTENT[lang]['ui'][24]
     cities=''.join(f'<button type="button" data-hotel-city-filter="{key}" aria-pressed="false">{E(label)}</button>' for key,label in CITY_LABELS.items())
@@ -39,7 +46,7 @@ def build_pages(document,relative,url,languages):
     root=Path(__file__).resolve().parents[1]
     for lang in languages:
         u=COPY[lang];current=path(lang)
-        total=len(rows());hot=sum(h['group']=='Hot Sellers' for h,_ in rows());deals=total-hot
+        total=len(rows());hot=sum('Hot Sellers' in groups(h) for h,_ in rows());deals=sum('Top Deals' in groups(h) for h,_ in rows())
         body=f'<section class="section collection-page"><div class="container"><nav class="breadcrumbs"><a href="{relative(current,"index.html" if lang=="en" else lang+"/index.html")}">{E(CONTENT[lang]["ui"][0])}</a> / {E(u[0])}</nav><h1>{E(u[0])}</h1><p class="lead">{E(u[1])}</p><div class="collection-summary"><span>{total} {E(u[8])}</span><span>Hot Deals · {deals}</span><span>Hot Sellers · {hot}</span></div><div data-hotel-collection>{filters(lang)}<p class="collection-result" aria-live="polite"><strong data-hotel-result>{total}</strong> {E(u[8])}</p><div class="collection-grid">'+''.join(card(lang,current,relative,h,city) for h,city in rows())+f'</div><div class="collection-empty" hidden><p>{E(u[6])}</p><button type="button" class="btn" data-hotel-reset>{E(u[7])}</button></div></div><p class="editorial-note">{E(u[5])}</p></div></section>'
         items=[{'@type':'ListItem','position':i+1,'url':url(property_path(lang,h,city)),'name':h.get('display_name',h['name'])} for i,(h,city) in enumerate(rows())]
         schema={'@context':'https://schema.org','@type':'CollectionPage','name':u[0],'description':u[1],'url':url(current),'inLanguage':lang,'mainEntity':{'@type':'ItemList','numberOfItems':len(items),'itemListElement':items}}

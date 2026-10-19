@@ -74,7 +74,10 @@
       const query = normalizeHotelName(section.querySelector('[data-hotel-search]')?.value || '');
       let visible = 0;
       section.querySelectorAll('[data-hotel-group]').forEach(card => {
-        const groupMatches = selected === 'saved' ? favorites.has(card.dataset.savedId) : selected === 'all' || selected === card.dataset.hotelGroup;
+        const memberships = (card.dataset.hotelGroups || card.dataset.hotelGroup).split(' ');
+        const groupMatches = selected === 'saved' ? favorites.has(card.dataset.savedId) : selected === 'all' || memberships.includes(selected);
+        const booking = card.querySelector('[data-booking-default]');
+        if (booking) booking.href = booking.getAttribute(`data-booking-${selected}`) || booking.dataset.bookingDefault;
         card.hidden = !groupMatches || (city !== 'all' && city !== card.dataset.hotelCity) || !normalizeHotelName(card.dataset.hotelName || '').includes(query);
         if (!card.hidden) visible += 1;
       });

@@ -13,7 +13,8 @@ from responsive_images import image as responsive_image
 from hotel_visuals import cover as hotel_cover
 from hanoi_hotels import HOTELS as HANOI_HOTELS
 from southern_hotels import HOTELS as SOUTHERN_HOTELS,CITY_LABELS as SOUTHERN_CITIES
-from hotel_collection import card as collection_card,filters as collection_filters,COPY as COLLECTION_COPY,path as collection_path
+from phu_quoc_hotels import HOTELS as PHU_QUOC_HOTELS
+from hotel_collection import card as collection_card,filters as collection_filters,COPY as COLLECTION_COPY,path as collection_path,rows as collection_rows
 from travel_art import COPY as ART_COPY
 from travel_art import cover as art_cover, dimensions as art_dimensions
 ROOT=Path(__file__).resolve().parents[1]
@@ -33,6 +34,8 @@ for city,routes in CONFIG['routes'].items():
         if service not in ('hotels','tours','flights','transfers','cars'):raise ValueError('Unknown affiliate service')
         valid_url(link)
 for hotel in HOTELS:valid_url(hotel['url'])
+for hotel in PHU_QUOC_HOTELS:
+    for offer in hotel['offers']:valid_url(offer['url'])
 
 # planner title, destination/service/property labels, all hotels, CTA, fallback notice,
 # sights/experiences/hotels headings, more/save/saved/previous/next/all/saved-only/empty.
@@ -56,7 +59,7 @@ def favorite(key,title,u):
     return f'<button class="save-card" type="button" data-save-id="{E(key)}" data-save-label="{E(u[11])}" data-saved-label="{E(u[12])}" data-item-title="{E(title)}" aria-label="{E(u[11]+": "+title)}" aria-pressed="false"><span aria-hidden="true">♡</span></button>'
 
 def affiliate_config():
-    data={**CONFIG,'hotels':{**{h['slug']:h['url'] for h in HOTELS},**{h['slug']:h['urls'][0] for h in HANOI_HOTELS},**{h['slug']:h['url'] for h in SOUTHERN_HOTELS}}}
+    data={**CONFIG,'hotels':{**{h['slug']:h['url'] for h in HOTELS},**{h['slug']:h['urls'][0] for h in HANOI_HOTELS},**{h['slug']:h['url'] for h in SOUTHERN_HOTELS},**{h['slug']:h['url'] for h in PHU_QUOC_HOTELS}}}
     return '<script type="application/json" id="affiliate-routes">'+json.dumps(data,ensure_ascii=False).replace('<','\\u003c')+'</script>'
 
 def booking(lang,current,relative):
@@ -80,6 +83,7 @@ def booking(lang,current,relative):
     for h in HOTELS:result+=f'<option value="{h["slug"]}" data-city="da-nang">{E(h["display_name"])}</option>'
     for h in HANOI_HOTELS:result+=f'<option value="{h["slug"]}" data-city="hanoi">{E(h["name"])}</option>'
     for h in SOUTHERN_HOTELS:result+=f'<option value="{h["slug"]}" data-city="{h["city"]}">{E(h["name"])}</option>'
+    for h in PHU_QUOC_HOTELS:result+=f'<option value="{h["slug"]}" data-city="phu-quoc">{E(h["name"])}</option>'
     result+=f'</select></label><a class="btn booking-action" href="{E(CONFIG["services"]["hotels"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="planner-da-nang-hotels">{E(u[5])}</a></div><p class="booking-summary" aria-live="polite">{E(names[0])} · {E(content[3])}</p><p class="notice">{E(u[6])}</p><p class="notice">{E(content[9])}</p></div></div></section>'
     result=result.replace('<div class="booking-geography">',f'<details class="booking-advanced"><summary>{E(world[0])} / {E(world[1])}</summary><div class="booking-geography">',1)
     result=result.replace('</div><div class="booking-fields">','</div></details><div class="booking-fields">',1)
@@ -117,14 +121,17 @@ def discovery(lang,current,relative):
     result=result.removesuffix('<div class="discovery-rail" tabindex="0" aria-label="'+E(cu[0])+'">')
     result=result.replace('<section class="discovery-section" id="hotels">','<section class="discovery-section" id="hotels" data-hotel-collection>')
     result+=f'<p class="collection-lead">{E(cu[1])}</p>'+collection_filters(lang,saved_label=u[16])
-    result+=f'<p class="collection-result" aria-live="polite"><strong data-hotel-result>21</strong> {E(cu[8])}</p><div class="discovery-rail hotel-rail" tabindex="0" aria-label="{E(cu[0])}">'
     selected=[(next(h for h in HOTELS if h['slug']==slug),'da-nang') for slug in FEATURED]
     for group in ('Top Deals','Hot Sellers'):
         selected.extend((h,'hanoi') for h in [r for r in HANOI_HOTELS if r['group']==group][:2])
         selected.extend((h,h['city']) for h in [r for r in SOUTHERN_HOTELS if r['city']=='ho-chi-minh-city' and r['group']==group][:3])
     selected.extend((h,h['city']) for h in SOUTHERN_HOTELS if h['city']!='ho-chi-minh-city')
+    for group in ('Top Deals','Hot Sellers'):
+        selected.extend((h,'phu-quoc') for h in [r for r in PHU_QUOC_HOTELS if group==r['group']][:3])
+    selected.extend((h,'phu-quoc') for h in PHU_QUOC_HOTELS if len(h['groups'])>1 and not any(existing['slug']==h['slug'] for existing,_ in selected))
+    result+=f'<p class="collection-result" aria-live="polite"><strong data-hotel-result>{len(selected)}</strong> {E(cu[8])}</p><div class="discovery-rail hotel-rail" tabindex="0" aria-label="{E(cu[0])}">'
     for h,city in selected:result+=collection_card(lang,current,relative,h,city,favorite('hotel-'+h['slug'],h.get('display_name',h['name']),u))
-    result+=f'</div><div class="collection-empty" hidden><p>{E(cu[6])}</p><button type="button" class="btn" data-hotel-reset>{E(cu[7])}</button></div><p class="saved-empty" hidden>{E(u[17])}</p><div class="collection-bottom"><p class="notice">{E(cu[5])}</p><a class="text-link" data-collection-link href="{relative(current,collection_path(lang))}">{E(cu[4])} · 110 →</a></div></div></section>'
+    result+=f'</div><div class="collection-empty" hidden><p>{E(cu[6])}</p><button type="button" class="btn" data-hotel-reset>{E(cu[7])}</button></div><p class="saved-empty" hidden>{E(u[17])}</p><div class="collection-bottom"><p class="notice">{E(cu[5])}</p><a class="text-link" data-collection-link href="{relative(current,collection_path(lang))}">{E(cu[4])} · {len(collection_rows())} →</a></div></div></section>'
     result+=f'<section class="service-links" id="flights"><div class="container"><div class="service-link-card"><span aria-hidden="true">✈</span><div><h2>{E(FLIGHTS[lang])}</h2><p>{E(u[6])}</p></div><a class="btn" href="{E(CONFIG["services"]["flights"])}" target="_blank" rel="sponsored noopener noreferrer" data-affiliate="flight-general">{E(u[5])}</a></div></div></section><section class="service-links" id="deals"><div class="container"><a class="deals-shortcut" href="{relative(current,index_path(lang))}">{E(HOTEL_COPY[lang][0])}<span>{E(u[10])}</span></a></div></section>'
     result+=transport_cards(lang)
     return result
