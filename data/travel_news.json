@@ -1,112 +1,163 @@
 {
-  "last_updated": "2026-10-18T18:09:03.123275+00:00",
+  "last_updated": "2026-10-19T06:20:18.038302+00:00",
   "articles": [
+    {
+      "title": "Localisation becomes key as Middle East tourism markets diversify",
+      "url": "https://www.ttgasia.com/2026/10/19/localisation-becomes-key-as-middle-east-tourism-markets-diversify/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-19T06:06:15+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Sierra Leone pepares to host UN Tourism Gastronomy Forum",
+      "url": "https://www.traveldailynews.com/meetings-events/sierra-leone-prepares-africa-gastronomy-tourism-forum/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T06:04:35+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "UN Tourism highlights global travel growth at Macao forum",
+      "url": "https://www.ttgasia.com/2026/10/19/un-tourism-highlights-global-travel-growth-at-macao-forum/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-19T05:58:15+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Park Hyatt Siem Reap backs Angkor heritage preservation",
+      "url": "https://www.ttgasia.com/2026/10/19/park-hyatt-siem-reap-backs-angkor-heritage-preservation/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-19T05:53:47+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Pacific Arena moves travel operations to Amadeus platform",
+      "url": "https://www.ttgasia.com/2026/10/19/pacific-arena-moves-travel-operations-to-amadeus-platform/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-19T05:50:09+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "G’day Australia brings 300 international travel agents to Darwin",
+      "url": "https://www.ttgasia.com/2026/10/19/gday-australia-brings-300-international-travel-agents-to-darwin/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-19T05:47:41+00:00",
+      "countries": [
+        "australia"
+      ]
+    },
+    {
+      "title": "Lisbon plans to suspend shared electric scooter services",
+      "url": "https://www.traveldailynews.com/destinations/lisbon-shared-electric-scooter-suspension-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:44:19+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Egypt welcomes 14.4 million international visitors in first nine months of 2026",
+      "url": "https://www.traveldailynews.com/destinations/egypt-tourism-growth-2026-international-visitors/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:43:52+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Business Travel Show America reports 28% attendance growth",
+      "url": "https://www.traveldailynews.com/meetings-events/business-travel-show-america-2026-attendance-growth/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:35:32+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Forthcode report examines the next phase of AI in aviation",
+      "url": "https://www.traveldailynews.com/statistics-trends/forthcode-ai-in-aviation-report-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:31:41+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Vancouver records 1.4 million cruise passenger visits in 2026",
+      "url": "https://www.traveldailynews.com/sea-travel/cruises/vancouver-record-cruise-season-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:29:56+00:00",
+      "countries": [
+        "canada"
+      ]
+    },
+    {
+      "title": "Summer 2027: Air France to serve Nashville and San Diego in the US",
+      "url": "https://www.traveldailynews.com/aviation/air-france-nashville-paris-nonstop-flights-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:25:00+00:00",
+      "countries": [
+        "france"
+      ]
+    },
+    {
+      "title": "World Travel Awards Europe Gala 2026 names European winners",
+      "url": "https://www.traveldailynews.com/meetings-events/world-travel-awards-europe-gala-2026-winners/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:18:15+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Italy tourism: Air capacity rises 5.1% as demand spreads",
+      "url": "https://www.traveldailynews.com/statistics-trends/italy-tourism-trends-air-capacity-emerging-destinations-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:16:56+00:00",
+      "countries": [
+        "italy"
+      ]
+    },
+    {
+      "title": "Italy and Spain extend temporary Schengen border controls",
+      "url": "https://www.traveldailynews.com/destinations/italy-spain-schengen-border-controls-october-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-19T05:16:24+00:00",
+      "countries": [
+        "spain",
+        "italy"
+      ]
+    },
     {
       "title": "Onyx Hospitality Group earns industry recognition across APAC",
       "url": "https://www.ttgasia.com/2026/10/19/onyx-hospitality-group-earns-industry-recognition-across-apac/",
       "source_id": "ttg-asia",
       "publisher": "TTG Asia",
       "published_at": "2026-10-18T16:01:01+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "oneworld’s 15 member airlines sign Buckingham Palace Declaration",
-      "url": "https://www.traveldailynews.com/meetings-events/oneworld-airlines-buckingham-palace-declaration-wildlife-trafficking/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T09:42:34+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Italy air traffic disrupted by data network fault",
-      "url": "https://www.traveldailynews.com/aviation/italy-air-traffic-disruption-data-network-fault/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T09:19:52+00:00",
-      "countries": [
-        "italy"
-      ]
-    },
-    {
-      "title": "Not Just Travel expands Support Team with two appointments",
-      "url": "https://www.traveldailynews.com/people/new-appointments/not-just-travel-hayley-patterson-deb-leavy-appointments/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T09:03:38+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "EU – GCC Summit postponed amid Saudi Arabia aviation disruption",
-      "url": "https://www.traveldailynews.com/meetings-events/eu-gcc-summit-postponed-saudi-arabia-aviation-disruption/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T07:48:15+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "360 CHICAGO to open ELEVAIRE CHICAGO Event Venue in 2028",
-      "url": "https://www.traveldailynews.com/mice-industry/event-venues/elevaire-chicago-private-event-venue-2028/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T07:33:40+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Aeroplan and DINR expand partnership to reward premium dining experiences",
-      "url": "https://www.traveldailynews.com/aviation/aeroplan-dinr-partnership-dining-rewards/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T07:16:24+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "ITA Airways to launch Rome – Caracas flights in March 2027",
-      "url": "https://www.traveldailynews.com/aviation/ita-airways-rome-caracas-direct-flight-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T06:57:21+00:00",
-      "countries": [
-        "italy"
-      ]
-    },
-    {
-      "title": "Cefalù on foot, the Madonie for a day",
-      "url": "https://www.traveldailynews.com/column/featured-articles/cefalu-on-foot-the-madonie-for-a-day/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T06:47:36+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Jet2 launches Summer 2028 holidays and flights early",
-      "url": "https://www.traveldailynews.com/aviation/jet2-summer-2028-holidays-flights-on-sale/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T06:46:02+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "SITA to acquire Collins Aerospace Airport Solutions",
-      "url": "https://www.traveldailynews.com/aviation/sita-acquires-collins-aerospace-airport-solutions/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-16T05:57:28+00:00",
       "countries": [
         "international"
       ]
@@ -152,16 +203,6 @@
       ]
     },
     {
-      "title": "Resorts World Sentosa brings K-wave to Christmas celebrations",
-      "url": "https://www.ttgasia.com/2026/10/16/resorts-world-sentosa-brings-k-wave-to-christmas-celebrations/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-16T04:39:31+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "TAT expands ASEAN India+ Shoppers in Thailand 2026 to drive tourism spending",
       "url": "https://www.tatnews.org/2026/10/tat-expands-asean-india-shoppers-in-thailand-2026-to-drive-tourism-spending/",
       "source_id": "tat-news",
@@ -173,36 +214,6 @@
       ]
     },
     {
-      "title": "12th Global Tourism Economy Forum Macao 2026 announces key speakers and agenda highlights",
-      "url": "https://www.ttgasia.com/2026/10/15/12th-global-tourism-economy-forum-macao-2026-announces-key-speakers-and-agenda-highlights/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-15T11:39:22+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Chinese family travellers seek more suitable group tour itineraries",
-      "url": "https://www.ttgasia.com/2026/10/15/chinese-family-travellers-seek-more-suitable-group-tour-itineraries/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-15T07:21:17+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Local flavours shape Asia-Pacific dining trends for 2027: Marriott International",
-      "url": "https://www.ttgasia.com/2026/10/15/local-flavours-shape-asia-pacific-dining-trends-for-2027-marriott-international/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-15T07:01:44+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "TAT spotlights 2026 Nakhon Phanom Illuminated Boat Procession on the Mekong",
       "url": "https://www.tatnews.org/2026/10/tat-spotlights-2026-nakhon-phanom-illuminated-boat-procession-on-the-mekong/",
       "source_id": "tat-news",
@@ -210,16 +221,6 @@
       "published_at": "2026-10-15T06:30:00+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Anantara Desaru Coast taps into new karting attraction",
-      "url": "https://www.ttgasia.com/2026/10/15/anantara-desaru-coast-taps-into-new-karting-attraction/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-15T05:21:26+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -307,20 +308,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-18T18:09:03.123275+00:00",
-      "last_success_at": "2026-10-18T18:09:03.123275+00:00",
+      "last_attempt_at": "2026-10-19T06:20:18.038302+00:00",
+      "last_success_at": "2026-10-19T06:20:18.038302+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-18T18:09:03.123275+00:00",
-      "last_success_at": "2026-10-18T18:09:03.123275+00:00",
+      "last_attempt_at": "2026-10-19T06:20:18.038302+00:00",
+      "last_success_at": "2026-10-19T06:20:18.038302+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-18T18:09:03.123275+00:00",
-      "last_success_at": "2026-10-18T18:09:03.123275+00:00",
+      "last_attempt_at": "2026-10-19T06:20:18.038302+00:00",
+      "last_success_at": "2026-10-19T06:20:18.038302+00:00",
       "status": "ok",
       "count": 10
     }
