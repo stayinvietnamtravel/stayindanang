@@ -1,12 +1,102 @@
 {
-  "last_updated": "2026-10-21T18:17:41.468393+00:00",
+  "last_updated": "2026-10-22T06:20:18.272761+00:00",
   "articles": [
     {
-      "title": "Cloudbeds – Meta’s Muse integration",
-      "url": "https://www.traveldailynews.com/technology/cloudbeds-meta-muse-ai-travel-integration/",
+      "title": "Oxfordshire visitor economy reaches £2.47 billion in 2025",
+      "url": "https://www.traveldailynews.com/statistics-trends/oxfordshire-visitor-economy-2-47-billion-2025/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T11:38:47+00:00",
+      "published_at": "2026-10-22T05:59:57+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Spain records 47% of tourism activity outside peak season",
+      "url": "https://www.traveldailynews.com/statistics-trends/spain-tourism-outside-peak-season/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:58:40+00:00",
+      "countries": [
+        "spain"
+      ]
+    },
+    {
+      "title": "Curator adds two hotels in Vermont and St. Pete Beach",
+      "url": "https://www.traveldailynews.com/hospitality/curator-hotel-resort-collection-new-properties-vermont-florida/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:55:48+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Eataly opens at JFK Terminal 4",
+      "url": "https://www.traveldailynews.com/aviation/eataly-opens-jfk-terminal-4/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:43:15+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "IGTM and IGTM Discovery to hold 30th Edition in Turkey in 2027",
+      "url": "https://www.traveldailynews.com/fairs-exhibitions/igtm-2027-turkiye-30th-edition/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:42:01+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Airbnb restricts cleaning requirements for guests",
+      "url": "https://www.traveldailynews.com/hospitality/airbnb-cleaning-rules-guest-requirements/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:27:40+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "JetBlue adds daily Fort Lauderdale – Cali flights",
+      "url": "https://www.traveldailynews.com/aviation/jetblue-fort-lauderdale-cali-daily-flights-colombia/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:23:19+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Travel Tech Capital Summit to debut in London",
+      "url": "https://www.traveldailynews.com/meetings-events/travel-tech-capital-summit-london-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:23:10+00:00",
+      "countries": [
+        "united-kingdom"
+      ]
+    },
+    {
+      "title": "BCD advances real-time travel data distribution",
+      "url": "https://www.traveldailynews.com/mice-industry/business-travel/bcd-travel-real-time-data-streaming/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:15:11+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "SSP America to open three restaurants at Orlando Airport",
+      "url": "https://www.traveldailynews.com/aviation/orlando-airport-new-restaurants-brewdog-jam-eng-zaza/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-22T05:09:55+00:00",
       "countries": [
         "international"
       ]
@@ -22,81 +112,11 @@
       ]
     },
     {
-      "title": "Chiefs Tented Camps builds 485-tent camp at Mongena Reserve",
-      "url": "https://www.traveldailynews.com/mice-industry/event-venues/chiefs-tented-camps-mongena-reserve-all-blacks/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T10:09:47+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Europe Congress concludes 2026 with MCE South Europe in Valencia",
-      "url": "https://www.traveldailynews.com/meetings-events/mce-south-europe-2026-valencia/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T10:01:53+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Airhub Aviation expands A320neo and 737 MAX maintenance scope",
-      "url": "https://www.traveldailynews.com/aviation/airhub-aviation-a320neo-737-max-a220-maintenance/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T09:48:46+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "ETOA launches Showcase: Outbound North America 2027",
-      "url": "https://www.traveldailynews.com/associations/etoa-showcase-outbound-north-america-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T09:37:55+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "SSP America adds eight dining concepts at Phoenix Sky Harbor",
-      "url": "https://www.traveldailynews.com/aviation/ssp-america-phoenix-sky-harbor-dining-concepts/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T08:28:05+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "ATM 2027 announces “Travel without Boundaries” theme",
-      "url": "https://www.traveldailynews.com/fairs-exhibitions/arabian-travel-market-2027-travel-without-boundaries/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T07:41:32+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Tourism leaders call for collaboration and community involvement at Macao forum",
       "url": "https://www.ttgasia.com/2026/10/21/tourism-leaders-call-for-collaboration-and-community-involvement-at-macao-forum/",
       "source_id": "ttg-asia",
       "publisher": "TTG Asia",
       "published_at": "2026-10-21T06:56:08+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Nomadic Expeditions appoints Kurt Bjorkman as Executive Director",
-      "url": "https://www.traveldailynews.com/tour-operators/nomadic-expeditions-kurt-bjorkman-executive-director/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T06:54:17+00:00",
       "countries": [
         "international"
       ]
@@ -109,26 +129,6 @@
       "published_at": "2026-10-21T06:40:52+00:00",
       "countries": [
         "indonesia"
-      ]
-    },
-    {
-      "title": "Qatar Airways to launch Western Sydney flights in December 2027",
-      "url": "https://www.traveldailynews.com/aviation/qatar-airways-western-sydney-flights-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T06:36:19+00:00",
-      "countries": [
-        "australia"
-      ]
-    },
-    {
-      "title": "Brazil’s airlines warn of higher fares under proposed rax reform",
-      "url": "https://www.traveldailynews.com/aviation/brazil-airline-tax-reform-higher-fares-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-21T06:24:10+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -308,20 +308,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-21T18:17:41.468393+00:00",
-      "last_success_at": "2026-10-21T18:17:41.468393+00:00",
+      "last_attempt_at": "2026-10-22T06:20:18.272761+00:00",
+      "last_success_at": "2026-10-22T06:20:18.272761+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-21T18:17:41.468393+00:00",
-      "last_success_at": "2026-10-21T18:17:41.468393+00:00",
+      "last_attempt_at": "2026-10-22T06:20:18.272761+00:00",
+      "last_success_at": "2026-10-22T06:20:18.272761+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-21T18:17:41.468393+00:00",
-      "last_success_at": "2026-10-21T18:17:41.468393+00:00",
+      "last_attempt_at": "2026-10-22T06:20:18.272761+00:00",
+      "last_success_at": "2026-10-22T06:20:18.272761+00:00",
       "status": "ok",
       "count": 10
     }
