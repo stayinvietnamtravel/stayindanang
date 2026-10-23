@@ -1,42 +1,142 @@
 {
-  "last_updated": "2026-10-23T06:19:43.131710+00:00",
+  "last_updated": "2026-10-23T18:16:00.742369+00:00",
   "articles": [
     {
-      "title": "Hilton launches digital pay with points checkout",
-      "url": "https://www.traveldailynews.com/hospitality/hilton-pay-with-points-digital-checkout/",
+      "title": "Rome Fiumicino wins Routes World Awards overall title",
+      "url": "https://www.traveldailynews.com/meetings-events/routes-world-awards-2026-rome-fiumicino-overall-winner/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T06:04:12+00:00",
+      "published_at": "2026-10-23T10:32:55+00:00",
+      "countries": [
+        "italy"
+      ]
+    },
+    {
+      "title": "HOTREC welcomes EU proceedings against Booking.com under the DSA",
+      "url": "https://www.traveldailynews.com/associations/hotrec-european-commission-booking-com-dsa-proceedings/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-23T10:23:08+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Signature Aviation and UrbanV launch US AAM alliance",
-      "url": "https://www.traveldailynews.com/aviation/signature-urbanv-alliance-us-aam-infrastructure/",
+      "title": "Lafayette’s Creole Kitchen & Bar οpens at Philadelphia Airport",
+      "url": "https://www.traveldailynews.com/aviation/lafayettes-creole-kitchen-bar-philadelphia-airport/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:59:07+00:00",
+      "published_at": "2026-10-23T09:52:35+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Wego tracks UAE travellers’ October travel trends",
-      "url": "https://www.traveldailynews.com/statistics-trends/wego-uae-travel-trends-october-2026/",
+      "title": "ETOA launches Showcase: Outbound India 2027",
+      "url": "https://www.traveldailynews.com/meetings-events/etoa-showcase-outbound-india-2027/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:54:05+00:00",
+      "published_at": "2026-10-23T09:12:30+00:00",
+      "countries": [
+        "india"
+      ]
+    },
+    {
+      "title": "Antarctica21 opens 47 air-cruise departures for 2028-29",
+      "url": "https://www.traveldailynews.com/special-interest-travel/antarctica21-2028-29-antarctic-air-cruise-season/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-23T09:02:35+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Royal Caribbean unveils Europe cruises for 2028-29",
-      "url": "https://www.traveldailynews.com/sea-travel/cruises/royal-caribbean-europe-cruises-2028-29/",
+      "title": "HOTREC calls for effective enforcement in the EU Quality Jobs Act",
+      "url": "https://www.traveldailynews.com/associations/hotrec-quality-jobs-act-enforcement-social-dialogue/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:49:54+00:00",
+      "published_at": "2026-10-23T08:22:44+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Beach Enclave appoints Kenton Jones as Managing Director",
+      "url": "https://www.traveldailynews.com/people/new-appointments/beach-enclave-appoints-kenton-jones-jeffrey-sirota/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-23T08:14:24+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Bob East to chair Tourism Tropical North Queensland",
+      "url": "https://www.ttgasia.com/2026/10/23/bob-east-to-chair-tourism-tropical-north-queensland/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-23T07:34:11+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Philippines banks on diving recognition to boost tourism in 2027",
+      "url": "https://www.ttgasia.com/2026/10/23/philippines-banks-on-diving-recognition-to-boost-tourism-in-2027/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-23T07:31:28+00:00",
+      "countries": [
+        "philippines"
+      ]
+    },
+    {
+      "title": "The Lux Collective broadens global reach with multi-market expansion",
+      "url": "https://www.ttgasia.com/2026/10/23/the-lux-collective-broadens-global-reach-with-multi-market-expansion/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-23T07:29:02+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "EL AL announces new onboard and digital passenger services",
+      "url": "https://www.traveldailynews.com/aviation/el-al-new-inflight-digital-passenger-services/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-23T07:25:09+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Indonesia travel trade reports sales growth despite market challenges",
+      "url": "https://www.ttgasia.com/2026/10/23/indonesia-travel-trade-reports-sales-growth-despite-market-challenges/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-23T07:24:09+00:00",
+      "countries": [
+        "indonesia"
+      ]
+    },
+    {
+      "title": "US overseas arrivals fall 5.7% in first nine months of 2026",
+      "url": "https://www.traveldailynews.com/statistics-trends/us-international-tourism-decline-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-23T07:03:05+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Shaner Hotels opens TownePlace Suites in State College, Pennsylvania",
+      "url": "https://www.traveldailynews.com/hotels-lodging/shaner-hotels-opens-towneplace-suites-state-college/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-23T06:54:44+00:00",
       "countries": [
         "international"
       ]
@@ -52,16 +152,6 @@
       ]
     },
     {
-      "title": "EIC Barometer shows future events demand remains strong",
-      "url": "https://www.traveldailynews.com/mice-industry/eic-q2-2026-global-business-events-barometer-gmid-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:45:49+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Aviation roundup: Lot Polish Airlines, THAI and more",
       "url": "https://www.ttgasia.com/2026/10/23/aviation-roundup-lot-polish-airlines-thai-and-more/",
       "source_id": "ttg-asia",
@@ -69,56 +159,6 @@
       "published_at": "2026-10-23T05:41:50+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Airline competition and airport capacity shape air fares",
-      "url": "https://www.traveldailynews.com/statistics-trends/oxera-study-airline-competition-airport-capacity-air-fares/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:39:52+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "IGCAT Holds 33rd World Regions of Gastronomy Platform Meeting in Manabí",
-      "url": "https://www.traveldailynews.com/meetings-events/igcat-platform-meeting-manabi-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:30:48+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "ATTA comments on Ebola outbreak and Travel in Africa",
-      "url": "https://www.traveldailynews.com/associations/atta-ebola-outbreak-travel-africa/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:14:46+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Wymara Resort + Villas joins Preferred Hotels collections",
-      "url": "https://www.traveldailynews.com/hospitality/wymara-resort-villas-preferred-hotels-resorts/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:13:02+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "The Warbler Hotel opens in New Orleans’ Garden District",
-      "url": "https://www.traveldailynews.com/hotels-lodging/the-warbler-hotel-opens-new-orleans/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T05:03:25+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -168,47 +208,6 @@
       "publisher": "TTG Asia",
       "published_at": "2026-10-22T06:54:55+00:00",
       "countries": [
-        "indonesia"
-      ]
-    },
-    {
-      "title": "Customer reviews, AI searches put pressure on travel brands to manage reputation",
-      "url": "https://www.ttgasia.com/2026/10/22/customer-reviews-ai-searches-put-pressure-on-travel-brands-to-manage-reputation/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-22T06:50:12+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Booking.com, Singapore Tourism Board team up to boost visitor arrivals",
-      "url": "https://www.ttgasia.com/2026/10/22/booking-com-singapore-tourism-board-team-up-to-boost-visitor-arrivals/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-22T06:47:24+00:00",
-      "countries": [
-        "singapore"
-      ]
-    },
-    {
-      "title": "Anantara Retreat Darjeeling Hills set for 2031 opening",
-      "url": "https://www.ttgasia.com/2026/10/22/anantara-retreat-darjeeling-hills-set-for-2031-opening/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-22T06:44:11+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "New hotels: Oaks Vacation Club Kyoto Gojo, Jakarta Marriott Hotel Gelora and more",
-      "url": "https://www.ttgasia.com/2026/10/22/new-hotels-oaks-vacation-club-kyoto-gojo-jakarta-marriott-hotel-gelora-and-more/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-22T06:40:41+00:00",
-      "countries": [
-        "japan",
         "indonesia"
       ]
     },
@@ -309,20 +308,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-23T06:19:43.131710+00:00",
-      "last_success_at": "2026-10-23T06:19:43.131710+00:00",
+      "last_attempt_at": "2026-10-23T18:16:00.742369+00:00",
+      "last_success_at": "2026-10-23T18:16:00.742369+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-23T06:19:43.131710+00:00",
-      "last_success_at": "2026-10-23T06:19:43.131710+00:00",
+      "last_attempt_at": "2026-10-23T18:16:00.742369+00:00",
+      "last_success_at": "2026-10-23T18:16:00.742369+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-23T06:19:43.131710+00:00",
-      "last_success_at": "2026-10-23T06:19:43.131710+00:00",
+      "last_attempt_at": "2026-10-23T18:16:00.742369+00:00",
+      "last_success_at": "2026-10-23T18:16:00.742369+00:00",
       "status": "ok",
       "count": 10
     }
