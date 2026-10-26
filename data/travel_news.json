@@ -1,64 +1,115 @@
 {
-  "last_updated": "2026-10-26T06:22:41.437463+00:00",
+  "last_updated": "2026-10-26T18:24:44.114798+00:00",
   "articles": [
     {
-      "title": "Infinity by Pacaso expands into France with luxury second-home exchange network",
-      "url": "https://www.traveldailynews.com/hospitality/infinity-by-pacaso-france-luxury-home-exchange/",
+      "title": "Anguilla strengthens UK luxury travel partnerships at Virtuoso On Tour London",
+      "url": "https://www.traveldailynews.com/special-interest-travel/anguilla-luxury-tourism-uk-partnerships/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-26T06:18:38+00:00",
+      "published_at": "2026-10-26T12:43:49+00:00",
+      "countries": [
+        "united-kingdom"
+      ]
+    },
+    {
+      "title": "Smartwings launches direct flights between Prague and Lisbon",
+      "url": "https://www.traveldailynews.com/aviation/smartwings-flights-prague-lisbon/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T10:49:47+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Booking.com identifies nine travel trends set to shape 2027",
+      "url": "https://www.traveldailynews.com/statistics-trends/travel-trends-2027-booking-com/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T10:09:34+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Bait Zain launches technology-driven holiday-home portfolio in Oman",
+      "url": "https://www.traveldailynews.com/tour-operators/holiday-homes-oman-bait-zain/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T08:51:02+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Les Roches brings together more than 220 alumni for global reunion in Marbella",
+      "url": "https://www.traveldailynews.com/meetings-events/les-roches-alumni-reunion-marbella-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T08:49:30+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Mexican Caribbean targets new markets amid weaker US air connectivity",
+      "url": "https://www.traveldailynews.com/meetings-events/mexican-caribbean-tourism-markets/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T08:23:17+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "United Airlines to launch daily nonstop flights from Bradley to San Francisco",
+      "url": "https://www.traveldailynews.com/aviation/united-san-francisco-service-bradley/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T08:11:33+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Varun Babbar joins JW Marriott Khao Lak",
+      "url": "https://www.ttgasia.com/2026/10/26/varun-babbar-joins-jw-marriott-khao-lak/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-26T08:01:46+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "A World for Travel 2026 to address tourism’s strategic challenges in Paris",
+      "url": "https://www.traveldailynews.com/meetings-events/a-world-for-travel-2026-tourism-forum/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T07:36:59+00:00",
       "countries": [
         "france"
       ]
     },
     {
-      "title": "Antalya to present tourism and aviation growth at Routes Europe 2027",
-      "url": "https://www.traveldailynews.com/meetings-events/routes-europe-2027-antalya-aviation-growth/",
+      "title": "Lore Group appoints Kristie Rasheed to lead its U.S. hotels",
+      "url": "https://www.traveldailynews.com/people/new-appointments/lore-group-appointment-kristie-rasheed/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-26T06:12:29+00:00",
+      "published_at": "2026-10-26T07:27:25+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Phocuswright research: 58% of travellers prefer free cancellation to a lower price",
-      "url": "https://www.traveldailynews.com/statistics-trends/free-travel-cancellation-phocuswright/",
+      "title": "Italy and Spain agree to end temporary Schengen border controls",
+      "url": "https://www.traveldailynews.com/destinations/italy-spain-schengen-border-controls/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-26T06:12:04+00:00",
+      "published_at": "2026-10-26T07:19:34+00:00",
       "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "US updates Qatar travel advisory amid regional security concerns",
-      "url": "https://www.traveldailynews.com/destinations/us-qatar-travel-advisory-regional-security-risks/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-26T06:10:18+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Cloudbeds launches new POS solution to unify hotel outlet sales and guest payments",
-      "url": "https://www.traveldailynews.com/hospitality/cloudbeds-pos-hotel-sales-payments/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-26T06:09:16+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Sirius Hotel Group appoints Shiva Dunga as Head of Revenue and Sales",
-      "url": "https://www.traveldailynews.com/people/new-appointments/sirius-hotel-group-shiva-dunga-revenue-sales/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-26T06:00:11+00:00",
-      "countries": [
-        "international"
+        "spain",
+        "italy"
       ]
     },
     {
@@ -132,46 +183,6 @@
       ]
     },
     {
-      "title": "Rome Fiumicino wins Routes World Awards overall title",
-      "url": "https://www.traveldailynews.com/meetings-events/routes-world-awards-2026-rome-fiumicino-overall-winner/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T10:32:55+00:00",
-      "countries": [
-        "italy"
-      ]
-    },
-    {
-      "title": "HOTREC welcomes EU proceedings against Booking.com under the DSA",
-      "url": "https://www.traveldailynews.com/associations/hotrec-european-commission-booking-com-dsa-proceedings/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T10:23:08+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Lafayette’s Creole Kitchen & Bar οpens at Philadelphia Airport",
-      "url": "https://www.traveldailynews.com/aviation/lafayettes-creole-kitchen-bar-philadelphia-airport/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T09:52:35+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "ETOA launches Showcase: Outbound India 2027",
-      "url": "https://www.traveldailynews.com/meetings-events/etoa-showcase-outbound-india-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T09:12:30+00:00",
-      "countries": [
-        "india"
-      ]
-    },
-    {
       "title": "Bob East to chair Tourism Tropical North Queensland",
       "url": "https://www.ttgasia.com/2026/10/23/bob-east-to-chair-tourism-tropical-north-queensland/",
       "source_id": "ttg-asia",
@@ -199,16 +210,6 @@
       "published_at": "2026-10-23T07:29:02+00:00",
       "countries": [
         "international"
-      ]
-    },
-    {
-      "title": "Indonesia travel trade reports sales growth despite market challenges",
-      "url": "https://www.ttgasia.com/2026/10/23/indonesia-travel-trade-reports-sales-growth-despite-market-challenges/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-23T07:24:09+00:00",
-      "countries": [
-        "indonesia"
       ]
     },
     {
@@ -307,20 +308,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-26T06:22:41.437463+00:00",
-      "last_success_at": "2026-10-26T06:22:41.437463+00:00",
+      "last_attempt_at": "2026-10-26T18:24:44.114798+00:00",
+      "last_success_at": "2026-10-26T18:24:44.114798+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-26T06:22:41.437463+00:00",
-      "last_success_at": "2026-10-26T06:22:41.437463+00:00",
+      "last_attempt_at": "2026-10-26T18:24:44.114798+00:00",
+      "last_success_at": "2026-10-26T18:24:44.114798+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-26T06:22:41.437463+00:00",
-      "last_success_at": "2026-10-26T06:22:41.437463+00:00",
+      "last_attempt_at": "2026-10-26T18:24:44.114798+00:00",
+      "last_success_at": "2026-10-26T18:24:44.114798+00:00",
       "status": "ok",
       "count": 10
     }
