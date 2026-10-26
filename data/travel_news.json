@@ -1,6 +1,136 @@
 {
-  "last_updated": "2026-10-25T18:12:01.800459+00:00",
+  "last_updated": "2026-10-26T06:22:41.437463+00:00",
   "articles": [
+    {
+      "title": "Infinity by Pacaso expands into France with luxury second-home exchange network",
+      "url": "https://www.traveldailynews.com/hospitality/infinity-by-pacaso-france-luxury-home-exchange/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T06:18:38+00:00",
+      "countries": [
+        "france"
+      ]
+    },
+    {
+      "title": "Antalya to present tourism and aviation growth at Routes Europe 2027",
+      "url": "https://www.traveldailynews.com/meetings-events/routes-europe-2027-antalya-aviation-growth/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T06:12:29+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Phocuswright research: 58% of travellers prefer free cancellation to a lower price",
+      "url": "https://www.traveldailynews.com/statistics-trends/free-travel-cancellation-phocuswright/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T06:12:04+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "US updates Qatar travel advisory amid regional security concerns",
+      "url": "https://www.traveldailynews.com/destinations/us-qatar-travel-advisory-regional-security-risks/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T06:10:18+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Cloudbeds launches new POS solution to unify hotel outlet sales and guest payments",
+      "url": "https://www.traveldailynews.com/hospitality/cloudbeds-pos-hotel-sales-payments/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T06:09:16+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Sirius Hotel Group appoints Shiva Dunga as Head of Revenue and Sales",
+      "url": "https://www.traveldailynews.com/people/new-appointments/sirius-hotel-group-shiva-dunga-revenue-sales/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-26T06:00:11+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Singapore tourism sector launches joint student chapter to strengthen talent pipeline",
+      "url": "https://www.ttgasia.com/2026/10/26/singapore-tourism-sector-launches-joint-student-chapter-to-strengthen-talent-pipeline/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-26T04:48:33+00:00",
+      "countries": [
+        "singapore"
+      ]
+    },
+    {
+      "title": "Zagreb targets Singapore travellers with culture and year-round appeal",
+      "url": "https://www.ttgasia.com/2026/10/26/zagreb-targets-singapore-travellers-with-culture-and-year-round-appeal/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-26T04:30:24+00:00",
+      "countries": [
+        "singapore"
+      ]
+    },
+    {
+      "title": "Far East Hospitality joins Global Hotel Alliance with 26 properties",
+      "url": "https://www.ttgasia.com/2026/10/26/far-east-hospitality-joins-global-hotel-alliance-with-26-properties/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-26T04:15:16+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "IHG brings Holiday Inn Resort to Luang Prabang in 2027",
+      "url": "https://www.ttgasia.com/2026/10/26/ihg-brings-holiday-inn-resort-to-luang-prabang-in-2027/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-26T03:58:52+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Accor Plus study finds stay benefits and price drive loyalty subscriptions",
+      "url": "https://www.ttgasia.com/2026/10/26/accor-plus-study-finds-stay-benefits-and-price-drive-loyalty-subscriptions/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-26T03:57:27+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "JW Marriott Phu Quoc celebrates a 1920s Christmas",
+      "url": "https://www.ttgasia.com/2026/10/26/jw-marriott-phu-quoc-celebrates-a-1920s-christmas/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-26T03:54:34+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "TAT welcomes Belavia’s first Minsk–Bangkok flight ahead of Phuket route launch",
+      "url": "https://www.tatnews.org/2026/10/tat-welcomes-belavias-first-minsk-bangkok-flight-ahead-of-phuket-route-launch/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-10-26T03:32:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
     {
       "title": "Rome Fiumicino wins Routes World Awards overall title",
       "url": "https://www.traveldailynews.com/meetings-events/routes-world-awards-2026-rome-fiumicino-overall-winner/",
@@ -42,36 +172,6 @@
       ]
     },
     {
-      "title": "Antarctica21 opens 47 air-cruise departures for 2028-29",
-      "url": "https://www.traveldailynews.com/special-interest-travel/antarctica21-2028-29-antarctic-air-cruise-season/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T09:02:35+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "HOTREC calls for effective enforcement in the EU Quality Jobs Act",
-      "url": "https://www.traveldailynews.com/associations/hotrec-quality-jobs-act-enforcement-social-dialogue/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T08:22:44+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Beach Enclave appoints Kenton Jones as Managing Director",
-      "url": "https://www.traveldailynews.com/people/new-appointments/beach-enclave-appoints-kenton-jones-jeffrey-sirota/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T08:14:24+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Bob East to chair Tourism Tropical North Queensland",
       "url": "https://www.ttgasia.com/2026/10/23/bob-east-to-chair-tourism-tropical-north-queensland/",
       "source_id": "ttg-asia",
@@ -102,16 +202,6 @@
       ]
     },
     {
-      "title": "EL AL announces new onboard and digital passenger services",
-      "url": "https://www.traveldailynews.com/aviation/el-al-new-inflight-digital-passenger-services/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T07:25:09+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Indonesia travel trade reports sales growth despite market challenges",
       "url": "https://www.ttgasia.com/2026/10/23/indonesia-travel-trade-reports-sales-growth-despite-market-challenges/",
       "source_id": "ttg-asia",
@@ -122,46 +212,6 @@
       ]
     },
     {
-      "title": "US overseas arrivals fall 5.7% in first nine months of 2026",
-      "url": "https://www.traveldailynews.com/statistics-trends/us-international-tourism-decline-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T07:03:05+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Shaner Hotels opens TownePlace Suites in State College, Pennsylvania",
-      "url": "https://www.traveldailynews.com/hotels-lodging/shaner-hotels-opens-towneplace-suites-state-college/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-23T06:54:44+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Malaysia’s aviation sector steps up decarbonisation efforts",
-      "url": "https://www.ttgasia.com/2026/10/23/malaysias-aviation-sector-steps-up-decarbonisation-efforts/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-23T05:46:01+00:00",
-      "countries": [
-        "malaysia"
-      ]
-    },
-    {
-      "title": "Aviation roundup: Lot Polish Airlines, THAI and more",
-      "url": "https://www.ttgasia.com/2026/10/23/aviation-roundup-lot-polish-airlines-thai-and-more/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-23T05:41:50+00:00",
-      "countries": [
-        "thailand"
-      ]
-    },
-    {
       "title": "Amazing Mekong by Amazing Thailand elevates 2026 Nakhon Phanom Illuminated Boat Procession",
       "url": "https://www.tatnews.org/2026/10/amazing-mekong-by-amazing-thailand-elevates-2026-nakhon-phanom-illuminated-boat-procession/",
       "source_id": "tat-news",
@@ -169,46 +219,6 @@
       "published_at": "2026-10-23T03:51:27+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Leadership changes at Conrad Singapore Orchard",
-      "url": "https://www.ttgasia.com/2026/10/22/leadership-changes-at-conrad-singapore-orchard/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-22T09:18:55+00:00",
-      "countries": [
-        "singapore"
-      ]
-    },
-    {
-      "title": "Agnes Cheng takes helm at Varel Singapore",
-      "url": "https://www.ttgasia.com/2026/10/22/agnes-cheng-takes-helm-at-varel-singapore/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-22T09:16:58+00:00",
-      "countries": [
-        "singapore"
-      ]
-    },
-    {
-      "title": "Hilton strengthens Asia-Pacific hotel leadership",
-      "url": "https://www.ttgasia.com/2026/10/22/hilton-strengthens-asia-pacific-hotel-leadership/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-22T07:19:26+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Indonesia calls for more events to attract international tourists",
-      "url": "https://www.ttgasia.com/2026/10/22/indonesia-calls-for-more-events-to-attract-international-tourists/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-22T06:54:55+00:00",
-      "countries": [
-        "indonesia"
       ]
     },
     {
@@ -293,35 +303,24 @@
         "thailand",
         "spain"
       ]
-    },
-    {
-      "title": "TAT welcomes Thai Vietjet Air inaugural Kuala Lumpur-Bangkok service",
-      "url": "https://www.tatnews.org/2026/10/tat-welcomes-thai-vietjet-air-inaugural-kuala-lumpur-bangkok-service/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-09T13:09:49+00:00",
-      "countries": [
-        "thailand",
-        "malaysia"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-25T18:12:01.800459+00:00",
-      "last_success_at": "2026-10-25T18:12:01.800459+00:00",
+      "last_attempt_at": "2026-10-26T06:22:41.437463+00:00",
+      "last_success_at": "2026-10-26T06:22:41.437463+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-25T18:12:01.800459+00:00",
-      "last_success_at": "2026-10-25T18:12:01.800459+00:00",
+      "last_attempt_at": "2026-10-26T06:22:41.437463+00:00",
+      "last_success_at": "2026-10-26T06:22:41.437463+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-25T18:12:01.800459+00:00",
-      "last_success_at": "2026-10-25T18:12:01.800459+00:00",
+      "last_attempt_at": "2026-10-26T06:22:41.437463+00:00",
+      "last_success_at": "2026-10-26T06:22:41.437463+00:00",
       "status": "ok",
       "count": 10
     }
