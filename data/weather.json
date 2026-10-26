@@ -8,25 +8,9 @@
       "city": "Da Nang",
       "latitude": 16.0544,
       "longitude": 108.2022,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.2,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.7,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.4,
@@ -650,10 +634,18 @@
           "precipitation_mm": 1.2,
           "precipitation_hours": 6,
           "symbol_code": "rain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.4,
+          "wind_mps": 1.0,
+          "precipitation_mm": 7.4,
+          "precipitation_hours": 6,
+          "symbol_code": "heavyrain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -664,25 +656,9 @@
       "city": "Hanoi",
       "latitude": 21.0285,
       "longitude": 105.8542,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.5,
-          "wind_mps": 0.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.1,
-          "wind_mps": 0.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.7,
@@ -1306,10 +1282,18 @@
           "precipitation_mm": 0.1,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.9,
+          "wind_mps": 2.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -1320,25 +1304,9 @@
       "city": "Sa Pa",
       "latitude": 22.3364,
       "longitude": 103.8438,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 17.9,
-          "wind_mps": 1.3,
-          "precipitation_mm": 0.1,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 17.9,
-          "wind_mps": 1.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fog"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 17.7,
@@ -1962,10 +1930,18 @@
           "precipitation_mm": 0.9,
           "precipitation_hours": 6,
           "symbol_code": "lightrainshowers_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 17.5,
+          "wind_mps": 0.4,
+          "precipitation_mm": 0.3,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -1976,25 +1952,9 @@
       "city": "Ho Chi Minh City",
       "latitude": 10.8231,
       "longitude": 106.6297,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 26.0,
-          "wind_mps": 1.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 26.2,
-          "wind_mps": 1.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 26.3,
@@ -2618,10 +2578,18 @@
           "precipitation_mm": 0.1,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.8,
+          "wind_mps": 0.2,
+          "precipitation_mm": 0.1,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -2632,25 +2600,9 @@
       "city": "Phu Quoc",
       "latitude": 10.2899,
       "longitude": 103.984,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 26.9,
-          "wind_mps": 7.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 26.7,
-          "wind_mps": 6.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 26.4,
@@ -3274,10 +3226,18 @@
           "precipitation_mm": 3.3,
           "precipitation_hours": 6,
           "symbol_code": "rain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.5,
+          "wind_mps": 2.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -3288,25 +3248,9 @@
       "city": "Hoi An",
       "latitude": 15.8801,
       "longitude": 108.338,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.3,
-          "wind_mps": 2.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.6,
-          "wind_mps": 2.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.4,
@@ -3930,10 +3874,18 @@
           "precipitation_mm": 1.7,
           "precipitation_hours": 6,
           "symbol_code": "rainshowers_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.1,
+          "wind_mps": 1.4,
+          "precipitation_mm": 7.1,
+          "precipitation_hours": 6,
+          "symbol_code": "heavyrainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -3944,25 +3896,9 @@
       "city": "Hue",
       "latitude": 16.4637,
       "longitude": 107.5909,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.0,
-          "wind_mps": 2.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.2,
-          "wind_mps": 2.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.0,
@@ -4586,10 +4522,18 @@
           "precipitation_mm": 0.4,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.6,
+          "wind_mps": 1.4,
+          "precipitation_mm": 0.7,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -4600,25 +4544,9 @@
       "city": "Nha Trang",
       "latitude": 12.2388,
       "longitude": 109.1967,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 26.0,
-          "wind_mps": 4.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.8,
-          "wind_mps": 4.6,
-          "precipitation_mm": 0.1,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrainshowers_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 25.7,
@@ -5242,10 +5170,18 @@
           "precipitation_mm": 3.6,
           "precipitation_hours": 6,
           "symbol_code": "rainshowers_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.5,
+          "wind_mps": 1.4,
+          "precipitation_mm": 0.5,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -5256,25 +5192,9 @@
       "city": "Da Lat",
       "latitude": 11.9404,
       "longitude": 108.4583,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 14.0,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 13.9,
-          "wind_mps": 2.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 13.6,
@@ -5898,10 +5818,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 16.1,
+          "wind_mps": 2.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -5912,25 +5840,9 @@
       "city": "Ha Long",
       "latitude": 20.95,
       "longitude": 107.08,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.4,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.1,
-          "wind_mps": 3.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 25.1,
@@ -6554,10 +6466,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.1,
+          "wind_mps": 3.1,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -6568,25 +6488,9 @@
       "city": "Bangkok",
       "latitude": 13.7563,
       "longitude": 100.5018,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 26.0,
-          "wind_mps": 0.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.9,
-          "wind_mps": 0.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 25.6,
@@ -7210,10 +7114,18 @@
           "precipitation_mm": 5.0,
           "precipitation_hours": 6,
           "symbol_code": "heavyrain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.9,
+          "wind_mps": 0.6,
+          "precipitation_mm": 1.4,
+          "precipitation_hours": 6,
+          "symbol_code": "rain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -7224,25 +7136,9 @@
       "city": "Chiang Mai",
       "latitude": 18.7883,
       "longitude": 98.9853,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 23.9,
-          "wind_mps": 1.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 23.6,
-          "wind_mps": 0.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 23.5,
@@ -7866,10 +7762,18 @@
           "precipitation_mm": 0.3,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.0,
+          "wind_mps": 1.2,
+          "precipitation_mm": 4.4,
+          "precipitation_hours": 6,
+          "symbol_code": "rainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -7880,25 +7784,9 @@
       "city": "Phuket",
       "latitude": 7.8804,
       "longitude": 98.3923,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.4,
-          "wind_mps": 3.4,
-          "precipitation_mm": 0.5,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.8,
-          "wind_mps": 3.8,
-          "precipitation_mm": 0.9,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.3,
@@ -8522,10 +8410,18 @@
           "precipitation_mm": 0.6,
           "precipitation_hours": 6,
           "symbol_code": "lightrain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 26.2,
+          "wind_mps": 2.4,
+          "precipitation_mm": 3.7,
+          "precipitation_hours": 6,
+          "symbol_code": "rainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -8536,25 +8432,9 @@
       "city": "Krabi",
       "latitude": 8.0863,
       "longitude": 98.9063,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 24.2,
-          "wind_mps": 1.8,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.2,
-          "wind_mps": 1.4,
-          "precipitation_mm": 1.1,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.1,
@@ -9178,10 +9058,18 @@
           "precipitation_mm": 0.4,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.5,
+          "wind_mps": 1.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -9192,25 +9080,9 @@
       "city": "Tokyo",
       "latitude": 35.6762,
       "longitude": 139.6503,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 16.7,
-          "wind_mps": 5.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.7,
-          "wind_mps": 5.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 16.9,
@@ -9834,10 +9706,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 12.8,
+          "wind_mps": 2.3,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -9848,25 +9728,9 @@
       "city": "Osaka",
       "latitude": 34.6937,
       "longitude": 135.5023,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 19.6,
-          "wind_mps": 4.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 19.3,
-          "wind_mps": 3.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 19.1,
@@ -10490,10 +10354,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 11.8,
+          "wind_mps": 0.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -10504,25 +10376,9 @@
       "city": "Kyoto",
       "latitude": 35.0116,
       "longitude": 135.7681,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 18.6,
-          "wind_mps": 2.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 18.5,
-          "wind_mps": 2.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 18.3,
@@ -11146,10 +11002,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 11.1,
+          "wind_mps": 0.3,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -11160,25 +11024,9 @@
       "city": "Fukuoka",
       "latitude": 33.5902,
       "longitude": 130.4017,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 19.8,
-          "wind_mps": 8.6,
-          "precipitation_mm": 0.7,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 19.5,
-          "wind_mps": 9.2,
-          "precipitation_mm": 1.3,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrainshowers_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 19.2,
@@ -11802,10 +11650,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 15.0,
+          "wind_mps": 3.1,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -11816,25 +11672,9 @@
       "city": "Beijing",
       "latitude": 39.9042,
       "longitude": 116.4074,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 11.4,
-          "wind_mps": 5.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 10.5,
-          "wind_mps": 5.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 9.2,
@@ -12458,10 +12298,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 4.8,
+          "wind_mps": 1.6,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -12472,25 +12320,9 @@
       "city": "Shanghai",
       "latitude": 31.2304,
       "longitude": 121.4737,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 16.9,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.6,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 16.3,
@@ -13114,10 +12946,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 13.7,
+          "wind_mps": 1.6,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -13128,25 +12968,9 @@
       "city": "Chengdu",
       "latitude": 30.5728,
       "longitude": 104.0668,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 16.3,
-          "wind_mps": 1.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.3,
-          "wind_mps": 1.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 16.4,
@@ -13770,10 +13594,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 12.9,
+          "wind_mps": 0.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -13784,25 +13616,9 @@
       "city": "Guangzhou",
       "latitude": 23.1291,
       "longitude": 113.2644,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.3,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.9,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.3,
@@ -14426,10 +14242,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.7,
+          "wind_mps": 3.1,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -14440,25 +14264,9 @@
       "city": "Hong Kong",
       "latitude": 22.3193,
       "longitude": 114.1694,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 24.9,
-          "wind_mps": 6.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.8,
-          "wind_mps": 6.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.5,
@@ -15082,10 +14890,18 @@
           "precipitation_mm": 7.0,
           "precipitation_hours": 6,
           "symbol_code": "heavyrainshowers_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.0,
+          "wind_mps": 4.0,
+          "precipitation_mm": 0.5,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -15096,25 +14912,9 @@
       "city": "Seoul",
       "latitude": 37.5665,
       "longitude": 126.978,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 12.6,
-          "wind_mps": 3.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 12.0,
-          "wind_mps": 3.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 11.3,
@@ -15738,10 +15538,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 2.3,
+          "wind_mps": 0.9,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -15752,25 +15560,9 @@
       "city": "Busan",
       "latitude": 35.1796,
       "longitude": 129.0756,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 13.3,
-          "wind_mps": 3.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 12.8,
-          "wind_mps": 3.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 12.5,
@@ -16394,10 +16186,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 5.5,
+          "wind_mps": 3.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -16408,25 +16208,9 @@
       "city": "Jeju",
       "latitude": 33.4996,
       "longitude": 126.5312,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 18.3,
-          "wind_mps": 8.3,
-          "precipitation_mm": 0.4,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 18.2,
-          "wind_mps": 9.1,
-          "precipitation_mm": 0.3,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 18.3,
@@ -17050,10 +16834,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 10.9,
+          "wind_mps": 2.6,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -17064,25 +16856,9 @@
       "city": "Singapore",
       "latitude": 1.3521,
       "longitude": 103.8198,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.1,
-          "wind_mps": 3.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.7,
-          "wind_mps": 2.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.5,
@@ -17706,10 +17482,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.5,
+          "wind_mps": 1.0,
+          "precipitation_mm": 3.3,
+          "precipitation_hours": 6,
+          "symbol_code": "rain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -17720,25 +17504,9 @@
       "city": "Bali",
       "latitude": -8.5069,
       "longitude": 115.2625,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 23.5,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 23.3,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 23.1,
@@ -18362,10 +18130,18 @@
           "precipitation_mm": 0.3,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.7,
+          "wind_mps": 0.5,
+          "precipitation_mm": 0.8,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -18376,25 +18152,9 @@
       "city": "Jakarta",
       "latitude": -6.2088,
       "longitude": 106.8456,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 27.0,
-          "wind_mps": 5.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 27.0,
-          "wind_mps": 3.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 26.8,
@@ -19018,10 +18778,18 @@
           "precipitation_mm": 1.1,
           "precipitation_hours": 6,
           "symbol_code": "rainshowers_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 25.4,
+          "wind_mps": 1.1,
+          "precipitation_mm": 0.1,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -19032,25 +18800,9 @@
       "city": "Yogyakarta",
       "latitude": -7.7956,
       "longitude": 110.3695,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 24.5,
-          "wind_mps": 1.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.3,
-          "wind_mps": 1.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.2,
@@ -19674,10 +19426,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.2,
+          "wind_mps": 0.5,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -19688,25 +19448,9 @@
       "city": "Kuala Lumpur",
       "latitude": 3.139,
       "longitude": 101.6869,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 23.9,
-          "wind_mps": 1.4,
-          "precipitation_mm": 0.7,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.0,
-          "wind_mps": 0.7,
-          "precipitation_mm": 0.4,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.0,
@@ -20330,10 +20074,18 @@
           "precipitation_mm": 3.8,
           "precipitation_hours": 6,
           "symbol_code": "rain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.4,
+          "wind_mps": 1.0,
+          "precipitation_mm": 1.4,
+          "precipitation_hours": 6,
+          "symbol_code": "rain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -20344,25 +20096,9 @@
       "city": "George Town / Penang",
       "latitude": 5.4141,
       "longitude": 100.3288,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 26.0,
-          "wind_mps": 1.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.8,
-          "wind_mps": 1.7,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 25.6,
@@ -20986,10 +20722,18 @@
           "precipitation_mm": 3.9,
           "precipitation_hours": 6,
           "symbol_code": "rain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.8,
+          "wind_mps": 0.3,
+          "precipitation_mm": 8.3,
+          "precipitation_hours": 6,
+          "symbol_code": "heavyrain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -21000,25 +20744,9 @@
       "city": "Langkawi",
       "latitude": 6.35,
       "longitude": 99.8,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.6,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.3,
-          "wind_mps": 1.0,
-          "precipitation_mm": 1.4,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.7,
@@ -21642,10 +21370,18 @@
           "precipitation_mm": 0.9,
           "precipitation_hours": 6,
           "symbol_code": "lightrain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.6,
+          "wind_mps": 1.1,
+          "precipitation_mm": 4.1,
+          "precipitation_hours": 6,
+          "symbol_code": "rainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -21656,25 +21392,9 @@
       "city": "Manila",
       "latitude": 14.5995,
       "longitude": 120.9842,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 28.0,
-          "wind_mps": 2.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 27.4,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 27.0,
@@ -22298,10 +22018,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 26.2,
+          "wind_mps": 1.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -22312,25 +22040,9 @@
       "city": "Cebu",
       "latitude": 10.3157,
       "longitude": 123.8854,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.8,
-          "wind_mps": 3.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.3,
-          "wind_mps": 3.5,
-          "precipitation_mm": 0.6,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 25.1,
@@ -22954,10 +22666,18 @@
           "precipitation_mm": 0.1,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.4,
+          "wind_mps": 1.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -22968,25 +22688,9 @@
       "city": "El Nido",
       "latitude": 11.2027,
       "longitude": 119.4169,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 27.4,
-          "wind_mps": 3.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 27.3,
-          "wind_mps": 4.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 27.2,
@@ -23610,10 +23314,18 @@
           "precipitation_mm": 0.1,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 26.8,
+          "wind_mps": 3.3,
+          "precipitation_mm": 0.1,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -23624,25 +23336,9 @@
       "city": "New Delhi",
       "latitude": 28.6139,
       "longitude": 77.209,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 22.4,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 21.7,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 21.1,
@@ -24266,10 +23962,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 21.4,
+          "wind_mps": 0.9,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -24280,25 +23984,9 @@
       "city": "Mumbai",
       "latitude": 19.076,
       "longitude": 72.8777,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 30.4,
-          "wind_mps": 4.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 30.1,
-          "wind_mps": 4.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 29.3,
@@ -24922,10 +24610,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 26.8,
+          "wind_mps": 0.1,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -24936,25 +24632,9 @@
       "city": "Jaipur",
       "latitude": 26.9124,
       "longitude": 75.7873,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 24.7,
-          "wind_mps": 2.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.0,
-          "wind_mps": 2.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 23.4,
@@ -25578,10 +25258,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 21.8,
+          "wind_mps": 0.7,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -25592,25 +25280,9 @@
       "city": "Agra",
       "latitude": 27.1767,
       "longitude": 78.0081,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 23.5,
-          "wind_mps": 1.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 22.6,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 21.9,
@@ -26234,10 +25906,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 20.7,
+          "wind_mps": 0.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -26248,25 +25928,9 @@
       "city": "Dubai",
       "latitude": 25.2048,
       "longitude": 55.2708,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 30.8,
-          "wind_mps": 1.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 30.4,
-          "wind_mps": 2.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 29.8,
@@ -26890,10 +26554,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 28.8,
+          "wind_mps": 0.6,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -26904,25 +26576,9 @@
       "city": "Abu Dhabi",
       "latitude": 24.4539,
       "longitude": 54.3773,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 31.8,
-          "wind_mps": 6.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 31.6,
-          "wind_mps": 5.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 31.2,
@@ -27546,10 +27202,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 29.3,
+          "wind_mps": 2.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -27560,25 +27224,9 @@
       "city": "Siem Reap",
       "latitude": 13.3671,
       "longitude": 103.8448,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.0,
-          "wind_mps": 1.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.6,
-          "wind_mps": 1.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.4,
@@ -28202,10 +27850,18 @@
           "precipitation_mm": 3.2,
           "precipitation_hours": 6,
           "symbol_code": "rain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.7,
+          "wind_mps": 1.4,
+          "precipitation_mm": 0.4,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -28216,25 +27872,9 @@
       "city": "Phnom Penh",
       "latitude": 11.5564,
       "longitude": 104.9282,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 26.2,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.9,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 25.5,
@@ -28858,10 +28498,18 @@
           "precipitation_mm": 0.9,
           "precipitation_hours": 6,
           "symbol_code": "lightrain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 25.1,
+          "wind_mps": 0.6,
+          "precipitation_mm": 0.1,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -28872,25 +28520,9 @@
       "city": "Vientiane",
       "latitude": 17.9757,
       "longitude": 102.6331,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 24.9,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.9,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 23.3,
-          "wind_mps": 3.8,
-          "precipitation_mm": 0.9,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 23.9,
@@ -29514,10 +29146,18 @@
           "precipitation_mm": 0.3,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 25.2,
+          "wind_mps": 2.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -29528,25 +29168,9 @@
       "city": "Luang Prabang",
       "latitude": 19.8833,
       "longitude": 102.1333,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.2,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.4,
-          "wind_mps": 0.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.3,
@@ -30170,10 +29794,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.4,
+          "wind_mps": 0.2,
+          "precipitation_mm": 0.4,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -30184,25 +29816,9 @@
       "city": "Kathmandu",
       "latitude": 27.7172,
       "longitude": 85.324,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 16.6,
-          "wind_mps": 0.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.4,
-          "wind_mps": 1.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 16.4,
@@ -30826,10 +30442,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 14.7,
+          "wind_mps": 0.5,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -30840,25 +30464,9 @@
       "city": "Paris",
       "latitude": 48.8566,
       "longitude": 2.3522,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 12.7,
-          "wind_mps": 4.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 12.9,
-          "wind_mps": 3.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 13.2,
@@ -31482,10 +31090,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 9.3,
+          "wind_mps": 3.3,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -31496,25 +31112,9 @@
       "city": "Nice",
       "latitude": 43.7102,
       "longitude": 7.262,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 16.8,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.2,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 15.9,
@@ -32138,10 +31738,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 14.6,
+          "wind_mps": 0.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -32152,25 +31760,9 @@
       "city": "Lyon",
       "latitude": 45.764,
       "longitude": 4.8357,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 11.5,
-          "wind_mps": 0.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 9.9,
-          "wind_mps": 1.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 9.2,
@@ -32794,10 +32386,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 8.9,
+          "wind_mps": 2.7,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -32808,25 +32408,9 @@
       "city": "London",
       "latitude": 51.5074,
       "longitude": -0.1278,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 15.7,
-          "wind_mps": 6.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 15.6,
-          "wind_mps": 6.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 15.1,
@@ -33450,10 +33034,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 9.2,
+          "wind_mps": 2.5,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -33464,25 +33056,9 @@
       "city": "Edinburgh",
       "latitude": 55.9533,
       "longitude": -3.1883,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 12.3,
-          "wind_mps": 8.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 13.8,
-          "wind_mps": 8.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 14.5,
@@ -34106,10 +33682,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 5.5,
+          "wind_mps": 0.7,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -34120,25 +33704,9 @@
       "city": "Manchester",
       "latitude": 53.4808,
       "longitude": -2.2426,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 15.2,
-          "wind_mps": 7.1,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 15.1,
-          "wind_mps": 7.5,
-          "precipitation_mm": 0.1,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrainshowers_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 14.4,
@@ -34762,10 +34330,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 7.5,
+          "wind_mps": 2.1,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -34776,25 +34352,9 @@
       "city": "Rome",
       "latitude": 41.9028,
       "longitude": 12.4964,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 18.2,
-          "wind_mps": 1.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.7,
-          "wind_mps": 2.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 15.7,
@@ -35418,10 +34978,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 11.7,
+          "wind_mps": 5.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -35432,25 +35000,9 @@
       "city": "Venice",
       "latitude": 45.4408,
       "longitude": 12.3155,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 14.6,
-          "wind_mps": 0.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 13.4,
-          "wind_mps": 1.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 12.3,
@@ -36074,10 +35626,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 9.6,
+          "wind_mps": 1.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -36088,25 +35648,9 @@
       "city": "Florence",
       "latitude": 43.7696,
       "longitude": 11.2558,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 16.3,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 15.2,
-          "wind_mps": 1.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 13.8,
@@ -36730,10 +36274,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 9.4,
+          "wind_mps": 2.3,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -36744,25 +36296,9 @@
       "city": "Barcelona",
       "latitude": 41.3851,
       "longitude": 2.1734,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 19.0,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 18.3,
-          "wind_mps": 1.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 18.1,
@@ -37386,10 +36922,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 16.7,
+          "wind_mps": 1.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -37400,25 +36944,9 @@
       "city": "Madrid",
       "latitude": 40.4168,
       "longitude": -3.7038,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 22.7,
-          "wind_mps": 1.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 21.0,
-          "wind_mps": 1.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 19.6,
@@ -38042,10 +37570,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 18.0,
+          "wind_mps": 0.7,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -38056,25 +37592,9 @@
       "city": "Seville",
       "latitude": 37.3891,
       "longitude": -5.9845,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 27.0,
-          "wind_mps": 3.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 24.9,
-          "wind_mps": 2.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 22.3,
@@ -38698,10 +38218,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.6,
+          "wind_mps": 0.3,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -38712,25 +38240,9 @@
       "city": "Berlin",
       "latitude": 52.52,
       "longitude": 13.405,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 9.9,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 8.9,
-          "wind_mps": 2.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 8.3,
@@ -39354,10 +38866,18 @@
           "precipitation_mm": 0.4,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 5.6,
+          "wind_mps": 0.6,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -39368,25 +38888,9 @@
       "city": "Munich",
       "latitude": 48.1351,
       "longitude": 11.582,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 8.6,
-          "wind_mps": 1.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 8.0,
-          "wind_mps": 1.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 6.7,
@@ -40010,10 +39514,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 5.4,
+          "wind_mps": 0.9,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -40024,25 +39536,9 @@
       "city": "Frankfurt",
       "latitude": 50.1109,
       "longitude": 8.6821,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 10.4,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 8.9,
-          "wind_mps": 2.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 9.2,
@@ -40666,10 +40162,18 @@
           "precipitation_mm": 0.1,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 7.2,
+          "wind_mps": 1.7,
+          "precipitation_mm": 1.2,
+          "precipitation_hours": 6,
+          "symbol_code": "rainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -40680,25 +40184,9 @@
       "city": "Athens",
       "latitude": 37.9838,
       "longitude": 23.7275,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 16.6,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.1,
-          "wind_mps": 2.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 15.6,
@@ -41322,10 +40810,18 @@
           "precipitation_mm": 0.1,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 12.0,
+          "wind_mps": 4.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -41336,25 +40832,9 @@
       "city": "Santorini",
       "latitude": 36.3932,
       "longitude": 25.4615,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 19.2,
-          "wind_mps": 7.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 18.9,
-          "wind_mps": 6.5,
-          "precipitation_mm": 0.3,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 18.8,
@@ -41978,10 +41458,18 @@
           "precipitation_mm": 1.3,
           "precipitation_hours": 6,
           "symbol_code": "rain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 16.8,
+          "wind_mps": 7.1,
+          "precipitation_mm": 1.0,
+          "precipitation_hours": 6,
+          "symbol_code": "rainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -41992,25 +41480,9 @@
       "city": "Zurich",
       "latitude": 47.3769,
       "longitude": 8.5417,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 10.2,
-          "wind_mps": 0.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 9.8,
-          "wind_mps": 0.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 9.1,
@@ -42634,10 +42106,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 6.2,
+          "wind_mps": 1.6,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -42648,25 +42128,9 @@
       "city": "Lucerne",
       "latitude": 47.0502,
       "longitude": 8.3093,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 10.4,
-          "wind_mps": 0.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 10.1,
-          "wind_mps": 0.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 9.9,
@@ -43290,10 +42754,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 7.4,
+          "wind_mps": 0.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -43304,25 +42776,9 @@
       "city": "Amsterdam",
       "latitude": 52.3676,
       "longitude": 4.9041,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 10.5,
-          "wind_mps": 6.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 10.4,
-          "wind_mps": 7.0,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 10.5,
@@ -43946,10 +43402,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 9.7,
+          "wind_mps": 2.7,
+          "precipitation_mm": 0.7,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrainshowers_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -43960,25 +43424,9 @@
       "city": "Lisbon",
       "latitude": 38.7223,
       "longitude": -9.1393,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 20.4,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 18.6,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 16.8,
@@ -44602,10 +44050,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 21.5,
+          "wind_mps": 2.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -44616,25 +44072,9 @@
       "city": "Porto",
       "latitude": 41.1579,
       "longitude": -8.6291,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 17.4,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.0,
-          "wind_mps": 1.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 14.4,
@@ -45258,10 +44698,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 19.2,
+          "wind_mps": 1.5,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -45272,25 +44720,9 @@
       "city": "Vienna",
       "latitude": 48.2082,
       "longitude": 16.3738,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 9.9,
-          "wind_mps": 1.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 8.9,
-          "wind_mps": 2.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 8.3,
@@ -45914,10 +45346,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 5.8,
+          "wind_mps": 2.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -45928,25 +45368,9 @@
       "city": "Salzburg",
       "latitude": 47.8095,
       "longitude": 13.055,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 8.0,
-          "wind_mps": 1.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 6.6,
-          "wind_mps": 1.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 5.4,
@@ -46570,10 +45994,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 5.3,
+          "wind_mps": 0.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -46584,25 +46016,9 @@
       "city": "Prague",
       "latitude": 50.0755,
       "longitude": 14.4378,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 9.1,
-          "wind_mps": 3.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 8.0,
-          "wind_mps": 3.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 6.9,
@@ -47226,10 +46642,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 6.6,
+          "wind_mps": 0.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -47240,25 +46664,9 @@
       "city": "Brno",
       "latitude": 49.1951,
       "longitude": 16.6068,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 7.9,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 6.8,
-          "wind_mps": 1.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 5.9,
@@ -47882,10 +47290,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 4.6,
+          "wind_mps": 2.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -47896,25 +47312,9 @@
       "city": "Moscow",
       "latitude": 55.7558,
       "longitude": 37.6173,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 6.0,
-          "wind_mps": 4.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 5.6,
-          "wind_mps": 4.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 5.2,
@@ -48538,10 +47938,18 @@
           "precipitation_mm": 0.1,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 5.2,
+          "wind_mps": 1.9,
+          "precipitation_mm": 0.1,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -48552,28 +47960,12 @@
       "city": "Saint Petersburg",
       "latitude": 59.9311,
       "longitude": 30.3609,
-      "source_updated_at": "2026-10-26T15:30:20+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T18:30:16+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
         {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 11.0,
-          "wind_mps": 5.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 10.7,
-          "wind_mps": 5.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
           "time": "2026-10-26T18:00:00+00:00",
-          "temperature_c": 10.8,
+          "temperature_c": 10.7,
           "wind_mps": 5.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -48582,7 +47974,7 @@
         {
           "time": "2026-10-26T19:00:00+00:00",
           "temperature_c": 10.7,
-          "wind_mps": 5.5,
+          "wind_mps": 5.6,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
@@ -48590,7 +47982,7 @@
         {
           "time": "2026-10-26T20:00:00+00:00",
           "temperature_c": 10.7,
-          "wind_mps": 5.2,
+          "wind_mps": 5.4,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
@@ -48598,7 +47990,7 @@
         {
           "time": "2026-10-26T21:00:00+00:00",
           "temperature_c": 10.6,
-          "wind_mps": 4.8,
+          "wind_mps": 4.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
@@ -48606,7 +47998,7 @@
         {
           "time": "2026-10-26T22:00:00+00:00",
           "temperature_c": 10.6,
-          "wind_mps": 4.9,
+          "wind_mps": 5.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
@@ -48614,47 +48006,47 @@
         {
           "time": "2026-10-26T23:00:00+00:00",
           "temperature_c": 10.3,
-          "wind_mps": 4.2,
-          "precipitation_mm": 0.0,
+          "wind_mps": 4.1,
+          "precipitation_mm": 0.2,
           "precipitation_hours": 1,
-          "symbol_code": "cloudy"
+          "symbol_code": "lightrain"
         },
         {
           "time": "2026-10-27T00:00:00+00:00",
           "temperature_c": 9.9,
           "wind_mps": 4.6,
-          "precipitation_mm": 0.0,
+          "precipitation_mm": 0.1,
           "precipitation_hours": 1,
-          "symbol_code": "cloudy"
+          "symbol_code": "lightrain"
         },
         {
           "time": "2026-10-27T01:00:00+00:00",
-          "temperature_c": 9.7,
-          "wind_mps": 4.8,
+          "temperature_c": 9.6,
+          "wind_mps": 5.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-27T02:00:00+00:00",
-          "temperature_c": 9.5,
-          "wind_mps": 5.1,
+          "temperature_c": 9.4,
+          "wind_mps": 5.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-27T03:00:00+00:00",
-          "temperature_c": 9.4,
-          "wind_mps": 4.8,
+          "temperature_c": 9.3,
+          "wind_mps": 4.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-27T04:00:00+00:00",
-          "temperature_c": 9.8,
-          "wind_mps": 4.2,
+          "temperature_c": 9.7,
+          "wind_mps": 4.3,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
@@ -48662,54 +48054,54 @@
         {
           "time": "2026-10-27T05:00:00+00:00",
           "temperature_c": 10.0,
-          "wind_mps": 4.0,
+          "wind_mps": 4.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-27T06:00:00+00:00",
-          "temperature_c": 10.3,
-          "wind_mps": 3.7,
+          "temperature_c": 10.4,
+          "wind_mps": 4.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "cloudy"
+          "symbol_code": "partlycloudy_day"
         },
         {
           "time": "2026-10-27T07:00:00+00:00",
           "temperature_c": 10.6,
-          "wind_mps": 4.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
-        {
-          "time": "2026-10-27T08:00:00+00:00",
-          "temperature_c": 11.0,
-          "wind_mps": 4.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
-        {
-          "time": "2026-10-27T09:00:00+00:00",
-          "temperature_c": 11.3,
           "wind_mps": 4.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_day"
         },
         {
-          "time": "2026-10-27T10:00:00+00:00",
-          "temperature_c": 11.9,
-          "wind_mps": 4.9,
+          "time": "2026-10-27T08:00:00+00:00",
+          "temperature_c": 10.9,
+          "wind_mps": 5.5,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_day"
+          "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-10-27T09:00:00+00:00",
+          "temperature_c": 11.3,
+          "wind_mps": 5.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-10-27T10:00:00+00:00",
+          "temperature_c": 11.6,
+          "wind_mps": 5.1,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_day"
         },
         {
           "time": "2026-10-27T11:00:00+00:00",
-          "temperature_c": 12.2,
+          "temperature_c": 11.9,
           "wind_mps": 4.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -48717,103 +48109,103 @@
         },
         {
           "time": "2026-10-27T12:00:00+00:00",
-          "temperature_c": 12.4,
-          "wind_mps": 4.6,
+          "temperature_c": 11.9,
+          "wind_mps": 4.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_day"
+          "symbol_code": "partlycloudy_day"
         },
         {
           "time": "2026-10-27T13:00:00+00:00",
-          "temperature_c": 12.2,
-          "wind_mps": 5.2,
+          "temperature_c": 11.6,
+          "wind_mps": 5.3,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-10-27T14:00:00+00:00",
+          "temperature_c": 11.4,
+          "wind_mps": 4.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
-          "time": "2026-10-27T14:00:00+00:00",
-          "temperature_c": 11.9,
-          "wind_mps": 4.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
           "time": "2026-10-27T15:00:00+00:00",
-          "temperature_c": 11.5,
-          "wind_mps": 4.2,
+          "temperature_c": 11.2,
+          "wind_mps": 4.4,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-27T16:00:00+00:00",
-          "temperature_c": 11.0,
-          "wind_mps": 4.8,
+          "temperature_c": 10.9,
+          "wind_mps": 3.4,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-27T17:00:00+00:00",
-          "temperature_c": 10.7,
-          "wind_mps": 4.5,
+          "temperature_c": 10.6,
+          "wind_mps": 3.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "cloudy"
         },
         {
           "time": "2026-10-27T18:00:00+00:00",
-          "temperature_c": 10.5,
-          "wind_mps": 4.7,
+          "temperature_c": 10.3,
+          "wind_mps": 3.6,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "cloudy"
+          "symbol_code": "partlycloudy_night"
         },
         {
           "time": "2026-10-27T19:00:00+00:00",
-          "temperature_c": 10.0,
-          "wind_mps": 3.4,
+          "temperature_c": 9.8,
+          "wind_mps": 3.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
         },
         {
           "time": "2026-10-27T20:00:00+00:00",
-          "temperature_c": 9.7,
+          "temperature_c": 9.4,
+          "wind_mps": 3.9,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-10-27T21:00:00+00:00",
+          "temperature_c": 9.0,
+          "wind_mps": 3.8,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-10-27T22:00:00+00:00",
+          "temperature_c": 8.9,
           "wind_mps": 4.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
         },
         {
-          "time": "2026-10-27T21:00:00+00:00",
-          "temperature_c": 9.2,
-          "wind_mps": 4.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-27T22:00:00+00:00",
-          "temperature_c": 8.9,
-          "wind_mps": 3.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
           "time": "2026-10-27T23:00:00+00:00",
-          "temperature_c": 8.5,
-          "wind_mps": 4.3,
+          "temperature_c": 8.6,
+          "wind_mps": 3.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_night"
         },
         {
           "time": "2026-10-28T00:00:00+00:00",
-          "temperature_c": 8.1,
+          "temperature_c": 8.3,
           "wind_mps": 4.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -48821,7 +48213,7 @@
         },
         {
           "time": "2026-10-28T01:00:00+00:00",
-          "temperature_c": 7.6,
+          "temperature_c": 7.9,
           "wind_mps": 4.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -48829,48 +48221,48 @@
         },
         {
           "time": "2026-10-28T02:00:00+00:00",
-          "temperature_c": 7.4,
-          "wind_mps": 4.3,
+          "temperature_c": 7.5,
+          "wind_mps": 4.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
         },
         {
           "time": "2026-10-28T03:00:00+00:00",
-          "temperature_c": 7.3,
-          "wind_mps": 3.7,
+          "temperature_c": 7.2,
+          "wind_mps": 4.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
         },
         {
           "time": "2026-10-28T04:00:00+00:00",
-          "temperature_c": 7.3,
-          "wind_mps": 3.8,
+          "temperature_c": 7.2,
+          "wind_mps": 4.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_night"
         },
         {
           "time": "2026-10-28T05:00:00+00:00",
-          "temperature_c": 7.2,
-          "wind_mps": 3.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
-        {
-          "time": "2026-10-28T06:00:00+00:00",
-          "temperature_c": 7.2,
+          "temperature_c": 7.1,
           "wind_mps": 4.4,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_day"
         },
         {
+          "time": "2026-10-28T06:00:00+00:00",
+          "temperature_c": 6.9,
+          "wind_mps": 4.5,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "partlycloudy_day"
+        },
+        {
           "time": "2026-10-28T07:00:00+00:00",
-          "temperature_c": 7.5,
-          "wind_mps": 4.3,
+          "temperature_c": 7.1,
+          "wind_mps": 4.2,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_day"
@@ -48878,54 +48270,54 @@
         {
           "time": "2026-10-28T08:00:00+00:00",
           "temperature_c": 7.8,
-          "wind_mps": 4.5,
+          "wind_mps": 4.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "cloudy"
+          "symbol_code": "fair_day"
         },
         {
           "time": "2026-10-28T09:00:00+00:00",
-          "temperature_c": 8.3,
-          "wind_mps": 4.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
-        {
-          "time": "2026-10-28T10:00:00+00:00",
-          "temperature_c": 9.0,
-          "wind_mps": 4.0,
+          "temperature_c": 8.6,
+          "wind_mps": 4.3,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "clearsky_day"
         },
         {
+          "time": "2026-10-28T10:00:00+00:00",
+          "temperature_c": 9.1,
+          "wind_mps": 4.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "fair_day"
+        },
+        {
           "time": "2026-10-28T11:00:00+00:00",
-          "temperature_c": 9.9,
-          "wind_mps": 4.0,
+          "temperature_c": 9.6,
+          "wind_mps": 4.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_day"
         },
         {
           "time": "2026-10-28T12:00:00+00:00",
-          "temperature_c": 10.2,
-          "wind_mps": 4.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
-        {
-          "time": "2026-10-28T13:00:00+00:00",
-          "temperature_c": 10.0,
+          "temperature_c": 9.8,
           "wind_mps": 3.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_day"
         },
         {
+          "time": "2026-10-28T13:00:00+00:00",
+          "temperature_c": 9.7,
+          "wind_mps": 4.3,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "fair_day"
+        },
+        {
           "time": "2026-10-28T14:00:00+00:00",
-          "temperature_c": 9.5,
+          "temperature_c": 9.3,
           "wind_mps": 3.8,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -48933,7 +48325,7 @@
         },
         {
           "time": "2026-10-28T15:00:00+00:00",
-          "temperature_c": 8.8,
+          "temperature_c": 8.6,
           "wind_mps": 3.4,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
@@ -48941,72 +48333,72 @@
         },
         {
           "time": "2026-10-28T16:00:00+00:00",
-          "temperature_c": 8.2,
-          "wind_mps": 3.2,
+          "temperature_c": 8.0,
+          "wind_mps": 2.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "fair_night"
+          "symbol_code": "clearsky_night"
         },
         {
           "time": "2026-10-28T17:00:00+00:00",
-          "temperature_c": 7.9,
-          "wind_mps": 3.3,
+          "temperature_c": 7.6,
+          "wind_mps": 3.5,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-10-28T18:00:00+00:00",
+          "temperature_c": 7.3,
+          "wind_mps": 3.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-10-28T19:00:00+00:00",
+          "temperature_c": 7.1,
+          "wind_mps": 3.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 1,
+          "symbol_code": "clearsky_night"
+        },
+        {
+          "time": "2026-10-28T20:00:00+00:00",
+          "temperature_c": 7.0,
+          "wind_mps": 2.7,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "fair_night"
         },
         {
-          "time": "2026-10-28T18:00:00+00:00",
-          "temperature_c": 7.8,
-          "wind_mps": 3.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-28T19:00:00+00:00",
-          "temperature_c": 7.7,
-          "wind_mps": 3.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_night"
-        },
-        {
-          "time": "2026-10-28T20:00:00+00:00",
-          "temperature_c": 7.5,
+          "time": "2026-10-28T21:00:00+00:00",
+          "temperature_c": 7.0,
           "wind_mps": 3.1,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
         },
         {
-          "time": "2026-10-28T21:00:00+00:00",
-          "temperature_c": 7.4,
-          "wind_mps": 2.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
           "time": "2026-10-28T22:00:00+00:00",
-          "temperature_c": 7.6,
-          "wind_mps": 3.0,
+          "temperature_c": 7.2,
+          "wind_mps": 2.9,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
-          "symbol_code": "cloudy"
+          "symbol_code": "fair_night"
         },
         {
           "time": "2026-10-28T23:00:00+00:00",
-          "temperature_c": 7.7,
-          "wind_mps": 3.3,
+          "temperature_c": 7.3,
+          "wind_mps": 3.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 1,
           "symbol_code": "partlycloudy_night"
         },
         {
           "time": "2026-10-29T00:00:00+00:00",
-          "temperature_c": 7.9,
-          "wind_mps": 3.6,
+          "temperature_c": 7.5,
+          "wind_mps": 3.0,
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
@@ -49154,10 +48546,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 4.8,
+          "wind_mps": 2.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -49168,25 +48568,9 @@
       "city": "New York",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 17.0,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 18.7,
-          "wind_mps": 3.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 20.0,
@@ -49810,10 +49194,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 21.3,
+          "wind_mps": 2.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -49824,25 +49216,9 @@
       "city": "Los Angeles",
       "latitude": 34.0522,
       "longitude": -118.2437,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 19.8,
-          "wind_mps": 1.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 21.1,
-          "wind_mps": 1.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 22.4,
@@ -50466,10 +49842,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 18.2,
+          "wind_mps": 0.2,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -50480,25 +49864,9 @@
       "city": "San Francisco",
       "latitude": 37.7749,
       "longitude": -122.4194,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 14.3,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 15.5,
-          "wind_mps": 3.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 16.8,
@@ -51122,10 +50490,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 16.2,
+          "wind_mps": 2.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -51136,25 +50512,9 @@
       "city": "Las Vegas",
       "latitude": 36.1699,
       "longitude": -115.1398,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 17.1,
-          "wind_mps": 1.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 19.5,
-          "wind_mps": 1.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 21.5,
@@ -51778,10 +51138,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 17.4,
+          "wind_mps": 3.4,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -51792,25 +51160,9 @@
       "city": "Honolulu",
       "latitude": 21.3099,
       "longitude": -157.8581,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 21.5,
-          "wind_mps": 4.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 21.9,
-          "wind_mps": 4.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 24.1,
@@ -52434,10 +51786,18 @@
           "precipitation_mm": 0.2,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.1,
+          "wind_mps": 4.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -52448,25 +51808,9 @@
       "city": "Toronto",
       "latitude": 43.6532,
       "longitude": -79.3832,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 14.3,
-          "wind_mps": 3.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 14.1,
-          "wind_mps": 3.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 14.9,
@@ -53090,10 +52434,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 15.6,
+          "wind_mps": 1.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -53104,25 +52456,9 @@
       "city": "Vancouver",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 9.9,
-          "wind_mps": 3.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 10.3,
-          "wind_mps": 2.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 10.9,
@@ -53746,10 +53082,18 @@
           "precipitation_mm": 0.3,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 9.4,
+          "wind_mps": 1.2,
+          "precipitation_mm": 0.8,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -53760,25 +53104,9 @@
       "city": "Montreal",
       "latitude": 45.5017,
       "longitude": -73.5673,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 10.1,
-          "wind_mps": 4.3,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 9.9,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 10.4,
@@ -54402,10 +53730,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 12.7,
+          "wind_mps": 1.0,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -54416,25 +53752,9 @@
       "city": "Mexico City",
       "latitude": 19.4326,
       "longitude": -99.1332,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 17.2,
-          "wind_mps": 0.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 19.1,
-          "wind_mps": 1.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 20.3,
@@ -55058,10 +54378,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 23.0,
+          "wind_mps": 1.1,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "clearsky_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -55072,25 +54400,9 @@
       "city": "Cancún",
       "latitude": 21.1619,
       "longitude": -86.8515,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 27.9,
-          "wind_mps": 6.4,
-          "precipitation_mm": 0.9,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 27.1,
-          "wind_mps": 5.7,
-          "precipitation_mm": 0.5,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 27.7,
@@ -55714,10 +55026,18 @@
           "precipitation_mm": 0.6,
           "precipitation_hours": 6,
           "symbol_code": "lightrainshowers_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 30.2,
+          "wind_mps": 3.4,
+          "precipitation_mm": 0.2,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -55728,25 +55048,9 @@
       "city": "Oaxaca",
       "latitude": 17.0732,
       "longitude": -96.7266,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 20.7,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 22.1,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 23.0,
@@ -56370,10 +55674,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "clearsky_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 25.7,
+          "wind_mps": 1.9,
+          "precipitation_mm": 0.5,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrainshowers_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -56384,25 +55696,9 @@
       "city": "Rio de Janeiro",
       "latitude": -22.9068,
       "longitude": -43.1729,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 20.6,
-          "wind_mps": 8.7,
-          "precipitation_mm": 0.4,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 21.1,
-          "wind_mps": 8.8,
-          "precipitation_mm": 0.5,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 20.7,
@@ -57026,10 +56322,18 @@
           "precipitation_mm": 0.5,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 28.4,
+          "wind_mps": 1.3,
+          "precipitation_mm": 5.9,
+          "precipitation_hours": 6,
+          "symbol_code": "heavyrainshowers_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -57040,25 +56344,9 @@
       "city": "São Paulo",
       "latitude": -23.5505,
       "longitude": -46.6333,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 17.6,
-          "wind_mps": 4.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 17.3,
-          "wind_mps": 4.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 16.7,
@@ -57682,10 +56970,18 @@
           "precipitation_mm": 1.0,
           "precipitation_hours": 6,
           "symbol_code": "rain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 24.2,
+          "wind_mps": 2.8,
+          "precipitation_mm": 0.7,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrainshowers_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -57696,25 +56992,9 @@
       "city": "Buenos Aires",
       "latitude": -34.6037,
       "longitude": -58.3816,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 14.7,
-          "wind_mps": 4.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 14.6,
-          "wind_mps": 4.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "partlycloudy_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 14.7,
@@ -58338,10 +57618,18 @@
           "precipitation_mm": 0.1,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 25.4,
+          "wind_mps": 3.5,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -58352,25 +57640,9 @@
       "city": "Lima",
       "latitude": -12.0464,
       "longitude": -77.0428,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 25.5,
-          "wind_mps": 3.8,
-          "precipitation_mm": 0.3,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 25.5,
-          "wind_mps": 4.0,
-          "precipitation_mm": 0.5,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 25.5,
@@ -58994,10 +58266,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 27.7,
+          "wind_mps": 3.8,
+          "precipitation_mm": 0.8,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrainshowers_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -59008,25 +58288,9 @@
       "city": "Cusco",
       "latitude": -13.532,
       "longitude": -71.9675,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 15.1,
-          "wind_mps": 3.1,
-          "precipitation_mm": 0.3,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 17.0,
-          "wind_mps": 2.3,
-          "precipitation_mm": 0.4,
-          "precipitation_hours": 1,
-          "symbol_code": "rainshowers_day"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 17.4,
@@ -59650,10 +58914,18 @@
           "precipitation_mm": 2.7,
           "precipitation_hours": 6,
           "symbol_code": "rainshowers_day"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 13.7,
+          "wind_mps": 1.3,
+          "precipitation_mm": 0.9,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -59664,25 +58936,9 @@
       "city": "Santiago",
       "latitude": -33.4489,
       "longitude": -70.6693,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:04+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 15.7,
-          "wind_mps": 2.9,
-          "precipitation_mm": 0.2,
-          "precipitation_hours": 1,
-          "symbol_code": "lightrain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 16.2,
-          "wind_mps": 2.8,
-          "precipitation_mm": 0.3,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 17.8,
@@ -60306,10 +59562,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 19.7,
+          "wind_mps": 2.8,
+          "precipitation_mm": 2.1,
+          "precipitation_hours": 6,
+          "symbol_code": "rain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -60320,25 +59584,9 @@
       "city": "Sydney",
       "latitude": -33.8688,
       "longitude": 151.2093,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 16.3,
-          "wind_mps": 2.1,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 15.8,
-          "wind_mps": 1.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 15.2,
@@ -60962,10 +60210,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 18.6,
+          "wind_mps": 2.3,
+          "precipitation_mm": 0.1,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -60976,25 +60232,9 @@
       "city": "Melbourne",
       "latitude": -37.8136,
       "longitude": 144.9631,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 8.8,
-          "wind_mps": 3.8,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 8.2,
-          "wind_mps": 3.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 7.8,
@@ -61618,10 +60858,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 12.3,
+          "wind_mps": 0.6,
+          "precipitation_mm": 0.5,
+          "precipitation_hours": 6,
+          "symbol_code": "lightrainshowers_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -61632,25 +60880,9 @@
       "city": "Brisbane",
       "latitude": -27.4698,
       "longitude": 153.0251,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 19.9,
-          "wind_mps": 1.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 19.5,
-          "wind_mps": 1.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 19.3,
@@ -62274,10 +61506,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 19.4,
+          "wind_mps": 1.0,
+          "precipitation_mm": 0.2,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -62288,25 +61528,9 @@
       "city": "Perth",
       "latitude": -31.9505,
       "longitude": 115.8605,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 14.5,
-          "wind_mps": 5.0,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 14.3,
-          "wind_mps": 5.7,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 13.9,
@@ -62930,10 +62154,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "partlycloudy_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 13.6,
+          "wind_mps": 0.9,
+          "precipitation_mm": 0.0,
+          "precipitation_hours": 6,
+          "symbol_code": "fair_night"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -62944,25 +62176,9 @@
       "city": "Gold Coast",
       "latitude": -28.0167,
       "longitude": 153.4,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 19.9,
-          "wind_mps": 6.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 19.7,
-          "wind_mps": 6.6,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 19.6,
@@ -63586,10 +62802,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "fair_night"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 18.2,
+          "wind_mps": 0.4,
+          "precipitation_mm": 0.3,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -63600,25 +62824,9 @@
       "city": "Auckland",
       "latitude": -36.8485,
       "longitude": 174.7633,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 14.9,
-          "wind_mps": 9.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 15.5,
-          "wind_mps": 9.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "cloudy"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 16.0,
@@ -64242,10 +63450,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 14.8,
+          "wind_mps": 2.4,
+          "precipitation_mm": 0.2,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -64256,25 +63472,9 @@
       "city": "Queenstown",
       "latitude": -45.0312,
       "longitude": 168.6626,
-      "source_updated_at": "2026-10-26T13:17:42+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 5.6,
-          "wind_mps": 1.5,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 5.4,
-          "wind_mps": 1.4,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 5.4,
@@ -64898,10 +64098,18 @@
           "precipitation_mm": 0.7,
           "precipitation_hours": 6,
           "symbol_code": "lightrain"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 11.1,
+          "wind_mps": 0.2,
+          "precipitation_mm": 0.3,
+          "precipitation_hours": 6,
+          "symbol_code": "cloudy"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -64912,25 +64120,9 @@
       "city": "Wellington",
       "latitude": -41.2865,
       "longitude": 174.7762,
-      "source_updated_at": "2026-10-26T13:17:27+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 14.7,
-          "wind_mps": 19.8,
-          "precipitation_mm": 0.7,
-          "precipitation_hours": 1,
-          "symbol_code": "rain"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 14.6,
-          "wind_mps": 19.2,
-          "precipitation_mm": 1.0,
-          "precipitation_hours": 1,
-          "symbol_code": "heavyrain"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 14.8,
@@ -65554,10 +64746,18 @@
           "precipitation_mm": 0.0,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 14.3,
+          "wind_mps": 9.4,
+          "precipitation_mm": 0.3,
+          "precipitation_hours": 6,
+          "symbol_code": "partlycloudy_day"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     },
@@ -65568,25 +64768,9 @@
       "city": "Nadi",
       "latitude": -17.7765,
       "longitude": 177.4356,
-      "source_updated_at": "2026-10-26T13:18:00+00:00",
-      "fetched_at": "2026-10-26T16:10:12.659363+00:00",
+      "source_updated_at": "2026-10-26T17:17:05+00:00",
+      "fetched_at": "2026-10-26T18:55:05.024214+00:00",
       "points": [
-        {
-          "time": "2026-10-26T16:00:00+00:00",
-          "temperature_c": 20.4,
-          "wind_mps": 3.2,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "fair_night"
-        },
-        {
-          "time": "2026-10-26T17:00:00+00:00",
-          "temperature_c": 20.1,
-          "wind_mps": 2.9,
-          "precipitation_mm": 0.0,
-          "precipitation_hours": 1,
-          "symbol_code": "clearsky_night"
-        },
         {
           "time": "2026-10-26T18:00:00+00:00",
           "temperature_c": 20.3,
@@ -66210,13 +65394,21 @@
           "precipitation_mm": 0.2,
           "precipitation_hours": 6,
           "symbol_code": "cloudy"
+        },
+        {
+          "time": "2026-11-02T18:00:00+00:00",
+          "temperature_c": 22.6,
+          "wind_mps": 2.6,
+          "precipitation_mm": 1.2,
+          "precipitation_hours": 6,
+          "symbol_code": "rain"
         }
       ],
       "etag": null,
-      "last_attempt_at": "2026-10-26T16:10:12.659363+00:00",
+      "last_attempt_at": "2026-10-26T18:55:05.024214+00:00",
       "fetch_status": "ok",
       "failure_reason": null
     }
   },
-  "last_attempt_at": "2026-10-26T16:10:12.659363+00:00"
+  "last_attempt_at": "2026-10-26T18:55:05.024214+00:00"
 }
