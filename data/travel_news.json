@@ -1,6 +1,146 @@
 {
-  "last_updated": "2026-10-28T18:27:39.222880+00:00",
+  "last_updated": "2026-10-29T06:28:12.494864+00:00",
   "articles": [
+    {
+      "title": "BWH Hotels unifies its global portfolio under WorldHotels",
+      "url": "https://www.traveldailynews.com/hospitality/worldhotels-global-portfolio/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-29T06:26:18+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "BCD M&E reveals four trends shaping meetings and events in 2027",
+      "url": "https://www.traveldailynews.com/statistics-trends/bcd-meetings-events-trends-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-29T06:25:37+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Formula 1 returns to İstanbul in 2027 after six-year absence",
+      "url": "https://www.traveldailynews.com/special-interest-travel/recreation-sport/formula-1-turkey-istanbul-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-29T06:25:10+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "FGI Yacht Group and flyExclusive partner to connect private aviation and yachting",
+      "url": "https://www.traveldailynews.com/aviation/private-aviation-partnership-fgi-flyexclusive/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-29T06:18:44+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "MIA raises concerns over employment costs and visitor levies following Autumn Budget",
+      "url": "https://www.traveldailynews.com/mice-industry/mia-autumn-budget/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-29T06:12:53+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Dallas leads US hotel construction pipeline in Q3 2026",
+      "url": "https://www.traveldailynews.com/statistics-trends/dallas-hotel-construction-pipeline/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-29T06:09:33+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Travelgate enters a new phase under Luisa Camara as Pedro Camara builds a new venture",
+      "url": "https://www.traveldailynews.com/people/new-appointments/travelgate-leadership-transition/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-29T06:03:14+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Melbourne eyes Asian tourism growth through NFL hosting deal",
+      "url": "https://www.ttgasia.com/2026/10/29/melbourne-eyes-asian-tourism-growth-through-nfl-hosting-deal/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-29T05:59:16+00:00",
+      "countries": [
+        "australia"
+      ]
+    },
+    {
+      "title": "Cebu tourism campaign promotes multi-island travel across the Visayas",
+      "url": "https://www.ttgasia.com/2026/10/29/cebu-tourism-campaign-promotes-multi-island-travel-across-the-visayas/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-29T05:06:06+00:00",
+      "countries": [
+        "philippines"
+      ]
+    },
+    {
+      "title": "Royal Caribbean’s Navigator of the Seas begins year-long Singapore season",
+      "url": "https://www.ttgasia.com/2026/10/29/royal-caribbeans-navigator-of-the-seas-begins-year-long-singapore-season/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-29T05:01:06+00:00",
+      "countries": [
+        "singapore"
+      ]
+    },
+    {
+      "title": "Club Med Cherating closes for renovation ahead of 2027 reopening",
+      "url": "https://www.ttgasia.com/2026/10/29/club-med-cherating-closes-for-renovation-ahead-of-2027-reopening/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-29T04:58:40+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "New hotels: Fraser Place Roppongi Tokyo, InterContinental Taipei and more",
+      "url": "https://www.ttgasia.com/2026/10/29/new-hotels-fraser-place-roppongi-tokyo-intercontinental-taipei-and-more/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-29T04:55:31+00:00",
+      "countries": [
+        "japan"
+      ]
+    },
+    {
+      "title": "November Event and Calendar",
+      "url": "https://www.tatnews.org/2026/10/november-event-and-calendar/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-10-29T04:13:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "Spain train collision kills at least 68 after control error",
+      "url": "https://www.traveldailynews.com/ground-transportation/spain-train-collision/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-28T22:01:44+00:00",
+      "countries": [
+        "spain"
+      ]
+    },
     {
       "title": "IATA Global Passenger Survey 2026: Biometrics and AI transform the travel experience",
       "url": "https://www.traveldailynews.com/statistics-trends/iata-global-passenger-survey-2026/",
@@ -19,86 +159,6 @@
       "published_at": "2026-10-28T12:03:44+00:00",
       "countries": [
         "japan"
-      ]
-    },
-    {
-      "title": "Mandarin Oriental Exceptional Homes expands across three Greek islands",
-      "url": "https://www.traveldailynews.com/hotels-lodging/mandarin-oriental-exceptional-homes-greece/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-28T11:47:42+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Dan Brown Visits Prague’s Signal Space and Spots a Thriller Setting",
-      "url": "https://www.traveldailynews.com/mice-industry/event-venues/dan-brown-signal-space-prague/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-28T11:24:22+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "BermudAir launches nonstop Fort Lauderdale flights to Belize",
-      "url": "https://www.traveldailynews.com/aviation/bermudair-belize-flights-fort-lauderdale/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-28T10:55:00+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Emerging Travel Group and Traveloka expand global accommodation distribution",
-      "url": "https://www.traveldailynews.com/technology/emerging-travel-group-traveloka-partnership/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-28T10:34:21+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Thompson Rome opens, bringing the Thompson Hotels brand to Italy",
-      "url": "https://www.traveldailynews.com/hotels-lodging/thompson-rome-hotel-opens-italy/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-28T10:22:44+00:00",
-      "countries": [
-        "italy"
-      ]
-    },
-    {
-      "title": "The Cape Town EDITION marks the brand’s African debut on the V&A Waterfront",
-      "url": "https://www.traveldailynews.com/hotels-lodging/cape-town-edition-hotel-opening/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-28T09:48:29+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Royal Caribbean raises 2026 earnings guidance after strong third-quarter results",
-      "url": "https://www.traveldailynews.com/sea-travel/cruises/royal-caribbean-raises-2026-earnings-guidance-after-strong-third-quarter-results/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-28T09:11:58+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Mandarin Oriental tops the World’s Best Luxury Hotel Brands",
-      "url": "https://www.traveldailynews.com/hospitality/worlds-best-luxury-hotel-brands-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-28T08:22:41+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -162,16 +222,6 @@
       ]
     },
     {
-      "title": "The Anam sets the table for festive celebrations in Vietnam",
-      "url": "https://www.ttgasia.com/2026/10/28/the-anam-sets-the-table-for-festive-celebrations-in-vietnam/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-28T05:04:22+00:00",
-      "countries": [
-        "vietnam"
-      ]
-    },
-    {
       "title": "TAT welcomes Air India Express’ inaugural Visakhapatnam–Bangkok flight",
       "url": "https://www.tatnews.org/2026/10/tat-welcomes-air-india-express-inaugural-visakhapatnam-bangkok-flight/",
       "source_id": "tat-news",
@@ -193,16 +243,6 @@
       ]
     },
     {
-      "title": "The 12th Global Tourism Economy Forum · Macao 2026 draws to a successful close",
-      "url": "https://www.ttgasia.com/2026/10/28/the-12th-global-tourism-economy-forum-%c2%b7-macao-2026-draws-to-a-successful-close/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-27T16:01:18+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "TAT welcomes Kuwait Airways’ inaugural Kuwait–Phuket flight",
       "url": "https://www.tatnews.org/2026/10/tat-welcomes-kuwait-airways-inaugural-kuwait-phuket-flight/",
       "source_id": "tat-news",
@@ -220,36 +260,6 @@
       "published_at": "2026-10-27T09:22:04+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Luxury cruise lines expand Philippine itineraries to lesser-known islands",
-      "url": "https://www.ttgasia.com/2026/10/27/luxury-cruise-lines-expand-philippine-itineraries-to-lesser-known-islands/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-27T04:44:00+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Walk Japan strengthens Tokyo presence, plans new walking tours",
-      "url": "https://www.ttgasia.com/2026/10/27/walk-japan-strengthens-tokyo-presence-plans-new-walking-tours/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-27T04:41:47+00:00",
-      "countries": [
-        "japan"
-      ]
-    },
-    {
-      "title": "Yotel targets Asia-Pacific growth as global expansion gathers pace",
-      "url": "https://www.ttgasia.com/2026/10/27/yotel-targets-asia-pacific-growth-as-global-expansion-gathers-pace/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-27T04:39:09+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -291,34 +301,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "The Andaman Opens Its Doors Again",
-      "url": "https://www.tatnews.org/2026/10/the-andaman-opens-its-doors-again/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-20T03:50:00+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-28T18:27:39.222880+00:00",
-      "last_success_at": "2026-10-28T18:27:39.222880+00:00",
+      "last_attempt_at": "2026-10-29T06:28:12.494864+00:00",
+      "last_success_at": "2026-10-29T06:28:12.494864+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-28T18:27:39.222880+00:00",
-      "last_success_at": "2026-10-28T18:27:39.222880+00:00",
+      "last_attempt_at": "2026-10-29T06:28:12.494864+00:00",
+      "last_success_at": "2026-10-29T06:28:12.494864+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-28T18:27:39.222880+00:00",
-      "last_success_at": "2026-10-28T18:27:39.222880+00:00",
+      "last_attempt_at": "2026-10-29T06:28:12.494864+00:00",
+      "last_success_at": "2026-10-29T06:28:12.494864+00:00",
       "status": "ok",
       "count": 10
     }
