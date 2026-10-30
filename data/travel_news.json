@@ -1,22 +1,132 @@
 {
-  "last_updated": "2026-10-30T06:27:51.662920+00:00",
+  "last_updated": "2026-10-30T18:27:03.807033+00:00",
   "articles": [
     {
-      "title": "SITE opens registration for Global Conference 2027 in Vancouver",
-      "url": "https://www.traveldailynews.com/meetings-events/site-global-conference-2027-vancouver/",
+      "title": "Brazil’s business tourism revenue reaches R$11.07 billion",
+      "url": "https://www.traveldailynews.com/mice-industry/business-travel/brazil-business-tourism-revenue/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-30T06:17:10+00:00",
+      "published_at": "2026-10-30T13:23:29+00:00",
       "countries": [
-        "canada"
+        "international"
       ]
     },
     {
-      "title": "Jet2 launches its first dedicated business class charter aircraft",
-      "url": "https://www.traveldailynews.com/aviation/jet2-business-class-charter-aircraft/",
+      "title": "Brussels Airport expands border control capacity amid EES delays",
+      "url": "https://www.traveldailynews.com/aviation/brussels-airport-border-control-ees-delays/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-30T06:02:10+00:00",
+      "published_at": "2026-10-30T13:17:05+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Preferred Hotels & Resorts adds 28 properties to its global portfolio",
+      "url": "https://www.traveldailynews.com/hospitality/preferred-hotels-new-members-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T12:41:09+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Liberia strengthens tourism connectivity through Starlink partnership",
+      "url": "https://www.traveldailynews.com/organizations/liberia-tourism-connectivity-starlink/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T12:35:39+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Omio identifies the travel trends shaping journeys in 2026-2027",
+      "url": "https://www.traveldailynews.com/statistics-trends/2026-2027-travel-trends-omio-report/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T12:09:12+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Capella Dubai to open at Dubai Peninsula in 2030",
+      "url": "https://www.traveldailynews.com/hotels-lodging/capella-dubai-hotel-2030/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T11:50:53+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Embraer appoints FL Technics as E-Jet service centre in Lithuania",
+      "url": "https://www.traveldailynews.com/aviation/embraer-appoints-fl-technics-as-e-jet-service-centre-in-lithuania/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T11:41:00+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Hyatt reports 7.2% RevPAR growth in third quarter 2026",
+      "url": "https://www.traveldailynews.com/hospitality/hyatt-third-quarter-results-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T10:51:21+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "BCD Travel and Mobilexpense deepen European travel and expense alliance",
+      "url": "https://www.traveldailynews.com/mice-industry/business-travel/travel-expense-integration-bcd-mobilexpense/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T10:45:27+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Visit Iceland launches AI Knittakers campaign to tackle meeting fatigue",
+      "url": "https://www.traveldailynews.com/travel-marketing/ai-knittakers-visit-iceland-campaign/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T10:29:03+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Amazing Thailand Grand Diwali Festival 2026 lights up three provinces this November",
+      "url": "https://www.tatnews.org/2026/10/amazing-thailand-grand-diwali-festival-2026-lights-up-three-provinces-this-november/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-10-30T09:58:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "TAT spotlights Thai wellness as Phuket hosts Global Wellness Summit 2026",
+      "url": "https://www.tatnews.org/2026/10/tat-spotlights-thai-wellness-as-phuket-hosts-global-wellness-summit-2026/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-10-30T07:00:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "Azerbaijan takes Asia-Pacific buyers on intense destination showcase",
+      "url": "https://www.ttgasia.com/2026/10/30/azerbaijan-takes-asia-pacific-buyers-on-intense-destination-showcase/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-30T06:33:29+00:00",
       "countries": [
         "international"
       ]
@@ -72,56 +182,6 @@
       ]
     },
     {
-      "title": "Rock formation collapse in Turkey’s Cappadocia kills at least two",
-      "url": "https://www.traveldailynews.com/destinations/cappadocia-rock-collapse-turkey/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T14:16:54+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Airbnb links every home booking to a five-year emergency housing fund",
-      "url": "https://www.traveldailynews.com/hospitality/airbnb-org-funding-emergency-housing/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T12:54:23+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Classic Vacations identifies key luxury travel trends for the 2026 holidays",
-      "url": "https://www.traveldailynews.com/statistics-trends/2026-holiday-travel-trends-classic-vacations/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T12:12:33+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "TAAG opens bookings for Luanda – Praia flights from 12 December",
-      "url": "https://www.traveldailynews.com/aviation/taag-luanda-praia-flights/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T11:50:12+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Hilton opens Casa Verbena Madrid, its first Outset Collection hotel in Europe",
-      "url": "https://www.traveldailynews.com/hotels-lodging/casa-verbena-madrid-outset-collection-hilton/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T10:43:38+00:00",
-      "countries": [
-        "spain"
-      ]
-    },
-    {
       "title": "Amari SPICE Penang appoints DOSM",
       "url": "https://www.ttgasia.com/2026/10/29/amari-spice-penang-appoints-dosm/",
       "source_id": "ttg-asia",
@@ -129,16 +189,6 @@
       "published_at": "2026-10-29T09:42:30+00:00",
       "countries": [
         "malaysia"
-      ]
-    },
-    {
-      "title": "Relais & Châteaux launches MyImpact sustainability platform",
-      "url": "https://www.traveldailynews.com/special-interest-travel/sustainable-tourism/relais-chateaux-myimpact-sustainability/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T09:41:48+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -162,26 +212,6 @@
       ]
     },
     {
-      "title": "Solo Travel in Egypt: A Practical Guide",
-      "url": "https://www.traveldailynews.com/column/featured-articles/solo-travel-in-egypt-guide/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T08:05:47+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Westcombe secures planning approval for Hotel Indigo in Hampton Wick",
-      "url": "https://www.traveldailynews.com/hotels-lodging/hotel-indigo-hampton-wick-planning-approval/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T07:43:38+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Melbourne targets Asian tourism growth through NFL hosting deal",
       "url": "https://www.ttgasia.com/2026/10/29/melbourne-targets-asian-tourism-growth-through-nfl-hosting-deal/",
       "source_id": "ttg-asia",
@@ -189,16 +219,6 @@
       "published_at": "2026-10-29T05:59:16+00:00",
       "countries": [
         "australia"
-      ]
-    },
-    {
-      "title": "Cebu tourism campaign promotes multi-island travel across the Visayas",
-      "url": "https://www.ttgasia.com/2026/10/29/cebu-tourism-campaign-promotes-multi-island-travel-across-the-visayas/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-29T05:06:06+00:00",
-      "countries": [
-        "philippines"
       ]
     },
     {
@@ -281,44 +301,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "Amazing Mekong by Amazing Thailand elevates 2026 Nakhon Phanom Illuminated Boat Procession",
-      "url": "https://www.tatnews.org/2026/10/amazing-mekong-by-amazing-thailand-elevates-2026-nakhon-phanom-illuminated-boat-procession/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-23T03:51:27+00:00",
-      "countries": [
-        "thailand"
-      ]
-    },
-    {
-      "title": "TAT brings Thailand’s high-value tourism strategy to ITB Asia 2026",
-      "url": "https://www.tatnews.org/2026/10/tat-brings-thailands-high-value-tourism-strategy-to-itb-asia-2026/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-21T10:26:00+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-30T06:27:51.662920+00:00",
-      "last_success_at": "2026-10-30T06:27:51.662920+00:00",
+      "last_attempt_at": "2026-10-30T18:27:03.807033+00:00",
+      "last_success_at": "2026-10-30T18:27:03.807033+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-30T06:27:51.662920+00:00",
-      "last_success_at": "2026-10-30T06:27:51.662920+00:00",
+      "last_attempt_at": "2026-10-30T18:27:03.807033+00:00",
+      "last_success_at": "2026-10-30T18:27:03.807033+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-30T06:27:51.662920+00:00",
-      "last_success_at": "2026-10-30T06:27:51.662920+00:00",
+      "last_attempt_at": "2026-10-30T18:27:03.807033+00:00",
+      "last_success_at": "2026-10-30T18:27:03.807033+00:00",
       "status": "ok",
       "count": 10
     }
