@@ -1,6 +1,76 @@
 {
-  "last_updated": "2026-10-29T18:29:22.264026+00:00",
+  "last_updated": "2026-10-30T06:27:51.662920+00:00",
   "articles": [
+    {
+      "title": "SITE opens registration for Global Conference 2027 in Vancouver",
+      "url": "https://www.traveldailynews.com/meetings-events/site-global-conference-2027-vancouver/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T06:17:10+00:00",
+      "countries": [
+        "canada"
+      ]
+    },
+    {
+      "title": "Jet2 launches its first dedicated business class charter aircraft",
+      "url": "https://www.traveldailynews.com/aviation/jet2-business-class-charter-aircraft/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-10-30T06:02:10+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Indonesia tourism recovery uneven despite rising international arrivals",
+      "url": "https://www.ttgasia.com/2026/10/30/indonesia-tourism-recovery-uneven-despite-rising-international-arrivals/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-30T04:21:34+00:00",
+      "countries": [
+        "indonesia"
+      ]
+    },
+    {
+      "title": "Cordelia Cruises expands India operations as Cordelia Sky begins Mumbai sailings",
+      "url": "https://www.ttgasia.com/2026/10/30/cordelia-cruises-expands-india-operations-as-cordelia-sky-begins-mumbai-sailings/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-30T04:19:16+00:00",
+      "countries": [
+        "india"
+      ]
+    },
+    {
+      "title": "BWH Hotels unifies 18 brands under WorldHotels identity",
+      "url": "https://www.ttgasia.com/2026/10/30/bwh-hotels-unifies-18-brands-under-worldhotels-identity/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-30T04:17:06+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Brand USA names 19 travel trade ambassadors in four Asian markets",
+      "url": "https://www.ttgasia.com/2026/10/30/brand-usa-names-19-travel-trade-ambassadors-in-four-asian-markets/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-30T02:07:10+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Aviation roundup: Vietjet, Lufthansa and more",
+      "url": "https://www.ttgasia.com/2026/10/30/aviation-roundup-vietjet-lufthansa-and-more/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-10-30T02:00:58+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "Rock formation collapse in Turkey’s Cappadocia kills at least two",
       "url": "https://www.traveldailynews.com/destinations/cappadocia-rock-collapse-turkey/",
@@ -112,26 +182,6 @@
       ]
     },
     {
-      "title": "Peachtree Group arranges $12.75m bridge loan for Gettysburg hotel",
-      "url": "https://www.traveldailynews.com/hospitality/peachtree-group-financing-gettysburg-hotel/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T07:28:28+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Travel trends for 2026 reveal contrasting outlooks in Europe and Latin America",
-      "url": "https://www.traveldailynews.com/statistics-trends/travel-trends-2026-europe-latin-america/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-10-29T07:12:44+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Melbourne targets Asian tourism growth through NFL hosting deal",
       "url": "https://www.ttgasia.com/2026/10/29/melbourne-targets-asian-tourism-growth-through-nfl-hosting-deal/",
       "source_id": "ttg-asia",
@@ -152,36 +202,6 @@
       ]
     },
     {
-      "title": "Royal Caribbean’s Navigator of the Seas begins year-long Singapore season",
-      "url": "https://www.ttgasia.com/2026/10/29/royal-caribbeans-navigator-of-the-seas-begins-year-long-singapore-season/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-29T05:01:06+00:00",
-      "countries": [
-        "singapore"
-      ]
-    },
-    {
-      "title": "Club Med Cherating closes for renovation ahead of 2027 reopening",
-      "url": "https://www.ttgasia.com/2026/10/29/club-med-cherating-closes-for-renovation-ahead-of-2027-reopening/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-29T04:58:40+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "New hotels: Fraser Place Roppongi Tokyo, InterContinental Taipei and more",
-      "url": "https://www.ttgasia.com/2026/10/29/new-hotels-fraser-place-roppongi-tokyo-intercontinental-taipei-and-more/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-29T04:55:31+00:00",
-      "countries": [
-        "japan"
-      ]
-    },
-    {
       "title": "November Event and Calendar",
       "url": "https://www.tatnews.org/2026/10/november-event-and-calendar/",
       "source_id": "tat-news",
@@ -199,26 +219,6 @@
       "published_at": "2026-10-28T07:30:00+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Discova calls for shift towards slower, community-led tourism",
-      "url": "https://www.ttgasia.com/2026/10/28/discova-calls-for-shift-towards-slower-community-led-tourism/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-28T05:36:33+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Kolet expands Asia-Pacific reach through airline partnerships",
-      "url": "https://www.ttgasia.com/2026/10/28/kolet-expands-asia-pacific-reach-through-airline-partnerships/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-28T05:17:14+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -305,20 +305,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-29T18:29:22.264026+00:00",
-      "last_success_at": "2026-10-29T18:29:22.264026+00:00",
+      "last_attempt_at": "2026-10-30T06:27:51.662920+00:00",
+      "last_success_at": "2026-10-30T06:27:51.662920+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-29T18:29:22.264026+00:00",
-      "last_success_at": "2026-10-29T18:29:22.264026+00:00",
+      "last_attempt_at": "2026-10-30T06:27:51.662920+00:00",
+      "last_success_at": "2026-10-30T06:27:51.662920+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-29T18:29:22.264026+00:00",
-      "last_success_at": "2026-10-29T18:29:22.264026+00:00",
+      "last_attempt_at": "2026-10-30T06:27:51.662920+00:00",
+      "last_success_at": "2026-10-30T06:27:51.662920+00:00",
       "status": "ok",
       "count": 10
     }
