@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T18:27:03.807033+00:00",
+  "last_updated": "2026-10-31T06:27:36.788305+00:00",
   "articles": [
     {
       "title": "Brazil’s business tourism revenue reaches R$11.07 billion",
@@ -305,20 +305,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-10-30T18:27:03.807033+00:00",
-      "last_success_at": "2026-10-30T18:27:03.807033+00:00",
+      "last_attempt_at": "2026-10-31T06:27:36.788305+00:00",
+      "last_success_at": "2026-10-31T06:27:36.788305+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-10-30T18:27:03.807033+00:00",
-      "last_success_at": "2026-10-30T18:27:03.807033+00:00",
+      "last_attempt_at": "2026-10-31T06:27:36.788305+00:00",
+      "last_success_at": "2026-10-31T06:27:36.788305+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-10-30T18:27:03.807033+00:00",
-      "last_success_at": "2026-10-30T18:27:03.807033+00:00",
+      "last_attempt_at": "2026-10-31T06:27:36.788305+00:00",
+      "last_success_at": "2026-10-31T06:27:36.788305+00:00",
       "status": "ok",
       "count": 10
     }
