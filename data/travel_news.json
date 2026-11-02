@@ -1,6 +1,76 @@
 {
-  "last_updated": "2026-11-02T06:53:29.088594+00:00",
+  "last_updated": "2026-11-02T18:39:58.412058+00:00",
   "articles": [
+    {
+      "title": "ORA Hospitality appoints Kevin Carty to lead Silversands Collection Grenada",
+      "url": "https://www.traveldailynews.com/people/new-appointments/silversands-collection-grenada-kevin-carty/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-02T09:36:18+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Archer Aviation and ITA Airways explore electric air taxi services in Italy",
+      "url": "https://www.traveldailynews.com/aviation/archer-air-taxi-italy-ita-airways/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-02T09:07:08+00:00",
+      "countries": [
+        "italy"
+      ]
+    },
+    {
+      "title": "CTO launches Caribbean Tourism Month with call for stronger regional partnerships",
+      "url": "https://www.traveldailynews.com/associations/caribbean-tourism-month-regional-unity/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-02T09:01:02+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Tourism development across Azerbaijan improves local quality of life",
+      "url": "https://www.ttgasia.com/2026/11/02/tourism-development-across-azerbaijan-improves-local-quality-of-life/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-02T08:15:17+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "World Travel & Culture Expo 2026 builds global connections for Thailand as ASEAN’s tourism and entertainment hub",
+      "url": "https://www.tatnews.org/2026/11/world-travel-culture-expo-2026-builds-global-connections-for-thailand-as-aseans-tourism-and-entertainment-hub/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-02T07:30:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "Martinique forecasts 275 cruise calls for 2026-27 season",
+      "url": "https://www.traveldailynews.com/destinations/martinique-cruise-season-275-calls-2026-27/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-02T06:58:59+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Hyatt expands Canadian portfolio with 10 hotel openings planned for 2027",
+      "url": "https://www.traveldailynews.com/hospitality/hyatt-canada-expansion-hotels/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-02T06:55:51+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "The Westin Hilton Head Island Resort & Spa announces $50m renovation",
       "url": "https://www.traveldailynews.com/hotels-lodging/westin-hilton-head-renovation/",
@@ -47,56 +117,6 @@
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-11-02T06:39:23+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Bahrain awards Golden Licences to four projects worth USD 3.89 billion",
-      "url": "https://www.traveldailynews.com/infrastructure/bahrain-golden-licences/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T06:36:30+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Zanzibar promotes business events as Essence of Africa opens",
-      "url": "https://www.traveldailynews.com/meetings-events/zanzibar-business-events-essence-of-africa-opens/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T06:35:17+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Chile tourism employment rises 4.4% as sector adds 28,540 jobs",
-      "url": "https://www.traveldailynews.com/statistics-trends/chile-tourism-employment-growth/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T06:32:29+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "ICAO advances international legal framework to address changes in civil aviation",
-      "url": "https://www.traveldailynews.com/meetings-events/icao-international-air-law-framework/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T06:24:59+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "GIC expands airline partnerships and prepares new Munich catering facility",
-      "url": "https://www.traveldailynews.com/aviation/gic-international-catering-munich-expansion/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T06:24:47+00:00",
       "countries": [
         "international"
       ]
@@ -212,16 +232,6 @@
       ]
     },
     {
-      "title": "Cordelia Cruises expands India operations as Cordelia Sky begins Mumbai sailings",
-      "url": "https://www.ttgasia.com/2026/10/30/cordelia-cruises-expands-india-operations-as-cordelia-sky-begins-mumbai-sailings/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-10-30T04:19:16+00:00",
-      "countries": [
-        "india"
-      ]
-    },
-    {
       "title": "November Event and Calendar",
       "url": "https://www.tatnews.org/2026/10/november-event-and-calendar/",
       "source_id": "tat-news",
@@ -291,34 +301,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "TAT welcomes Belavia’s first Minsk–Bangkok flight ahead of Phuket route launch",
-      "url": "https://www.tatnews.org/2026/10/tat-welcomes-belavias-first-minsk-bangkok-flight-ahead-of-phuket-route-launch/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-26T03:32:00+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-02T06:53:29.088594+00:00",
-      "last_success_at": "2026-11-02T06:53:29.088594+00:00",
+      "last_attempt_at": "2026-11-02T18:39:58.412058+00:00",
+      "last_success_at": "2026-11-02T18:39:58.412058+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-02T06:53:29.088594+00:00",
-      "last_success_at": "2026-11-02T06:53:29.088594+00:00",
+      "last_attempt_at": "2026-11-02T18:39:58.412058+00:00",
+      "last_success_at": "2026-11-02T18:39:58.412058+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-02T06:53:29.088594+00:00",
-      "last_success_at": "2026-11-02T06:53:29.088594+00:00",
+      "last_attempt_at": "2026-11-02T18:39:58.412058+00:00",
+      "last_success_at": "2026-11-02T18:39:58.412058+00:00",
       "status": "ok",
       "count": 10
     }
