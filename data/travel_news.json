@@ -1,44 +1,124 @@
 {
-  "last_updated": "2026-11-03T06:44:06.256820+00:00",
+  "last_updated": "2026-11-03T18:31:34.242392+00:00",
   "articles": [
     {
-      "title": "Seven in 10 experience operators still use fixed pricing despite growing traveller acceptance",
-      "url": "https://www.traveldailynews.com/statistics-trends/dynamic-pricing-tour-operators/",
+      "title": "Paxport and ITT launch whitepaper on connectivity risks for travel sellers",
+      "url": "https://www.traveldailynews.com/aviation/airline-connectivity-risks-paxport-itt/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T06:34:18+00:00",
+      "published_at": "2026-11-03T12:39:41+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "flydubai resumes Dubai–Skopje flights from April 2027",
-      "url": "https://www.traveldailynews.com/uncategorized/flydubai-skopje-flights/",
+      "title": "Bomb threats disrupt LOT and SAS flights to Warsaw as Modlin airport briefly closes",
+      "url": "https://www.traveldailynews.com/aviation/warsaw-airport-bomb-threats-lot-sas/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T06:14:21+00:00",
+      "published_at": "2026-11-03T11:51:23+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Updated guide helps tourism sector navigate EU greenwashing rules",
-      "url": "https://www.traveldailynews.com/special-interest-travel/sustainable-tourism/eu-greenwashing-rules-tourism-guide/",
+      "title": "Hyatt adds Impression Isla Mujeres to The Unbound Collection in Mexico",
+      "url": "https://www.traveldailynews.com/hotels-lodging/impression-isla-mujeres-hyatt-unbound-collection/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T06:05:51+00:00",
+      "published_at": "2026-11-03T11:39:29+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Dubai adds tourist visa applications to Visit Dubai platform",
-      "url": "https://www.traveldailynews.com/destinations/dubai-tourist-visas-visit-dubai/",
+      "title": "US introduces mandatory Ebola declaration for all international air arrivals",
+      "url": "https://www.traveldailynews.com/destinations/us-ebola-travel-declaration-airlines/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T06:05:51+00:00",
+      "published_at": "2026-11-03T11:09:26+00:00",
       "countries": [
         "international"
+      ]
+    },
+    {
+      "title": "Spring Hotels announces Cleopatra Palace renovation and new family facilities in Tenerife",
+      "url": "https://www.traveldailynews.com/hotels-lodging/spring-hotels-tenerife-renovation/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-03T11:00:36+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Iceland expands tourism offering with new wellness, hotels and adventure experiences",
+      "url": "https://www.traveldailynews.com/destinations/iceland-tourism-2026-wellness-hotels-experiences/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-03T10:26:45+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Shaner Hotels opens 80-room Hampton Inn in Columbia, Pennsylvania",
+      "url": "https://www.traveldailynews.com/hotels-lodging/hampton-inn-columbia-downtown-opening/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-03T10:06:34+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Pegasus Airlines Chairperson Mehmet T. Nane appointed ICAO Global Ambassador",
+      "url": "https://www.traveldailynews.com/people/mehmet-nane-icao-global-ambassador/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-03T09:12:12+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "TAT-supported Doi Inthanon among Thailand’s ‘Green Destinations Top 100 Stories 2026’",
+      "url": "https://www.tatnews.org/2026/11/tat-supported-doi-inthanon-among-thailands-green-destinations-top-100-stories-2026/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-03T08:58:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "European cities shift tourism priorities towards local value, AI and climate resilience",
+      "url": "https://www.traveldailynews.com/meetings-events/european-city-tourism-growth-ai-sustainability/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-03T08:34:48+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Paris Society expands UAE hospitality portfolio with four new dining concepts",
+      "url": "https://www.traveldailynews.com/hospitality/paris-society-uae-expansion/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-03T08:21:02+00:00",
+      "countries": [
+        "france"
+      ]
+    },
+    {
+      "title": "Thailand’s Isan has Budding Expectations and Stalk Options",
+      "url": "https://www.tatnews.org/2026/11/thailands-isan-has-budding-expectations-and-stalk-options/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-03T08:02:00+00:00",
+      "countries": [
+        "thailand"
       ]
     },
     {
@@ -123,36 +203,6 @@
       ]
     },
     {
-      "title": "ORA Hospitality appoints Kevin Carty to lead Silversands Collection Grenada",
-      "url": "https://www.traveldailynews.com/people/new-appointments/silversands-collection-grenada-kevin-carty/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T09:36:18+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Archer Aviation and ITA Airways explore electric air taxi services in Italy",
-      "url": "https://www.traveldailynews.com/aviation/archer-air-taxi-italy-ita-airways/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T09:07:08+00:00",
-      "countries": [
-        "italy"
-      ]
-    },
-    {
-      "title": "CTO launches Caribbean Tourism Month with call for stronger regional partnerships",
-      "url": "https://www.traveldailynews.com/associations/caribbean-tourism-month-regional-unity/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T09:01:02+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Tourism development across Azerbaijan improves local quality of life",
       "url": "https://www.ttgasia.com/2026/11/02/tourism-development-across-azerbaijan-improves-local-quality-of-life/",
       "source_id": "ttg-asia",
@@ -170,36 +220,6 @@
       "published_at": "2026-11-02T07:30:00+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Martinique forecasts 275 cruise calls for 2026-27 season",
-      "url": "https://www.traveldailynews.com/destinations/martinique-cruise-season-275-calls-2026-27/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T06:58:59+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Hyatt expands Canadian portfolio with 10 hotel openings planned for 2027",
-      "url": "https://www.traveldailynews.com/hospitality/hyatt-canada-expansion-hotels/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T06:55:51+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "The Westin Hilton Head Island Resort & Spa announces $50m renovation",
-      "url": "https://www.traveldailynews.com/hotels-lodging/westin-hilton-head-renovation/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-02T06:50:31+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -282,44 +302,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "TAT introduces Khanom–Sichon and Cheow Lan Lake to European travel trade through The Link Plus",
-      "url": "https://www.tatnews.org/2026/10/tat-introduces-khanom-sichon-and-cheow-lan-lake-to-european-travel-trade-through-the-link-plus/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-27T09:22:04+00:00",
-      "countries": [
-        "thailand"
-      ]
-    },
-    {
-      "title": "TAT joins forces with Thai tourism partners to strengthen Italian market at TTG Travel Experience 2026",
-      "url": "https://www.tatnews.org/2026/10/tat-joins-forces-with-thai-tourism-partners-to-strengthen-italian-market-at-ttg-travel-experience-2026/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-27T02:53:20+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-03T06:44:06.256820+00:00",
-      "last_success_at": "2026-11-03T06:44:06.256820+00:00",
+      "last_attempt_at": "2026-11-03T18:31:34.242392+00:00",
+      "last_success_at": "2026-11-03T18:31:34.242392+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-03T06:44:06.256820+00:00",
-      "last_success_at": "2026-11-03T06:44:06.256820+00:00",
+      "last_attempt_at": "2026-11-03T18:31:34.242392+00:00",
+      "last_success_at": "2026-11-03T18:31:34.242392+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-03T06:44:06.256820+00:00",
-      "last_success_at": "2026-11-03T06:44:06.256820+00:00",
+      "last_attempt_at": "2026-11-03T18:31:34.242392+00:00",
+      "last_success_at": "2026-11-03T18:31:34.242392+00:00",
       "status": "ok",
       "count": 10
     }
