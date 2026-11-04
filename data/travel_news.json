@@ -1,6 +1,157 @@
 {
-  "last_updated": "2026-11-03T18:31:34.242392+00:00",
+  "last_updated": "2026-11-04T06:49:05.433438+00:00",
   "articles": [
+    {
+      "title": "European Capitals of Tourism showcase sustainable practices at Smart City Expo 2026",
+      "url": "https://www.traveldailynews.com/meetings-events/european-capitals-tourism-smart-city-expo-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-04T06:44:19+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "FITUR Lingua 2027 to examine the growth opportunities of language tourism",
+      "url": "https://www.traveldailynews.com/fairs-exhibitions/fitur-lingua-2027-language-tourism/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-04T06:41:22+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Hilton to enter Guinea with 196-room DoubleTree hotel in Conakry",
+      "url": "https://www.traveldailynews.com/hotels-lodging/doubletree-by-hilton-conakry-guinea/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-04T06:37:40+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "ETOA’s GEM 2026 brings global tourism buyers and European suppliers together in London",
+      "url": "https://www.traveldailynews.com/meetings-events/etoa-gem-2026-tourism-meetings/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-04T06:27:13+00:00",
+      "countries": [
+        "united-kingdom"
+      ]
+    },
+    {
+      "title": "Nearly one in three UK travellers book AI-recommended hotels, Aven Hospitality finds",
+      "url": "https://www.traveldailynews.com/statistics-trends/ai-hotel-bookings-uk-travellers-aven-hospitality/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-04T06:22:35+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "UFI honours Ray Bloom, Ravinder Sethi and Paul Woodward at Global Congress in Bahrain",
+      "url": "https://www.traveldailynews.com/associations/ufi-medals-of-honour-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-04T06:19:19+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Mohala Boutique Hotel opens in Puglia following restoration of historic tobacco factory",
+      "url": "https://www.traveldailynews.com/hotels-lodging/mohala-boutique-hotel-puglia-salento/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-04T06:10:44+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Sofitel Auckland Viaduct Harbour names GM",
+      "url": "https://www.ttgasia.com/2026/11/04/sofitel-auckland-viaduct-harbour-names-gm/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-04T05:48:27+00:00",
+      "countries": [
+        "new-zealand"
+      ]
+    },
+    {
+      "title": "Langkawi targets high-spending UK travellers",
+      "url": "https://www.ttgasia.com/2026/11/04/langkawi-targets-high-spending-uk-travellers/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-04T05:30:05+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Luxurique launches AI-powered platform for Japan travel experiences",
+      "url": "https://www.ttgasia.com/2026/11/04/luxurique-launches-ai-powered-platform-for-japan-travel-experiences/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-04T05:00:35+00:00",
+      "countries": [
+        "japan"
+      ]
+    },
+    {
+      "title": "Contiki expands tour portfolio with 76 new trips, eight travel categories",
+      "url": "https://www.ttgasia.com/2026/11/04/contiki-expands-tour-portfolio-with-76-new-trips-eight-travel-categories/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-04T04:45:21+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Air Astana, China Southern Airlines form joint venture to strengthen connectivity",
+      "url": "https://www.ttgasia.com/2026/11/04/air-astana-china-southern-airlines-form-joint-venture-to-strengthen-connectivity/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-04T04:37:59+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Minor Hotels brings Reserve Collection to Asia with Phuket resort",
+      "url": "https://www.ttgasia.com/2026/11/04/minor-hotels-brings-reserve-collection-to-asia-with-phuket-resort/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-04T04:33:32+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "Western Australia offers a different take on Christmas",
+      "url": "https://www.ttgasia.com/2026/11/04/western-australia-offers-a-different-take-on-christmas/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-04T04:30:24+00:00",
+      "countries": [
+        "australia"
+      ]
+    },
+    {
+      "title": "TAT unveils 2027 Value Over Volume strategy at WTM London",
+      "url": "https://www.tatnews.org/2026/11/tat-unveils-2027-value-over-volume-strategy-at-wtm-london/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-04T03:57:00+00:00",
+      "countries": [
+        "united-kingdom",
+        "thailand"
+      ]
+    },
     {
       "title": "Paxport and ITT launch whitepaper on connectivity risks for travel sellers",
       "url": "https://www.traveldailynews.com/aviation/airline-connectivity-risks-paxport-itt/",
@@ -32,56 +183,6 @@
       ]
     },
     {
-      "title": "US introduces mandatory Ebola declaration for all international air arrivals",
-      "url": "https://www.traveldailynews.com/destinations/us-ebola-travel-declaration-airlines/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T11:09:26+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Spring Hotels announces Cleopatra Palace renovation and new family facilities in Tenerife",
-      "url": "https://www.traveldailynews.com/hotels-lodging/spring-hotels-tenerife-renovation/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T11:00:36+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Iceland expands tourism offering with new wellness, hotels and adventure experiences",
-      "url": "https://www.traveldailynews.com/destinations/iceland-tourism-2026-wellness-hotels-experiences/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T10:26:45+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Shaner Hotels opens 80-room Hampton Inn in Columbia, Pennsylvania",
-      "url": "https://www.traveldailynews.com/hotels-lodging/hampton-inn-columbia-downtown-opening/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T10:06:34+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Pegasus Airlines Chairperson Mehmet T. Nane appointed ICAO Global Ambassador",
-      "url": "https://www.traveldailynews.com/people/mehmet-nane-icao-global-ambassador/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T09:12:12+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "TAT-supported Doi Inthanon among Thailand’s ‘Green Destinations Top 100 Stories 2026’",
       "url": "https://www.tatnews.org/2026/11/tat-supported-doi-inthanon-among-thailands-green-destinations-top-100-stories-2026/",
       "source_id": "tat-news",
@@ -89,26 +190,6 @@
       "published_at": "2026-11-03T08:58:00+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "European cities shift tourism priorities towards local value, AI and climate resilience",
-      "url": "https://www.traveldailynews.com/meetings-events/european-city-tourism-growth-ai-sustainability/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T08:34:48+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Paris Society expands UAE hospitality portfolio with four new dining concepts",
-      "url": "https://www.traveldailynews.com/hospitality/paris-society-uae-expansion/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-03T08:21:02+00:00",
-      "countries": [
-        "france"
       ]
     },
     {
@@ -152,67 +233,6 @@
       ]
     },
     {
-      "title": "Accor signs 30 hotels across Asia, led by Indonesia and Vietnam",
-      "url": "https://www.ttgasia.com/2026/11/03/accor-signs-30-hotels-across-asia-led-by-indonesia-and-vietnam/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-03T04:56:03+00:00",
-      "countries": [
-        "vietnam",
-        "indonesia"
-      ]
-    },
-    {
-      "title": "Sentosa to trial on-demand autonomous vehicle service in 2027",
-      "url": "https://www.ttgasia.com/2026/11/03/sentosa-to-trial-on-demand-autonomous-vehicle-service-in-2027/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-03T04:53:46+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Chatrium Grand Bangkok adds playtime to family stays",
-      "url": "https://www.ttgasia.com/2026/11/03/chatrium-grand-bangkok-adds-playtime-to-family-stays/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-03T04:52:05+00:00",
-      "countries": [
-        "thailand"
-      ]
-    },
-    {
-      "title": "Hyatt makes Asia-Pacific leadership changes",
-      "url": "https://www.ttgasia.com/2026/11/03/hyatt-makes-asia-pacific-leadership-changes/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-03T04:49:19+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Michelle Davies takes helm of Club Med’s South-east Asia markets",
-      "url": "https://www.ttgasia.com/2026/11/03/michelle-davies-takes-helm-of-club-meds-south-east-asia-markets/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-03T04:42:33+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Tourism development across Azerbaijan improves local quality of life",
-      "url": "https://www.ttgasia.com/2026/11/02/tourism-development-across-azerbaijan-improves-local-quality-of-life/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-02T08:15:17+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "World Travel & Culture Expo 2026 builds global connections for Thailand as ASEAN’s tourism and entertainment hub",
       "url": "https://www.tatnews.org/2026/11/world-travel-culture-expo-2026-builds-global-connections-for-thailand-as-aseans-tourism-and-entertainment-hub/",
       "source_id": "tat-news",
@@ -220,16 +240,6 @@
       "published_at": "2026-11-02T07:30:00+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Singapore-led initiative seeks to integrate sustainability into tourism operations",
-      "url": "https://www.ttgasia.com/2026/11/02/singapore-led-initiative-seeks-to-integrate-sustainability-into-tourism-operations/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-02T06:14:23+00:00",
-      "countries": [
-        "singapore"
       ]
     },
     {
@@ -292,34 +302,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "TAT welcomes Kuwait Airways’ inaugural Kuwait–Phuket flight",
-      "url": "https://www.tatnews.org/2026/10/tat-welcomes-kuwait-airways-inaugural-kuwait-phuket-flight/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-27T10:58:00+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-03T18:31:34.242392+00:00",
-      "last_success_at": "2026-11-03T18:31:34.242392+00:00",
+      "last_attempt_at": "2026-11-04T06:49:05.433438+00:00",
+      "last_success_at": "2026-11-04T06:49:05.433438+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-03T18:31:34.242392+00:00",
-      "last_success_at": "2026-11-03T18:31:34.242392+00:00",
+      "last_attempt_at": "2026-11-04T06:49:05.433438+00:00",
+      "last_success_at": "2026-11-04T06:49:05.433438+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-03T18:31:34.242392+00:00",
-      "last_success_at": "2026-11-03T18:31:34.242392+00:00",
+      "last_attempt_at": "2026-11-04T06:49:05.433438+00:00",
+      "last_success_at": "2026-11-04T06:49:05.433438+00:00",
       "status": "ok",
       "count": 10
     }
