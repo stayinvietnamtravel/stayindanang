@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T18:36:07.978656+00:00",
+  "last_updated": "2026-11-07T06:34:48.802728+00:00",
   "articles": [
     {
       "title": "European flight threats affect at least 18 more services as security alerts continue",
@@ -307,20 +307,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-06T18:36:07.978656+00:00",
-      "last_success_at": "2026-11-06T18:36:07.978656+00:00",
+      "last_attempt_at": "2026-11-07T06:34:48.802728+00:00",
+      "last_success_at": "2026-11-07T06:34:48.802728+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-06T18:36:07.978656+00:00",
-      "last_success_at": "2026-11-06T18:36:07.978656+00:00",
+      "last_attempt_at": "2026-11-07T06:34:48.802728+00:00",
+      "last_success_at": "2026-11-07T06:34:48.802728+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-06T18:36:07.978656+00:00",
-      "last_success_at": "2026-11-06T18:36:07.978656+00:00",
+      "last_attempt_at": "2026-11-07T06:34:48.802728+00:00",
+      "last_success_at": "2026-11-07T06:34:48.802728+00:00",
       "status": "ok",
       "count": 10
     }
