@@ -1,22 +1,163 @@
 {
-  "last_updated": "2026-11-09T18:38:56.495668+00:00",
+  "last_updated": "2026-11-10T06:44:57.059738+00:00",
   "articles": [
+    {
+      "title": "DUCO France 2026 celebrates French culture and luxury travel",
+      "url": "https://www.traveldailynews.com/meetings-events/duco-france-2026-travel-summit/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:37:26+00:00",
+      "countries": [
+        "france"
+      ]
+    },
+    {
+      "title": "Nashville Airport launches nonstop Aeromexico flights to Mexico City",
+      "url": "https://www.traveldailynews.com/regional-news/usa-canada/nashville-mexico-city-flights-aeromexico-delta/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:36:10+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Emirates opens its Centre of Hospitality Excellence to UAE businesses",
+      "url": "https://www.traveldailynews.com/education/emirates-hospitality-training-centre/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:34:27+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "The Riviera Maya EDITION at Kanai appoints Armando Campos as General Manager",
+      "url": "https://www.traveldailynews.com/people/new-appointments/armando-campos-general-manager-edition-kanai/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:29:14+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Qatar Airways expands its Canadian network through Porter Airlines partnership",
+      "url": "https://www.traveldailynews.com/aviation/qatar-airways-porter-codeshare-canada/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:21:48+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Belfast Region City Deal launches first visitor experience Innovation Challenge",
+      "url": "https://www.traveldailynews.com/uncategorized/belfast-visitor-experience-innovation/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:21:28+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Two new restaurants open at Bradley International Airport",
+      "url": "https://www.traveldailynews.com/aviation/bradley-airport-restaurants-new-openings/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:17:41+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Philippines promotes cultural tourism and trade partnerships at WTM London",
+      "url": "https://www.ttgasia.com/2026/11/10/philippines-promotes-cultural-tourism-and-trade-partnerships-at-wtm-london/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-10T06:15:30+00:00",
+      "countries": [
+        "philippines",
+        "united-kingdom"
+      ]
+    },
+    {
+      "title": "Agoda identifies growing demand for luxury stays across Asia",
+      "url": "https://www.ttgasia.com/2026/11/10/agoda-identifies-growing-demand-for-luxury-stays-across-asia/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-10T06:11:56+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Singapore Airlines unveils S$2 billion longhaul cabin overhaul",
+      "url": "https://www.ttgasia.com/2026/11/10/singapore-airlines-unveils-s2-billion-longhaul-cabin-overhaul/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-10T06:10:04+00:00",
+      "countries": [
+        "singapore"
+      ]
+    },
+    {
+      "title": "Helsinki opens new tram routes across the Crown Bridges",
+      "url": "https://www.traveldailynews.com/ground-transportation/helsinki-crown-bridges-tram-routes/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:08:56+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Concert tourism gains momentum across Asia, Trip.com study finds",
+      "url": "https://www.ttgasia.com/2026/11/10/concert-tourism-gains-momentum-across-asia-trip-com-study-finds/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-10T06:07:41+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Candyroot Lodge appoints Dan Ashley as Director of Golf",
+      "url": "https://www.traveldailynews.com/people/new-appointments/candyroot-lodge-golf-dan-ashley/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-10T06:06:02+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "The Ritz-Carlton, Bangkok sets sail on sunset river cruises",
+      "url": "https://www.ttgasia.com/2026/11/10/the-ritz-carlton-bangkok-sets-sail-on-sunset-river-cruises/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-10T06:05:13+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "Chiang Mai ranked safest city in Southeast Asia and 19th worldwide in 2026",
+      "url": "https://www.tatnews.org/2026/11/chiang-mai-ranked-safest-city-in-southeast-asia-and-19th-worldwide-in-2026/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-10T05:32:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
     {
       "title": "Golf in Sicily: sea views, volcanic fairways and a different kind of golf holiday",
       "url": "https://www.traveldailynews.com/column/featured-articles/golf-in-sicily-sea-views-volcanic-fairways-and-a-different-kind-of-golf-holiday/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-11-09T11:00:12+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Christoph Tessmar elected President of ICCA",
-      "url": "https://www.traveldailynews.com/people/new-appointments/christoph-tessmar-icca-president/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T10:19:15+00:00",
       "countries": [
         "international"
       ]
@@ -29,86 +170,6 @@
       "published_at": "2026-11-09T10:09:00+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Europeans favour city breaks and cultural holidays as 76% plan autumn and winter travel",
-      "url": "https://www.traveldailynews.com/statistics-trends/european-travel-trends-autumn-winter-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T09:07:38+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Europe’s hotel construction pipeline reaches record levels as new project announcements surge",
-      "url": "https://www.traveldailynews.com/statistics-trends/europe-hotel-construction-pipeline-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T08:55:24+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Alain St.Ange honoured in the UK for a lifetime shaping Seychelles tourism",
-      "url": "https://www.traveldailynews.com/people/alain-st-ange-lifetime-achievement-award/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T08:51:34+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Arabian Travel Market report highlights cultural travel trends shaping global tourism",
-      "url": "https://www.traveldailynews.com/statistics-trends/cultural-travel-trends-atm-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T08:21:58+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Kenya targets 60% growth in business tourism",
-      "url": "https://www.traveldailynews.com/mice-industry/kenya-business-tourism-growth/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T08:21:31+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Tempo by Hilton Nashville Downtown appoints Daniel Camp as Director of Sales and Marketing",
-      "url": "https://www.traveldailynews.com/people/new-appointments/daniel-camp-tempo-hilton-nashville/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T08:15:33+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Electra and VertiPorts by Atlantic explore ultra-short aircraft operations in New York",
-      "url": "https://www.traveldailynews.com/aviation/electra-vertiports-partnership-new-york/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T08:08:01+00:00",
-      "countries": [
-        "united-states"
-      ]
-    },
-    {
-      "title": "MIA announces the 2026 miaList winners",
-      "url": "https://www.traveldailynews.com/associations/2026-mialist-winners/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-09T07:18:38+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -172,26 +233,6 @@
       ]
     },
     {
-      "title": "IHG to introduce Ruby brand in Asia-Pacific with Bangkok hotel",
-      "url": "https://www.ttgasia.com/2026/11/06/ihg-to-introduce-ruby-brand-in-asia-pacific-with-bangkok-hotel/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-06T06:13:41+00:00",
-      "countries": [
-        "thailand"
-      ]
-    },
-    {
-      "title": "Singapore Airlines secures SAF supply from Aether",
-      "url": "https://www.ttgasia.com/2026/11/06/singapore-airlines-secures-saf-supply-from-aether/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-06T06:11:38+00:00",
-      "countries": [
-        "singapore"
-      ]
-    },
-    {
       "title": "Loi Krathong 2026 lights up Thailand’s rivers and historic cities",
       "url": "https://www.tatnews.org/2026/11/loi-krathong-2026-lights-up-thailands-rivers-and-historic-cities/",
       "source_id": "tat-news",
@@ -199,36 +240,6 @@
       "published_at": "2026-11-05T10:12:02+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Philippines eyes culinary tourism growth as Michelin Guide expands recognition",
-      "url": "https://www.ttgasia.com/2026/11/05/philippines-eyes-culinary-tourism-growth-as-michelin-guide-expands-recognition/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-05T07:04:54+00:00",
-      "countries": [
-        "philippines"
-      ]
-    },
-    {
-      "title": "Qatar Tourism joins PATA to strengthen Asia-Pacific ties",
-      "url": "https://www.ttgasia.com/2026/11/05/qatar-tourism-joins-pata-to-strengthen-asia-pacific-ties/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-05T07:00:54+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Maldives moves to repeal 17 per cent tax on foreign tour operators",
-      "url": "https://www.ttgasia.com/2026/11/05/maldives-moves-to-repeal-17-per-cent-tax-on-foreign-tour-operators/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-05T05:47:55+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -293,34 +304,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "Amazing Thailand Grand Diwali Festival 2026 lights up three provinces this November",
-      "url": "https://www.tatnews.org/2026/10/amazing-thailand-grand-diwali-festival-2026-lights-up-three-provinces-this-november/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-10-30T09:58:00+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-09T18:38:56.495668+00:00",
-      "last_success_at": "2026-11-09T18:38:56.495668+00:00",
+      "last_attempt_at": "2026-11-10T06:44:57.059738+00:00",
+      "last_success_at": "2026-11-10T06:44:57.059738+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-09T18:38:56.495668+00:00",
-      "last_success_at": "2026-11-09T18:38:56.495668+00:00",
+      "last_attempt_at": "2026-11-10T06:44:57.059738+00:00",
+      "last_success_at": "2026-11-10T06:44:57.059738+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-09T18:38:56.495668+00:00",
-      "last_success_at": "2026-11-09T18:38:56.495668+00:00",
+      "last_attempt_at": "2026-11-10T06:44:57.059738+00:00",
+      "last_success_at": "2026-11-10T06:44:57.059738+00:00",
       "status": "ok",
       "count": 10
     }
