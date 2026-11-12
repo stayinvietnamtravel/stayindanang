@@ -1,6 +1,127 @@
 {
-  "last_updated": "2026-11-11T18:39:02.808620+00:00",
+  "last_updated": "2026-11-12T06:51:49.835266+00:00",
   "articles": [
+    {
+      "title": "Paris sets monthly ADR record in October, driven by Fashion Week",
+      "url": "https://www.traveldailynews.com/statistics-trends/paris-hotel-performance-adr-record/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T06:43:12+00:00",
+      "countries": [
+        "france"
+      ]
+    },
+    {
+      "title": "Keylinn Rodríguez Vega becomes first recipient of Jorge Castex Scholarship",
+      "url": "https://www.traveldailynews.com/associations/jorge-castex-scholarship-keylinn-rodriguez-vega/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T06:35:46+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Hilton introduces High Performance Meetings framework focused on attendee wellbeing",
+      "url": "https://www.traveldailynews.com/mice-industry/high-performance-meetings-hilton-wellness/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T06:30:25+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Middle East hotel pipeline reaches record levels at the end of Q3 2026",
+      "url": "https://www.traveldailynews.com/statistics-trends/middle-east-hotel-pipeline-record/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T06:22:30+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "New hotels: Oakwood Epping Melbourne, Sterling Leopard Haven Jawai and more",
+      "url": "https://www.ttgasia.com/2026/11/12/new-hotels-oakwood-epping-melbourne-sterling-leopard-haven-jawai-and-more/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-12T06:14:08+00:00",
+      "countries": [
+        "australia"
+      ]
+    },
+    {
+      "title": "ITM opens 2027 Priorities Survey as registration begins for trending",
+      "url": "https://www.traveldailynews.com/organizations/business-travel-priorities-2027-survey/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T06:11:45+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "TRAVELSAVERS and NEST strengthen supplier relations leadership with two appointments",
+      "url": "https://www.traveldailynews.com/people/new-appointments/supplier-relations-team-leadership/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T06:05:52+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Middle East hospitality recovery gains momentum, but uncertainty remains",
+      "url": "https://www.ttgasia.com/2026/11/12/middle-east-hospitality-recovery-gains-momentum-but-uncertainty-remains/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-12T04:45:50+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Ho Chi Minh City steps up tourism promotion with new campaign",
+      "url": "https://www.ttgasia.com/2026/11/12/ho-chi-minh-city-steps-up-tourism-promotion-with-new-campaign/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-12T04:42:39+00:00",
+      "countries": [
+        "vietnam"
+      ]
+    },
+    {
+      "title": "GlobalTix, Plaza Premium Group to offer airport lounge bookings",
+      "url": "https://www.ttgasia.com/2026/11/12/globaltix-plaza-premium-group-to-offer-airport-lounge-bookings/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-12T04:38:22+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Agoda study finds growing interest in all-in-one travel bookings across Asia",
+      "url": "https://www.ttgasia.com/2026/11/12/agoda-study-finds-growing-interest-in-all-in-one-travel-bookings-across-asia/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-12T04:36:13+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Onyx links cultural discovery with stays in Phuket and Penang",
+      "url": "https://www.ttgasia.com/2026/11/12/onyx-links-cultural-discovery-with-stays-in-phuket-and-penang/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-12T04:33:47+00:00",
+      "countries": [
+        "thailand",
+        "malaysia"
+      ]
+    },
     {
       "title": "Profitability and consolidation dominated discussions at Travel Tech Capital Summit",
       "url": "https://www.traveldailynews.com/meetings-events/travel-technology-investment-capital-summit/",
@@ -42,26 +163,6 @@
       ]
     },
     {
-      "title": "Tintoretto’s Assumption of the Virgin goes on display at Rome Fiumicino Airport",
-      "url": "https://www.traveldailynews.com/aviation/tintoretto-fiumicino-airport-exhibition/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T09:30:14+00:00",
-      "countries": [
-        "italy"
-      ]
-    },
-    {
-      "title": "Emirates expands Premium Economy across Europe and adds Winter connections",
-      "url": "https://www.traveldailynews.com/aviation/emirates-winter-flights-europe/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T09:16:30+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Her Majesty the Queen of Thailand opens Global Wellness Summit 2026 in Phuket",
       "url": "https://www.tatnews.org/2026/11/her-majesty-the-queen-of-thailand-opens-global-wellness-summit-2026-in-phuket/",
       "source_id": "tat-news",
@@ -69,46 +170,6 @@
       "published_at": "2026-11-11T08:40:31+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Lufthansa takes delivery of first A350-1000 and 700th Airbus aircraft",
-      "url": "https://www.traveldailynews.com/aviation/lufthansa-a350-1000-700th-airbus-delivery/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T08:13:33+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Europalco launches EMove brand for stage automation and movement",
-      "url": "https://www.traveldailynews.com/mice-industry/europalco-emove-stage-automation/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T07:58:49+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "US solo travel set to rise sharply in 2027, SiteMinder research finds",
-      "url": "https://www.traveldailynews.com/statistics-trends/us-solo-travel-siteminder-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T07:31:40+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "BA Cityflyer launches new direct Glasgow – Nice Summer route",
-      "url": "https://www.traveldailynews.com/aviation/glasgow-nice-flights-ba-cityflyer/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T07:21:26+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -152,26 +213,6 @@
       ]
     },
     {
-      "title": "Impact Muang Thong Thani targets growing sports events market",
-      "url": "https://www.ttgasia.com/2026/11/11/impact-muang-thong-thani-targets-growing-sports-events-market/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-11T05:42:36+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Royal Caribbean maps out summer 2028 sailings",
-      "url": "https://www.ttgasia.com/2026/11/11/royal-caribbean-maps-out-summer-2028-sailings/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-11T05:35:37+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "TAT welcomes record MICHELIN Guide Thailand 2027 selection marking 10th edition",
       "url": "https://www.tatnews.org/2026/11/tat-welcomes-record-michelin-guide-thailand-2027-selection-marking-10th-edition/",
       "source_id": "tat-news",
@@ -179,47 +220,6 @@
       "published_at": "2026-11-10T08:53:20+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Hong Kong travel trade association marks 50 years with Fujian convention",
-      "url": "https://www.ttgasia.com/2026/11/10/hong-kong-travel-trade-association-marks-50-years-with-fujian-convention/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-10T07:32:25+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Philippines promotes cultural tourism and trade partnerships at WTM London",
-      "url": "https://www.ttgasia.com/2026/11/10/philippines-promotes-cultural-tourism-and-trade-partnerships-at-wtm-london/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-10T06:15:30+00:00",
-      "countries": [
-        "philippines",
-        "united-kingdom"
-      ]
-    },
-    {
-      "title": "Agoda identifies growing demand for luxury stays across Asia",
-      "url": "https://www.ttgasia.com/2026/11/10/agoda-identifies-growing-demand-for-luxury-stays-across-asia/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-10T06:11:56+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Singapore Airlines unveils S$2 billion longhaul cabin overhaul",
-      "url": "https://www.ttgasia.com/2026/11/10/singapore-airlines-unveils-s2-billion-longhaul-cabin-overhaul/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-10T06:10:04+00:00",
-      "countries": [
-        "singapore"
       ]
     },
     {
@@ -308,20 +308,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-11T18:39:02.808620+00:00",
-      "last_success_at": "2026-11-11T18:39:02.808620+00:00",
+      "last_attempt_at": "2026-11-12T06:51:49.835266+00:00",
+      "last_success_at": "2026-11-12T06:51:49.835266+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-11T18:39:02.808620+00:00",
-      "last_success_at": "2026-11-11T18:39:02.808620+00:00",
+      "last_attempt_at": "2026-11-12T06:51:49.835266+00:00",
+      "last_success_at": "2026-11-12T06:51:49.835266+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-11T18:39:02.808620+00:00",
-      "last_success_at": "2026-11-11T18:39:02.808620+00:00",
+      "last_attempt_at": "2026-11-12T06:51:49.835266+00:00",
+      "last_success_at": "2026-11-12T06:51:49.835266+00:00",
       "status": "ok",
       "count": 10
     }
