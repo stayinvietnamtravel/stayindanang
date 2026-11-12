@@ -1,42 +1,103 @@
 {
-  "last_updated": "2026-11-12T06:51:49.835266+00:00",
+  "last_updated": "2026-11-12T22:56:38.940196+00:00",
   "articles": [
     {
-      "title": "Paris sets monthly ADR record in October, driven by Fashion Week",
-      "url": "https://www.traveldailynews.com/statistics-trends/paris-hotel-performance-adr-record/",
+      "title": "Post Lech marks 90th anniversary with new rooms and guest experiences",
+      "url": "https://www.traveldailynews.com/hotels-lodging/post-lech-anniversary-90-years-new-rooms/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-12T06:43:12+00:00",
-      "countries": [
-        "france"
-      ]
-    },
-    {
-      "title": "Keylinn Rodríguez Vega becomes first recipient of Jorge Castex Scholarship",
-      "url": "https://www.traveldailynews.com/associations/jorge-castex-scholarship-keylinn-rodriguez-vega/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-12T06:35:46+00:00",
+      "published_at": "2026-11-12T13:44:50+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Hilton introduces High Performance Meetings framework focused on attendee wellbeing",
-      "url": "https://www.traveldailynews.com/mice-industry/high-performance-meetings-hilton-wellness/",
+      "title": "roadsurfer to open two new US stations in New York and Portland in 2027",
+      "url": "https://www.traveldailynews.com/ground-transportation/roadsurfer-us-expansion-new-york-portland-2027/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-12T06:30:25+00:00",
+      "published_at": "2026-11-12T12:56:57+00:00",
+      "countries": [
+        "united-states"
+      ]
+    },
+    {
+      "title": "DERTOUR Group partners with Travel Compositor to strengthen tailor-made travel",
+      "url": "https://www.traveldailynews.com/tour-operators/dertour-group-travel-compositor-tailor-made-travel/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T12:34:10+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Middle East hotel pipeline reaches record levels at the end of Q3 2026",
-      "url": "https://www.traveldailynews.com/statistics-trends/middle-east-hotel-pipeline-record/",
+      "title": "easyJet shareholders approve £5.7 billion Apollo takeover",
+      "url": "https://www.traveldailynews.com/aviation/easyjet-takeover-apollo-shareholder-approval/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-12T06:22:30+00:00",
+      "published_at": "2026-11-12T11:33:57+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Avion Hospitality takes over management of Cameo Beverly Hills",
+      "url": "https://www.traveldailynews.com/hotels-lodging/avion-hospitality-cameo-beverly-hills/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T11:29:48+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Everest evolves: How a luxury Everest base camp trek is reshaping Himalayan travel",
+      "url": "https://www.traveldailynews.com/column/featured-articles/everest-evolves-how-a-luxury-everest-base-camp-trek-is-reshaping-himalayan-travel/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T10:57:24+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Calais bomb alert disrupts Eurostar services between London and Paris",
+      "url": "https://www.traveldailynews.com/ground-transportation/calais-bomb-alert-eurostar-delays/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T10:56:27+00:00",
+      "countries": [
+        "france",
+        "united-kingdom"
+      ]
+    },
+    {
+      "title": "Veranda Pointe aux Biches reopens after three-month renovation",
+      "url": "https://www.traveldailynews.com/hotels-lodging/veranda-pointe-aux-biches-renovation-mauritius/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T10:07:58+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Fraport records stable passenger traffic in Frankfurt in October 2026",
+      "url": "https://www.traveldailynews.com/aviation/fraport-traffic-october-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T09:50:22+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Knowledge Economic City to host FHS Saudi Arabia 2027 in Madinah",
+      "url": "https://www.traveldailynews.com/meetings-events/fhs-saudi-arabia-2027-madinah/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-12T09:37:04+00:00",
       "countries": [
         "international"
       ]
@@ -49,26 +110,6 @@
       "published_at": "2026-11-12T06:14:08+00:00",
       "countries": [
         "australia"
-      ]
-    },
-    {
-      "title": "ITM opens 2027 Priorities Survey as registration begins for trending",
-      "url": "https://www.traveldailynews.com/organizations/business-travel-priorities-2027-survey/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-12T06:11:45+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "TRAVELSAVERS and NEST strengthen supplier relations leadership with two appointments",
-      "url": "https://www.traveldailynews.com/people/new-appointments/supplier-relations-team-leadership/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-12T06:05:52+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -120,46 +161,6 @@
       "countries": [
         "thailand",
         "malaysia"
-      ]
-    },
-    {
-      "title": "Profitability and consolidation dominated discussions at Travel Tech Capital Summit",
-      "url": "https://www.traveldailynews.com/meetings-events/travel-technology-investment-capital-summit/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T10:49:35+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Accor and Hard Rock International announce global strategic partnership",
-      "url": "https://www.traveldailynews.com/hospitality/accor-hard-rock-partnership-global-expansion/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T10:22:39+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Dream Vacations and CruiseOne expand 2027 travel advisor training programme",
-      "url": "https://www.traveldailynews.com/tour-operators/travel-advisor-training-2027-summits/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T09:48:22+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Liberia signs tourism and aviation cooperation agreement with Egyptair",
-      "url": "https://www.traveldailynews.com/destinations/liberia-egyptair-partnership-tourism-aviation/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-11T09:39:36+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -308,20 +309,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-12T06:51:49.835266+00:00",
-      "last_success_at": "2026-11-12T06:51:49.835266+00:00",
+      "last_attempt_at": "2026-11-12T22:56:38.940196+00:00",
+      "last_success_at": "2026-11-12T22:56:38.940196+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-12T06:51:49.835266+00:00",
-      "last_success_at": "2026-11-12T06:51:49.835266+00:00",
+      "last_attempt_at": "2026-11-12T22:56:38.940196+00:00",
+      "last_success_at": "2026-11-12T22:56:38.940196+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-12T06:51:49.835266+00:00",
-      "last_success_at": "2026-11-12T06:51:49.835266+00:00",
+      "last_attempt_at": "2026-11-12T22:56:38.940196+00:00",
+      "last_success_at": "2026-11-12T22:56:38.940196+00:00",
       "status": "ok",
       "count": 10
     }
