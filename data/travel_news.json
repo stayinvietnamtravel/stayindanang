@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-11-13T13:34:02.083443+00:00",
+  "last_updated": "2026-11-13T22:59:02.336276+00:00",
   "articles": [
+    {
+      "title": "VisitEngland announces 2025-2026 Visitor Attraction Accolade winners",
+      "url": "https://www.traveldailynews.com/organizations/visitengland-visitor-attraction-accolades-2025-2026/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-13T13:47:31+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "Travelport, Booked AI, Basis Theory and Mastercard complete live AI-powered flight booking",
       "url": "https://www.traveldailynews.com/technology/agentic-travel-booking-live-flight-purchase/",
@@ -87,16 +97,6 @@
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-11-13T09:10:21+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Italian Exhibition Group posts record Q3 results as profitability strengthens",
-      "url": "https://www.traveldailynews.com/fairs-exhibitions/italian-exhibition-group-record-q3-results-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-13T07:58:16+00:00",
       "countries": [
         "international"
       ]
@@ -307,20 +307,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-13T13:34:02.083443+00:00",
-      "last_success_at": "2026-11-13T13:34:02.083443+00:00",
+      "last_attempt_at": "2026-11-13T22:59:02.336276+00:00",
+      "last_success_at": "2026-11-13T22:59:02.336276+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-13T13:34:02.083443+00:00",
-      "last_success_at": "2026-11-13T13:34:02.083443+00:00",
+      "last_attempt_at": "2026-11-13T22:59:02.336276+00:00",
+      "last_success_at": "2026-11-13T22:59:02.336276+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-13T13:34:02.083443+00:00",
-      "last_success_at": "2026-11-13T13:34:02.083443+00:00",
+      "last_attempt_at": "2026-11-13T22:59:02.336276+00:00",
+      "last_success_at": "2026-11-13T22:59:02.336276+00:00",
       "status": "ok",
       "count": 10
     }
