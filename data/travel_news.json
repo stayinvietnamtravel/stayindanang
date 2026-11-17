@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-11-16T14:11:09.463619+00:00",
+  "last_updated": "2026-11-17T01:14:32.827772+00:00",
   "articles": [
+    {
+      "title": "Beyond the Theme Parks: Creating an Orlando Vacation Everyone Will Love",
+      "url": "https://www.traveldailynews.com/column/featured-articles/orlando-vacation-planning-beyond-theme-parks/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-16T15:29:49+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "Waterway Travel on the Rise: From Amsterdam’s Canals to the Mekong River",
       "url": "https://www.traveldailynews.com/column/featured-articles/waterway-travel-canal-river-journeys/",
@@ -47,6 +57,16 @@
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-11-16T11:24:15+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "One coach, five countries: ferries, city permits and driving hours on a European group tour",
+      "url": "https://www.traveldailynews.com/column/featured-articles/european-group-tours-coach-planning/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-16T09:47:55+00:00",
       "countries": [
         "international"
       ]
@@ -99,26 +119,6 @@
       "published_at": "2026-11-16T07:00:54+00:00",
       "countries": [
         "indonesia"
-      ]
-    },
-    {
-      "title": "RAM Hotels completes corporate rebranding as it expands into lifestyle hospitality",
-      "url": "https://www.traveldailynews.com/hospitality/ram-hotels-rebranding-lifestyle-hospitality/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-16T06:59:57+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Radisson Hotel Group partners with Yipy to strengthen brand standards across 1,000+ properties",
-      "url": "https://www.traveldailynews.com/hospitality/radisson-hotel-group-yipy-partnership/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-16T06:58:39+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-16T14:11:09.463619+00:00",
-      "last_success_at": "2026-11-16T14:11:09.463619+00:00",
+      "last_attempt_at": "2026-11-17T01:14:32.827772+00:00",
+      "last_success_at": "2026-11-17T01:14:32.827772+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-16T14:11:09.463619+00:00",
-      "last_success_at": "2026-11-16T14:11:09.463619+00:00",
+      "last_attempt_at": "2026-11-17T01:14:32.827772+00:00",
+      "last_success_at": "2026-11-17T01:14:32.827772+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-16T14:11:09.463619+00:00",
-      "last_success_at": "2026-11-16T14:11:09.463619+00:00",
+      "last_attempt_at": "2026-11-17T01:14:32.827772+00:00",
+      "last_success_at": "2026-11-17T01:14:32.827772+00:00",
       "status": "ok",
       "count": 10
     }
