@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T15:04:28.349388+00:00",
+  "last_updated": "2026-11-18T00:08:43.448184+00:00",
   "articles": [
     {
       "title": "Munich Airport COO Thomas Hoff Andersson to step down early for personal reasons",
@@ -304,20 +304,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-17T15:04:28.349388+00:00",
-      "last_success_at": "2026-11-17T15:04:28.349388+00:00",
+      "last_attempt_at": "2026-11-18T00:08:43.448184+00:00",
+      "last_success_at": "2026-11-18T00:08:43.448184+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-17T15:04:28.349388+00:00",
-      "last_success_at": "2026-11-17T15:04:28.349388+00:00",
+      "last_attempt_at": "2026-11-18T00:08:43.448184+00:00",
+      "last_success_at": "2026-11-18T00:08:43.448184+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-17T15:04:28.349388+00:00",
-      "last_success_at": "2026-11-17T15:04:28.349388+00:00",
+      "last_attempt_at": "2026-11-18T00:08:43.448184+00:00",
+      "last_success_at": "2026-11-18T00:08:43.448184+00:00",
       "status": "ok",
       "count": 10
     }
