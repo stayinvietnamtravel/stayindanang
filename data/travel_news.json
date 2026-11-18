@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T14:44:26.048517+00:00",
+  "last_updated": "2026-11-18T23:40:34.358577+00:00",
   "articles": [
     {
       "title": "ICCA honours Eric Bakermans for advancing the societal value of business events",
@@ -92,11 +92,11 @@
       ]
     },
     {
-      "title": "ICAO launches new exhibition highlighting progress towards zero aviation fatalities",
-      "url": "https://www.traveldailynews.com/organizations/icao-aviation-safety-exhibition-zero-fatalities/",
+      "title": "How many days for a Nile cruise? A first-timer’s guide",
+      "url": "https://www.traveldailynews.com/column/featured-articles/how-many-days-for-a-nile-cruise-a-first-timers-guide/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-18T06:30:01+00:00",
+      "published_at": "2026-11-18T06:31:27+00:00",
       "countries": [
         "international"
       ]
@@ -304,20 +304,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-18T14:44:26.048517+00:00",
-      "last_success_at": "2026-11-18T14:44:26.048517+00:00",
+      "last_attempt_at": "2026-11-18T23:40:34.358577+00:00",
+      "last_success_at": "2026-11-18T23:40:34.358577+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-18T14:44:26.048517+00:00",
-      "last_success_at": "2026-11-18T14:44:26.048517+00:00",
+      "last_attempt_at": "2026-11-18T23:40:34.358577+00:00",
+      "last_success_at": "2026-11-18T23:40:34.358577+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-18T14:44:26.048517+00:00",
-      "last_success_at": "2026-11-18T14:44:26.048517+00:00",
+      "last_attempt_at": "2026-11-18T23:40:34.358577+00:00",
+      "last_success_at": "2026-11-18T23:40:34.358577+00:00",
       "status": "ok",
       "count": 10
     }
