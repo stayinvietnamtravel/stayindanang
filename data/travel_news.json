@@ -1,22 +1,152 @@
 {
-  "last_updated": "2026-11-19T23:59:05.916465+00:00",
+  "last_updated": "2026-11-20T14:32:02.109090+00:00",
   "articles": [
     {
-      "title": "Phocuswright reveals six travel predictions for 2027 as AI reshapes the industry",
-      "url": "https://www.traveldailynews.com/statistics-trends/travel-trends-2027-phocuswright-predictions/",
+      "title": "Emirates unveils new First Class Lounge in Dubai as part of AED 400m. transformation",
+      "url": "https://www.traveldailynews.com/aviation/emirates-dubai-lounge-transformation-400-million/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T08:31:35+00:00",
+      "published_at": "2026-11-20T13:47:25+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "ICAO calls for stronger aviation regulation to support global connectivity and sustainable growth",
-      "url": "https://www.traveldailynews.com/organizations/aviation-regulatory-frameworks-icao-reforms/",
+      "title": "Ljubljana and Calvià named 2027 European Capitals of Tourism",
+      "url": "https://www.traveldailynews.com/destinations/ljubljana-calvia-european-capitals-tourism-2027/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T08:07:43+00:00",
+      "published_at": "2026-11-20T13:02:58+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "ZEL Cozumel opens in Mexico, bringing Mediterranean-inspired wellbeing to the Caribbean",
+      "url": "https://www.traveldailynews.com/hotels-lodging/zel-cozumel-opens-mexico/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T12:49:19+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Archer Hotel Charleston to open in January 2027",
+      "url": "https://www.traveldailynews.com/hotels-lodging/archer-hotel-charleston-to-open-in-january-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T10:02:59+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "IAEE partners with Better Stands to promote sustainable exhibiting",
+      "url": "https://www.traveldailynews.com/associations/iaee-better-stands-sustainable-exhibiting/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T09:46:03+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "England’s Heartland to launch new tourism routes and bookable experiences",
+      "url": "https://www.traveldailynews.com/destinations/englands-heartland-tourism-routes-experiences/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T08:14:16+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Ravenna leads growing interest in emerging European rail destinations for 2027",
+      "url": "https://www.traveldailynews.com/ground-transportation/european-rail-destinations-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T07:31:32+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Sri Lanka tourism industry raises concerns over levy removal, proposed law",
+      "url": "https://www.ttgasia.com/2026/11/20/sri-lanka-tourism-industry-raises-concerns-over-levy-removal-proposed-law/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-20T07:23:29+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Madagascar Airlines returns to the Air Madagascar brand",
+      "url": "https://www.traveldailynews.com/aviation/air-madagascar-brand-return/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T07:21:34+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Accor, CP Hotels to add nine hotels across New Zealand",
+      "url": "https://www.ttgasia.com/2026/11/20/accor-cp-hotels-to-add-nine-hotels-across-new-zealand/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-20T07:00:32+00:00",
+      "countries": [
+        "new-zealand"
+      ]
+    },
+    {
+      "title": "ETOA and USTOA launch TEMPO model to simplify carbon emissions measurement for tour operators",
+      "url": "https://www.traveldailynews.com/associations/tour-emissions-measurement-tempo-etoa-ustoa/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T06:28:48+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "ICAO Member States identify reforms to advance aviation innovation and environmental sustainability",
+      "url": "https://www.traveldailynews.com/organizations/icao-aviation-reforms-innovation-sustainability/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T06:26:18+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Pelago adds hotel bookings with KrisFlyer rewards",
+      "url": "https://www.ttgasia.com/2026/11/20/pelago-adds-hotel-bookings-with-krisflyer-rewards/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-20T05:40:47+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "AI, hotel loyalty programmes to influence travel decisions in 2027: GHA",
+      "url": "https://www.ttgasia.com/2026/11/20/ai-hotel-loyalty-programmes-to-influence-travel-decisions-in-2027-gha/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-20T05:38:06+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Aviation roundup: Emirates, Vietjet and more",
+      "url": "https://www.ttgasia.com/2026/11/20/aviation-roundup-emirates-vietjet-and-more/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-20T05:35:20+00:00",
       "countries": [
         "international"
       ]
@@ -81,136 +211,6 @@
       "countries": [
         "thailand",
         "malaysia"
-      ]
-    },
-    {
-      "title": "Climate change could threaten 62% of tourism destinations by 2050 under high emissions",
-      "url": "https://www.traveldailynews.com/statistics-trends/climate-risks-tourism-destinations-2050/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T07:35:59+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "IAPCO launches first individual accreditation programme for professional congress organisers",
-      "url": "https://www.traveldailynews.com/mice-industry/iapco-ace-accreditation-pco-professionals/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T07:09:51+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Parkdean Resorts: 71% of Britons say having a holiday booked helps them through winter",
-      "url": "https://www.traveldailynews.com/statistics-trends/uk-holiday-booking-trends-winter-black-friday-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T07:04:04+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Ryanair launches new Shannon–Toulouse route for summer 2027",
-      "url": "https://www.traveldailynews.com/aviation/shannon-toulouse-flights-ryanair-summer-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T06:48:45+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Kenya prepares highway reopening and new Lake Victoria ferry ahead of Christmas",
-      "url": "https://www.traveldailynews.com/destinations/kenya-transport-infrastructure-highway-lake-victoria-ferry/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T06:46:54+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Global business events generated $3.1 trillion in economic activity and supported 24.2m jobs in 2025",
-      "url": "https://www.traveldailynews.com/mice-industry/business-events-economic-impact-eic-2026/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T06:42:18+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Booking Holdings launches global B2B division combining travel technology and distribution capabilities",
-      "url": "https://www.traveldailynews.com/technology/booking-partner-division-global-b2b-travel-2027/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T06:38:34+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Travel eSIM for OTAs and airlines: How connectivity drives ancillary revenue after the booking",
-      "url": "https://www.traveldailynews.com/column/featured-articles/travel-esim-for-otas-and-airlines-how-connectivity-drives-ancillary-revenue-after-the-booking/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T06:37:30+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Asia’s cruise industry targets growth through new ships and first-time travellers",
-      "url": "https://www.ttgasia.com/2026/11/18/asias-cruise-industry-targets-growth-through-new-ships-and-first-time-travellers/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-18T06:28:43+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Fujian courts Hong Kong travel trade with new tourism offerings and air links",
-      "url": "https://www.ttgasia.com/2026/11/18/fujian-courts-hong-kong-travel-trade-with-new-tourism-offerings-and-air-links/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-18T06:24:44+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Vietjet, Grab to integrate air travel and ground transport services",
-      "url": "https://www.ttgasia.com/2026/11/18/vietjet-grab-to-integrate-air-travel-and-ground-transport-services/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-18T06:22:49+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "Meliá to debut ME brand in Asia with Bangkok hotel",
-      "url": "https://www.ttgasia.com/2026/11/18/melia-to-debut-me-brand-in-asia-with-bangkok-hotel/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-18T06:20:25+00:00",
-      "countries": [
-        "thailand"
-      ]
-    },
-    {
-      "title": "Marina Bay Sands gets into Jisoo’s Click era",
-      "url": "https://www.ttgasia.com/2026/11/18/marina-bay-sands-gets-into-jisoos-click-era/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-18T06:16:50+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-19T23:59:05.916465+00:00",
-      "last_success_at": "2026-11-19T23:59:05.916465+00:00",
+      "last_attempt_at": "2026-11-20T14:32:02.109090+00:00",
+      "last_success_at": "2026-11-20T14:32:02.109090+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-19T23:59:05.916465+00:00",
-      "last_success_at": "2026-11-19T23:59:05.916465+00:00",
+      "last_attempt_at": "2026-11-20T14:32:02.109090+00:00",
+      "last_success_at": "2026-11-20T14:32:02.109090+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-19T23:59:05.916465+00:00",
-      "last_success_at": "2026-11-19T23:59:05.916465+00:00",
+      "last_attempt_at": "2026-11-20T14:32:02.109090+00:00",
+      "last_success_at": "2026-11-20T14:32:02.109090+00:00",
       "status": "ok",
       "count": 10
     }
