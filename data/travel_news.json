@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T14:51:02.160405+00:00",
+  "last_updated": "2026-11-19T23:59:05.916465+00:00",
   "articles": [
     {
       "title": "Phocuswright reveals six travel predictions for 2027 as AI reshapes the industry",
@@ -154,13 +154,13 @@
       ]
     },
     {
-      "title": "Air France and SNCF expand Train + Air service to all OUIGO trains at Paris-CDG",
-      "url": "https://www.traveldailynews.com/infrastructure/air-france-train-air-ouigo-expansion-2026/",
+      "title": "Travel eSIM for OTAs and airlines: How connectivity drives ancillary revenue after the booking",
+      "url": "https://www.traveldailynews.com/column/featured-articles/travel-esim-for-otas-and-airlines-how-connectivity-drives-ancillary-revenue-after-the-booking/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-19T06:36:29+00:00",
+      "published_at": "2026-11-19T06:37:30+00:00",
       "countries": [
-        "france"
+        "international"
       ]
     },
     {
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-19T14:51:02.160405+00:00",
-      "last_success_at": "2026-11-19T14:51:02.160405+00:00",
+      "last_attempt_at": "2026-11-19T23:59:05.916465+00:00",
+      "last_success_at": "2026-11-19T23:59:05.916465+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-19T14:51:02.160405+00:00",
-      "last_success_at": "2026-11-19T14:51:02.160405+00:00",
+      "last_attempt_at": "2026-11-19T23:59:05.916465+00:00",
+      "last_success_at": "2026-11-19T23:59:05.916465+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-19T14:51:02.160405+00:00",
-      "last_success_at": "2026-11-19T14:51:02.160405+00:00",
+      "last_attempt_at": "2026-11-19T23:59:05.916465+00:00",
+      "last_success_at": "2026-11-19T23:59:05.916465+00:00",
       "status": "ok",
       "count": 10
     }
