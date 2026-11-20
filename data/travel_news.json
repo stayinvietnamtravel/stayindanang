@@ -1,12 +1,32 @@
 {
-  "last_updated": "2026-11-20T14:32:02.109090+00:00",
+  "last_updated": "2026-11-20T23:28:00.786166+00:00",
   "articles": [
+    {
+      "title": "Peachtree Group acquires Home2 Suites by Hilton in Destin",
+      "url": "https://www.traveldailynews.com/hotels-lodging/peachtree-group-acquires-home2-suites-destin/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T15:11:25+00:00",
+      "countries": [
+        "international"
+      ]
+    },
     {
       "title": "Emirates unveils new First Class Lounge in Dubai as part of AED 400m. transformation",
       "url": "https://www.traveldailynews.com/aviation/emirates-dubai-lounge-transformation-400-million/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-11-20T13:47:25+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Global Hotel Alliance reveals the traveller trends shaping 2027",
+      "url": "https://www.traveldailynews.com/statistics-trends/global-hotel-alliance-traveller-trends-2027/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T13:12:02+00:00",
       "countries": [
         "international"
       ]
@@ -27,6 +47,16 @@
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
       "published_at": "2026-11-20T12:49:19+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Cartier and ATU Duty Free expand boutique at Istanbul Airport",
+      "url": "https://www.traveldailynews.com/aviation/cartier-atu-duty-free-expanded-istanbul-airport-boutique/",
+      "source_id": "travel-daily-news",
+      "publisher": "TravelDailyNews International",
+      "published_at": "2026-11-20T12:31:57+00:00",
       "countries": [
         "international"
       ]
@@ -82,16 +112,6 @@
       ]
     },
     {
-      "title": "Madagascar Airlines returns to the Air Madagascar brand",
-      "url": "https://www.traveldailynews.com/aviation/air-madagascar-brand-return/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T07:21:34+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Accor, CP Hotels to add nine hotels across New Zealand",
       "url": "https://www.ttgasia.com/2026/11/20/accor-cp-hotels-to-add-nine-hotels-across-new-zealand/",
       "source_id": "ttg-asia",
@@ -99,26 +119,6 @@
       "published_at": "2026-11-20T07:00:32+00:00",
       "countries": [
         "new-zealand"
-      ]
-    },
-    {
-      "title": "ETOA and USTOA launch TEMPO model to simplify carbon emissions measurement for tour operators",
-      "url": "https://www.traveldailynews.com/associations/tour-emissions-measurement-tempo-etoa-ustoa/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T06:28:48+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "ICAO Member States identify reforms to advance aviation innovation and environmental sustainability",
-      "url": "https://www.traveldailynews.com/organizations/icao-aviation-reforms-innovation-sustainability/",
-      "source_id": "travel-daily-news",
-      "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T06:26:18+00:00",
-      "countries": [
-        "international"
       ]
     },
     {
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-20T14:32:02.109090+00:00",
-      "last_success_at": "2026-11-20T14:32:02.109090+00:00",
+      "last_attempt_at": "2026-11-20T23:28:00.786166+00:00",
+      "last_success_at": "2026-11-20T23:28:00.786166+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-20T14:32:02.109090+00:00",
-      "last_success_at": "2026-11-20T14:32:02.109090+00:00",
+      "last_attempt_at": "2026-11-20T23:28:00.786166+00:00",
+      "last_success_at": "2026-11-20T23:28:00.786166+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-20T14:32:02.109090+00:00",
-      "last_success_at": "2026-11-20T14:32:02.109090+00:00",
+      "last_attempt_at": "2026-11-20T23:28:00.786166+00:00",
+      "last_success_at": "2026-11-20T23:28:00.786166+00:00",
       "status": "ok",
       "count": 10
     }
