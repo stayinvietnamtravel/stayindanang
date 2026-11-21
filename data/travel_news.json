@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T13:50:20.847851+00:00",
+  "last_updated": "2026-11-21T22:32:04.731784+00:00",
   "articles": [
     {
       "title": "Peachtree Group acquires Home2 Suites by Hilton in Destin",
@@ -306,20 +306,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-21T13:50:20.847851+00:00",
-      "last_success_at": "2026-11-21T13:50:20.847851+00:00",
+      "last_attempt_at": "2026-11-21T22:32:04.731784+00:00",
+      "last_success_at": "2026-11-21T22:32:04.731784+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-21T13:50:20.847851+00:00",
-      "last_success_at": "2026-11-21T13:50:20.847851+00:00",
+      "last_attempt_at": "2026-11-21T22:32:04.731784+00:00",
+      "last_success_at": "2026-11-21T22:32:04.731784+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-21T13:50:20.847851+00:00",
-      "last_success_at": "2026-11-21T13:50:20.847851+00:00",
+      "last_attempt_at": "2026-11-21T22:32:04.731784+00:00",
+      "last_success_at": "2026-11-21T22:32:04.731784+00:00",
       "status": "ok",
       "count": 10
     }
