@@ -1,104 +1,184 @@
 {
-  "last_updated": "2026-11-22T22:55:16.320766+00:00",
+  "last_updated": "2026-11-23T16:44:13.350367+00:00",
   "articles": [
     {
-      "title": "Peachtree Group acquires Home2 Suites by Hilton in Destin",
-      "url": "https://www.traveldailynews.com/hotels-lodging/peachtree-group-acquires-home2-suites-destin/",
+      "title": "Ryanair selects Seville for first engine maintenance facility",
+      "url": "https://www.traveldailynews.com/aviation/ryanair-seville-mro/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T15:11:25+00:00",
+      "published_at": "2026-11-23T12:07:43+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Emirates unveils new First Class Lounge in Dubai as part of AED 400m. transformation",
-      "url": "https://www.traveldailynews.com/aviation/emirates-dubai-lounge-transformation-400-million/",
+      "title": "ICAO Member States agree reforms to strengthen global air transport growth",
+      "url": "https://www.traveldailynews.com/aviation/global-aviation-reforms-icao/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T13:47:25+00:00",
+      "published_at": "2026-11-23T09:52:53+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Global Hotel Alliance reveals the traveller trends shaping 2027",
-      "url": "https://www.traveldailynews.com/statistics-trends/global-hotel-alliance-traveller-trends-2027/",
+      "title": "RED Mountain Resort partners to acquire The Josie Hotel in British Columbia",
+      "url": "https://www.traveldailynews.com/hotels-lodging/red-mountain-resort-josie-hotel-acquisition/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T13:12:02+00:00",
+      "published_at": "2026-11-23T09:34:29+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Ljubljana and Calvià named 2027 European Capitals of Tourism",
-      "url": "https://www.traveldailynews.com/destinations/ljubljana-calvia-european-capitals-tourism-2027/",
+      "title": "Damascus launches construction of Mövenpick Hotel and Arab Mall",
+      "url": "https://www.traveldailynews.com/hotels-lodging/movenpick-hotel-damascus-arab-mall/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T13:02:58+00:00",
+      "published_at": "2026-11-23T09:23:05+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "ZEL Cozumel opens in Mexico, bringing Mediterranean-inspired wellbeing to the Caribbean",
-      "url": "https://www.traveldailynews.com/hotels-lodging/zel-cozumel-opens-mexico/",
+      "title": "ODEA House of Music to make international debut in Tulum in December 2026",
+      "url": "https://www.traveldailynews.com/hospitality/odea-house-of-music-tulum/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T12:49:19+00:00",
+      "published_at": "2026-11-23T08:59:25+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Cartier and ATU Duty Free expand boutique at Istanbul Airport",
-      "url": "https://www.traveldailynews.com/aviation/cartier-atu-duty-free-expanded-istanbul-airport-boutique/",
+      "title": "Apartment Collection by Hilton secures first international development deals",
+      "url": "https://www.traveldailynews.com/hotels-lodging/apartment-collection-hilton-international-expansion/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T12:31:57+00:00",
+      "published_at": "2026-11-23T08:56:40+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Archer Hotel Charleston to open in January 2027",
-      "url": "https://www.traveldailynews.com/hotels-lodging/archer-hotel-charleston-to-open-in-january-2027/",
+      "title": "Ayutthaya Loi Krathong Festival 2026 opens with historic Chong Priang lantern-lighting ceremony",
+      "url": "https://www.tatnews.org/2026/11/ayutthaya-loi-krathong-festival-2026-opens-with-historic-chong-priang-lantern-lighting-ceremony/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-23T08:50:11+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "Morocco to host World Tourism Film Awards for first time in Africa",
+      "url": "https://www.traveldailynews.com/meetings-events/world-tourism-film-awards-morocco/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T10:02:59+00:00",
+      "published_at": "2026-11-23T08:07:43+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "IAEE partners with Better Stands to promote sustainable exhibiting",
-      "url": "https://www.traveldailynews.com/associations/iaee-better-stands-sustainable-exhibiting/",
+      "title": "Brussels Airport handles 2.3 million passengers in October, up 1.9%",
+      "url": "https://www.traveldailynews.com/aviation/brussels-airport-passengers-october-growth/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T09:46:03+00:00",
+      "published_at": "2026-11-23T06:51:13+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "England’s Heartland to launch new tourism routes and bookable experiences",
-      "url": "https://www.traveldailynews.com/destinations/englands-heartland-tourism-routes-experiences/",
+      "title": "Seychelles strengthens tourism cooperation with Mauritius and South Africa",
+      "url": "https://www.traveldailynews.com/destinations/seychelles-tourism-cooperation-mauritius-south-africa/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T08:14:16+00:00",
+      "published_at": "2026-11-23T06:48:56+00:00",
       "countries": [
         "international"
       ]
     },
     {
-      "title": "Ravenna leads growing interest in emerging European rail destinations for 2027",
-      "url": "https://www.traveldailynews.com/ground-transportation/european-rail-destinations-2027/",
+      "title": "Classic Vacations identifies luxury travel trends set to shape 2027",
+      "url": "https://www.traveldailynews.com/statistics-trends/luxury-travel-trends-2027/",
       "source_id": "travel-daily-news",
       "publisher": "TravelDailyNews International",
-      "published_at": "2026-11-20T07:31:32+00:00",
+      "published_at": "2026-11-23T06:46:00+00:00",
       "countries": [
         "international"
+      ]
+    },
+    {
+      "title": "Cruise industry calls for harmonised visa and border procedures in Asia",
+      "url": "https://www.ttgasia.com/2026/11/23/cruise-industry-calls-for-harmonised-visa-and-border-procedures-in-asia/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-23T06:06:25+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Trip.com Group, Tourism Australia strengthen partnership to drive inbound travel",
+      "url": "https://www.ttgasia.com/2026/11/23/trip-com-group-tourism-australia-strengthen-partnership-to-drive-inbound-travel/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-23T06:01:56+00:00",
+      "countries": [
+        "australia"
+      ]
+    },
+    {
+      "title": "PATA report outlines sustainable tourism practices across coastal destinations",
+      "url": "https://www.ttgasia.com/2026/11/23/pata-report-outlines-sustainable-tourism-practices-across-coastal-destinations/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-23T05:58:48+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Hilton to introduce Tempo brand in South-east Asia with Phuket hotel",
+      "url": "https://www.ttgasia.com/2026/11/23/hilton-to-introduce-tempo-brand-in-south-east-asia-with-phuket-hotel/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-23T05:56:59+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "Crossroads Maldives puts the focus on villa stays",
+      "url": "https://www.ttgasia.com/2026/11/23/crossroads-maldives-puts-the-focus-on-villa-stays/",
+      "source_id": "ttg-asia",
+      "publisher": "TTG Asia",
+      "published_at": "2026-11-23T05:51:45+00:00",
+      "countries": [
+        "international"
+      ]
+    },
+    {
+      "title": "Global Wellness Summit 2026 highlights Thailand’s growing wellness economy",
+      "url": "https://www.tatnews.org/2026/11/global-wellness-summit-2026-highlights-thailands-growing-wellness-economy/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-23T05:30:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
+    {
+      "title": "TAT showcases Chiang Rai and Krabi to Southern European tour operators",
+      "url": "https://www.tatnews.org/2026/11/tat-showcases-chiang-rai-and-krabi-to-southern-european-tour-operators/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-23T03:48:55+00:00",
+      "countries": [
+        "thailand"
       ]
     },
     {
@@ -152,26 +232,6 @@
       ]
     },
     {
-      "title": "MSC Cruises to homeport in Singapore from 2028",
-      "url": "https://www.ttgasia.com/2026/11/19/msc-cruises-to-homeport-in-singapore-from-2028/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-19T08:03:06+00:00",
-      "countries": [
-        "singapore"
-      ]
-    },
-    {
-      "title": "Airlines expect resilient travel demand in 2027 despite higher fares",
-      "url": "https://www.ttgasia.com/2026/11/19/airlines-expect-resilient-travel-demand-in-2027-despite-higher-fares/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-19T07:58:04+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
       "title": "Udon Thani World Horticultural Expo 2026 showcases global gardens and Isan culture",
       "url": "https://www.tatnews.org/2026/11/udon-thani-world-horticultural-expo-2026-showcases-global-gardens-and-isan-culture/",
       "source_id": "tat-news",
@@ -179,38 +239,6 @@
       "published_at": "2026-11-19T07:55:05+00:00",
       "countries": [
         "thailand"
-      ]
-    },
-    {
-      "title": "Cebu Pacific, Korea Tourism Organization to boost travel to South Korea",
-      "url": "https://www.ttgasia.com/2026/11/19/cebu-pacific-korea-tourism-organization-to-boost-travel-to-south-korea/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-19T07:53:05+00:00",
-      "countries": [
-        "south-korea",
-        "philippines"
-      ]
-    },
-    {
-      "title": "Onyx Hospitality Group plans new resort extension in Koh Samui",
-      "url": "https://www.ttgasia.com/2026/11/19/onyx-hospitality-group-plans-new-resort-extension-in-koh-samui/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-19T07:50:52+00:00",
-      "countries": [
-        "international"
-      ]
-    },
-    {
-      "title": "New hotels: Waldorf Astoria Kuala Lumpur, Clinique La Prairie Phuket and more",
-      "url": "https://www.ttgasia.com/2026/11/19/new-hotels-waldorf-astoria-kuala-lumpur-clinique-la-prairie-phuket-and-more/",
-      "source_id": "ttg-asia",
-      "publisher": "TTG Asia",
-      "published_at": "2026-11-19T07:46:32+00:00",
-      "countries": [
-        "thailand",
-        "malaysia"
       ]
     },
     {
@@ -272,54 +300,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "TAT welcomes record MICHELIN Guide Thailand 2027 selection marking 10th edition",
-      "url": "https://www.tatnews.org/2026/11/tat-welcomes-record-michelin-guide-thailand-2027-selection-marking-10th-edition/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-11-10T08:53:20+00:00",
-      "countries": [
-        "thailand"
-      ]
-    },
-    {
-      "title": "Chiang Mai ranked safest city in Southeast Asia and 19th worldwide in 2026",
-      "url": "https://www.tatnews.org/2026/11/chiang-mai-ranked-safest-city-in-southeast-asia-and-19th-worldwide-in-2026/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-11-10T05:32:00+00:00",
-      "countries": [
-        "thailand"
-      ]
-    },
-    {
-      "title": "TAT targets Balkan market growth through new air access and travel trade partnerships",
-      "url": "https://www.tatnews.org/2026/11/tat-targets-balkan-market-growth-through-new-air-access-and-travel-trade-partnerships/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-11-09T10:09:00+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-22T22:55:16.320766+00:00",
-      "last_success_at": "2026-11-22T22:55:16.320766+00:00",
+      "last_attempt_at": "2026-11-23T16:44:13.350367+00:00",
+      "last_success_at": "2026-11-23T16:44:13.350367+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-22T22:55:16.320766+00:00",
-      "last_success_at": "2026-11-22T22:55:16.320766+00:00",
+      "last_attempt_at": "2026-11-23T16:44:13.350367+00:00",
+      "last_success_at": "2026-11-23T16:44:13.350367+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-22T22:55:16.320766+00:00",
-      "last_success_at": "2026-11-22T22:55:16.320766+00:00",
+      "last_attempt_at": "2026-11-23T16:44:13.350367+00:00",
+      "last_success_at": "2026-11-23T16:44:13.350367+00:00",
       "status": "ok",
       "count": 10
     }
