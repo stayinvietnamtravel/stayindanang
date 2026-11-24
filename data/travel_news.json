@@ -1,6 +1,16 @@
 {
-  "last_updated": "2026-11-23T16:44:13.350367+00:00",
+  "last_updated": "2026-11-24T03:34:01.135359+00:00",
   "articles": [
+    {
+      "title": "TAT diversifies Gulf-focused tourism markets with Amazing Thailand Beyond Expectations in Morocco and Tunisia",
+      "url": "https://www.tatnews.org/2026/11/tat-diversifies-gulf-focused-tourism-markets-with-amazing-thailand-beyond-expectations-in-morocco-and-tunisia/",
+      "source_id": "tat-news",
+      "publisher": "TAT Newsroom",
+      "published_at": "2026-11-24T02:00:00+00:00",
+      "countries": [
+        "thailand"
+      ]
+    },
     {
       "title": "Ryanair selects Seville for first engine maintenance facility",
       "url": "https://www.traveldailynews.com/aviation/ryanair-seville-mro/",
@@ -290,34 +300,24 @@
       "countries": [
         "thailand"
       ]
-    },
-    {
-      "title": "Her Majesty the Queen of Thailand opens Global Wellness Summit 2026 in Phuket",
-      "url": "https://www.tatnews.org/2026/11/her-majesty-the-queen-of-thailand-opens-global-wellness-summit-2026-in-phuket/",
-      "source_id": "tat-news",
-      "publisher": "TAT Newsroom",
-      "published_at": "2026-11-11T08:40:31+00:00",
-      "countries": [
-        "thailand"
-      ]
     }
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-23T16:44:13.350367+00:00",
-      "last_success_at": "2026-11-23T16:44:13.350367+00:00",
+      "last_attempt_at": "2026-11-24T03:34:01.135359+00:00",
+      "last_success_at": "2026-11-24T03:34:01.135359+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-23T16:44:13.350367+00:00",
-      "last_success_at": "2026-11-23T16:44:13.350367+00:00",
+      "last_attempt_at": "2026-11-24T03:34:01.135359+00:00",
+      "last_success_at": "2026-11-24T03:34:01.135359+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-23T16:44:13.350367+00:00",
-      "last_success_at": "2026-11-23T16:44:13.350367+00:00",
+      "last_attempt_at": "2026-11-24T03:34:01.135359+00:00",
+      "last_success_at": "2026-11-24T03:34:01.135359+00:00",
       "status": "ok",
       "count": 10
     }
