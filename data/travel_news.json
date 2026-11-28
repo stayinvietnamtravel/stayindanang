@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T15:45:26.632906+00:00",
+  "last_updated": "2026-11-28T00:48:12.574141+00:00",
   "articles": [
     {
       "title": "Pink is selling: What Miami’s pink yacht boom tells the charter industry about experience-led demand",
@@ -305,20 +305,20 @@
   ],
   "sources": {
     "tat-news": {
-      "last_attempt_at": "2026-11-27T15:45:26.632906+00:00",
-      "last_success_at": "2026-11-27T15:45:26.632906+00:00",
+      "last_attempt_at": "2026-11-28T00:48:12.574141+00:00",
+      "last_success_at": "2026-11-28T00:48:12.574141+00:00",
       "status": "ok",
       "count": 10
     },
     "ttg-asia": {
-      "last_attempt_at": "2026-11-27T15:45:26.632906+00:00",
-      "last_success_at": "2026-11-27T15:45:26.632906+00:00",
+      "last_attempt_at": "2026-11-28T00:48:12.574141+00:00",
+      "last_success_at": "2026-11-28T00:48:12.574141+00:00",
       "status": "ok",
       "count": 10
     },
     "travel-daily-news": {
-      "last_attempt_at": "2026-11-27T15:45:26.632906+00:00",
-      "last_success_at": "2026-11-27T15:45:26.632906+00:00",
+      "last_attempt_at": "2026-11-28T00:48:12.574141+00:00",
+      "last_success_at": "2026-11-28T00:48:12.574141+00:00",
       "status": "ok",
       "count": 10
     }
